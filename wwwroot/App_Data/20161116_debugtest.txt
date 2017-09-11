@@ -1,0 +1,38 @@
+2016-11-16 06:36:51.519:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-11-16 09:56:18.315:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-11-16 11:41:37.979:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-11-16 13:00:57.587:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-11-16 13:41:54.439:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=8&ReferralId=1
+---------------
+2016-11-16 14:09:14.953:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-11-16 15:05:29.524:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=28064
+---------------
+2016-11-16 15:08:07.256:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-11-16 15:32:05.676:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=28064
+---------------
+2016-11-16 16:36:33.980:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=28064
+---------------
+2016-11-16 16:37:07.299:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCashBackDetail.aspx?Id=4&ReferralId=1
+---------------
+2016-11-16 16:51:18.601:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-11-16 16:54:14.782:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-11-16 16:57:35.316:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-11-16 18:02:20.295:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/DistributorCenter.aspx?ReferralId=1
+---------------
+2016-11-16 18:20:41.706:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=11&ReferralId=1
+---------------
+2016-11-16 18:30:39.284:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-11-16 19:53:46.633:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/DistributorCenter.aspx?ReferralId=1
+---------------
+2016-11-16 21:38:31.193:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductDetails.aspx?productId=115&ReferralId=1
+---------------

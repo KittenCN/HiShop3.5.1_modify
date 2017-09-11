@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{13E62717-4138-4C5C-A986-C07EE816F670}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Hishop.Weixin.Pay</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\wwwroot\Bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Domain\PayConfig.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Domain\LogType.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Domain\PayInfo.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Domain\DeliverInfo.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Domain\PackageInfo.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Domain\PayRequestInfo.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Domain\RedPackInfo.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Domain\redPackStatus.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Domain\RefundInfo.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Domain\SendRedPackInfo.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Lib\HttpService.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Lib\WxPayException.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Lib\WxPayApi.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Lib\WxPayData.cs" />
+    <Compile Include="Hishop\Weixin\Pay\NotifyClient.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Notify\NotifyObject.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Notify\AlarmNotify.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Notify\AlarmErrorType.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Notify\FeedBackNotify.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Notify\FeedBackType.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Notify\PayNotify.cs" />
+    <Compile Include="Hishop\Weixin\Pay\PayAccount.cs" />
+    <Compile Include="Hishop\Weixin\Pay\PayClient.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Refund.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Util\PayDictionary.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Util\SignHelper.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Util\UrlHelper.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Util\Utils.cs" />
+    <Compile Include="Hishop\Weixin\Pay\Util\WebUtils.cs" />
+    <Compile Include="Hishop\Weixin\Pay\RedPackClient.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hishop.Weixin.MP\Hishop.Weixin.MP.csproj">
+      <Project>{f33782dd-cc50-40a3-9a06-9bf5109d44b2}</Project>
+      <Name>Hishop.Weixin.MP</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

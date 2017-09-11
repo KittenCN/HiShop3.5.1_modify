@@ -1,0 +1,642 @@
+2016-01-14 10:31:52.371:到这里了，！网站未安装！
+---------------
+2016-01-14 10:32:14.052:到这里了，！网站未安装！
+---------------
+2016-01-14 10:32:18.486:到这里了，！网站未安装！
+---------------
+2016-01-14 10:32:18.739:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-01-14 10:32:19.745:重启动Application_start失败！
+---------------
+2016-01-14 10:32:20.494:到这里了，！Application_Start
+---------------
+2016-01-14 11:07:45.203:未找到请求的值“VIEW”。
+---------------
+2016-01-14 11:24:02.421:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 11:34:23.393:商品规格：False
+---------------
+2016-01-14 11:34:26.471:商品规格：False
+---------------
+2016-01-14 12:10:14.976:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-01-14 12:10:14.993:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-01-14 12:41:25.570:到这里了，！Application_Start
+---------------
+2016-01-14 12:56:18.503:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduFSUZo99XA8dFB5q-6iGSUo]]></FromUserName>
+<CreateTime>1452747361</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-01-14 12:56:20.694:未找到请求的值“VIEW”。
+---------------
+2016-01-14 12:56:31.673:未找到请求的值“VIEW”。
+---------------
+2016-01-14 12:56:32.350:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 13:21:26.405:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-01-14 13:21:26.421:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-01-14 13:44:40.985:到这里了，！Application_Start
+---------------
+2016-01-14 14:02:27.625:未找到请求的值“VIEW”。
+---------------
+2016-01-14 14:02:35.912:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 14:03:54.087:未找到请求的值“VIEW”。
+---------------
+2016-01-14 14:04:14.097:未找到请求的值“VIEW”。
+---------------
+2016-01-14 14:04:15.065:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 14:25:56.569:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduOKB9MTC06hJAq6rv8wrBUk]]></FromUserName>
+<CreateTime>1452752739</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[1]]></EventKey>
+<Ticket><![CDATA[gQFj8DoAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL1NrTjBuaG5tRk5wdGdXdGlIMjJOAAIEQT_XVgMEgDoJAA==]]></Ticket>
+</xml>
+---------------
+2016-01-14 14:45:00.422:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 14:46:08.931:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 14:47:05.260:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 14:47:59.502:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 14:48:08.453:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 14:48:52.446:ReferralId：97
+
+---------------
+2016-01-14 14:49:13.897:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 14:51:57.384:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 14:52:05.351:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 14:52:58.524:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 14:53:40.258:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 14:56:14.882:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 15:06:06.062:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-01-14 15:06:06.079:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-01-14 15:14:37.992:到这里了，！Application_Start
+---------------
+2016-01-14 16:03:49.980:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 16:04:06.121:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 16:07:08.183:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 16:07:14.449:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 16:10:26.183:未找到请求的值“VIEW”。
+---------------
+2016-01-14 16:12:07.136:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 16:12:37.042:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 16:12:47.527:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 16:12:51.214:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 16:12:59.324:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 16:12:59.449:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 16:12:59.605:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 16:15:18.355:orderid：201601148493572
+
+---------------
+2016-01-14 16:15:18.355:ReferralId：4
+
+---------------
+2016-01-14 16:15:18.355:from：singlemessage
+
+---------------
+2016-01-14 16:15:18.355:isappinstalled：0
+
+---------------
+2016-01-14 16:15:18.480:orderid：201601148493572
+
+---------------
+2016-01-14 16:15:18.480:ReferralId：26
+
+---------------
+2016-01-14 16:15:18.480:from：singlemessage
+
+---------------
+2016-01-14 16:15:18.480:isappinstalled：0
+
+---------------
+2016-01-14 16:15:19.589:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 16:18:07.996:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduFRPp_pphW_SxEf6DXdy9ZY]]></FromUserName>
+<CreateTime>1452759471</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[/::D]]></Content>
+<MsgId>6239554417301182610</MsgId>
+</xml>
+---------------
+2016-01-14 16:19:37.949:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduFRPp_pphW_SxEf6DXdy9ZY]]></FromUserName>
+<CreateTime>1452759561</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好]]></Content>
+<MsgId>6239554803848239275</MsgId>
+</xml>
+---------------
+2016-01-14 16:19:52.199:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduFRPp_pphW_SxEf6DXdy9ZY]]></FromUserName>
+<CreateTime>1452759575</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好]]></Content>
+<MsgId>6239554863977781421</MsgId>
+</xml>
+---------------
+2016-01-14 16:20:05.308:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduFRPp_pphW_SxEf6DXdy9ZY]]></FromUserName>
+<CreateTime>1452759587</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/ftricKiaO97X5lQTml5aB3jC3DK7kicnzqVrfbbMU9JeO3bVXaU4xkuAHIbpstKo4Lql2zz6hVfKlKnqxDPNmY9zg/0]]></PicUrl>
+<MsgId>6239554915517388974</MsgId>
+<MediaId><![CDATA[6X-m_MYmqXi7rSt3SlY4YxEO0g3K1Y2Dtlgrpkwu1SzLKOqwCXrRixbsMXPpIZVb]]></MediaId>
+</xml>
+---------------
+2016-01-14 16:20:25.824:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduFRPp_pphW_SxEf6DXdy9ZY]]></FromUserName>
+<CreateTime>1452759608</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[ceshi]]></Content>
+<MsgId>6239555005711702192</MsgId>
+</xml>
+---------------
+2016-01-14 16:20:33.058:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduFRPp_pphW_SxEf6DXdy9ZY]]></FromUserName>
+<CreateTime>1452759616</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[n]]></Content>
+<MsgId>6239555040071440561</MsgId>
+</xml>
+---------------
+2016-01-14 16:20:45.949:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduFRPp_pphW_SxEf6DXdy9ZY]]></FromUserName>
+<CreateTime>1452759629</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[*]]></Content>
+<MsgId>6239555095906015410</MsgId>
+</xml>
+---------------
+2016-01-14 16:20:48.605:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduFRPp_pphW_SxEf6DXdy9ZY]]></FromUserName>
+<CreateTime>1452759631</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[/::D]]></Content>
+<MsgId>6239555104495950003</MsgId>
+</xml>
+---------------
+2016-01-14 16:21:01.058:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759644</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[/::D]]></Content>
+<MsgId>6239555160330524880</MsgId>
+</xml>
+---------------
+2016-01-14 16:21:03.402:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759646</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你]]></Content>
+<MsgId>6239555168920459486</MsgId>
+</xml>
+---------------
+2016-01-14 16:21:08.839:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759652</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好]]></Content>
+<MsgId>6239555194690263272</MsgId>
+</xml>
+---------------
+2016-01-14 16:21:15.089:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759658</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[ceshi]]></Content>
+<MsgId>6239555220460067049</MsgId>
+</xml>
+---------------
+2016-01-14 16:22:39.761:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759742</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[ceshi ]]></Content>
+<MsgId>6239555581237319920</MsgId>
+</xml>
+---------------
+2016-01-14 16:22:47.527:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759750</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[123]]></Content>
+<MsgId>6239555615597058297</MsgId>
+</xml>
+---------------
+2016-01-14 16:23:05.386:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759768</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[ceshi]]></Content>
+<MsgId>6239555692906469633</MsgId>
+</xml>
+---------------
+2016-01-14 16:23:18.792:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759781</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[1]]></Content>
+<MsgId>6239555748741044486</MsgId>
+</xml>
+---------------
+2016-01-14 16:23:20.964:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759784</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[2]]></Content>
+<MsgId>6239555761625946375</MsgId>
+</xml>
+---------------
+2016-01-14 16:23:21.746:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759784</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[3]]></Content>
+<MsgId>6239555761625946376</MsgId>
+</xml>
+---------------
+2016-01-14 16:23:22.199:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759785</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[4]]></Content>
+<MsgId>6239555765920913673</MsgId>
+</xml>
+---------------
+2016-01-14 16:23:41.074:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759804</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[2]]></Content>
+<MsgId>6239555847525292299</MsgId>
+</xml>
+---------------
+2016-01-14 16:23:41.761:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759804</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[3]]></Content>
+<MsgId>6239555847525292300</MsgId>
+</xml>
+---------------
+2016-01-14 16:23:42.339:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759805</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[4]]></Content>
+<MsgId>6239555851820259597</MsgId>
+</xml>
+---------------
+2016-01-14 16:23:42.714:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759805</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[5]]></Content>
+<MsgId>6239555851820259598</MsgId>
+</xml>
+---------------
+2016-01-14 16:23:43.605:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759806</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[6]]></Content>
+<MsgId>6239555856115226895</MsgId>
+</xml>
+---------------
+2016-01-14 16:23:44.105:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759807</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[7]]></Content>
+<MsgId>6239555860410194192</MsgId>
+</xml>
+---------------
+2016-01-14 16:23:44.480:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759807</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[8]]></Content>
+<MsgId>6239555860410194193</MsgId>
+</xml>
+---------------
+2016-01-14 16:24:32.574:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduFRPp_pphW_SxEf6DXdy9ZY]]></FromUserName>
+<CreateTime>1452759855</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-01-14 16:24:48.433:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduFRPp_pphW_SxEf6DXdy9ZY]]></FromUserName>
+<CreateTime>1452759871</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-01-14 16:24:54.199:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduFRPp_pphW_SxEf6DXdy9ZY]]></FromUserName>
+<CreateTime>1452759877</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[y]]></Content>
+<MsgId>6239556161057904916</MsgId>
+</xml>
+---------------
+2016-01-14 16:26:11.761:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759954</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[12321312]]></Content>
+<MsgId>6239556491770386713</MsgId>
+</xml>
+---------------
+2016-01-14 16:26:31.621:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452759974</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[32]]></Content>
+<MsgId>6239556577669732634</MsgId>
+</xml>
+---------------
+2016-01-14 16:33:14.636:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452760377</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[1]]></Content>
+<MsgId>6239558308541553014</MsgId>
+</xml>
+---------------
+2016-01-14 16:57:35.121:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452761838</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[1]]></Content>
+<MsgId>6239564583488772957</MsgId>
+</xml>
+---------------
+2016-01-14 16:57:40.417:未将对象引用设置到对象的实例。
+---------------
+2016-01-14 16:57:42.777:未将对象引用设置到对象的实例。
+---------------
+2016-01-14 17:03:02.183:未找到请求的值“VIEW”。
+---------------
+2016-01-14 17:03:10.933:ReferralId：14
+
+---------------
+2016-01-14 17:04:16.496:未找到请求的值“VIEW”。
+---------------
+2016-01-14 17:09:45.917:ReferralId：23
+
+---------------
+2016-01-14 17:27:10.058:商品规格：False
+---------------
+2016-01-14 17:27:14.121:商品规格：False
+---------------
+2016-01-14 17:32:12.214:未找到请求的值“VIEW”。
+---------------
+2016-01-14 17:34:25.527:商品规格：False
+---------------
+2016-01-14 17:34:29.230:未找到请求的值“VIEW”。
+---------------
+2016-01-14 17:41:44.230:未找到请求的值“VIEW”。
+---------------
+2016-01-14 18:02:41.824:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-01-14 18:02:41.839:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-01-14 18:03:45.402:到这里了，！Application_Start
+---------------
+2016-01-14 18:03:46.902:productId：1
+
+---------------
+2016-01-14 18:03:46.902:ReferralId：26
+
+---------------
+2016-01-14 18:03:46.902:code：0016fcc5c105d8011d39406e6363c28k
+
+---------------
+2016-01-14 18:03:46.902:state：STATE
+
+---------------
+2016-01-14 18:13:05.136:商品规格：False
+---------------
+2016-01-14 18:13:06.839:商品规格：False
+---------------
+2016-01-14 18:36:15.324:商品规格：False
+---------------
+2016-01-14 18:36:16.636:商品规格：False
+---------------
+2016-01-14 18:36:42.105:productId：1
+
+---------------
+2016-01-14 18:36:42.105:ReferralId：26
+
+---------------
+2016-01-14 18:36:42.121:from：singlemessage
+
+---------------
+2016-01-14 18:36:42.121:isappinstalled：0
+
+---------------
+2016-01-14 18:48:14.792:未找到请求的值“VIEW”。
+---------------
+2016-01-14 18:52:52.871:订单支付：0-{"ReturnUrl":null}
+---------------
+2016-01-14 18:52:52.871:订单支付：1-{"ReturnUrl":"http://vfxtest.test.xiaokeduo.com/pay/PaymentReturn_url.aspx?"}
+---------------
+2016-01-14 19:01:57.277:商品规格：False
+---------------
+2016-01-14 19:01:58.839:商品规格：False
+---------------
+2016-01-14 19:07:20.449:商品规格：False
+---------------
+2016-01-14 19:07:23.214:商品规格：False
+---------------
+2016-01-14 19:07:53.214:商品规格：False
+---------------
+2016-01-14 19:07:55.699:商品规格：False
+---------------
+2016-01-14 19:09:51.636:商品规格：False
+---------------
+2016-01-14 19:09:53.089:商品规格：False
+---------------
+2016-01-14 19:11:19.449:商品规格：False
+---------------
+2016-01-14 19:11:35.886:商品规格：False
+---------------
+2016-01-14 19:22:58.464:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 19:23:12.371:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 19:23:53.683:<xml>
+  <ToUserName><![CDATA[gh_660c2c6c8022]]></ToUserName>
+<FromUserName><![CDATA[oSUBduKW3_eOdhg0VKCvgDs7-OPw]]></FromUserName>
+<CreateTime>1452770616</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[1]]></EventKey>
+<Ticket><![CDATA[gQGW8ToAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL1BrTVd4LUhtQ2Rwd1JCOUVmVzJOAAIELIWXVgMEgDoJAA==]]></Ticket>
+</xml>
+---------------
+2016-01-14 19:27:09.058:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 19:29:47.324:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 19:31:11.902:returnUrl:http://vfxtest.test.xiaokeduo.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-01-14 19:31:11.902:{"result":true,"returnCode":"200","message":"提交成功"}
+---------------
+2016-01-14 19:31:32.402:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 19:31:52.855:returnUrl:http://vfxtest.test.xiaokeduo.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-01-14 19:31:52.855:{"result":true,"returnCode":"200","message":"提交成功"}
+---------------
+2016-01-14 19:32:16.042:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 19:32:36.574:returnUrl:http://vfxtest.test.xiaokeduo.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-01-14 19:32:36.574:{"result":true,"returnCode":"200","message":"提交成功"}
+---------------
+2016-01-14 19:33:01.464:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 19:33:05.605:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 19:33:40.621:returnUrl:http://vfxtest.test.xiaokeduo.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-01-14 19:33:40.621:{"result":true,"returnCode":"200","message":"提交成功"}
+---------------
+2016-01-14 19:34:48.089:未将对象引用设置到对象的实例。
+---------------
+2016-01-14 19:34:50.277:未找到请求的值“VIEW”。
+---------------
+2016-01-14 19:35:08.292:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 19:35:12.214:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 19:35:38.355:returnUrl:http://vfxtest.test.xiaokeduo.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-01-14 19:35:38.355:{"result":true,"returnCode":"200","message":"提交成功"}
+---------------
+2016-01-14 19:36:39.464:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 19:36:43.136:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 19:40:05.011:未找到请求的值“VIEW”。
+---------------
+2016-01-14 19:41:16.449:returnUrl:http://vfxtest.test.xiaokeduo.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-01-14 19:41:16.449:{"result":true,"returnCode":"200","message":"提交成功"}
+---------------
+2016-01-14 19:42:23.855:未将对象引用设置到对象的实例。
+---------------
+2016-01-14 20:53:46.214:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-01-14 20:53:46.230:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-01-14 21:03:25.230:到这里了，！Application_Start
+---------------
+2016-01-14 21:03:25.589:未找到请求的值“VIEW”。
+---------------
+2016-01-14 21:03:31.464:未找到请求的值“TEMPLATESENDJOBFINISH”。
+---------------
+2016-01-14 21:04:08.417:未找到请求的值“VIEW”。
+---------------
+2016-01-14 21:25:26.058:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-01-14 21:25:26.074:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-01-14 21:42:35.777:到这里了，！Application_Start
+---------------
+2016-01-14 21:42:36.152:未找到请求的值“VIEW”。
+---------------
+2016-01-14 22:09:36.589:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-01-14 22:09:36.605:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-01-14 22:33:44.324:到这里了，！Application_Start
+---------------
+2016-01-14 22:33:44.699:未找到请求的值“VIEW”。
+---------------
+2016-01-14 22:35:06.292:未找到请求的值“VIEW”。
+---------------
+2016-01-14 22:56:45.136:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-01-14 22:56:45.152:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-01-14 23:38:49.292:到这里了，！Application_Start
+---------------
+2016-01-14 23:59:50.136:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-01-14 23:59:50.152:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------

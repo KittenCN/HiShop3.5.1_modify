@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Notify>
+    <OperTime>2016/6/7 21:07:12</OperTime>
+    <Error>Object reference not set to an instance of an object.</Error>
+    <Param>&lt;xml&gt;&lt;openid&gt;onh8Qs_fBhwUjZ56T0syAQBpaljU&lt;/openid&gt;&lt;sub_mch_id&gt;1217189101&lt;/sub_mch_id&gt;&lt;return_code&gt;SUCCESS&lt;/return_code&gt;&lt;time_end&gt;20160607210708&lt;/time_end&gt;&lt;mch_id&gt;1264263801&lt;/mch_id&gt;&lt;trade_type&gt;JSAPI&lt;/trade_type&gt;&lt;sign&gt;75B2EDB59BD101DEA2BAC355B7F741B6&lt;/sign&gt;&lt;cash_fee&gt;1000&lt;/cash_fee&gt;&lt;is_subscribe&gt;Y&lt;/is_subscribe&gt;&lt;bank_type&gt;ABC_DEBIT&lt;/bank_type&gt;&lt;out_trade_no&gt;B160606081648881&lt;/out_trade_no&gt;&lt;transaction_id&gt;4008082001201606066840588818&lt;/transaction_id&gt;&lt;total_fee&gt;1000&lt;/total_fee&gt;&lt;appid&gt;wx2b3a33a0bbfd5d9a&lt;/appid&gt;&lt;noncestr&gt;20150531233956996351&lt;/noncestr&gt;&lt;result_code&gt;SUCCESS&lt;/result_code&gt;&lt;/xml&gt;</Param>
+  </Notify>
+</DocumentElement>

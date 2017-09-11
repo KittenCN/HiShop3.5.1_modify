@@ -1,0 +1,46 @@
+2016-07-08 06:44:40.126:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1467931479</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-07-08 06:44:40.979:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1467931480</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-07-08 06:51:52.445:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1467931912</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-07-08 06:54:27.984:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1467932067</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-07-08 09:06:40.161:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-07-08 09:06:40.180:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-07-08 09:06:41.135:到这里了，！Application_Start
+---------------

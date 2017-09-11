@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{31D67B11-3320-4FCD-892A-2074560A6292}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Hidistro.UI.SaleSystem.CodeBehind</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.Web" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\wwwroot\Bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="ASPNET.WebControls">
+      <HintPath>..\..\wwwroot\Bin\ASPNET.WebControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System" />
+    <Reference Include="ThoughtWorks.QRCode">
+      <HintPath>..\..\wwwroot\Bin\ThoughtWorks.QRCode.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\RePaymentTemplatedWebControl.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\AmountNotify.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\AmountReturn.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\ControlHelper.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\CustomDraftTemplatedWebControl.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\CustomDraftHomePage.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\CustomTemplatedWebControl.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\CustomHomePage.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\ExpressData.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\NewTemplatedWebControl.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\HomePage.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\PaymentTemplatedWebControl.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\OrderNotify.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\OrderReturn.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\SlideImage.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\StoreCardCreater.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VCommissionToAmount.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VFinishInsuranceOrder.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VFinishRecharge.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VFollow.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberAccountBalance.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberAmountApply.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberAmountRequestDetail.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberAmountDetail.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberAmountList.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberAmountRecord.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberApplyDetail.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberCashBackDetail.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberCashBack.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberRecharge.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMyBargains.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VInviteBargainDetial.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VHelpBargainDetial.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VBargainDetial.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\ViewOneTao.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\ViewPartInlist.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VBargainList.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMyluckNum.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMyOneTao.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMyOneTaoIsEnd.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMyOneTaoSuccess.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VNoticeDetail.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VNotice.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VChirldrenDistributorDetials.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\DistributorRequest.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VChirldrenDistributorStores.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VOneTaoPaySuccess.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VOneTaoPayView.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VOneyuanList.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VOneyuanTaoResult.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VSecondDistributors.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberComment.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VModifyPassWord.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMyIntegralDetai.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VActivityList.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VBalanceDrawRequesList.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VBeginVote.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VCategoryList.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VChirldrenDistributors.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VChooseProducts.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VCommissionDetails.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VCouponDetails.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VDefault.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VDistributorCenter.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VDistributorCommission.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VDistributorDescription.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VDistributorInfo.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VDistributorOrders.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VExchangeDetails.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VExchangeList.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VDistributorRegCheck.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VFriendsCircleDetail.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VGame.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VGetRedShare.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VGetSuccess.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VArticleDetail.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberCoupons.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMyCouponLists.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMyMembers.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMyPrizeList.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMyRanking.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMyProducts.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VNineImages.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VProductListAll.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VProductSearch.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VGetRedPager.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VRequestCommissions.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VRequestDistributorFinish.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VResourceNotFound.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VShoppingCartEmpty.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VStoreCard.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VStorePromotion.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VSubmmitOrder.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VProductDetails.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VProductDescription.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VShoppingCart.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VShippingAddresses.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VAddShippingAddress.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberCenter.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VEditShippingAddress.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VFinishOrder.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VBindUserMessage.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VUserLogining.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VVote.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VActivity.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VProductList.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VImageTextDetails.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VLoginGuide.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VLogin.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VProductConsultations.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMyConsultations.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VProductReview.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMyFavorites.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMyLogistics.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VUserInfo.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VBrandDetail.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VBrandList.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberOrders.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberOrderDetails.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VUserLogin.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VRegister.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VSaleService.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VFriendsCircle.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VNameCard.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VQRcode.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VHelper.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VLoginOut.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VActivityDetail.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberOrderReturn.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VMemberOrderReturnGoods.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VRequestReturn.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VProgressCheck.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\CodeBehind\VProgressDetail.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hidistro.ControlPanel\Hidistro.ControlPanel.csproj">
+      <Project>{694b026e-225a-43d6-9244-88970bdb1668}</Project>
+      <Name>Hidistro.ControlPanel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.Core\Hidistro.Core.csproj">
+      <Project>{cb569a65-e158-4fbd-9479-1428df0d880d}</Project>
+      <Name>Hidistro.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.Entities\Hidistro.Entities.csproj">
+      <Project>{ced2d31c-3769-47ea-81dc-0fb8fc896cb1}</Project>
+      <Name>Hidistro.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.SaleSystem.Vshop\Hidistro.SaleSystem.Vshop.csproj">
+      <Project>{162e044a-af5c-4f26-b950-50c89a56a99c}</Project>
+      <Name>Hidistro.SaleSystem.Vshop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.SqlDal\Hidistro.SqlDal.csproj">
+      <Project>{36FD561C-03F8-4DCE-8CBC-E5FF35878766}</Project>
+      <Name>Hidistro.SqlDal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.UI.Common.Controls\Hidistro.UI.Common.Controls.csproj">
+      <Project>{3e0b8b1c-5419-43d4-9839-1e77b5f9504c}</Project>
+      <Name>Hidistro.UI.Common.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.UI.SaleSystem.Tags\Hidistro.UI.SaleSystem.Tags.csproj">
+      <Project>{1aa1669d-1590-468b-b825-f5307fe99c2a}</Project>
+      <Name>Hidistro.UI.SaleSystem.Tags</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hishop.Plugins\Hishop.Plugins.csproj">
+      <Project>{733ee58c-a9e1-43a7-9649-ee43f5ad09e2}</Project>
+      <Name>Hishop.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hishop.Weixin.MP\Hishop.Weixin.MP.csproj">
+      <Project>{f33782dd-cc50-40a3-9a06-9bf5109d44b2}</Project>
+      <Name>Hishop.Weixin.MP</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

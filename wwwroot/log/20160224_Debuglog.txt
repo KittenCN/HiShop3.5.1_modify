@@ -1,0 +1,644 @@
+2016-02-24 07:58:15.875:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs1IyUh5rRIWkHauXKfbtLX8]]></FromUserName>
+<CreateTime>1456271895</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-24 08:04:02.304:Object reference not set to an instance of an object.
+---------------
+2016-02-24 08:04:02.405:Object reference not set to an instance of an object.
+---------------
+2016-02-24 08:04:34.072:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs1IyUh5rRIWkHauXKfbtLX8]]></FromUserName>
+<CreateTime>1456272273</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-24 08:20:52.710:Object reference not set to an instance of an object.
+---------------
+2016-02-24 08:20:52.821:Object reference not set to an instance of an object.
+---------------
+2016-02-24 08:21:10.309:Object reference not set to an instance of an object.
+---------------
+2016-02-24 08:21:10.326:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 08:21:10.326:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 08:21:53.726:Object reference not set to an instance of an object.
+---------------
+2016-02-24 08:21:53.911:Object reference not set to an instance of an object.
+---------------
+2016-02-24 08:21:54.229:Object reference not set to an instance of an object.
+---------------
+2016-02-24 08:21:54.395:Object reference not set to an instance of an object.
+---------------
+2016-02-24 08:30:00.515:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456273800</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-24 08:30:28.468:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456273828</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-24 11:35:17.253:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456284917</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-24 11:38:31.995:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456285111</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-24 11:38:42.871:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456285122</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-24 11:41:20.213:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456285280</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-24 12:36:48.787:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456288608</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-24 12:38:50.697:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456288730</CreateTime>
+<MsgType><![CDATA[link]]></MsgType>
+<Title><![CDATA[您的分享很值钱，快快让Ta变现吧！！ - 舌尖上的美食]]></Title>
+<Description><![CDATA[http://www.178gx.com/vshop/FriendsCircleDetail.aspx?id=1&UserId=1&ReferralId=1]]></Description>
+<Url><![CDATA[http://www.178gx.com/vshop/FriendsCircleDetail.aspx?id=1&UserId=1&ReferralId=1]]></Url>
+<MsgId>6254712469289515017</MsgId>
+</xml>
+---------------
+2016-02-24 14:03:13.719:ReferralId：1
+
+---------------
+2016-02-24 14:03:18.142:ReferralId：1
+
+---------------
+2016-02-24 14:03:21.698:ReferralId：1
+
+---------------
+2016-02-24 14:03:44.326:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456293823</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-24 14:24:52.399:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456295092</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-24 15:24:41.267:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456298681</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-24 15:26:52.205:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456298811</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-24 15:27:50.080:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456298869</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-24 15:32:51.221:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456299170</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 15:32:59.343:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456299179</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 15:33:06.371:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456299186</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/categories.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 15:33:11.160:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456299190</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/ShoppingCart.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 15:33:14.260:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456299194</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 15:33:21.096:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456299200</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 17:09:29.869:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456304969</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 17:31:48.787:ReferralId：1
+
+---------------
+2016-02-24 17:34:38.484:ReferralId：1
+
+---------------
+2016-02-24 17:46:01.211:Object reference not set to an instance of an object.
+---------------
+2016-02-24 17:49:45.742:Object reference not set to an instance of an object.
+---------------
+2016-02-24 17:50:03.190:Object reference not set to an instance of an object.
+---------------
+2016-02-24 17:50:14.908:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 17:50:14.908:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 17:54:27.590:Object reference not set to an instance of an object.
+---------------
+2016-02-24 17:54:37.922:Object reference not set to an instance of an object.
+---------------
+2016-02-24 17:54:49.255:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 17:54:49.256:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 17:54:55.285:Object reference not set to an instance of an object.
+---------------
+2016-02-24 17:58:14.748:Object reference not set to an instance of an object.
+---------------
+2016-02-24 17:58:22.584:Object reference not set to an instance of an object.
+---------------
+2016-02-24 17:58:35.665:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 17:58:35.665:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 17:58:58.709:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:02:33.263:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:02:45.114:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:02:55.554:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 18:02:55.554:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 18:03:01.312:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:07:11.714:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:07:23.128:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:07:41.599:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 18:07:41.600:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 18:07:47.905:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:11:09.545:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:11:20.017:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:11:30.417:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 18:11:30.417:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 18:11:36.184:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:14:32.240:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:14:41.440:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:14:54.949:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 18:14:54.949:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 18:15:00.820:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:18:07.854:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:18:18.120:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:18:29.392:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 18:18:29.392:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 18:18:35.472:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:20:57.395:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:21:03.696:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:21:14.019:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 18:21:14.019:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 18:21:20.163:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:25:02.032:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:25:09.351:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:25:23.200:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 18:25:23.200:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 18:25:29.422:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:55:23.577:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:55:55.914:Object reference not set to an instance of an object.
+---------------
+2016-02-24 18:56:08.688:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 18:56:08.688:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 19:00:32.050:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:00:42.475:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:00:54.042:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 19:00:54.043:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 19:03:51.914:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456311831</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 19:05:02.369:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456311902</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 19:07:50.958:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:09:13.845:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:11:21.084:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:15:34.566:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:18:04.561:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:18:17.653:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:18:20.677:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:18:24.178:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:18:27.948:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:18:31.375:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:20:10.485:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 19:20:10.485:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 19:20:10.554:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 19:20:10.554:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 19:20:10.618:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 19:20:10.618:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 19:20:10.687:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 19:20:10.688:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 19:20:10.746:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 19:20:10.746:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 19:20:20.545:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:20:23.642:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:20:26.494:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:20:30.380:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:20:34.061:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:22:12.916:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs1IyUh5rRIWkHauXKfbtLX8]]></FromUserName>
+<CreateTime>1456312932</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 19:27:38.977:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:27:47.577:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:28:04.854:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-24 19:28:04.854:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-24 19:28:10.408:Object reference not set to an instance of an object.
+---------------
+2016-02-24 19:32:37.399:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456313557</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 19:46:56.538:商品规格：False
+---------------
+2016-02-24 19:47:21.880:商品规格：False
+---------------
+2016-02-24 19:48:51.298:商品规格：False
+---------------
+2016-02-24 19:49:42.104:商品规格：False
+---------------
+2016-02-24 19:51:26.317:商品规格：False
+---------------
+2016-02-24 19:51:53.512:商品规格：False
+---------------
+2016-02-24 19:53:11.574:商品规格：False
+---------------
+2016-02-24 19:53:37.713:商品规格：False
+---------------
+2016-02-24 19:55:17.162:商品规格：False
+---------------
+2016-02-24 19:55:44.614:商品规格：False
+---------------
+2016-02-24 19:56:59.087:商品规格：False
+---------------
+2016-02-24 19:57:27.511:商品规格：False
+---------------
+2016-02-24 19:58:39.210:商品规格：False
+---------------
+2016-02-24 19:59:05.112:商品规格：False
+---------------
+2016-02-24 20:00:35.660:商品规格：False
+---------------
+2016-02-24 20:01:00.617:商品规格：False
+---------------
+2016-02-24 20:02:19.243:商品规格：False
+---------------
+2016-02-24 20:02:43.421:商品规格：False
+---------------
+2016-02-24 20:04:06.698:商品规格：False
+---------------
+2016-02-24 20:04:28.635:商品规格：False
+---------------
+2016-02-24 20:05:58.647:商品规格：False
+---------------
+2016-02-24 20:06:48.757:商品规格：False
+---------------
+2016-02-24 20:08:08.166:商品规格：False
+---------------
+2016-02-24 20:08:22.397:商品规格：False
+---------------
+2016-02-24 20:09:44.393:商品规格：False
+---------------
+2016-02-24 20:10:06.162:商品规格：False
+---------------
+2016-02-24 20:11:19.512:商品规格：False
+---------------
+2016-02-24 20:11:31.300:商品规格：False
+---------------
+2016-02-24 20:12:33.336:商品规格：False
+---------------
+2016-02-24 20:12:46.513:商品规格：False
+---------------
+2016-02-24 20:14:03.078:商品规格：False
+---------------
+2016-02-24 20:14:42.213:商品规格：False
+---------------
+2016-02-24 20:16:13.336:商品规格：False
+---------------
+2016-02-24 20:16:46.490:商品规格：False
+---------------
+2016-02-24 20:18:04.516:商品规格：False
+---------------
+2016-02-24 20:18:30.294:商品规格：False
+---------------
+2016-02-24 20:20:05.310:商品规格：False
+---------------
+2016-02-24 20:20:44.223:商品规格：False
+---------------
+2016-02-24 20:22:30.873:商品规格：False
+---------------
+2016-02-24 20:22:51.012:商品规格：False
+---------------
+2016-02-24 20:25:07.113:商品规格：False
+---------------
+2016-02-24 20:25:30.782:商品规格：False
+---------------
+2016-02-24 20:26:42.263:商品规格：False
+---------------
+2016-02-24 20:27:07.954:商品规格：False
+---------------
+2016-02-24 20:28:38.042:商品规格：False
+---------------
+2016-02-24 20:29:26.986:商品规格：False
+---------------
+2016-02-24 21:18:30.898:商品规格：False
+---------------
+2016-02-24 21:18:33.092:商品规格：False
+---------------
+2016-02-24 21:25:37.563:商品规格：False
+---------------
+2016-02-24 21:25:40.205:商品规格：False
+---------------
+2016-02-24 21:28:25.377:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-02-24 21:28:25.520:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-02-24 21:29:52.894:到这里了，！Application_Start
+---------------
+2016-02-24 21:40:17.274:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1456321217</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 21:44:10.125:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs1IyUh5rRIWkHauXKfbtLX8]]></FromUserName>
+<CreateTime>1456321449</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 21:45:23.277:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs1IyUh5rRIWkHauXKfbtLX8]]></FromUserName>
+<CreateTime>1456321523</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 21:45:44.926:Object reference not set to an instance of an object.
+---------------
+2016-02-24 21:45:57.265:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs1IyUh5rRIWkHauXKfbtLX8]]></FromUserName>
+<CreateTime>1456321557</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 21:47:06.560:Object reference not set to an instance of an object.
+---------------
+2016-02-24 22:03:17.919:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs1IyUh5rRIWkHauXKfbtLX8]]></FromUserName>
+<CreateTime>1456322597</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-02-24 22:06:56.057:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs1IyUh5rRIWkHauXKfbtLX8]]></FromUserName>
+<CreateTime>1456322815</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------

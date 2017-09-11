@@ -1,0 +1,34 @@
+2016-07-31 08:07:25.799:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-07-31 08:07:25.866:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-07-31 08:07:33.903:到这里了，！Application_Start
+---------------
+2016-07-31 21:17:09.599:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qsw30HPJ8T22Texxt48_-au0]]></FromUserName>
+<CreateTime>1469971029</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-07-31 21:17:46.829:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qsw30HPJ8T22Texxt48_-au0]]></FromUserName>
+<CreateTime>1469971066</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>411818141</MenuId>
+</xml>
+---------------
+2016-07-31 21:18:20.898:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qsw30HPJ8T22Texxt48_-au0]]></FromUserName>
+<CreateTime>1469971100</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------

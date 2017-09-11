@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1AA1669D-1590-468B-B825-F5307FE99C2A}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Hidistro.UI.SaleSystem.Tags</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\Tags\Common_Header.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\Tags\Common_Footer.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\Tags\Common_ProductImages.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\Tags\Common_SKUSelector.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\Tags\Common_MemberCardCondition.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\Tags\Common_PaymentTypeSelect.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\Tags\Common_CouponSelect.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\Tags\Common_PrizeNames.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\Tags\Common_ActivityCondition.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\Tags\Common_ExpandAttributes.cs" />
+    <Compile Include="Hidistro\UI\SaleSystem\Tags\Common_MyBaseHeader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hidistro.Core\Hidistro.Core.csproj">
+      <Project>{cb569a65-e158-4fbd-9479-1428df0d880d}</Project>
+      <Name>Hidistro.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.Entities\Hidistro.Entities.csproj">
+      <Project>{ced2d31c-3769-47ea-81dc-0fb8fc896cb1}</Project>
+      <Name>Hidistro.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.SaleSystem.Vshop\Hidistro.SaleSystem.Vshop.csproj">
+      <Project>{162e044a-af5c-4f26-b950-50c89a56a99c}</Project>
+      <Name>Hidistro.SaleSystem.Vshop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.UI.Common.Controls\Hidistro.UI.Common.Controls.csproj">
+      <Project>{3e0b8b1c-5419-43d4-9839-1e77b5f9504c}</Project>
+      <Name>Hidistro.UI.Common.Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

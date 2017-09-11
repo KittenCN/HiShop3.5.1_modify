@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6E5EA48E-2A33-4E4A-9D1E-FBED87DCE4EA}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Hidistro.Messages</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="AopSdk">
+      <HintPath>..\..\wwwroot\Bin\AopSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\wwwroot\Bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Hidistro\Messages\Emails.cs" />
+    <Compile Include="Hidistro\Messages\MessageTemplateHelper.cs" />
+    <Compile Include="Hidistro\Messages\MessageType.cs" />
+    <Compile Include="Hidistro\Messages\Messenger.cs" />
+    <Compile Include="Hidistro\Messages\WxTemplateSendHelp.cs" />
+    <Compile Include="Hidistro\Messages\WxJsonResult.cs" />
+    <Compile Include="Hidistro\Messages\GetPrivateTemplateJsonResult.cs" />
+    <Compile Include="Hidistro\Messages\GetPrivateTemplate_TemplateItem.cs" />
+    <Compile Include="Hidistro\Messages\WxtemplateId.cs" />
+    <Compile Include="Hidistro\Messages\AddtemplateJsonResult.cs" />
+    <Compile Include="Hidistro\Messages\GetIndustryJsonResult.cs" />
+    <Compile Include="Hidistro\Messages\GetIndustry_Item.cs" />
+    <Compile Include="Hidistro\Messages\IndustryCode.cs" />
+    <Compile Include="Hidistro\Messages\ReturnCode.cs" />
+    <Compile Include="Hidistro\Messages\WxTemplateMessageResult.cs" />
+    <Compile Include="Hidistro\Messages\TempleteModel.cs" />
+    <Compile Include="Hidistro\Messages\TemplateDataItem.cs" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hidistro.Core\Hidistro.Core.csproj">
+      <Project>{cb569a65-e158-4fbd-9479-1428df0d880d}</Project>
+      <Name>Hidistro.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.Entities\Hidistro.Entities.csproj">
+      <Project>{ced2d31c-3769-47ea-81dc-0fb8fc896cb1}</Project>
+      <Name>Hidistro.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.SqlDal\Hidistro.SqlDal.csproj">
+      <Project>{36fd561c-03f8-4dce-8cbc-e5ff35878766}</Project>
+      <Name>Hidistro.SqlDal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hishop.AlipayFuwu.Api\Hishop.AlipayFuwu.Api.csproj">
+      <Project>{2fd43941-f3aa-494b-a825-33c2529a2014}</Project>
+      <Name>Hishop.AlipayFuwu.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hishop.Weixin.MP\Hishop.Weixin.MP.csproj">
+      <Project>{f33782dd-cc50-40a3-9a06-9bf5109d44b2}</Project>
+      <Name>Hishop.Weixin.MP</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,70 @@
+2016-09-05 06:46:08.442:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs5dZdd4cDWq-FEP_f0eOctc]]></FromUserName>
+<CreateTime>1473029167</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>413111815</MenuId>
+</xml>
+---------------
+2016-09-05 07:05:10.649:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs5dZdd4cDWq-FEP_f0eOctc]]></FromUserName>
+<CreateTime>1473030310</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>413111815</MenuId>
+</xml>
+---------------
+2016-09-05 07:05:15.546:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs5dZdd4cDWq-FEP_f0eOctc]]></FromUserName>
+<CreateTime>1473030315</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx?categoryId=11]]></EventKey>
+<MenuId>413111815</MenuId>
+</xml>
+---------------
+2016-09-05 10:34:38.644:商品规格：False
+---------------
+2016-09-05 11:06:38.527:商品规格：False
+---------------
+2016-09-05 11:07:13.140:商品规格：False
+---------------
+2016-09-05 11:07:30.099:商品规格：False
+---------------
+2016-09-05 11:07:34.166:商品规格：False
+---------------
+2016-09-05 11:15:31.852:商品规格：False
+---------------
+2016-09-05 11:16:42.250:商品规格：False
+---------------
+2016-09-05 11:24:32.091:商品规格：False
+---------------
+2016-09-05 11:25:32.705:商品规格：False
+---------------
+2016-09-05 11:38:30.598:商品规格：False
+---------------
+2016-09-05 11:40:15.992:商品规格：False
+---------------
+2016-09-05 12:05:22.790:商品规格：False
+---------------
+2016-09-05 12:06:00.618:商品规格：False
+---------------
+2016-09-05 12:07:01.007:商品规格：False
+---------------
+2016-09-05 12:07:04.095:商品规格：False
+---------------
+2016-09-05 12:07:24.935:商品规格：False
+---------------
+2016-09-05 12:07:27.789:商品规格：False
+---------------
+2016-09-05 14:08:49.138:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-09-05 14:08:49.150:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-09-05 14:08:52.729:到这里了，！Application_Start
+---------------

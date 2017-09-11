@@ -1,0 +1,144 @@
+﻿<%@ Control Language="C#" %>
+<%@ Register TagPrefix="Hi" Namespace="HiTemplate" Assembly="HiTemplate" %>
+<header class="members_head">	
+	<section class="mobile12_headertop">
+		<img src="/Templates/vshop/t10/images/10@2x.png">
+		<b id ="StoreName">店铺首页</b>
+	</section>
+	<section class="mobile12_headerbot">
+		<section class="mobile12_headerbot_le"><img id="imglogo" src="/Templates/vshop/t10/images/11@2x.png" width="66" height="66"></section>
+		<section class="mobile12_headerbot_ri">
+			<ul>
+				<li>
+					<span ><img src="/admin/shop/PublicMob/images/all@2x.png" width="18" height="18"></span>
+					<a href="/ProductList.aspx">全部商品</a>
+				</li>
+				<li>
+					<span><img src="/admin/shop/PublicMob/images/huoodng@2x.png" width="18" height="18"></span>
+					<a href="/activities.aspx">店铺活动</a>
+				</li>
+				<li>
+						<span><img src="/admin/shop/PublicMob/images/5@2x.png" width="18" height="18"></span>
+				<a href="/Vshop/MemberOrders.aspx">我的订单</a>
+				</li>
+				<li>
+					<span><img src="/admin/shop/PublicMob/images/6@2x.png" width="18" height="18"></span>
+				<a href="/Vshop/MemberCenter.aspx">会员签到</a>
+				</li>
+			</ul>
+		</section>
+	</section>
+</header>
+
+        <div class="members_con" style="margin:0 auto">
+            
+            <section class="members_flash j-swipe" id="mySwipe">
+                <ul class="clearfix">
+                    
+                        
+                            <li>
+                                <a href="" title="asdfadsf">
+                                    
+                                    <img src="/Admin/Shop/Public/images/diy/imgad.jpg" width="100%" />
+                                    
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/default.aspx" title="店铺主页">
+                                    
+                                    
+                                    <img src="/Templates/vshop/t10/images/12@2x.png" width="100%" />
+                                    
+                                    
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+                <section class="members_flash_time">
+                    
+                    
+                    <span class="cur" ></span>
+                    
+                    <span  ></span>
+                    
+                    
+                </section>
+            </section>
+            
+        </div>
+    
+        <div class="members_con" style="margin:0 auto">
+            
+            <section class="members_flash j-swipe" id="mySwipe">
+                <ul class="clearfix">
+                    
+                    <li><a href="" title=""><img src="/Admin/Shop/Public/images/diy/imgad.jpg" width="100%" /></a></li>
+                    
+                </ul>
+                <section class="members_flash_time">
+                    
+                </section>
+            </section>
+            
+        </div>
+    
+        <div class="members_con"  >
+            <section class="members_nav1">
+                <ul>
+                    
+                    
+                    <li class="lisw4">
+                        <span><a href="#"><img src="/Admin/shop/Public/images/diy/waitupload.png" width="70"></a></span>
+                        <a class="members_nav1_name" href="#">导航名称</a>
+                    </li>
+                    
+                    <li class="lisw4">
+                        <span><a href="#"><img src="/Admin/shop/Public/images/diy/waitupload.png" width="70"></a></span>
+                        <a class="members_nav1_name" href="#">导航名称</a>
+                    </li>
+                    
+                    <li class="lisw4">
+                        <span><a href="#"><img src="/Admin/shop/Public/images/diy/waitupload.png" width="70"></a></span>
+                        <a class="members_nav1_name" href="#">导航名称</a>
+                    </li>
+                    
+                    <li class="lisw4">
+                        <span><a href="#"><img src="/Admin/shop/Public/images/diy/waitupload.png" width="70"></a></span>
+                        <a class="members_nav1_name" href="#">导航名称</a>
+                    </li>
+                    
+                    
+                </ul>
+            </section>
+        </div>
+    
+        <div class="members_con" >
+            <section class="members_nav2">
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/default.aspx" style ="padding-left:0px;" >店铺主页</a><b></b></li>
+                    
+                    
+                    
+                    <li><a href="#" style ="padding-left:0px;" >请添加导航链接</a><b></b></li>
+                    
+                    
+                    
+                </ul>
+            </section>
+        </div>
+    
+       
+        <div class="members_con">
+            <div class="fulltext" style="padding:10px 0"><p>ASasd<br/></p></div>
+        </div>
+    
+        <div class="members_con">
+            <section class="custom-line-wrap"><hr class="custom-line" style="border-color:#DDD" ></section> 
+  
+        </div>
+    <Hi:GoodsListModule runat="server"  Type="goodGroup" Layout="1" ShowName="True" ShowIco="True" ShowPrice="True" DataUrl="/api/Hi_Ajax_GoodsListGroup.ashx" ID="group_f221323d058c4d23b4f25187ce348263" TemplateFile="/Admin/shop/Modules/GoodGroup1.cshtml"  GoodListSize="6" FirstPriority=""  SecondPriority=""    />

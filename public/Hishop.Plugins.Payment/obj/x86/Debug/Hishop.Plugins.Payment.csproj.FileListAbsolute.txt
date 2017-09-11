@@ -1,0 +1,8 @@
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.Payment\bin\Debug\Hishop.Plugins.Payment.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.Payment\bin\Debug\Hishop.Plugins.Payment.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.Payment\bin\Debug\Hishop.Plugins.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.Payment\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.Payment\bin\Debug\LitJSON.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.Payment\bin\Debug\Hishop.Plugins.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.Payment\obj\x86\Debug\Hishop.Plugins.Payment.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.Payment\obj\x86\Debug\Hishop.Plugins.Payment.pdb

@@ -1,0 +1,953 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{61CAC96A-0D3B-4DBA-B2B9-14D0BFA259CC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hidistro.UI.Web</RootNamespace>
+    <AssemblyName>Hidistro.UI.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <ApplicationInsightsResourceId />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ajax">
+      <HintPath>..\refdll\Ajax.dll</HintPath>
+    </Reference>
+    <Reference Include="AopSdk">
+      <HintPath>..\refdll\AopSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="ASPNET.WebControls">
+      <HintPath>..\refdll\ASPNET.WebControls.dll</HintPath>
+    </Reference>
+    <Reference Include="C5">
+      <HintPath>..\refdll\C5.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging">
+      <HintPath>..\refdll\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\refdll\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJSON">
+      <HintPath>..\refdll\LitJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\refdll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="LumenWorks.Framework.IO">
+      <HintPath>..\refdll\LumenWorks.Framework.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=e44a2bc38ed2c13c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refdll\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\refdll\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder2, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refdll\Microsoft.Practices.ObjectBuilder2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Services3">
+      <HintPath>..\refdll\Microsoft.Web.Services3.dll</HintPath>
+    </Reference>
+    <Reference Include="NetDimension.OpenAuth">
+      <HintPath>..\refdll\NetDimension.OpenAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="NetDimension.OpenAuth.Sina">
+      <HintPath>..\refdll\NetDimension.OpenAuth.Sina.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\refdll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz">
+      <HintPath>..\refdll\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="ThoughtWorks.QRCode">
+      <HintPath>..\refdll\ThoughtWorks.QRCode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AliFuwu\AliFuwuConfig.aspx" />
+    <Content Include="Admin\AliFuwu\AliFuWuMessageTemplates.aspx" />
+    <Content Include="Admin\AliFuwu\AliFuWuSettings.html" />
+    <Content Include="Admin\AliFuwu\Alisendalllist.aspx" />
+    <Content Include="Admin\AliFuwu\ConcernUrl.aspx" />
+    <Content Include="Admin\AliFuwu\EditMenu.aspx" />
+    <Content Include="Admin\AliFuwu\ManageAlipayMenu.aspx" />
+    <Content Include="Admin\AliFuwu\ReplyEdit.aspx" />
+    <Content Include="Admin\AliFuwu\ReplyOnKey.aspx" />
+    <Content Include="Admin\AliFuwu\SendAllEdit.aspx" />
+    <Content Include="Admin\Ascx\Order_ChargesList.ascx" />
+    <Content Include="Admin\Ascx\Order_ItemsList.ascx" />
+    <Content Include="Admin\Ascx\SetMemberRange.ascx" />
+    <Content Include="Admin\Ascx\ucDateTimePicker.ascx" />
+    <Content Include="Admin\Bargain\AddBargain.aspx" />
+    <Content Include="Admin\Bargain\BargainDetial.aspx" />
+    <Content Include="Admin\Bargain\ManagerBargain.aspx" />
+    <Content Include="Admin\CashBack\AddCashBack.aspx" />
+    <Content Include="Admin\CashBack\ManageCashBack.aspx" />
+    <Content Include="Admin\CashBack\ManageCashBackDetails.aspx" />
+    <Content Include="Admin\CashBack\MemberSelect.aspx" />
+    <Content Include="Admin\css\artdialog.css" />
+    <Content Include="Admin\css\bootstrap-datetimepicker.min.css" />
+    <Content Include="Admin\css\bootstrap.min.css" />
+    <Content Include="Admin\css\bootstrapSwitch.css" />
+    <Content Include="Admin\css\bootstrapValidator.min.css" />
+    <Content Include="Admin\css\common.css" />
+    <Content Include="Admin\css\css.css" />
+    <Content Include="Admin\css\kkpager_blue.css" />
+    <Content Include="Admin\css\login.css" />
+    <Content Include="Admin\css\selectcategory.css" />
+    <Content Include="Admin\css\style.css" />
+    <Content Include="Admin\css\weibo.css" />
+    <Content Include="Admin\demo\game\css\public.css" />
+    <Content Include="Admin\demo\game\images\chakan.gif" />
+    <Content Include="Admin\demo\game\images\fireworks.gif" />
+    <Content Include="Admin\demo\game\images\fireworks.png" />
+    <Content Include="Admin\demo\game\images\no-luck.png" />
+    <Content Include="Admin\demo\game\images\weizhingjiang.png" />
+    <Content Include="Admin\demo\game\images\zhongjiang.png" />
+    <Content Include="Admin\demo\game\index1.html" />
+    <Content Include="Admin\demo\zidingyi.html" />
+    <Content Include="Admin\demo\砍价详情\index.html" />
+    <Content Include="Admin\Fenxiao\BalanceDrawApplyErrorList.aspx" />
+    <Content Include="Admin\Fenxiao\BalanceDrawApplyList.aspx" />
+    <Content Include="Admin\Fenxiao\BalanceDrawRequestList.aspx" />
+    <Content Include="Admin\Fenxiao\BalanceDrawRequestSet.aspx" />
+    <Content Include="Admin\Fenxiao\BranchAddDistributors.aspx" />
+    <Content Include="Admin\Fenxiao\CommissionsAllList.aspx" />
+    <Content Include="Admin\Fenxiao\CommissionsList.aspx" />
+    <Content Include="Admin\Fenxiao\CustomDistributorStatistics.aspx" />
+    <Content Include="Admin\Fenxiao\DistributorApplySet.aspx" />
+    <Content Include="Admin\Fenxiao\distributorcenter.aspx" />
+    <Content Include="Admin\Fenxiao\DistributorDescription.aspx" />
+    <Content Include="Admin\Fenxiao\DistributorDetails.aspx" />
+    <Content Include="Admin\Fenxiao\DistributorFrozenList.aspx" />
+    <Content Include="Admin\Fenxiao\DistributorGradeList.aspx" />
+    <Content Include="Admin\Fenxiao\DistributorList.aspx" />
+    <Content Include="Admin\Fenxiao\DistributorStatistics.aspx" />
+    <Content Include="Admin\Fenxiao\DistributorStatisticsDetails.aspx" />
+    <Content Include="Admin\Fenxiao\DistributorSummary.aspx" />
+    <Content Include="Admin\Fenxiao\DistributorUpdateList.aspx" />
+    <Content Include="Admin\Fenxiao\DistributorUpdateSet.aspx" />
+    <Content Include="Admin\Fenxiao\EditDistributorGrade.aspx" />
+    <Content Include="Admin\Fenxiao\FriendExtension.aspx" />
+    <Content Include="Admin\Fenxiao\images\icon1.jpg" />
+    <Content Include="Admin\Fenxiao\images\icon2.jpg" />
+    <Content Include="Admin\Fenxiao\images\icon3.jpg" />
+    <Content Include="Admin\Fenxiao\images\icon4.jpg" />
+    <Content Include="Admin\Fenxiao\images\phonebg.jpg" />
+    <Content Include="Admin\Fenxiao\images\right.png" />
+    <Content Include="Admin\Fenxiao\MarketingDocuments.aspx" />
+    <Content Include="Admin\Fenxiao\ProductSelect.aspx" />
+    <Content Include="Admin\Fenxiao\StoreCardSet.aspx" />
+    <Content Include="Admin\Fenxiao\SubStoreCommissions.aspx" />
+    <Content Include="Admin\Fenxiao\SuperiorSelect.aspx" />
+    <Content Include="Admin\Fonts\wbficon.svg" />
+    <Content Include="hieditor\ueditor\controls\ucUeditor.ascx" />
+    <Content Include="hieditor\ueditor\dialogs\anchor\anchor.html" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\attachment.css" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\attachment.html" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\attachment.js" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\fileTypeImages\icon_chm.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\fileTypeImages\icon_default.png" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\fileTypeImages\icon_doc.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\fileTypeImages\icon_exe.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\fileTypeImages\icon_jpg.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\fileTypeImages\icon_mp3.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\fileTypeImages\icon_mv.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\fileTypeImages\icon_pdf.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\fileTypeImages\icon_ppt.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\fileTypeImages\icon_psd.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\fileTypeImages\icon_rar.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\fileTypeImages\icon_txt.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\fileTypeImages\icon_xls.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\images\alignicon.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\images\alignicon.png" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\images\bg.png" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\images\file-icons.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\images\file-icons.png" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\images\icons.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\images\icons.png" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\images\image.png" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\images\progress.png" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\images\success.gif" />
+    <Content Include="hieditor\ueditor\dialogs\attachment\images\success.png" />
+    <Content Include="hieditor\ueditor\dialogs\background\background.css" />
+    <Content Include="hieditor\ueditor\dialogs\background\background.html" />
+    <Content Include="hieditor\ueditor\dialogs\background\background.js" />
+    <Content Include="hieditor\ueditor\dialogs\background\images\bg.png" />
+    <Content Include="hieditor\ueditor\dialogs\background\images\success.png" />
+    <Content Include="hieditor\ueditor\dialogs\charts\chart.config.js" />
+    <Content Include="hieditor\ueditor\dialogs\charts\charts.css" />
+    <Content Include="hieditor\ueditor\dialogs\charts\charts.html" />
+    <Content Include="hieditor\ueditor\dialogs\charts\charts.js" />
+    <Content Include="hieditor\ueditor\dialogs\charts\images\charts0.png" />
+    <Content Include="hieditor\ueditor\dialogs\charts\images\charts1.png" />
+    <Content Include="hieditor\ueditor\dialogs\charts\images\charts2.png" />
+    <Content Include="hieditor\ueditor\dialogs\charts\images\charts3.png" />
+    <Content Include="hieditor\ueditor\dialogs\charts\images\charts4.png" />
+    <Content Include="hieditor\ueditor\dialogs\charts\images\charts5.png" />
+    <Content Include="hieditor\ueditor\dialogs\emotion\emotion.css" />
+    <Content Include="hieditor\ueditor\dialogs\emotion\emotion.html" />
+    <Content Include="hieditor\ueditor\dialogs\emotion\emotion.js" />
+    <Content Include="hieditor\ueditor\dialogs\emotion\images\0.gif" />
+    <Content Include="hieditor\ueditor\dialogs\emotion\images\bface.gif" />
+    <Content Include="hieditor\ueditor\dialogs\emotion\images\cface.gif" />
+    <Content Include="hieditor\ueditor\dialogs\emotion\images\fface.gif" />
+    <Content Include="hieditor\ueditor\dialogs\emotion\images\jxface2.gif" />
+    <Content Include="hieditor\ueditor\dialogs\emotion\images\neweditor-tab-bg.png" />
+    <Content Include="hieditor\ueditor\dialogs\emotion\images\tface.gif" />
+    <Content Include="hieditor\ueditor\dialogs\emotion\images\wface.gif" />
+    <Content Include="hieditor\ueditor\dialogs\emotion\images\yface.gif" />
+    <Content Include="hieditor\ueditor\dialogs\gmap\gmap.html" />
+    <Content Include="hieditor\ueditor\dialogs\help\help.css" />
+    <Content Include="hieditor\ueditor\dialogs\help\help.html" />
+    <Content Include="hieditor\ueditor\dialogs\help\help.js" />
+    <Content Include="hieditor\ueditor\dialogs\image\image.css" />
+    <Content Include="hieditor\ueditor\dialogs\image\image.html" />
+    <Content Include="hieditor\ueditor\dialogs\image\image.js" />
+    <Content Include="hieditor\ueditor\dialogs\image\images\alignicon.jpg" />
+    <Content Include="hieditor\ueditor\dialogs\image\images\bg.png" />
+    <Content Include="hieditor\ueditor\dialogs\image\images\icons.gif" />
+    <Content Include="hieditor\ueditor\dialogs\image\images\icons.png" />
+    <Content Include="hieditor\ueditor\dialogs\image\images\image.png" />
+    <Content Include="hieditor\ueditor\dialogs\image\images\progress.png" />
+    <Content Include="hieditor\ueditor\dialogs\image\images\success.gif" />
+    <Content Include="hieditor\ueditor\dialogs\image\images\success.png" />
+    <Content Include="hieditor\ueditor\dialogs\insertframe\insertframe.html" />
+    <Content Include="hieditor\ueditor\dialogs\internal.js" />
+    <Content Include="hieditor\ueditor\dialogs\link\link.html" />
+    <Content Include="hieditor\ueditor\dialogs\map\map.html" />
+    <Content Include="hieditor\ueditor\dialogs\map\show.html" />
+    <Content Include="hieditor\ueditor\dialogs\music\music.css" />
+    <Content Include="hieditor\ueditor\dialogs\music\music.html" />
+    <Content Include="hieditor\ueditor\dialogs\music\music.js" />
+    <Content Include="hieditor\ueditor\dialogs\preview\preview.html" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\images\addimg.png" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\images\brush.png" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\images\delimg.png" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\images\delimgH.png" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\images\empty.png" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\images\emptyH.png" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\images\eraser.png" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\images\redo.png" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\images\redoH.png" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\images\scale.png" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\images\scaleH.png" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\images\size.png" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\images\undo.png" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\images\undoH.png" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\scrawl.css" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\scrawl.html" />
+    <Content Include="hieditor\ueditor\dialogs\scrawl\scrawl.js" />
+    <Content Include="hieditor\ueditor\dialogs\searchreplace\searchreplace.html" />
+    <Content Include="hieditor\ueditor\dialogs\searchreplace\searchreplace.js" />
+    <Content Include="hieditor\ueditor\dialogs\snapscreen\snapscreen.html" />
+    <Content Include="hieditor\ueditor\dialogs\spechars\spechars.html" />
+    <Content Include="hieditor\ueditor\dialogs\spechars\spechars.js" />
+    <Content Include="hieditor\ueditor\dialogs\table\dragicon.png" />
+    <Content Include="hieditor\ueditor\dialogs\table\edittable.css" />
+    <Content Include="hieditor\ueditor\dialogs\table\edittable.html" />
+    <Content Include="hieditor\ueditor\dialogs\table\edittable.js" />
+    <Content Include="hieditor\ueditor\dialogs\table\edittd.html" />
+    <Content Include="hieditor\ueditor\dialogs\table\edittip.html" />
+    <Content Include="hieditor\ueditor\dialogs\template\config.js" />
+    <Content Include="hieditor\ueditor\dialogs\template\images\bg.gif" />
+    <Content Include="hieditor\ueditor\dialogs\template\images\pre0.png" />
+    <Content Include="hieditor\ueditor\dialogs\template\images\pre1.png" />
+    <Content Include="hieditor\ueditor\dialogs\template\images\pre2.png" />
+    <Content Include="hieditor\ueditor\dialogs\template\images\pre3.png" />
+    <Content Include="hieditor\ueditor\dialogs\template\images\pre4.png" />
+    <Content Include="hieditor\ueditor\dialogs\template\template.css" />
+    <Content Include="hieditor\ueditor\dialogs\template\template.html" />
+    <Content Include="hieditor\ueditor\dialogs\template\template.js" />
+    <Content Include="hieditor\ueditor\dialogs\video\images\bg.png" />
+    <Content Include="hieditor\ueditor\dialogs\video\images\center_focus.jpg" />
+    <Content Include="hieditor\ueditor\dialogs\video\images\file-icons.gif" />
+    <Content Include="hieditor\ueditor\dialogs\video\images\file-icons.png" />
+    <Content Include="hieditor\ueditor\dialogs\video\images\icons.gif" />
+    <Content Include="hieditor\ueditor\dialogs\video\images\icons.png" />
+    <Content Include="hieditor\ueditor\dialogs\video\images\image.png" />
+    <Content Include="hieditor\ueditor\dialogs\video\images\left_focus.jpg" />
+    <Content Include="hieditor\ueditor\dialogs\video\images\none_focus.jpg" />
+    <Content Include="hieditor\ueditor\dialogs\video\images\progress.png" />
+    <Content Include="hieditor\ueditor\dialogs\video\images\right_focus.jpg" />
+    <Content Include="hieditor\ueditor\dialogs\video\images\success.gif" />
+    <Content Include="hieditor\ueditor\dialogs\video\images\success.png" />
+    <Content Include="hieditor\ueditor\dialogs\video\video.css" />
+    <Content Include="hieditor\ueditor\dialogs\video\video.html" />
+    <Content Include="hieditor\ueditor\dialogs\video\video.js" />
+    <Content Include="hieditor\ueditor\dialogs\webapp\webapp.html" />
+    <Content Include="hieditor\ueditor\dialogs\wordimage\fClipboard_ueditor.swf" />
+    <Content Include="hieditor\ueditor\dialogs\wordimage\imageUploader.swf" />
+    <Content Include="hieditor\ueditor\dialogs\wordimage\tangram.js" />
+    <Content Include="hieditor\ueditor\dialogs\wordimage\wordimage.html" />
+    <Content Include="hieditor\ueditor\dialogs\wordimage\wordimage.js" />
+    <Content Include="hieditor\ueditor\index.html" />
+    <Content Include="hieditor\ueditor\lang\en\en.js" />
+    <Content Include="hieditor\ueditor\lang\en\images\addimage.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\alldeletebtnhoverskin.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\alldeletebtnupskin.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\background.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\button.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\copy.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\deletedisable.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\deleteenable.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\listbackground.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\localimage.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\music.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\rotateleftdisable.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\rotateleftenable.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\rotaterightdisable.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\rotaterightenable.png" />
+    <Content Include="hieditor\ueditor\lang\en\images\upload.png" />
+    <Content Include="hieditor\ueditor\lang\zh-cn\images\copy.png" />
+    <Content Include="hieditor\ueditor\lang\zh-cn\images\localimage.png" />
+    <Content Include="hieditor\ueditor\lang\zh-cn\images\music.png" />
+    <Content Include="hieditor\ueditor\lang\zh-cn\images\upload.png" />
+    <Content Include="hieditor\ueditor\lang\zh-cn\zh-cn.js" />
+    <Content Include="hieditor\ueditor\themes\default\css\ueditor.css" />
+    <Content Include="hieditor\ueditor\themes\default\css\ueditor.min.css" />
+    <Content Include="hieditor\ueditor\themes\default\dialogbase.css" />
+    <Content Include="hieditor\ueditor\themes\default\images\anchor.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\arrow.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\arrow_down.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\arrow_up.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\button-bg.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\cancelbutton.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\charts.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\cursor_h.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\cursor_h.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\cursor_v.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\cursor_v.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\dialog-title-bg.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\filescan.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\highlighted.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\icons-all.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\icons.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\icons.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\loaderror.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\loading.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\lock.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\neweditor-tab-bg.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\pagebreak.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\scale.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\sortable.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\spacer.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\sparator_v.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\table-cell-align.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\tangram-colorpicker.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\toolbar_bg.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\unhighlighted.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\upload.png" />
+    <Content Include="hieditor\ueditor\themes\default\images\videologo.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\word.gif" />
+    <Content Include="hieditor\ueditor\themes\default\images\wordpaste.png" />
+    <Content Include="hieditor\ueditor\themes\iframe.css" />
+    <Content Include="hieditor\ueditor\third-party\codemirror\codemirror.css" />
+    <Content Include="hieditor\ueditor\third-party\codemirror\codemirror.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\adapters\mootools-adapter.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\adapters\mootools-adapter.src.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\adapters\prototype-adapter.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\adapters\prototype-adapter.src.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\adapters\standalone-framework.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\adapters\standalone-framework.src.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\highcharts-more.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\highcharts-more.src.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\highcharts.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\highcharts.src.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\annotations.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\annotations.src.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\canvas-tools.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\canvas-tools.src.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\data.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\data.src.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\drilldown.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\drilldown.src.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\exporting.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\exporting.src.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\funnel.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\funnel.src.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\heatmap.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\heatmap.src.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\map.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\map.src.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\no-data-to-display.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\modules\no-data-to-display.src.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\themes\dark-blue.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\themes\dark-green.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\themes\gray.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\themes\grid.js" />
+    <Content Include="hieditor\ueditor\third-party\highcharts\themes\skies.js" />
+    <Content Include="hieditor\ueditor\third-party\jquery-1.10.2.js" />
+    <Content Include="hieditor\ueditor\third-party\jquery-1.10.2.min.js" />
+    <Content Include="hieditor\ueditor\third-party\snapscreen\UEditorSnapscreen.exe" />
+    <Content Include="hieditor\ueditor\third-party\SyntaxHighlighter\shCore.js" />
+    <Content Include="hieditor\ueditor\third-party\SyntaxHighlighter\shCoreDefault.css" />
+    <Content Include="hieditor\ueditor\third-party\video-js\font\vjs.svg" />
+    <Content Include="hieditor\ueditor\third-party\video-js\video-js.css" />
+    <Content Include="hieditor\ueditor\third-party\video-js\video-js.min.css" />
+    <Content Include="hieditor\ueditor\third-party\video-js\video-js.swf" />
+    <Content Include="hieditor\ueditor\third-party\video-js\video.dev.js" />
+    <Content Include="hieditor\ueditor\third-party\video-js\video.js" />
+    <Content Include="hieditor\ueditor\third-party\webuploader\Uploader.swf" />
+    <Content Include="hieditor\ueditor\third-party\webuploader\webuploader.css" />
+    <Content Include="hieditor\ueditor\third-party\webuploader\webuploader.custom.js" />
+    <Content Include="hieditor\ueditor\third-party\webuploader\webuploader.custom.min.js" />
+    <Content Include="hieditor\ueditor\third-party\webuploader\webuploader.flashonly.js" />
+    <Content Include="hieditor\ueditor\third-party\webuploader\webuploader.flashonly.min.js" />
+    <Content Include="hieditor\ueditor\third-party\webuploader\webuploader.html5only.js" />
+    <Content Include="hieditor\ueditor\third-party\webuploader\webuploader.html5only.min.js" />
+    <Content Include="hieditor\ueditor\third-party\webuploader\webuploader.js" />
+    <Content Include="hieditor\ueditor\third-party\webuploader\webuploader.min.js" />
+    <Content Include="hieditor\ueditor\third-party\webuploader\webuploader.withoutimage.js" />
+    <Content Include="hieditor\ueditor\third-party\webuploader\webuploader.withoutimage.min.js" />
+    <Content Include="hieditor\ueditor\third-party\zeroclipboard\ZeroClipboard.js" />
+    <Content Include="hieditor\ueditor\third-party\zeroclipboard\ZeroClipboard.min.js" />
+    <Content Include="hieditor\ueditor\third-party\zeroclipboard\ZeroClipboard.swf" />
+    <Content Include="hieditor\ueditor\ueditor.all.js" />
+    <Content Include="hieditor\ueditor\ueditor.all.min.js" />
+    <Content Include="hieditor\ueditor\ueditor.config.js" />
+    <Content Include="hieditor\ueditor\ueditor.parse.js" />
+    <Content Include="hieditor\ueditor\ueditor.parse.min.js" />
+    <Content Include="hieditor\ueditor\ueditorWX.config.js" />
+    <Content Include="images\loading.gif" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AdminNew.Master.cs">
+      <DependentUpon>AdminNew.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminNew.Master.designer.cs">
+      <DependentUpon>AdminNew.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\AliFuwuConfig.aspx.cs">
+      <DependentUpon>AliFuwuConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\AliFuwuConfig.aspx.designer.cs">
+      <DependentUpon>AliFuwuConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\AliFuWuMessageTemplates.aspx.cs">
+      <DependentUpon>AliFuWuMessageTemplates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\AliFuWuMessageTemplates.aspx.designer.cs">
+      <DependentUpon>AliFuWuMessageTemplates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\Alisendalllist.aspx.cs">
+      <DependentUpon>Alisendalllist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\Alisendalllist.aspx.designer.cs">
+      <DependentUpon>Alisendalllist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\ConcernUrl.aspx.cs">
+      <DependentUpon>ConcernUrl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\ConcernUrl.aspx.designer.cs">
+      <DependentUpon>ConcernUrl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\EditMenu.aspx.cs">
+      <DependentUpon>EditMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\EditMenu.aspx.designer.cs">
+      <DependentUpon>EditMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\ManageAlipayMenu.aspx.cs">
+      <DependentUpon>ManageAlipayMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\ManageAlipayMenu.aspx.designer.cs">
+      <DependentUpon>ManageAlipayMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\ReplyEdit.aspx.cs">
+      <DependentUpon>ReplyEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\ReplyEdit.aspx.designer.cs">
+      <DependentUpon>ReplyEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\ReplyOnKey.aspx.cs">
+      <DependentUpon>ReplyOnKey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\ReplyOnKey.aspx.designer.cs">
+      <DependentUpon>ReplyOnKey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\SendAllEdit.aspx.cs">
+      <DependentUpon>SendAllEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AliFuwu\SendAllEdit.aspx.designer.cs">
+      <DependentUpon>SendAllEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Ascx\Order_ChargesList.ascx.cs">
+      <DependentUpon>Order_ChargesList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Ascx\Order_ChargesList.ascx.designer.cs">
+      <DependentUpon>Order_ChargesList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Ascx\Order_ItemsList.ascx.cs">
+      <DependentUpon>Order_ItemsList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Ascx\Order_ItemsList.ascx.designer.cs">
+      <DependentUpon>Order_ItemsList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Ascx\SetMemberRange.ascx.cs">
+      <DependentUpon>SetMemberRange.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Ascx\SetMemberRange.ascx.designer.cs">
+      <DependentUpon>SetMemberRange.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Ascx\ucDateTimePicker.ascx.cs">
+      <DependentUpon>ucDateTimePicker.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Ascx\ucDateTimePicker.ascx.designer.cs">
+      <DependentUpon>ucDateTimePicker.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Bargain\AddBargain.aspx.cs">
+      <DependentUpon>AddBargain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Bargain\AddBargain.aspx.designer.cs">
+      <DependentUpon>AddBargain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Bargain\BargainDetial.aspx.cs">
+      <DependentUpon>BargainDetial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Bargain\BargainDetial.aspx.designer.cs">
+      <DependentUpon>BargainDetial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Bargain\ManagerBargain.aspx.cs">
+      <DependentUpon>ManagerBargain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Bargain\ManagerBargain.aspx.designer.cs">
+      <DependentUpon>ManagerBargain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CashBack\AddCashBack.aspx.cs">
+      <DependentUpon>AddCashBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CashBack\AddCashBack.aspx.designer.cs">
+      <DependentUpon>AddCashBack.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CashBack\ManageCashBack.aspx.cs">
+      <DependentUpon>ManageCashBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CashBack\ManageCashBack.aspx.designer.cs">
+      <DependentUpon>ManageCashBack.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CashBack\ManageCashBackDetails.aspx.cs">
+      <DependentUpon>ManageCashBackDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CashBack\ManageCashBackDetails.aspx.designer.cs">
+      <DependentUpon>ManageCashBackDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CashBack\MemberSelect.aspx.cs">
+      <DependentUpon>MemberSelect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CashBack\MemberSelect.aspx.designer.cs">
+      <DependentUpon>MemberSelect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\BalanceDrawApplyErrorList.aspx.cs">
+      <DependentUpon>BalanceDrawApplyErrorList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\BalanceDrawApplyErrorList.aspx.designer.cs">
+      <DependentUpon>BalanceDrawApplyErrorList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\BalanceDrawApplyList.aspx.cs">
+      <DependentUpon>BalanceDrawApplyList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\BalanceDrawApplyList.aspx.designer.cs">
+      <DependentUpon>BalanceDrawApplyList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\BalanceDrawRequestList.aspx.cs">
+      <DependentUpon>BalanceDrawRequestList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\BalanceDrawRequestList.aspx.designer.cs">
+      <DependentUpon>BalanceDrawRequestList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\BalanceDrawRequestSet.aspx.cs">
+      <DependentUpon>BalanceDrawRequestSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\BalanceDrawRequestSet.aspx.designer.cs">
+      <DependentUpon>BalanceDrawRequestSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\BranchAddDistributors.aspx.cs">
+      <DependentUpon>BranchAddDistributors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\BranchAddDistributors.aspx.designer.cs">
+      <DependentUpon>BranchAddDistributors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\CommissionsAllList.aspx.cs">
+      <DependentUpon>CommissionsAllList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\CommissionsAllList.aspx.designer.cs">
+      <DependentUpon>CommissionsAllList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\CommissionsList.aspx.cs">
+      <DependentUpon>CommissionsList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\CommissionsList.aspx.designer.cs">
+      <DependentUpon>CommissionsList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\CustomDistributorStatistics.aspx.cs">
+      <DependentUpon>CustomDistributorStatistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\CustomDistributorStatistics.aspx.designer.cs">
+      <DependentUpon>CustomDistributorStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorApplySet.aspx.cs">
+      <DependentUpon>DistributorApplySet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorApplySet.aspx.designer.cs">
+      <DependentUpon>DistributorApplySet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\distributorcenter.aspx.cs">
+      <DependentUpon>distributorcenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\distributorcenter.aspx.designer.cs">
+      <DependentUpon>distributorcenter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorDescription.aspx.cs">
+      <DependentUpon>DistributorDescription.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorDescription.aspx.designer.cs">
+      <DependentUpon>DistributorDescription.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorDetails.aspx.cs">
+      <DependentUpon>DistributorDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorDetails.aspx.designer.cs">
+      <DependentUpon>DistributorDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorFrozenList.aspx.cs">
+      <DependentUpon>DistributorFrozenList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorFrozenList.aspx.designer.cs">
+      <DependentUpon>DistributorFrozenList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorGradeList.aspx.cs">
+      <DependentUpon>DistributorGradeList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorGradeList.aspx.designer.cs">
+      <DependentUpon>DistributorGradeList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorList.aspx.cs">
+      <DependentUpon>DistributorList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorList.aspx.designer.cs">
+      <DependentUpon>DistributorList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorStatistics.aspx.cs">
+      <DependentUpon>DistributorStatistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorStatistics.aspx.designer.cs">
+      <DependentUpon>DistributorStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorStatisticsDetails.aspx.cs">
+      <DependentUpon>DistributorStatisticsDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorStatisticsDetails.aspx.designer.cs">
+      <DependentUpon>DistributorStatisticsDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorSummary.aspx.cs">
+      <DependentUpon>DistributorSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorSummary.aspx.designer.cs">
+      <DependentUpon>DistributorSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorUpdateList.aspx.cs">
+      <DependentUpon>DistributorUpdateList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorUpdateList.aspx.designer.cs">
+      <DependentUpon>DistributorUpdateList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorUpdateSet.aspx.cs">
+      <DependentUpon>DistributorUpdateSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\DistributorUpdateSet.aspx.designer.cs">
+      <DependentUpon>DistributorUpdateSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\EditDistributorGrade.aspx.cs">
+      <DependentUpon>EditDistributorGrade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\EditDistributorGrade.aspx.designer.cs">
+      <DependentUpon>EditDistributorGrade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\FriendExtension.aspx.cs">
+      <DependentUpon>FriendExtension.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\FriendExtension.aspx.designer.cs">
+      <DependentUpon>FriendExtension.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\MarketingDocuments.aspx.cs">
+      <DependentUpon>MarketingDocuments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\MarketingDocuments.aspx.designer.cs">
+      <DependentUpon>MarketingDocuments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\ProductSelect.aspx.cs">
+      <DependentUpon>ProductSelect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\ProductSelect.aspx.designer.cs">
+      <DependentUpon>ProductSelect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\StoreCardSet.aspx.cs">
+      <DependentUpon>StoreCardSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\StoreCardSet.aspx.designer.cs">
+      <DependentUpon>StoreCardSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\SubStoreCommissions.aspx.cs">
+      <DependentUpon>SubStoreCommissions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\SubStoreCommissions.aspx.designer.cs">
+      <DependentUpon>SubStoreCommissions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\SuperiorSelect.aspx.cs">
+      <DependentUpon>SuperiorSelect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Fenxiao\SuperiorSelect.aspx.designer.cs">
+      <DependentUpon>SuperiorSelect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SimplePage.Master.cs">
+      <DependentUpon>SimplePage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SimplePage.Master.designer.cs">
+      <DependentUpon>SimplePage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="hieditor\ueditor\controls\ucUeditor.ascx.cs">
+      <DependentUpon>ucUeditor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hieditor\ueditor\controls\ucUeditor.ascx.designer.cs">
+      <DependentUpon>ucUeditor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AdminNew.Master" />
+    <Content Include="Admin\SimplePage.Master" />
+    <Content Include="hieditor\ueditor\net\config.json" />
+    <Content Include="hieditor\ueditor\net\controller.ashx" />
+    <Content Include="hieditor\ueditor\third-party\jquery-1.10.2.min.map" />
+    <Content Include="hieditor\ueditor\third-party\video-js\font\vjs.eot" />
+    <Content Include="hieditor\ueditor\third-party\video-js\font\vjs.ttf" />
+    <Content Include="hieditor\ueditor\third-party\video-js\font\vjs.woff" />
+    <Content Include="Admin\Fonts\wbficon.eot" />
+    <Content Include="Admin\Fonts\wbficon.ttf" />
+    <Content Include="Admin\Fonts\wbficon.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="2.0\" />
+    <Folder Include="Admin\distributor\" />
+    <Folder Include="Admin\Goods\ascx\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\public\Hidistro.ControlPanel\Hidistro.ControlPanel.csproj">
+      <Project>{694b026e-225a-43d6-9244-88970bdb1668}</Project>
+      <Name>Hidistro.ControlPanel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hidistro.Core\Hidistro.Core.csproj">
+      <Project>{cb569a65-e158-4fbd-9479-1428df0d880d}</Project>
+      <Name>Hidistro.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hidistro.Entities\Hidistro.Entities.csproj">
+      <Project>{ced2d31c-3769-47ea-81dc-0fb8fc896cb1}</Project>
+      <Name>Hidistro.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hidistro.Messages\Hidistro.Messages.csproj">
+      <Project>{6e5ea48e-2a33-4e4a-9d1e-fbed87dce4ea}</Project>
+      <Name>Hidistro.Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hidistro.SaleSystem.Vshop\Hidistro.SaleSystem.Vshop.csproj">
+      <Project>{162e044a-af5c-4f26-b950-50c89a56a99c}</Project>
+      <Name>Hidistro.SaleSystem.Vshop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hidistro.SqlDal\Hidistro.SqlDal.csproj">
+      <Project>{36fd561c-03f8-4dce-8cbc-e5ff35878766}</Project>
+      <Name>Hidistro.SqlDal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hidistro.UI.Common.Controls\Hidistro.UI.Common.Controls.csproj">
+      <Project>{3e0b8b1c-5419-43d4-9839-1e77b5f9504c}</Project>
+      <Name>Hidistro.UI.Common.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hidistro.UI.ControlPanel.Utility\Hidistro.UI.ControlPanel.Utility.csproj">
+      <Project>{a5c19bc7-7326-42f6-81b9-77b07e576846}</Project>
+      <Name>Hidistro.UI.ControlPanel.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hidistro.UI.SaleSystem.CodeBehind\Hidistro.UI.SaleSystem.CodeBehind.csproj">
+      <Project>{31d67b11-3320-4fcd-892a-2074560a6292}</Project>
+      <Name>Hidistro.UI.SaleSystem.CodeBehind</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hishop.AlipayFuwu.Api\Hishop.AlipayFuwu.Api.csproj">
+      <Project>{2fd43941-f3aa-494b-a825-33c2529a2014}</Project>
+      <Name>Hishop.AlipayFuwu.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hishop.Components.Validation\Hishop.Components.Validation.csproj">
+      <Project>{76997b6a-b819-4128-8255-43cf48e745c1}</Project>
+      <Name>Hishop.Components.Validation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hishop.MeiQia.Api\Hishop.MeiQia.Api.csproj">
+      <Project>{18384cd4-ccf5-4d95-b259-4340d8dcd3ff}</Project>
+      <Name>Hishop.MeiQia.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hishop.Open.Api\Hishop.Open.Api.csproj">
+      <Project>{219ed1f2-ee5c-4f7b-a9e1-c4e92449305f}</Project>
+      <Name>Hishop.Open.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hishop.Plugins\Hishop.Plugins.csproj">
+      <Project>{733ee58c-a9e1-43a7-9649-ee43f5ad09e2}</Project>
+      <Name>Hishop.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hishop.TransferManager\Hishop.TransferManager.csproj">
+      <Project>{f72a7c98-948a-4a23-95bd-885a9b77628e}</Project>
+      <Name>Hishop.TransferManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hishop.WeiBo.Api\Hishop.WeiBo.Api.csproj">
+      <Project>{1c73b8e8-69e2-41f2-9b98-28217918828a}</Project>
+      <Name>Hishop.WeiBo.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hishop.Weixin.MP\Hishop.Weixin.MP.csproj">
+      <Project>{f33782dd-cc50-40a3-9a06-9bf5109d44b2}</Project>
+      <Name>Hishop.Weixin.MP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\Hishop.Weixin.Pay\Hishop.Weixin.Pay.csproj">
+      <Project>{13e62717-4138-4c5c-a986-c07ee816f670}</Project>
+      <Name>Hishop.Weixin.Pay</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\public\HiTemplate\HiTemplate.csproj">
+      <Project>{2d8ed7f7-33d1-4d11-b50f-a9f3ffc646d2}</Project>
+      <Name>HiTemplate</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9407</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:9407/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

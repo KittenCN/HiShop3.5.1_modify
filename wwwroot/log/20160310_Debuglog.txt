@@ -1,0 +1,76 @@
+2016-03-10 09:05:43.416:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1457571942</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/categories.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-03-10 16:08:51.702:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs3pym581ukick1Wzu94N6Wc]]></FromUserName>
+<CreateTime>1457597330</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-03-10 16:08:52.369:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs3pym581ukick1Wzu94N6Wc]]></FromUserName>
+<CreateTime>1457597332</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-03-10 16:08:57.707:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs3pym581ukick1Wzu94N6Wc]]></FromUserName>
+<CreateTime>1457597337</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-03-10 16:09:01.416:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs3pym581ukick1Wzu94N6Wc]]></FromUserName>
+<CreateTime>1457597341</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-03-10 16:09:03.904:Object reference not set to an instance of an object.
+---------------
+2016-03-10 16:09:07.662:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs3pym581ukick1Wzu94N6Wc]]></FromUserName>
+<CreateTime>1457597347</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-03-10 16:09:28.454:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs3pym581ukick1Wzu94N6Wc]]></FromUserName>
+<CreateTime>1457597368</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-03-10 17:59:58.747:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-03-10 17:59:58.975:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-03-10 18:00:01.826:到这里了，！Application_Start
+---------------

@@ -1,0 +1,4 @@
+2016-10-25 19:38:36.537:进入4，code请求地址，获取用户基本信息http://www.178gx.com/Follow.aspx?ReferralId=0&code=041aH3dG1QkUh40jDleG1uuZcG1aH3dg&state=STATE
+---------------
+2016-10-25 19:38:36.616:进入16，检测用户信息为空，清空Cookie并跳转到首页http://www.178gx.com/Follow.aspx?ReferralId=0&code=041aH3dG1QkUh40jDleG1uuZcG1aH3dg&state=STATE
+---------------

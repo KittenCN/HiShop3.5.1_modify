@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{76997B6A-B819-4128-8255-43CF48E745C1}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Hishop.Components.Validation</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Hishop\Components\Validation\MemberValueAccessBuilder.cs" />
+    <Compile Include="Hishop\Components\Validation\IValidatedElement.cs" />
+    <Compile Include="Hishop\Components\Validation\MetadataValidatedParameterElement.cs" />
+    <Compile Include="Hishop\Components\Validation\ParameterValidatorFactory.cs" />
+    <Compile Include="Hishop\Components\Validation\ReflectionMemberValueAccessBuilder.cs" />
+    <Compile Include="Hishop\Components\Validation\ResourceLoader.cs" />
+    <Compile Include="Hishop\Components\Validation\ValidationReflectionHelper.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\BaseValidationAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ComparisonOperator.cs" />
+    <Compile Include="Hishop\Components\Validation\CompositeValidatorBuilder.cs" />
+    <Compile Include="Hishop\Components\Validation\ValidatorBuilderBase.cs" />
+    <Compile Include="Hishop\Components\Validation\IValidatedType.cs" />
+    <Compile Include="Hishop\Components\Validation\IValidatorDescriptor.cs" />
+    <Compile Include="Hishop\Components\Validation\MetadataValidatedElement.cs" />
+    <Compile Include="Hishop\Components\Validation\MetadataValidatedType.cs" />
+    <Compile Include="Hishop\Components\Validation\PropertyValidationFactory.cs" />
+    <Compile Include="Hishop\Components\Validation\TagFilter.cs" />
+    <Compile Include="Hishop\Components\Validation\ValidationSpecificationSource.cs" />
+    <Compile Include="Hishop\Components\Validation\CompositionType.cs" />
+    <Compile Include="Hishop\Components\Validation\MemberAccessValidatorBuilderFactory.cs" />
+    <Compile Include="Hishop\Components\Validation\Validator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\AndCompositeValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ContainsCharacters.cs" />
+    <Compile Include="Hishop\Components\Validation\Validator!1.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ValueValidator!1.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ContainsCharactersValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ValueValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ContainsCharactersValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\MemberAccessValidator!1.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\FieldValueValidator!1.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\MethodReturnValueValidator!1.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ValueValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ValueAccessComparisonValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\PropertyComparisonValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\PropertyComparisonValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\PropertyValueValidator!1.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\RangeValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\RangeValidator!1.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\DateTimeUnit.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\DomainValidator!1.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\DomainValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\RelativeDateTimeGenerator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\RelativeDateTimeValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\RelativeDateTimeValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\TypeConversionValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\TypeConversionValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ValidatorArgumentsValidatorHelper.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ValidatorWrapper.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\EnumConversionValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\EnumConversionValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\HasSelfValidationAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\DateTimeRangeValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ObjectCollectionValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ObjectCollectionValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ObjectValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\SelfValidationAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\SelfValidationValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\DateTimeRangeValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\GenericValidatorWrapper!1.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\RangeBoundaryType.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\RangeValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\RegexValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\RegexValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\StringLengthValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\StringLengthValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ObjectValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\IgnoreNullsAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\NotNullValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Properties\Resources.cs" />
+    <Compile Include="Hishop\Components\Validation\ValueAccess.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\PropertyValueAccess.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\RangeChecker!1.cs" />
+    <Compile Include="Hishop\Components\Validation\MetadataValidatorBuilder.cs" />
+    <Compile Include="Hishop\Components\Validation\ValidationFactory.cs" />
+    <Compile Include="Hishop\Components\Validation\ValidationResult.cs" />
+    <Compile Include="Hishop\Components\Validation\ValidationResults.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\FieldValueAccess.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\MethodValueAccess.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\OrCompositeValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\NotNullValidatorAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ValidatorCompositionAttribute.cs" />
+    <Compile Include="Hishop\Components\Validation\Validation.cs" />
+    <Compile Include="Hishop\Components\Validation\Validators\ValueAccessValidator.cs" />
+    <Compile Include="Hishop\Components\Validation\ValueAccessValidatorBuilder.cs" />
+    <EmbeddedResource Include="Hishop.Components.Validation.Properties.Resources.resources" />
+  </ItemGroup>
+</Project>

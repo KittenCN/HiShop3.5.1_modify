@@ -1,0 +1,41 @@
+﻿<hi:common_header runat="server"/>
+<div class="allcommission">
+    <div class="commission-count">
+        <div class="account-balance">
+            <p>账户余额（元）</p>
+            <span class="show-money">
+                ¥<span><asp:literal runat="server" id="litAmount" /></span>
+            </span>
+            <div class="recharge" id="recharge"><a href="/Vshop/MemberRecharge.aspx">充值</a></div>
+        </div>
+        <div class="account-operate" id="amountApply">
+            <div class="tipsbg pad15">提现充值</div>
+            <ul class="tips clearfix">
+                <li><a href="/Vshop/MemberAmountApply.aspx">提现</a></li>
+                <li><a href="/Vshop/MemberRecharge.aspx">充值</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="commissionlist mt20" id="amountRecord">
+    <a href="/Vshop/MemberAmountRecord.aspx"><i class="iconfont color2 icon-iconadvance"></i>提现记录</a>
+</div>
+<div class="commissionlist">
+    <a href="/Vshop/MemberAmountList.aspx"><i class="iconfont icon-iconbrokerage color1"></i>余额明细</a>
+</div>
+<input type="hidden" runat="server" clientidmode="Static" value="false" id="EnabelBalanceWithdrawal">
+<script>
+    $(function() {
+        var enable = $("#EnabelBalanceWithdrawal").val();
+        if (enable == "true") {
+            $("#amountRecord").show();
+            $("#amountApply").show();
+            $("#recharge").hide();
+        } else {
+            $("#amountRecord").hide();
+            $("#amountApply").hide();
+            $("#recharge").show();
+        }
+    })
+</script>
+<hi:common_footer runat="server" />

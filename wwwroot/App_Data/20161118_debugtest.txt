@@ -1,0 +1,10 @@
+2016-11-18 11:50:20.428:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-11-18 15:48:57.083:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-11-18 17:53:36.067:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductDetails.aspx?productId=206&ReferralId=1
+---------------
+2016-11-18 19:14:15.735:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/DistributorCenter.aspx?ReferralId=1
+---------------
+2016-11-18 22:09:44.526:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=3&ReferralId=1
+---------------

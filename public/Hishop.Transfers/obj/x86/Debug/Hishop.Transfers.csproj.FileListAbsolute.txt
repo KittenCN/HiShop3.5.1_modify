@@ -1,0 +1,10 @@
+D:\g工作\项目源码\xkd3.5\public\Hishop.Transfers\bin\Debug\Hishop.Transfers.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Transfers\bin\Debug\Hishop.Transfers.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Transfers\bin\Debug\Hishop.TransferManager.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Transfers\bin\Debug\Ionic.Zip.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Transfers\bin\Debug\LumenWorks.Framework.IO.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Transfers\bin\Debug\Hishop.TransferManager.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Transfers\bin\Debug\LumenWorks.Framework.IO.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Transfers\bin\Debug\LumenWorks.Framework.IO.xml
+D:\g工作\项目源码\xkd3.5\public\Hishop.Transfers\obj\x86\Debug\Hishop.Transfers.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Transfers\obj\x86\Debug\Hishop.Transfers.pdb

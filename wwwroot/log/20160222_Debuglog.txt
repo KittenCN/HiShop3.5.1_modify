@@ -1,0 +1,640 @@
+2016-02-22 00:11:56.828:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456071116</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 00:12:21.559:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456071141</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 00:14:31.649:Object reference not set to an instance of an object.
+---------------
+2016-02-22 00:15:38.033:Object reference not set to an instance of an object.
+---------------
+2016-02-22 00:16:11.778:Object reference not set to an instance of an object.
+---------------
+2016-02-22 00:16:12.768:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-22 00:16:12.768:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-22 00:16:36.258:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456071396</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 00:16:53.798:Object reference not set to an instance of an object.
+---------------
+2016-02-22 00:16:53.931:Object reference not set to an instance of an object.
+---------------
+2016-02-22 00:16:54.083:Object reference not set to an instance of an object.
+---------------
+2016-02-22 00:18:15.135:Object reference not set to an instance of an object.
+---------------
+2016-02-22 00:18:46.350:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456071526</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 08:32:44.153:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456101163</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 08:33:14.634:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1456101194</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 08:34:11.260:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1456101251</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 08:40:43.237:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1456101643</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 08:45:05.716:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs1IyUh5rRIWkHauXKfbtLX8]]></FromUserName>
+<CreateTime>1456101905</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 08:47:46.529:Object reference not set to an instance of an object.
+---------------
+2016-02-22 08:47:46.633:Object reference not set to an instance of an object.
+---------------
+2016-02-22 08:49:59.149:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs1IyUh5rRIWkHauXKfbtLX8]]></FromUserName>
+<CreateTime>1456102199</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 08:58:49.402:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1456102729</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 09:05:06.776:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456103106</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 10:09:57.090:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456106996</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 11:05:14.540:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456110314</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 11:05:29.416:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456110329</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 11:13:22.394:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456110802</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 11:19:59.525:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456111199</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 11:24:41.024:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456111480</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 11:26:28.640:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456111588</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 11:29:14.243:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456111754</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 11:49:11.281:Object reference not set to an instance of an object.
+---------------
+2016-02-22 11:51:49.201:Object reference not set to an instance of an object.
+---------------
+2016-02-22 11:52:17.670:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-02-22 11:52:17.670:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-02-22 11:52:17.715:Object reference not set to an instance of an object.
+---------------
+2016-02-22 11:52:58.051:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456113177</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 11:53:30.948:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456113210</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 11:54:22.512:Object reference not set to an instance of an object.
+---------------
+2016-02-22 11:54:22.637:Object reference not set to an instance of an object.
+---------------
+2016-02-22 11:54:22.811:Object reference not set to an instance of an object.
+---------------
+2016-02-22 11:57:22.541:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456113442</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 12:16:11.962:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456114571</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/1Iz7fAt6jBKrSyib63PmPuR6gQicpKErWSyNziapqTs641284OZsb6BTuFW9SpWuicKYFFZPf6da0Th2TT4zSJTFbQ/0]]></PicUrl>
+<MsgId>6253964462080153147</MsgId>
+<MediaId><![CDATA[eXCyUPhGgJ4R1c1b4miLXhLkiaHcH-e6oI0aE89wUbPrAVwlUleEFm7gSFWl-U4U]]></MediaId>
+</xml>
+---------------
+2016-02-22 12:36:19.364:商品规格：False
+---------------
+2016-02-22 12:36:56.816:商品规格：False
+---------------
+2016-02-22 12:38:20.316:商品规格：False
+---------------
+2016-02-22 12:38:53.830:商品规格：False
+---------------
+2016-02-22 12:40:17.228:商品规格：False
+---------------
+2016-02-22 12:40:50.257:商品规格：False
+---------------
+2016-02-22 12:42:00.056:商品规格：False
+---------------
+2016-02-22 12:42:30.824:商品规格：False
+---------------
+2016-02-22 12:43:37.654:商品规格：False
+---------------
+2016-02-22 12:44:07.558:商品规格：False
+---------------
+2016-02-22 12:45:09.202:商品规格：False
+---------------
+2016-02-22 12:45:41.014:商品规格：False
+---------------
+2016-02-22 12:46:51.198:商品规格：False
+---------------
+2016-02-22 12:47:27.212:商品规格：False
+---------------
+2016-02-22 12:48:50.410:商品规格：False
+---------------
+2016-02-22 12:49:24.540:商品规格：False
+---------------
+2016-02-22 12:50:44.119:商品规格：False
+---------------
+2016-02-22 12:51:20.957:商品规格：False
+---------------
+2016-02-22 12:52:43.187:商品规格：False
+---------------
+2016-02-22 12:53:27.041:商品规格：False
+---------------
+2016-02-22 12:55:22.142:商品规格：False
+---------------
+2016-02-22 12:55:50.289:商品规格：False
+---------------
+2016-02-22 12:58:00.171:商品规格：False
+---------------
+2016-02-22 12:58:25.433:商品规格：False
+---------------
+2016-02-22 13:07:10.530:商品规格：True
+---------------
+2016-02-22 13:07:41.302:商品规格：True
+---------------
+2016-02-22 13:09:15.201:商品规格：True
+---------------
+2016-02-22 13:09:17.361:商品规格：True
+---------------
+2016-02-22 13:17:19.228:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1456118239</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 13:59:22.613:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456120762</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 14:14:01.424:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456121641</CreateTime>
+<MsgType><![CDATA[link]]></MsgType>
+<Title><![CDATA[进口韩国]]></Title>
+<Description><![CDATA[原装韩国进口]]></Description>
+<Url><![CDATA[http://m.chengpinke.cn/default.aspx?ReferralId=8410]]></Url>
+<MsgId>6253994827498938301</MsgId>
+</xml>
+---------------
+2016-02-22 14:14:07.625:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456121647</CreateTime>
+<MsgType><![CDATA[link]]></MsgType>
+<Title><![CDATA[您的分享很值钱，快快让Ta变现吧！]]></Title>
+<Description><![CDATA[[您的分享很值钱，快快让Ta变现吧！]我们正在进入一个崭新的时代，传统商业模式正遭遇前所未有的冲击，而对与我们，这却是一次前所未有的机遇！◆◇全新的商业模式破茧而出：诚品客做为分销模式领先者，在商业模式上，勇做时代弄潮儿。率先推出层级分销商业模式，让消费者成为主宰市场的真正主角。◆◇诚品客“代言人”正式上线：成为代言人后，系统自动为您开通分享权限，把您的店铺名片或平台任何浏览页面向朋友分享即可参与利润分配。因您的直接或间接分享而产生的订单，公司将给予销售佣金和推广佣金（限于您直接或间接的1-3级会员中产生的订单）。◆◇算算您的分享值多少钱：假设您和您的下级会员每天通过分享发展1个下级会员，并且每个会员都在平台产生消费利润100元。按照1个月计算，您的一级会员有30名，二级会员有900，三级会员有27000名，您将获得合计720600元佣金。并且佣金持续产生。◆◇为什么能有这么多佣金？您取代了传统模式的经销商或代理商，而且更高效，相对于您创造的业绩，获得几十万的收入理所当然。不管您是兼职、还是专职，亦或是传统店铺业主，0投入，0风险，无需囤货，只需分享，即可拥有一份全新的事业。◆◇诚品客企业文化：诚信、品质、分享！诚信是我们的基础，品质使我们的定位！每一位诚品客即使消费者，又是诚品代言人！我们分享的是对商品的真实体验！诚品客销售的商品，不为佣金提高零售价格，平台商品在正品保障下零售价格永远最低（欢迎对淘宝、天猫、京东等第三方平台比价）！消费诚品客，既省心又安心。 推广诚品客，赚佣金不伤人。人类已经进入移动互联网时代，2016年将是最后的红利期，机会属于每一个人，就看您以怎样的心态去拥抱。让我们一起，享受移动互联网带来的红利，快乐而健康地生活！诚品客祝您新的一年，心想事成，财源广进！快速跳转链接：诚品客商城 申请成为代言人]]></Description>
+<Url><![CDATA[http://m.chengpinke.cn/vshop/FriendsCircleDetail.aspx?id=6&UserId=8410&ReferralId=8410]]></Url>
+<MsgId>6253994853268742078</MsgId>
+</xml>
+---------------
+2016-02-22 14:14:11.590:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456121651</CreateTime>
+<MsgType><![CDATA[link]]></MsgType>
+<Title><![CDATA[开年大促，疯抢30天！]]></Title>
+<Description><![CDATA[[开年大促，疯抢30天！]小伙伴们~春节假期就这样不知不觉过完了，有没有觉得意犹未尽，并不尽兴呢？小编想说“Me too！”我们无法阻挡时间的车轮，只能用尽力气好好生活，力求不留遗憾。要说有什么事情是今天必须知道的，那无疑是以下几件喽~1节后狂欢30天节后，平台全系列商品大放价，活动持续30天。老板放话，只要你不拿假货和我比，保证全国价最低！瞅瞅家里还缺啥，机会不多，抓紧时间下手吧！2新年新品新选择节后，公司对商品类别做了大调整，在美食基础上增加了护肤美妆、日用百货、生活电器、厨房用品、婴儿用品等多个品类。商品坚持每日更新。3假期订单已出港快递终于正常了，年前积压的订单已经全数发出，小伙伴们就在家坐等诚品上门吧！各种优惠已经开始，购物和推广都是最佳机会，快来吧！开年不留遗憾。]]></Description>
+<Url><![CDATA[http://m.chengpinke.cn/vshop/FriendsCircleDetail.aspx?id=5&UserId=8410&ReferralId=8410]]></Url>
+<MsgId>6253994870448611263</MsgId>
+</xml>
+---------------
+2016-02-22 14:14:16.792:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456121656</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/1Iz7fAt6jBKrSyib63PmPuR6gQicpKErWS6OUb42SNtGSa0tyjQzkxBctPWr3SBwvibMzGu6x3vXnoy8uTfZe97Gw/0]]></PicUrl>
+<MsgId>6253994891923447745</MsgId>
+<MediaId><![CDATA[E0IqXf-KbrISAq9MpP2fn_MICMc2vqLSvnXt_PFD5FKF21xcFewHug9fsGsMRSTE]]></MediaId>
+</xml>
+---------------
+2016-02-22 14:36:03.566:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1456122963</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 14:37:18.606:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1456123038</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 14:38:37.943:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1456123117</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 14:39:11.974:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1456123151</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 14:48:19.918:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456123699</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 14:48:44.390:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456123724</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 15:52:09.666:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456127529</CreateTime>
+<MsgType><![CDATA[link]]></MsgType>
+<Title><![CDATA[您的分享很值钱，快快让Ta变现吧！]]></Title>
+<Description><![CDATA[[您的分享很值钱，快快让Ta变现吧！]我们正在进入一个崭新的时代，传统商业模式正遭遇前所未有的冲击，而对与我们，这却是一次前所未有的机遇！◆◇全新的商业模式破茧而出：诚品客做为分销模式领先者，在商业模式上，勇做时代弄潮儿。率先推出层级分销商业模式，让消费者成为主宰市场的真正主角。◆◇诚品客“代言人”正式上线：成为代言人后，系统自动为您开通分享权限，把您的店铺名片或平台任何浏览页面向朋友分享即可参与利润分配。因您的直接或间接分享而产生的订单，公司将给予销售佣金和推广佣金（限于您直接或间接的1-3级会员中产生的订单）。◆◇算算您的分享值多少钱：假设您和您的下级会员每天通过分享发展1个下级会员，并且每个会员都在平台产生消费利润100元。按照1个月计算，您的一级会员有30名，二级会员有900，三级会员有27000名，您将获得合计720600元佣金。并且佣金持续产生。◆◇为什么能有这么多佣金？您取代了传统模式的经销商或代理商，而且更高效，相对于您创造的业绩，获得几十万的收入理所当然。不管您是兼职、还是专职，亦或是传统店铺业主，0投入，0风险，无需囤货，只需分享，即可拥有一份全新的事业。◆◇诚品客企业文化：诚信、品质、分享！诚信是我们的基础，品质使我们的定位！每一位诚品客即使消费者，又是诚品代言人！我们分享的是对商品的真实体验！诚品客销售的商品，不为佣金提高零售价格，平台商品在正品保障下零售价格永远最低（欢迎对淘宝、天猫、京东等第三方平台比价）！消费诚品客，既省心又安心。 推广诚品客，赚佣金不伤人。人类已经进入移动互联网时代，2016年将是最后的红利期，机会属于每一个人，就看您以怎样的心态去拥抱。让我们一起，享受移动互联网带来的红利，快乐而健康地生活！诚品客祝您新的一年，心想事成，财源广进！快速跳转链接：诚品客商城 申请成为代言人]]></Description>
+<Url><![CDATA[http://m.chengpinke.cn/vshop/FriendsCircleDetail.aspx?id=6&UserId=8410&ReferralId=8410]]></Url>
+<MsgId>6254020116266379215</MsgId>
+</xml>
+---------------
+2016-02-22 15:53:29.630:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456127609</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/1Iz7fAt6jBKrSyib63PmPuR6gQicpKErWScrBlcV9tyBS40tgKrAqicoRgmIFVMibKFkjdY7hic9QvxVNRsIkLicQ67Q/0]]></PicUrl>
+<MsgId>6254020459863762921</MsgId>
+<MediaId><![CDATA[7tlqhg9E9ntKFMXMtCSSZr8Br803AAQb4LKLIDCesUObdjLQiow68YSG9ly2EOyB]]></MediaId>
+</xml>
+---------------
+2016-02-22 15:53:29.738:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456127609</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/1Iz7fAt6jBKrSyib63PmPuR6gQicpKErWSicfvicjp9JGGKicEIpzOsFf1xxiciaoTpBJVpRHqEq1fqnq5327uaddWWLw/0]]></PicUrl>
+<MsgId>6254020459863762922</MsgId>
+<MediaId><![CDATA[yakET6FHwBoDfCBm-7JA5e4mLIGfpRepp_Dv3FiC4pnAv2_6qM1aufLVqfRhDrd_]]></MediaId>
+</xml>
+---------------
+2016-02-22 15:53:30.087:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456127609</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/1Iz7fAt6jBKrSyib63PmPuR6gQicpKErWSZFX8ksbzlgRDL62aDRKeuOpVmkP2B6rJ99fFmj572b5UJrDZOtUPfg/0]]></PicUrl>
+<MsgId>6254020459863762923</MsgId>
+<MediaId><![CDATA[JNMPrNMFo4CKS5a8QMmsxlxiT-B8hB1Smn5aGhduZEKK8umHnLPY0_9fojUAW7vE]]></MediaId>
+</xml>
+---------------
+2016-02-22 16:17:50.737:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1456129070</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 16:18:07.556:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1456129087</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 16:40:32.770:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456130432</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 18:14:16.791:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456136056</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 19:58:09.458:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456142289</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 20:24:31.650:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1456143871</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 20:38:27.524:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456144707</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 20:59:40.650:ReferralId：1
+
+---------------
+2016-02-22 20:59:55.828:ReferralId：1
+
+---------------
+2016-02-22 21:19:16.131:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456147155</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 21:21:10.239:ReferralId：1
+
+---------------
+2016-02-22 21:21:16.341:ReferralId：1
+
+---------------
+2016-02-22 21:26:04.768:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456147564</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 22:08:06.335:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1456150086</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 22:24:42.103:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs07U9aMogRyZlwFtwij9MBg]]></FromUserName>
+<CreateTime>1456151081</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-02-22 22:24:54.480:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs07U9aMogRyZlwFtwij9MBg]]></FromUserName>
+<CreateTime>1456151094</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx]]></EventKey>
+<MenuId>405973100</MenuId>
+</xml>
+---------------
+2016-02-22 22:25:01.974:Object reference not set to an instance of an object.
+---------------
+2016-02-22 22:25:45.281:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs07U9aMogRyZlwFtwij9MBg]]></FromUserName>
+<CreateTime>1456151145</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------

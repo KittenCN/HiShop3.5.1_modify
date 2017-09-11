@@ -1,0 +1,26 @@
+2016-10-21 11:24:06.323:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-10-21 11:44:15.032:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/RequestCommissions.aspx?ReferralId=1
+---------------
+2016-10-21 12:54:56.338:进入1，必须登录的页面，并且无code请求http://www.178gx.com/productlist.aspx?categoryId=10&ReferralId=1
+---------------
+2016-10-21 13:21:03.055:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=11&ReferralId=1
+---------------
+2016-10-21 14:31:29.719:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=11&ReferralId=1
+---------------
+2016-10-21 15:11:29.407:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/ShoppingCart.aspx?ReferralId=1
+---------------
+2016-10-21 15:42:49.094:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-10-21 16:29:52.088:进入4，code请求地址，获取用户基本信息http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=8" target="_self" textvalue="点击此处立即绑定。&code=031R9jQ326vI3K0EiyR32s8iQ32R9jQD&state=STATE
+---------------
+2016-10-21 16:29:52.164:进入5，准备获取到基本信息http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=8" target="_self" textvalue="点击此处立即绑定。&code=031R9jQ326vI3K0EiyR32s8iQ32R9jQD&state=STATE
+---------------
+2016-10-21 17:37:59.809:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=11&ReferralId=1
+---------------
+2016-10-21 19:49:47.782:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/DistributorCenter.aspx?ReferralId=1
+---------------
+2016-10-21 20:59:18.719:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------
+2016-10-21 22:24:35.450:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
+---------------

@@ -1,0 +1,13 @@
+2016-10-28 02:04:13.846:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-10-28 09:23:55.476:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qsx-qqSm10-sLI6sFmvT8V18]]></FromUserName>
+<CreateTime>1477617834</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-10-28 13:08:52.088:Requested value 'VIEW' was not found.
+---------------

@@ -1,0 +1,16 @@
+D:\g工作\项目源码\xkd3.5\public\Hishop.Weixin.Pay\bin\Debug\Hishop.Weixin.Pay.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Weixin.Pay\bin\Debug\Hishop.Weixin.Pay.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Weixin.Pay\bin\Debug\Hishop.Weixin.MP.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Weixin.Pay\bin\Debug\Newtonsoft.Json.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Weixin.Pay\bin\Debug\Hishop.Weixin.MP.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Weixin.Pay\obj\x86\Debug\Hishop.Weixin.Pay.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Weixin.Pay\obj\x86\Debug\Hishop.Weixin.Pay.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Weixin.Pay\obj\x86\Debug\Hishop.Weixin.Pay.csprojResolveAssemblyReference.cache
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.Pay\bin\Debug\Hishop.Weixin.Pay.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.Pay\bin\Debug\Hishop.Weixin.Pay.pdb
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.Pay\bin\Debug\Hishop.Weixin.MP.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.Pay\bin\Debug\Newtonsoft.Json.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.Pay\bin\Debug\Hishop.Weixin.MP.pdb
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.Pay\obj\x86\Debug\Hishop.Weixin.Pay.csprojResolveAssemblyReference.cache
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.Pay\obj\x86\Debug\Hishop.Weixin.Pay.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.Pay\obj\x86\Debug\Hishop.Weixin.Pay.pdb

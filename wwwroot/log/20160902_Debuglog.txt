@@ -1,0 +1,10 @@
+2016-09-02 11:48:40.082:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs5dZdd4cDWq-FEP_f0eOctc]]></FromUserName>
+<CreateTime>1472788118</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>413111815</MenuId>
+</xml>
+---------------

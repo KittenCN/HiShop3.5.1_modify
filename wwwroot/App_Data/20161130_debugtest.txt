@@ -1,0 +1,14 @@
+2016-11-30 07:46:59.416:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=13&ReferralId=1
+---------------
+2016-11-30 17:16:27.161:进入4，code请求地址，获取用户基本信息http://www.178gx.com/Follow.aspx?ReferralId=0&code=021XYcn81h4iyR16kOm81zk4n81XYcng&state=STATE
+---------------
+2016-11-30 17:16:27.246:进入5，准备获取到基本信息http://www.178gx.com/Follow.aspx?ReferralId=0&code=021XYcn81h4iyR16kOm81zk4n81XYcng&state=STATE
+---------------
+2016-11-30 17:58:34.445:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/DistributorCenter.aspx?ReferralId=1
+---------------
+2016-11-30 18:33:58.986:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/DistributorCenter.aspx?ReferralId=28007
+---------------
+2016-11-30 19:15:30.986:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductDetails.aspx?productId=210&ReferralId=1
+---------------
+2016-11-30 20:55:28.775:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=13&ReferralId=28007
+---------------

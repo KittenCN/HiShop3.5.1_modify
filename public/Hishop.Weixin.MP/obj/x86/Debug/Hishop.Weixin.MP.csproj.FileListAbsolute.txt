@@ -1,0 +1,17 @@
+D:\g工作\项目源码\xkd3.5\public\Hishop.Weixin.MP\bin\Debug\Hishop.Weixin.MP.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Weixin.MP\bin\Debug\Hishop.Weixin.MP.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Weixin.MP\bin\Debug\Newtonsoft.Json.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Weixin.MP\obj\x86\Debug\Hishop.Weixin.MP.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Weixin.MP\obj\x86\Debug\Hishop.Weixin.MP.pdb
+D:\g工作\项目源码\xkd3.5\shop\public\Hishop.Weixin.MP\bin\Debug\Hishop.Weixin.MP.dll
+D:\g工作\项目源码\xkd3.5\shop\public\Hishop.Weixin.MP\bin\Debug\Hishop.Weixin.MP.pdb
+D:\g工作\项目源码\xkd3.5\shop\public\Hishop.Weixin.MP\bin\Debug\Newtonsoft.Json.dll
+D:\g工作\项目源码\xkd3.5\shop\public\Hishop.Weixin.MP\obj\x86\Debug\Hishop.Weixin.MP.csprojResolveAssemblyReference.cache
+D:\g工作\项目源码\xkd3.5\shop\public\Hishop.Weixin.MP\obj\x86\Debug\Hishop.Weixin.MP.dll
+D:\g工作\项目源码\xkd3.5\shop\public\Hishop.Weixin.MP\obj\x86\Debug\Hishop.Weixin.MP.pdb
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.MP\bin\Debug\Hishop.Weixin.MP.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.MP\bin\Debug\Hishop.Weixin.MP.pdb
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.MP\bin\Debug\Newtonsoft.Json.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.MP\obj\x86\Debug\Hishop.Weixin.MP.csprojResolveAssemblyReference.cache
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.MP\obj\x86\Debug\Hishop.Weixin.MP.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.MP\obj\x86\Debug\Hishop.Weixin.MP.pdb

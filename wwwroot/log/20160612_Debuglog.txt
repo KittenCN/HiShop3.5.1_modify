@@ -1,0 +1,21 @@
+2016-06-12 21:49:07.070:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1465739344</CreateTime>
+<MsgType><![CDATA[link]]></MsgType>
+<Title><![CDATA[船上这样钓鱼，太吓人了吧 啊啊啊啊啊！]]></Title>
+<Description><![CDATA[http://mp.weixin.qq.com/s?__biz=MzA5MzI4NDI5MQ==&mid=402680776&idx=1&sn=894be2613e5cb19352c7d605eae8fe7f&scene=2&srcid=0402qwbqOjdwg0tnRWRhJwCH#rd]]></Description>
+<Url><![CDATA[http://mp.weixin.qq.com/s?__biz=MzA5MzI4NDI5MQ==&mid=402680776&idx=1&sn=894be2613e5cb19352c7d605eae8fe7f&scene=2&srcid=0402qwbqOjdwg0tnRWRhJwCH#rd]]></Url>
+<MsgId>6295302547351464069</MsgId>
+</xml>
+---------------
+2016-06-12 22:02:56.565:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1465740176</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------

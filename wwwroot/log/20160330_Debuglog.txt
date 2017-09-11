@@ -1,0 +1,149 @@
+2016-03-30 02:01:08.373:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-03-30 02:01:08.633:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-03-30 02:01:58.198:到这里了，！Application_Start
+---------------
+2016-03-30 08:29:07.158:商品规格：False
+---------------
+2016-03-30 08:29:42.914:商品规格：False
+---------------
+2016-03-30 08:30:51.973:商品规格：False
+---------------
+2016-03-30 08:30:53.555:商品规格：False
+---------------
+2016-03-30 08:32:57.220:商品规格：False
+---------------
+2016-03-30 08:32:59.153:商品规格：False
+---------------
+2016-03-30 08:39:08.468:商品规格：False
+---------------
+2016-03-30 08:39:23.175:商品规格：False
+---------------
+2016-03-30 08:40:32.427:商品规格：False
+---------------
+2016-03-30 08:40:33.932:商品规格：False
+---------------
+2016-03-30 23:13:27.996:ReferralId：28030
+
+---------------
+2016-03-30 23:13:28.049:from：singlemessage
+
+---------------
+2016-03-30 23:13:28.049:isappinstalled：0
+
+---------------
+2016-03-30 23:14:05.997:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlXdc1jJ98oInzdOOG9wmY]]></FromUserName>
+<CreateTime>1459350844</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-03-30 23:14:48.467:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlXdc1jJ98oInzdOOG9wmY]]></FromUserName>
+<CreateTime>1459350888</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-03-30 23:15:22.686:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlXdc1jJ98oInzdOOG9wmY]]></FromUserName>
+<CreateTime>1459350922</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-03-30 23:27:59.798:Object reference not set to an instance of an object.
+---------------
+2016-03-30 23:34:18.153:Object reference not set to an instance of an object.
+---------------
+2016-03-30 23:34:18.343:Object reference not set to an instance of an object.
+---------------
+2016-03-30 23:35:27.763:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs3YgWGssj86v_H-pRFhcUzw]]></FromUserName>
+<CreateTime>1459352127</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-03-30 23:37:21.327:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlXdc1jJ98oInzdOOG9wmY]]></FromUserName>
+<CreateTime>1459352231</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-03-30 23:38:05.043:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlXdc1jJ98oInzdOOG9wmY]]></FromUserName>
+<CreateTime>1459352284</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-03-30 23:39:14.180:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QswgogNYs8z7Vf24wVrwjJlM]]></FromUserName>
+<CreateTime>1459352354</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-03-30 23:40:58.067:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QswgogNYs8z7Vf24wVrwjJlM]]></FromUserName>
+<CreateTime>1459352457</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-03-30 23:41:36.498:bargainId：1
+
+---------------
+2016-03-30 23:41:36.498:bargainDetialId：3
+
+---------------
+2016-03-30 23:41:36.498:ReferralId：28019
+
+---------------
+2016-03-30 23:41:36.498:from：timeline
+
+---------------
+2016-03-30 23:41:36.498:isappinstalled：0
+
+---------------
+2016-03-30 23:57:15.784:bargainId：1
+
+---------------
+2016-03-30 23:57:15.784:bargainDetialId：3
+
+---------------
+2016-03-30 23:57:15.785:ReferralId：28019
+
+---------------
+2016-03-30 23:57:15.785:from：timeline
+
+---------------
+2016-03-30 23:57:15.785:isappinstalled：0
+
+---------------

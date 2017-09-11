@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AF38AD51-1AC9-4BE6-ACF7-19A7F6B0C299}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Hishop.Plugins.Payment</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="Hishop.Plugins">
+      <HintPath>..\Hishop.Plugins\bin\Debug\Hishop.Plugins.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\SharpZipLib_0860_Bin\netcf-20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Data" />
+    <Reference Include="LitJSON">
+      <HintPath>..\..\wwwroot\Bin\LitJSON.dll</HintPath>
+    </Reference>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Bill99\Bill99Notify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Bill99\Bill99Request.cs" />
+    <Compile Include="Hishop\Plugins\Payment\AdvanceRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\AlipayAssure\AlipayAssureNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\AlipayAssure\AssureRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\AlipayAssure\Globals.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Alipay_Bank\AlipayBankNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Alipay_Bank\AlipayMD5.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Alipay_Bank\BankRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Alipay_Bank\Config.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Alipay_Bank\Core.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Alipay_Bank\Globals.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Alipay_Bank\Notify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Alipay_Bank\Submit.cs" />
+    <Compile Include="Hishop\Plugins\Payment\AlipayDirect\AlipayDirectNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\AlipayDirect\DirectRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\AlipayDirect\Globals.cs" />
+    <Compile Include="Hishop\Plugins\Payment\AlipayQrCode\AlipayQrCodeNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\AlipayQrCode\Globals.cs" />
+    <Compile Include="Hishop\Plugins\Payment\AlipayQrCode\QrCodeRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Allbuy\AllbuyNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Allbuy\AllbuyRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankUnion\BankUnionNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankUnion\BankUnionRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankUnion\QuickPayConf.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankUnion\QuickPayUtils.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankUnionGateWay\BankUnionGateWayConfig.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankUnionGateWay\BankUnionGateWayNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankUnionGateWay\BankUnionGetWayRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankUnionGateWay\sdk\BigNum.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankUnionGateWay\sdk\CertUtil.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankUnionGateWay\sdk\DemoUtil.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankUnionGateWay\sdk\HttpClient.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankUnionGateWay\sdk\SDKConfig.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankUnionGateWay\sdk\SDKUtil.cs" />
+    <Compile Include="Hishop\Plugins\Payment\BankUnionGateWay\sdk\SecurityUtil.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Chinabank\ChinabankNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Chinabank\ChinabankRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\CMPay_D\CMPayDNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\CMPay_D\CMPayDRequest.cs" />
+    <Compile Include="Com\HisunCmpay\GlobalParam.cs" />
+    <Compile Include="Com\HisunCmpay\HiOrderNotifyRes.cs" />
+    <Compile Include="Com\HisunCmpay\HmacMD5.cs" />
+    <Compile Include="Com\HisunCmpay\IPosMUtil.cs" />
+    <Compile Include="Com\HisunCmpay\NotifyHttpHandler.cs" />
+    <Compile Include="Com\HisunCmpay\SignUtil.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Cncard\CncardNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Cncard\CncardRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\DataHelper.cs" />
+    <Compile Include="Hishop\Plugins\Payment\GoPay\Globals.cs" />
+    <Compile Include="Hishop\Plugins\Payment\GoPay\GoPayNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\GoPay\GoPayRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Ipay\IpayNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Ipay\IpayRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\IPS\Globals.cs" />
+    <Compile Include="Hishop\Plugins\Payment\IPS\IpsNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\IPS\IpsRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\IPSExpress\IpsExpressNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\IPSExpress\IpsExpressRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\LogType.cs" />
+    <Compile Include="Hishop\Plugins\Payment\PayLog.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Paypal\PaypalNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Paypal\PaypalRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\ShengPayMobile\ShengPayMobileNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\ShengPayMobile\ShengPayMobileRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\ShengPay\ShengPayNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\ShengPay\ShengPayRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Tenpay\Globals.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Tenpay\TenpayNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Tenpay\TenpayRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\WS_WapPay\Function.cs" />
+    <Compile Include="Hishop\Plugins\Payment\WS_WapPay\Service.cs" />
+    <Compile Include="Hishop\Plugins\Payment\WS_WapPay\Submit.cs" />
+    <Compile Include="Com\Alipay\RSAFromPkcs8.cs" />
+    <Compile Include="Hishop\Plugins\Payment\WS_WapPay\WsWapPayNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\WS_WapPay\WsWapPayRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\WXQRCode\WXQRCodeNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\WXQRCode\WXQRCodeRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Xpay\Globals.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Xpay\XpayNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\Xpay\XpayRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\YeePay\Buy.cs" />
+    <Compile Include="Hishop\Plugins\Payment\YeePay\Digest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\YeePay\HmacMD5.cs" />
+    <Compile Include="Hishop\Plugins\Payment\YeePay\YeepayNotify.cs" />
+    <Compile Include="Hishop\Plugins\Payment\YeePay\YeepayRequest.cs" />
+    <Compile Include="Hishop\Plugins\Payment\PODRequest.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetPath)  $(SolutionDir)wwwroot\plugins\payment</PostBuildEvent>
+  </PropertyGroup>
+</Project>

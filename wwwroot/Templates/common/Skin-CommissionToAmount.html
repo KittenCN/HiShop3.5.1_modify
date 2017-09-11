@@ -1,0 +1,68 @@
+﻿<hi:common_header runat="server"/>
+<div class="nav-box mb10 clearfix text-center">
+    <div class="pt7 pb7">
+        <div class="commission">我的佣金</div>
+        <div class="icon-arrow ml10 mr10">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="balance">账户余额</div>
+    </div>
+</div>
+<div class="nav-box radius mb5 clearfix distable mt30">
+    <label class="form-label">转入金额</label>
+    <input class="form-input" type="text" placeholder="本次可转入0.00元" id="Amount" onkeyup="this.value = (this.value.match(/\d+(\.\d{0,2})?/) || [''])[0]" />
+</div>
+<div class="pl20">
+    <div class="font12 color9">佣金转账户余额即时到帐</div>
+</div>
+<div class="pad10 mt100">
+    <input type="button" class="btn btn-danger btn-block font16" value="确认转余额"/>
+</div>
+<input type="hidden" runat="server" clientidmode="Static" value="0" id="MaxCommission">
+
+<script>
+    $(function () {
+        $("#Amount").attr("placeholder", "本次可转入" + $("#MaxCommission").val() + "元");
+
+        function checkMoney(obj) {
+            if (/^([1-9][\d]{0,7}|0)(\.[\d]{1,2})?$/.test(obj)) {
+                return true;
+            }
+            return false;
+        };
+
+        $(".btn-block").click(function () {
+            var amount = parseFloat($("#Amount").val());
+            if (!checkMoney(amount) || amount < 0.01 || amount > parseFloat($("#MaxCommission").val())) {
+                alert_h("金额必须不小于0.01,不大于可提现佣金！");
+                return;
+            }
+            var obj = this;
+            $(this).attr("disabled", true);
+            $.ajax({
+                url: "/API/VshopRecharge.ashx",
+                type: 'post', dataType: 'json', timeout: 10000,
+                data: {
+                    action: "CommissionToAmount", Amount: $("#Amount").val()
+                },
+                success: function (resultData) {
+                    if (resultData.Status == "OK") {
+                        alert_h("转入成功", function() {
+                            location.href = "/Vshop/DistributorCommission.aspx";
+                        });
+                    }
+                    else if (resultData.ErrorMsg) {
+                        alert_h(resultData.ErrorMsg);
+                        $(obj).removeAttr("disabled");
+                    }
+                }
+            });
+
+        });
+    })
+
+</script>
+
+<hi:common_footer runat="server"/>

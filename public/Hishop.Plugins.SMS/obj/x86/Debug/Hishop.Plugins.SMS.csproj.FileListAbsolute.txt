@@ -1,0 +1,6 @@
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.SMS\bin\Debug\Hishop.Plugins.SMS.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.SMS\bin\Debug\Hishop.Plugins.SMS.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.SMS\bin\Debug\Hishop.Plugins.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.SMS\bin\Debug\Hishop.Plugins.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.SMS\obj\x86\Debug\Hishop.Plugins.SMS.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.SMS\obj\x86\Debug\Hishop.Plugins.SMS.pdb

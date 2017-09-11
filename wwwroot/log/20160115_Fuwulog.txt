@@ -1,0 +1,734 @@
+2016-01-15 10:03:29:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 10:03:29:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 10:03:32:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 10:03:32:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 11:08:49:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 11:08:49:当前微信模板类型：OrderDeliver,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 11:08:55:当前微信模板类型：OrderGetPoint,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 11:08:55:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 11:09:31:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 11:09:31:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 11:09:41:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 11:09:41:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 11:10:23:当前微信模板类型：OrderDeliver,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 11:10:23:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 11:10:28:当前微信模板类型：OrderGetPoint,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 11:10:28:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 11:25:30:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 11:25:30:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 11:25:49:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 11:25:49:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 11:25:53:当前微信模板类型：OrderDeliver,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 11:25:53:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 11:25:59:当前微信模板类型：OrderGetPoint,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 11:25:59:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 11:35:09:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 11:35:09:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 11:35:17:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 11:35:17:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 11:35:26:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 11:35:26:当前微信模板类型：OrderDeliver,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 11:43:40:当前微信模板类型：ProductAsk,会员|分销商|9iji7xa5_YWgVA_ot-VflkHZ9RG1Qv5HNskDFwHJkKY
+---------------
+2016-01-15 11:43:40:当前模板类型：ProductAsk,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 11:47:50:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 11:47:50:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 13:50:08:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 13:50:08:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 13:50:16:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 13:50:16:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 13:55:24:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 13:55:24:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 13:55:28:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 13:55:28:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 13:56:20:当前微信模板类型：ServiceRequest,会员|分销商|9iji7xa5_YWgVA_ot-VflkHZ9RG1Qv5HNskDFwHJkKY
+---------------
+2016-01-15 13:56:20:当前模板类型：ServiceRequest,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 13:56:41:当前微信模板类型：RefundSuccess,会员|分销商|5uVLik5VNbHdapXaXx6zq5lQBCZOlUcTCYvTQJCPYMs
+---------------
+2016-01-15 13:56:41:当前模板类型：RefundSuccess,会员|分销商|a96a69310f004cac8d0136ef0f0f1db7
+---------------
+2016-01-15 13:58:42:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 13:58:42:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 13:59:06:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 13:59:06:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 13:59:21:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 13:59:21:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 13:59:36:当前微信模板类型：ServiceRequest,会员|分销商|9iji7xa5_YWgVA_ot-VflkHZ9RG1Qv5HNskDFwHJkKY
+---------------
+2016-01-15 13:59:36:当前模板类型：ServiceRequest,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 13:59:44:当前微信模板类型：RefundSuccess,会员|分销商|5uVLik5VNbHdapXaXx6zq5lQBCZOlUcTCYvTQJCPYMs
+---------------
+2016-01-15 13:59:44:当前模板类型：RefundSuccess,会员|分销商|a96a69310f004cac8d0136ef0f0f1db7
+---------------
+2016-01-15 14:05:34:当前微信模板类型：MemberGradeChange,会员oSUBduFRPp_pphW_SxEf6DXdy9ZY|分销商oSUBduFRPp_pphW_SxEf6DXdy9ZY|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 14:05:34:当前模板类型：MemberGradeChange,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 14:06:26:当前微信模板类型：PasswordReset,会员oSUBduKW3_eOdhg0VKCvgDs7-OPw|分销商|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 14:06:26:当前模板类型：PasswordReset,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 14:15:47:当前微信模板类型：MemberGradeChange,会员|分销商|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 14:15:47:当前模板类型：MemberGradeChange,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 14:26:44:当前模板类型：MemberGradeChange,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 14:26:44:当前微信模板类型：MemberGradeChange,会员|分销商|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 14:36:21:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:36:21:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:36:27:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:36:27:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:36:30:当前微信模板类型：OrderDeliver,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:36:30:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:36:35:当前微信模板类型：OrderGetPoint,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:36:35:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:40:51:当前微信模板类型：DistributorCreate,会员|分销商|wxvwP7kfKRwNjAsTQo7epIa-sr06La4ljRmdPrKBCNw
+---------------
+2016-01-15 14:40:51:当前模板类型：DistributorCreate,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 14:41:27:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:41:27:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:41:40:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:41:40:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:41:44:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:41:44:当前微信模板类型：OrderDeliver,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:41:50:AliOpneid:
+---------------
+2016-01-15 14:41:50:当前微信模板类型：OrderGetCommission,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:41:50:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:41:50:AliOpneid:
+---------------
+2016-01-15 14:41:50:当前微信模板类型：OrderGetCommission,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:41:50:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:41:50:当前微信模板类型：OrderGetPoint,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:41:50:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:46:14:当前模板类型：PasswordReset,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 14:46:14:当前微信模板类型：PasswordReset,会员oSUBduFRPp_pphW_SxEf6DXdy9ZY|分销商|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 14:47:21:当前微信模板类型：AccountLock,会员oSUBduFRPp_pphW_SxEf6DXdy9ZY|分销商oSUBduFRPp_pphW_SxEf6DXdy9ZY|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 14:47:21:当前模板类型：AccountLock,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 14:47:30:当前微信模板类型：AccountLock,会员oSUBduFRPp_pphW_SxEf6DXdy9ZY|分销商oSUBduFRPp_pphW_SxEf6DXdy9ZY|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 14:47:30:当前模板类型：AccountLock,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 14:49:22:当前微信模板类型：DistributorCancel,会员oSUBduFRPp_pphW_SxEf6DXdy9ZY|分销商oSUBduFRPp_pphW_SxEf6DXdy9ZY|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 14:49:22:当前模板类型：DistributorCancel,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 14:49:53:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:49:53:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:49:58:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:49:58:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:50:03:当前微信模板类型：OrderDeliver,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:50:03:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:50:12:AliOpneid:
+---------------
+2016-01-15 14:50:12:当前微信模板类型：OrderGetCommission,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:50:12:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:50:12:AliOpneid:
+---------------
+2016-01-15 14:50:12:当前微信模板类型：OrderGetCommission,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:50:12:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:50:12:当前微信模板类型：OrderGetPoint,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:50:12:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:54:21:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:54:21:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:54:29:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:54:29:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:54:35:当前微信模板类型：OrderDeliver,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:54:35:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:54:40:AliOpneid:
+---------------
+2016-01-15 14:54:40:当前微信模板类型：OrderGetCommission,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:54:40:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:54:40:AliOpneid:
+---------------
+2016-01-15 14:54:40:当前微信模板类型：OrderGetCommission,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:54:40:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 14:54:40:当前微信模板类型：OrderGetPoint,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 14:54:40:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 15:06:34:当前微信模板类型：DrawCashRequest,会员|分销商|9iji7xa5_YWgVA_ot-VflkHZ9RG1Qv5HNskDFwHJkKY
+---------------
+2016-01-15 15:06:34:当前模板类型：DrawCashRequest,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 15:07:17:当前微信模板类型：DrawCashReject,会员|分销商|sn2fpu-l00htrYKwYYb2q2II5hHp1Rt5564-F-uKGZM
+---------------
+2016-01-15 15:07:17:当前模板类型：DrawCashReject,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 15:07:33:当前微信模板类型：DrawCashRequest,会员|分销商|9iji7xa5_YWgVA_ot-VflkHZ9RG1Qv5HNskDFwHJkKY
+---------------
+2016-01-15 15:07:33:当前模板类型：DrawCashRequest,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 15:07:43:当前微信模板类型：DrawCashRelease,会员|分销商|sn2fpu-l00htrYKwYYb2q2II5hHp1Rt5564-F-uKGZM
+---------------
+2016-01-15 15:07:43:当前模板类型：DrawCashRelease,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 15:25:45:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 15:25:45:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 15:31:51:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 15:31:51:当前微信模板类型：OrderCreate,会员oSUBduOKB9MTC06hJAq6rv8wrBUk|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 15:34:50:当前微信模板类型：OrderCreate,会员oSUBduOKB9MTC06hJAq6rv8wrBUk|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 15:34:50:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 15:35:04:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 15:35:04:当前微信模板类型：OrderPay,会员oSUBduOKB9MTC06hJAq6rv8wrBUk|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 15:35:19:当前微信模板类型：OrderDeliver,会员oSUBduOKB9MTC06hJAq6rv8wrBUk|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 15:35:19:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 15:36:03:当前微信模板类型：OrderPay,会员oSUBduOKB9MTC06hJAq6rv8wrBUk|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 15:36:03:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 15:43:23:当前微信模板类型：DistributorGradeChange,会员|分销商oSUBduKZXlrP0u5Nm6zUor7RYrYE|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 15:43:24:当前微信模板类型：DistributorCreate,会员oSUBduKZXlrP0u5Nm6zUor7RYrYE|分销商|wxvwP7kfKRwNjAsTQo7epIa-sr06La4ljRmdPrKBCNw
+---------------
+2016-01-15 15:43:24:当前模板类型：DistributorCreate,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 15:43:31:sign=DiPCmea6l1kF%2fTx5v36dQZXT1%2fiuP9%2bDMgE5%2bZNu2Ya3PZ%2fvvHRpqdEaUz4TAAKs%2b8TThAyoKRC7rljS0LxwfotfOCFaZWvfLcDP6s%2bgDqRlc2NURk2ENPCztdMKkwTB5HviQxlZuWSiVNNv2jYWA%2fX6O0ay39vJtZXd1SAe4S4%3d&biz_content=%3cXML%3e%3cEventType%3e%3c!%5bCDATA%5benter%5d%5d%3e%3c%2fEventType%3e%3cActionParam%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fActionParam%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088002166035933%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5bevent%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452843793852%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881002588583561792469852913093%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5be4b5122c88ac4847bd55f7eb0e2e7198%5d%5d%3e%3c%2fMsgId%3e%3cAccountNo%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAccountNo%3e%3cAgreementId%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAgreementId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22kws***%40163.com%22%2c%22user_name%22%3a%22*%u4f1f%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:43:31:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452872611465</CreateTime><ToUserId>20881002588583561792469852913093</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>OdVYB3AFhu8dVOn4VbasKM/W6dQBMVmcgWfZWrt+xSjJ7sK7s1jGDlHxd+1AH6YnOZzPqEKQC5eKFtK6EzPvLwJNzjsr3SGi3Vt61WkE38RmhSwYUygDLdEhWy7IJujOj8J2ofTr5X4f/IaLJ1Z+XyJh+aJd6YOqgqcUC/rtuYE=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:46:26:sign=U1g8KhgPaZOIt56Kcelz4I6LJUMis6cHIE1LpzatMkM4krPsRw7N0DOZsHqySr%2fz16FAxiFYvu0aqpr5nnZpDV2i3acTeBY%2bM2F5IFLTLun8aIeARkB4EyNxtfghzIJ%2b6z0Z6bPVkP49q04mZnHxHa00OJUyP3dJgU5x3IzX4Hs%3d&biz_content=%3cXML%3e%3cEventType%3e%3c!%5bCDATA%5benter%5d%5d%3e%3c%2fEventType%3e%3cActionParam%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fActionParam%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088002166035933%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5bevent%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452843968790%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881002588583561792469852913093%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b6bc2d70b37eb448196577e89ea6eb4be%5d%5d%3e%3c%2fMsgId%3e%3cAccountNo%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAccountNo%3e%3cAgreementId%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAgreementId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22kws***%40163.com%22%2c%22user_name%22%3a%22*%u4f1f%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:46:26:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452872786340</CreateTime><ToUserId>20881002588583561792469852913093</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>ITUVJWj9Cdsizh9YOqJwNU0mirceyff6y/KWoBAmfUtexV6uPcD1NZ0f+S4Ps1P5QQ33vn7AHE5n4DaaJcdM7+SFpz+AU3Jhzd2mSE3VDmO1/OgrXtCDNnpWzuxsAoTBVySZhJ0Zkn0IQL4Pq9uN5TyNTnfbQ+3SHd4U1CBSvHw=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:46:56:sign=SsKQvAQVl8GRrZ8umLfDPoHpIk%2b6HoTy1vT58UzBG79QlTzrcyKOUfZfd0JBT3PwxusVyD3Y9N36WAk46JqX3LLA0DOIFGK2B%2f1URdLUNSCTm47wZaJFqUg83HJkFpLW496%2bUPUhFrAh6sbx2OIk10VCRjN4En1IHWACFsXzCK0%3d&biz_content=%3cXML%3e%3cEventType%3e%3c!%5bCDATA%5benter%5d%5d%3e%3c%2fEventType%3e%3cActionParam%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fActionParam%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088912055537801%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5bevent%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452843998655%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881005539741468228887591613080%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b968bc7c02842435daff2fa1358eeb804%5d%5d%3e%3c%2fMsgId%3e%3cAccountNo%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAccountNo%3e%3cAgreementId%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAgreementId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22185****7835%22%2c%22user_name%22%3a%22*%u9f99%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:46:56:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452872816230</CreateTime><ToUserId>20881005539741468228887591613080</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>Ljxm31chHaBKChEtAgTrIonf3KSEq/L37XbWg6DURw4LVED32uLGI5Ee3eU6koeFLf2gs2vdjAbjLCaRDPgXDP5rQFnpnlY3WpaEcAqXHywME9H90rhsyCX3HgbExvPrLoGRKJvy3Gre2yowNz4wRuFLKKiXKYXD90gyteJrGw4=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:47:00:sign=kCQBbfeE1%2bVC5WulRM7TMM4zydHrGZudneut7O7DncwVKcFM6YpWp0cGBzkF725MPvWvwWb6pcs5bQLost%2f8OXpeNiQg1FAm2Vp2i917P1SudZhq4Uxrn8NTgz%2bYxI0Hs0eAulKjjVcwRtC2a5AHb7FXCbALmJLA6RZ2UsGFJsc%3d&biz_content=%3cXML%3e%3cText%3e%3cContent%3e%3c!%5bCDATA%5b%u8fd8%5d%5d%3e%3c%2fContent%3e%3c%2fText%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088912055537801%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5btext%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452844003046%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881005539741468228887591613080%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b160115454643000001%5d%5d%3e%3c%2fMsgId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22185****7835%22%2c%22user_name%22%3a%22*%u9f99%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:47:01:{"error_response":{"code":"40002","msg":"Invalid Arguments","sub_code":"isv.invalid-signature","sub_msg":"无效签名"},"sign":"aUududgICSy+Wr5NppUHX3FedZeQJCZ+L+xYy7q/TwwXLT5PEkF1PGlbG8hohV0kLZO9iFkWt7mhJeozz5GAp9cqVCnvEdiOT1ausq1EdBXIWF4kPb8C2ssoq6OpgBoHgd+cPbpaekbwbyHxWIHvfZopDUCG+G8aTUxJjLrTVsY="}
+---------------
+2016-01-15 15:47:01:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452872821137</CreateTime><ToUserId>20881005539741468228887591613080</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>0Da4/cCldB+Xz5Qe5NiI0HBBENrVcHPcxmQLAD6FyfdHjij/oEoslTNX9jsT1nbcvFdBqq/y0GwXNxWo2V+gpCeolZG2z3eGeJHTF9jl4LwwEOPuNYTmrAJaOP/YQJE2tz2z0KD9j/J8cW1IEPa9b9eIRmjiio78isMxQDeo3AA=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:47:35:sign=FaEav9HNgzB5GMAAfBJt2NQxpVlmDkYFm40VuEjgGzyl%2bb5t1fScTnTiBKHc4hQUH%2fB8DV5WS6MU0NoXJJDoW4%2bMEbuGMWDsqhOb7aRqHwMJIw2Z%2bYy6sQ3Cb8dXDjbVAB5FCRcjfQqPOhSeKsxE3AlVVhFM8TtW2GNIQ%2fcs0rE%3d&biz_content=%3cXML%3e%3cText%3e%3cContent%3e%3c!%5bCDATA%5b1%5d%5d%3e%3c%2fContent%3e%3c%2fText%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088912055537801%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5btext%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452844038116%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881005539741468228887591613080%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b160115454718000001%5d%5d%3e%3c%2fMsgId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22185****7835%22%2c%22user_name%22%3a%22*%u9f99%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:47:35:{"alipay_mobile_public_message_custom_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 15:47:36:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452872855996</CreateTime><ToUserId>20881005539741468228887591613080</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>eGsMGEm1cXfs7z5s0EuB2JaLHRYeaQGnu60+eYyIYcsHvvm0OudvKNfuRk0HPAB2AKmW6B+G6k8D7X7V4hEU3w4rFLVbbGm6EJSt8HxE0gf1pfVxpZO+kzentvIOEVs1mf2dyVDwa0pLy4K9gc9iS8nDuLJS8NDcCSmsLT80SFw=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:49:02:sign=hZNMiiMt9TIkQHq%2fJBT02NSIVxpLkKqiClRAAm%2bttdjgIzLwXh1vl78F7RjcEqbppkM6W3MwAjuY%2fnYvmiGZIkrDCXCIwAgMbRPiSotJZA8XUzqCwE0O9%2fjezcXNeLHcmVTu4xo6PrLMYxx6MOOMz54A7JlWAAXKhlaRp4%2bPRqw%3d&biz_content=%3cXML%3e%3cText%3e%3cContent%3e%3c!%5bCDATA%5b%u3002%5d%5d%3e%3c%2fContent%3e%3c%2fText%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088912055537801%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5btext%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452844124753%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881005539741468228887591613080%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b160115454844000001%5d%5d%3e%3c%2fMsgId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22185****7835%22%2c%22user_name%22%3a%22*%u9f99%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:49:03:{"error_response":{"code":"40002","msg":"Invalid Arguments","sub_code":"isv.invalid-signature","sub_msg":"无效签名"},"sign":"aUududgICSy+Wr5NppUHX3FedZeQJCZ+L+xYy7q/TwwXLT5PEkF1PGlbG8hohV0kLZO9iFkWt7mhJeozz5GAp9cqVCnvEdiOT1ausq1EdBXIWF4kPb8C2ssoq6OpgBoHgd+cPbpaekbwbyHxWIHvfZopDUCG+G8aTUxJjLrTVsY="}
+---------------
+2016-01-15 15:49:03:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452872943152</CreateTime><ToUserId>20881005539741468228887591613080</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>G6BEFdGBaH/d3HpxDubrnY/50JyvNe1Wj3ecto0Ltywn+w3lmnvq++eEEo3Ucg7wg4XVsctruvYY2Jo0yH5taFWlcMZeo4tqOHy8whxb2dPYjq53KV4Rlu7es+u4mqoPpANDsvme0k5F4scEQJla51TLeOPa0MYb+VeWWZpgsAE=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:49:25:sign=N2aO%2bic0EKg84BoecfPz7jxas7NqQRQqi395QpKPZYDgDY4nSiYez2EkT4M4IRiDnyM1V9pE%2f6jqkWIpJV3GPKlB8hVbTx62qDfdx1zNPP3bfMIxL9y7y6iDMn99JPI4IUXierHEwXMvcimkDkO8Ya7fv9hOUr52WuWewwqEiuM%3d&biz_content=%3cXML%3e%3cText%3e%3cContent%3e%3c!%5bCDATA%5b%u7a7a%u95f4%u91cc%u8fdb%5d%5d%3e%3c%2fContent%3e%3c%2fText%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088912055537801%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5btext%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452844148167%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881005539741468228887591613080%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b160115454908000001%5d%5d%3e%3c%2fMsgId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22185****7835%22%2c%22user_name%22%3a%22*%u9f99%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:49:25:{"error_response":{"code":"40002","msg":"Invalid Arguments","sub_code":"isv.invalid-signature","sub_msg":"无效签名"},"sign":"aUududgICSy+Wr5NppUHX3FedZeQJCZ+L+xYy7q/TwwXLT5PEkF1PGlbG8hohV0kLZO9iFkWt7mhJeozz5GAp9cqVCnvEdiOT1ausq1EdBXIWF4kPb8C2ssoq6OpgBoHgd+cPbpaekbwbyHxWIHvfZopDUCG+G8aTUxJjLrTVsY="}
+---------------
+2016-01-15 15:49:25:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452872965918</CreateTime><ToUserId>20881005539741468228887591613080</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>mX1CDGq4m+wYZhc3k1/z0U9sd8c13ELD8jxaRxTi6cEj/yeoDHPdbBGT3XHKUnKM8liZCpfysP39l3vhLzjfPsEqJ1oTx+qpgZJkfuGx1udZFnbKAYEC+7sbEGgjhanZzzhCc4KVec+9xeWaK26O/f/DiBK0CjXyBLQ4+zblCik=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:50:20:sign=jqtvY8FaQkKK0WFQHQyhDsNid%2fbDceyd4avkxZxbX0emKamanDZp10iSsqPBgLR7tim%2bYWD1kupd%2bhREgg2ct4OArE7u5HKhYkN7lxhaRL6ouBvQ%2b6yHbloeeJShg8wki42AM9WQBaoj3z3nW34NkKnCBLgZlNSMk8EL5VIAhEc%3d&biz_content=%3cXML%3e%3cEventType%3e%3c!%5bCDATA%5benter%5d%5d%3e%3c%2fEventType%3e%3cActionParam%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fActionParam%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088912055537801%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5bevent%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452844203130%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881005539741468228887591613080%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b9551d8a7e1304b4fbe5064b46d485329%5d%5d%3e%3c%2fMsgId%3e%3cAccountNo%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAccountNo%3e%3cAgreementId%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAgreementId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22185****7835%22%2c%22user_name%22%3a%22*%u9f99%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:50:20:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452873020699</CreateTime><ToUserId>20881005539741468228887591613080</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>cc/tcU/uXASMWv+a7unsoGJDEk9wSjZd0YZBxHO9f4qAClWgjMOgFbw4LeHtttmBSzNPDI9DI9KPQ7Kk6/e12YfjxBzf0yfjReXi8ZUdx2mP7Jc0zVRrLFyvhf2qc3lb/vfbDDyjc80qnF6e8MWCZF4jwKqed6yvHwi4mkM8LkI=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:50:44:sign=qLfJH92CG7I51HLsGGawxV5wi9m3g4K4huCO0J%2bc4sSaBr3ht9QAslvOUv552gxyGVtqxLW2rJquBnOSjITdMuuRr6%2fZppOh%2fKpYeGOCWKpyV1i%2bynNdGGE3E4oGv3tFR8OTpN%2fmGgiIt5dd7VKhxp4g7gUwksvtRiRy5VV4ato%3d&biz_content=%3cXML%3e%3cText%3e%3cContent%3e%3c!%5bCDATA%5b1%5d%5d%3e%3c%2fContent%3e%3c%2fText%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088912055537801%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5btext%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452844226712%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881005539741468228887591613080%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b160115455026000001%5d%5d%3e%3c%2fMsgId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22185****7835%22%2c%22user_name%22%3a%22*%u9f99%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:50:44:{"alipay_mobile_public_message_custom_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 15:50:44:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452873044559</CreateTime><ToUserId>20881005539741468228887591613080</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>GXQShilJ0CKUUcOjUI3FpAz6AVbissfz+4t1vqY5+yA4A8R3lQ+3iOwouMXJO9gSRlNNK6fNm7zT6Swc88s8AvJHAs+W9RJ/nLuVL9Z0NL/kDuqLT3COD+mNrJcx4Yz38/adNv8PAJtYUo4P3ViWkJus5TuZ3/7lolpmFRzzdaE=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:50:56:sign=sXwLjqfy%2fsoLsTklEgFzFZkkjQbg2c87T2Rqe7c5usHDhEzw9krTYc21vbehHCkPzsrhyu6aGSBRiU4BgqX0t1vM7YpArRgkT8GYsoAeAdnHrqraTzRiFU3oAO0EF0vLtHzv3a63%2bnXNtll5RqV4LLo1Yv5xYTkjTieY%2bfVyCyw%3d&biz_content=%3cXML%3e%3cText%3e%3cContent%3e%3c!%5bCDATA%5b2%5d%5d%3e%3c%2fContent%3e%3c%2fText%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088912055537801%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5btext%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452844239114%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881005539741468228887591613080%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b160115455039000001%5d%5d%3e%3c%2fMsgId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22185****7835%22%2c%22user_name%22%3a%22*%u9f99%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:50:56:{"alipay_mobile_public_message_custom_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 15:50:56:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452873056871</CreateTime><ToUserId>20881005539741468228887591613080</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>azyjJmT5p+e3BA5w3iz3idFMmBzrBcxHSCTodSggQ3013vU7gIj8p8/HHQwDW/0mHVoJ4/7+aI/xbot0VKn06/qNLxzUTsaFQEeQqqV6eN2uYPeKbBLhVaMjz8sFKCVN/5TjgQMNcaRK9SznjKtCPktVEIwgNfN5cBHlTCvxBqE=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:52:02:sign=AHYln1d0GvYZR%2fUVVTCt%2f0teWoX5OO%2fgnl%2b2gCYqQ2T1dvcrRvbD%2f6W5MRdi8mWPSz2CVi18uDlpnNU5otaaIX5zLivMcyUUhsy5EnZJMMW1tvps4jH%2br2X7O0JlOsJ%2bnxiXKbVjX30Fn8ZxoTBvnyzqOPnHvnWlZUtCtI56els%3d&biz_content=%3cXML%3e%3cEventType%3e%3c!%5bCDATA%5benter%5d%5d%3e%3c%2fEventType%3e%3cActionParam%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fActionParam%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088912055537801%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5bevent%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452844304788%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881005539741468228887591613080%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b0e21562d51f940c7a1f968cc27bfe3ab%5d%5d%3e%3c%2fMsgId%3e%3cAccountNo%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAccountNo%3e%3cAgreementId%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAgreementId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22185****7835%22%2c%22user_name%22%3a%22*%u9f99%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:52:02:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452873122371</CreateTime><ToUserId>20881005539741468228887591613080</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>YJWKebqO7SX6hj2uChXSR6VQbVQFxaXhRb/HGayUrxEmrTGrGfRpx0U91ivgZHJQnnLVhHxYYnO6aj+myLwB+fOrXbx5Z1IFlQXDHF5yIc3UjBEXdvhZfyqkIGUvHXmxB+Qb0x3XmFl26HDIU2mm9ir00kvXrR60Glz29gtjUpQ=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:52:33:当前模板类型：OrderCreate,会员20881005539741468228887591613080|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 15:52:33:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 15:52:41:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 15:52:41:当前模板类型：OrderPay,会员20881005539741468228887591613080|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 15:52:44:当前微信模板类型：OrderDeliver,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 15:52:44:当前模板类型：OrderDeliver,会员20881005539741468228887591613080|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 15:52:44:{"toUserId":"20881005539741468228887591613080","template":{ "templateId":"5e21cc85436b48c693fd7816345d6a97","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您好，您的订单201601154749553已经发货！","color":"#000099"},"keyword1":{"value":"201601154749553","color":"#000099"},"keyword2":{"value":"已发货","color":"#000099"},"remark":{"value":"订单总金额￥0.01","color":"#000099"}}}}
+---------------
+2016-01-15 15:52:44:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 15:53:30:当前模板类型：PasswordReset,会员20881005539741468228887591613080|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 15:53:30:{"toUserId":"20881005539741468228887591613080","template":{ "templateId":"9e741ecf1d6844c886258004b220d950","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您重置了商城账户的登录密码 ","color":"#000099"},"keyword1":{"value":"2016-01-15 15:53:30","color":"#000099"},"keyword2":{"value":"FW*537801","color":"#000099"},"remark":{"value":"消息类型[密码重置]，您账户修改登录密码:654321，请牢记。如有问题，请联系客服。","color":"#000099"}}}}
+---------------
+2016-01-15 15:53:30:当前微信模板类型：PasswordReset,会员|分销商|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 15:53:30:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 15:54:12:{"toUserId":"20881002588583561792469852913093","template":{ "templateId":"9e741ecf1d6844c886258004b220d950","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"会员注册通知","color":"#000099"},"keyword1":{"value":"2016-01-15 15:54:12","color":"#000099"},"keyword2":{"value":"恭喜您，成为销客多3.3测试1的第129位会员","color":"#000099"},"remark":{"value":"","color":"#000099"}}}}
+---------------
+2016-01-15 15:54:12:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 15:54:44:当前模板类型：OrderCreate,会员20881002588583561792469852913093|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 15:54:44:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 15:54:55:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 15:54:55:当前模板类型：OrderPay,会员20881002588583561792469852913093|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 15:55:59:sign=YGiSFlBmV08RFy1wbnSRcwS8PPFY6o2ui%2bOTuaDdeaOJFZCj2OJraoAI3Y7a8qEtrLXwRi6CudPOewHeaeiiFeZZ3lIKk8v7JVPH%2fP7BemY0SaFW3J8ycd5QuSTQjGSEYL5yG%2bQlurwFyxg4w3jdwU7%2bOSFzSIL5TjvrC5OArRI%3d&biz_content=%3cXML%3e%3cText%3e%3cContent%3e%3c!%5bCDATA%5b1%5d%5d%3e%3c%2fContent%3e%3c%2fText%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088002166035933%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5btext%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452844541904%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881002588583561792469852913093%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b160115455541000001%5d%5d%3e%3c%2fMsgId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22kws***%40163.com%22%2c%22user_name%22%3a%22*%u4f1f%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:55:59:{"alipay_mobile_public_message_custom_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 15:55:59:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452873359699</CreateTime><ToUserId>20881002588583561792469852913093</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>1vd+8t31IM/v8rhfUP2AX9GJAgcDlQBPFAOJ7kMbBzJqY/rDwpbedYk7EJPHY5ZVfi/JGxP+dobnWJVa8r5aioWh1r9fARYAXfpiDBFQM1feJxz11IQg/lKQ+zo3/92te/PBCCmPATqaZzfTAv/QeTYInohTOw/mMMI0xLmIq/k=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:57:31:sign=WsuR0FVloz5bjCRfoMj9o7LsDRODK%2fEj7DNI7XtKaN%2bsYbyxELnS8t1YgoVZeH%2fXeLdGmxmkLxxU7OkGQGVFSQe5DmE6EXUG0KSG8xOZeSCROUZuVMrXKYUOwfgyX9Gh9ejlXA4JorqcL%2fEqvUktnHgg9Z95gvbXwhS8B1lDdU4%3d&biz_content=%3cXML%3e%3cEventType%3e%3c!%5bCDATA%5benter%5d%5d%3e%3c%2fEventType%3e%3cActionParam%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fActionParam%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088912055537801%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5bevent%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452844633883%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881005539741468228887591613080%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b5b246bbf3c634adc84c426f43b4b63c0%5d%5d%3e%3c%2fMsgId%3e%3cAccountNo%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAccountNo%3e%3cAgreementId%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAgreementId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22185****7835%22%2c%22user_name%22%3a%22*%u9f99%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:57:31:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452873451809</CreateTime><ToUserId>20881005539741468228887591613080</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>Rls2e8lQu3ryZKRh/80J1r00YKkFcyO/u7RARZGTsmEuoaqCh9SEDPiZqeDF3hxkSxm1X4ELUvf81T0YMLpE31aRq0edXZMJcy0Vq+MEj3N2chT+DIxdug0m+k8kjfRjRqx7tDb2GZf1NyLs4Nfo99009qoLxdrW0RNnrZXpMyA=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:57:36:sign=U6Peq3F%2fTPoq7Be1ccFMipCzzb7%2bdrjam%2by51qnEVa9C7%2fPa8ADRQhAICetm70uVi%2fmYZxKeuM1sszfHdYUrCNsPfRp%2bTsNQSKoAuWKVGCpGe2e3jvqN29pCLoKXUhCdsR3C81uGxj2RvYUQopIjsVyABDbUzAVr7FxYZyFtqFo%3d&biz_content=%3cXML%3e%3cText%3e%3cContent%3e%3c!%5bCDATA%5b%u56de%u6765%5d%5d%3e%3c%2fContent%3e%3c%2fText%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088912055537801%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5btext%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452844638977%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881005539741468228887591613080%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b160115455718000001%5d%5d%3e%3c%2fMsgId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22185****7835%22%2c%22user_name%22%3a%22*%u9f99%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:57:36:{"alipay_mobile_public_message_custom_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 15:57:36:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452873456824</CreateTime><ToUserId>20881005539741468228887591613080</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>ZH+NLXHIzvuUMc45/rLPYPyeol61hBKPPBCdOIgIhi/szKPTZ1YJCvRh20aGjYknFS2jVTKEVfI4qVSGEFapl5YnJYwufkUhWdp0c7QHIAaNcMIiFAyB+bF42OHTMHTb+72idNwHUHPEXPPyB8jlz/G3TBBtduXCmD7N2m6yhSc=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:57:41:sign=Orw%2faja%2bu0dGHl8i%2fV1uPISrPVnXoQLAi6%2fh2vgAmOLl%2bExpuBZM7u3QY2wVv6nhOrBMeq5yQeT%2br12grcHt28ttEK%2fY1wBkJq9yyoVIvcBH8Iy26Xte2KLAc95mTUtPYGnAsS515%2fy1nXemi4loRl4%2f859MJtrlsZCWUpVVO%2fQ%3d&biz_content=%3cXML%3e%3cText%3e%3cContent%3e%3c!%5bCDATA%5b1%5d%5d%3e%3c%2fContent%3e%3c%2fText%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088912055537801%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5btext%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452844643720%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881005539741468228887591613080%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b160115455723000001%5d%5d%3e%3c%2fMsgId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22185****7835%22%2c%22user_name%22%3a%22*%u9f99%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:57:41:{"alipay_mobile_public_message_custom_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 15:57:41:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452873461449</CreateTime><ToUserId>20881005539741468228887591613080</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>1i/N2CJ+2LfDzTeisw8PzcKXLXsj4g328GNpHYGjq3EiB4ZY4Oo+bZdugdr40KFAyRStR3mEFus8gyGxWM+w849U1VdPf6jDDYFcziBYvJ4bNfoX+ly6/Rx62YamKu3ETqjlLQ7uWwfT4603csLRcuZUudXZHPyoq/QDU3Pcdgk=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:57:55:sign=p9ZDxMKav5O7KTII8LT5v9vXN2YIdAUT7fAJIzRqnn%2f94sislK%2fd5rHWx%2fvaJxO2a6RGyvqeUJkfbEVF2w3Sn1LhzG3kjOADVwRCb7gAroC68FxoQ8fPN%2fQRAqrpSA8UVVSOLvYn2%2bsqKuVTsEufF8RSo1Lj2NfZkkkuI7LUnt4%3d&biz_content=%3cXML%3e%3cEventType%3e%3c!%5bCDATA%5benter%5d%5d%3e%3c%2fEventType%3e%3cActionParam%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fActionParam%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088002166035933%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5bevent%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452844658227%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881002588583561792469852913093%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b3a00b02570ca4441a37c7dd5fcbfefda%5d%5d%3e%3c%2fMsgId%3e%3cAccountNo%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAccountNo%3e%3cAgreementId%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAgreementId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22kws***%40163.com%22%2c%22user_name%22%3a%22*%u4f1f%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:57:55:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452873475793</CreateTime><ToUserId>20881002588583561792469852913093</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>n0Adk8t6SDYz5Upo8QXjl8uRt5zteaJOmMpF5defeDZ2Wr8QMTO6/4VdfuQwRACBTQ1awfj4SyTTy6EHyDD+bTnDvsZuzWdnhgaOEow5FaFykMeKeoLOLzTFpuln209kwV9NFlVQSIe/CwzUuc1iwQNXkzcwLmfBSaO7tEY60dw=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:59:06:sign=AyTwychp8mb7mj%2bo6PDmzGW0DtJVvfnFTXeXsehVuKGy55ygYqwMoKjnhlQZW6GDtFKXEeen6cLZqrTlU1T8iZOicVMwiXlQwENReFM0KX%2faEzN9a7lLdcri118fodnw%2bQ5Q6sxnsf34BItzbn39AnZRvS%2bW1WVOubOdvObOVFA%3d&biz_content=%3cXML%3e%3cEventType%3e%3c!%5bCDATA%5benter%5d%5d%3e%3c%2fEventType%3e%3cActionParam%3e%3c!%5bCDATA%5b%7b%22scene%22%3a%7b%22sceneId%22%3a%22bind20160115155847%22%7d%7d%5d%5d%3e%3c%2fActionParam%3e%3cFromAlipayUserId%3e%3c!%5bCDATA%5b2088002166035933%5d%5d%3e%3c%2fFromAlipayUserId%3e%3cAppId%3e%3c!%5bCDATA%5b2015102300524288%5d%5d%3e%3c%2fAppId%3e%3cMsgType%3e%3c!%5bCDATA%5bevent%5d%5d%3e%3c%2fMsgType%3e%3cCreateTime%3e%3c!%5bCDATA%5b1452844728651%5d%5d%3e%3c%2fCreateTime%3e%3cFromUserId%3e%3c!%5bCDATA%5b20881002588583561792469852913093%5d%5d%3e%3c%2fFromUserId%3e%3cMsgId%3e%3c!%5bCDATA%5b394bedb392d2495380c786a65a0e62d8%5d%5d%3e%3c%2fMsgId%3e%3cAccountNo%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAccountNo%3e%3cAgreementId%3e%3c!%5bCDATA%5b%5d%5d%3e%3c%2fAgreementId%3e%3cUserInfo%3e%3c!%5bCDATA%5b%7b%22logon_id%22%3a%22kws***%40163.com%22%2c%22user_name%22%3a%22*%u4f1f%22%7d%5d%5d%3e%3c%2fUserInfo%3e%3c%2fXML%3e&sign_type=RSA&service=alipay.mobile.public.message.notify&charset=GBK
+---------------
+2016-01-15 15:59:06:{"alipay_mobile_public_message_custom_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 15:59:06:<?xml version="1.0" encoding="GBK"?><alipay><response><XML><MsgType>ack</MsgType><CreateTime>1452873546355</CreateTime><ToUserId>20881002588583561792469852913093</ToUserId><AppId>2015102300524288</AppId></XML></response><sign>k2xfaoNBzN3W+qH7c3/+xschhsQNEqTRDxuilZoEc+VOSXa/gu+4bUz5g/H2Zsh9/PvuDTmjYFH4/Dp7ypdxOkowctXhb0p8ySC8lNgEYQwVxKx/RwGk8FOQootWYotDy98Sc4Fcg4UwAfnAXz9BY3z/Es2EaVVLxEOJP3GtIXY=</sign><sign_type>RSA</sign_type></alipay>
+---------------
+2016-01-15 15:59:51:当前模板类型：OrderCreate,会员20881002588583561792469852913093|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 15:59:51:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 15:59:51:{"toUserId":"20881002588583561792469852913093","template":{ "templateId":"5e21cc85436b48c693fd7816345d6a97","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您好，订单【201601151684713】已经提交成功。","color":"#000099"},"keyword1":{"value":"201601151684713","color":"#000099"},"keyword2":{"value":"等待付款","color":"#000099"},"remark":{"value":"订单总金额￥0.01","color":"#000099"}}}}
+---------------
+2016-01-15 15:59:51:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 16:01:56:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:01:56:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:01:56:{"toUserId":"20881002588583561792469852913093","template":{ "templateId":"5e21cc85436b48c693fd7816345d6a97","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您好，订单【201601154158537】已经提交成功。","color":"#000099"},"keyword1":{"value":"201601154158537","color":"#000099"},"keyword2":{"value":"等待发货","color":"#000099"},"remark":{"value":"订单总金额￥0.00","color":"#000099"}}}}
+---------------
+2016-01-15 16:01:57:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 16:03:54:当前微信模板类型：OrderCreate,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:03:54:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:03:54:{"toUserId":"20881002588583561792469852913093","template":{ "templateId":"5e21cc85436b48c693fd7816345d6a97","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您好，订单【201601158732182】已经提交成功。","color":"#000099"},"keyword1":{"value":"201601158732182","color":"#000099"},"keyword2":{"value":"等待付款","color":"#000099"},"remark":{"value":"订单总金额￥5.40","color":"#000099"}}}}
+---------------
+2016-01-15 16:03:54:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 16:05:58:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:05:58:当前微信模板类型：OrderCreate,会员oSUBduOKB9MTC06hJAq6rv8wrBUk|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:05:58:{"toUserId":"20881002588583561792469852913093","template":{ "templateId":"5e21cc85436b48c693fd7816345d6a97","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您好，订单【201601154198712】已经提交成功。","color":"#000099"},"keyword1":{"value":"201601154198712","color":"#000099"},"keyword2":{"value":"等待付款","color":"#000099"},"remark":{"value":"订单总金额￥241.00","color":"#000099"}}}}
+---------------
+2016-01-15 16:05:58:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 16:06:06:当前微信模板类型：OrderPay,会员oSUBduOKB9MTC06hJAq6rv8wrBUk|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:06:06:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:06:11:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:06:11:当前微信模板类型：OrderDeliver,会员oSUBduOKB9MTC06hJAq6rv8wrBUk|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:06:17:当前微信模板类型：OrderGetPoint,会员oSUBduOKB9MTC06hJAq6rv8wrBUk|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:06:17:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:07:58:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:07:58:当前微信模板类型：OrderCreate,会员oSUBduKW3_eOdhg0VKCvgDs7-OPw|分销商oSUBduKW3_eOdhg0VKCvgDs7-OPw|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:07:58:{"toUserId":"20881002588583561792469852913093","template":{ "templateId":"5e21cc85436b48c693fd7816345d6a97","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您好，订单【201601150989045】已经提交成功。","color":"#000099"},"keyword1":{"value":"201601150989045","color":"#000099"},"keyword2":{"value":"等待付款","color":"#000099"},"remark":{"value":"订单总金额￥241.00","color":"#000099"}}}}
+---------------
+2016-01-15 16:07:58:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 16:08:03:当前微信模板类型：OrderPay,会员oSUBduKW3_eOdhg0VKCvgDs7-OPw|分销商oSUBduKW3_eOdhg0VKCvgDs7-OPw|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:08:03:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:08:08:当前微信模板类型：OrderDeliver,会员oSUBduKW3_eOdhg0VKCvgDs7-OPw|分销商oSUBduKW3_eOdhg0VKCvgDs7-OPw|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:08:08:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:08:17:AliOpneid:
+---------------
+2016-01-15 16:08:17:当前微信模板类型：OrderGetCommission,会员|分销商oSUBduKW3_eOdhg0VKCvgDs7-OPw|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:08:17:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:08:17:当前微信模板类型：DistributorGradeChange,会员|分销商oSUBduKW3_eOdhg0VKCvgDs7-OPw|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 16:08:17:AliOpneid:
+---------------
+2016-01-15 16:08:17:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:08:17:当前微信模板类型：OrderGetCommission,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:08:17:AliOpneid:
+---------------
+2016-01-15 16:08:17:当前微信模板类型：OrderGetCommission,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:08:17:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:08:17:当前微信模板类型：OrderGetPoint,会员oSUBduKW3_eOdhg0VKCvgDs7-OPw|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:08:17:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:23:22:当前微信模板类型：DistributorGradeChange,会员|分销商oSUBduKR84-mkz7NyY945ETcsVxo|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 16:23:22:当前微信模板类型：DistributorCreate,会员oSUBduKR84-mkz7NyY945ETcsVxo|分销商|wxvwP7kfKRwNjAsTQo7epIa-sr06La4ljRmdPrKBCNw
+---------------
+2016-01-15 16:23:22:当前模板类型：DistributorCreate,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 16:23:22:{"toUserId":"20881002588583561792469852913093","template":{ "templateId":"9e741ecf1d6844c886258004b220d950","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您好，有一位新分销商申请了店铺","color":"#000099"},"keyword1":{"value":"2016-01-15 16:23:22","color":"#000099"},"keyword2":{"value":"无色不欢，","color":"#000099"},"remark":{"value":"5212qj","color":"#000099"}}}}
+---------------
+2016-01-15 16:23:22:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 16:23:24:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:23:24:当前微信模板类型：OrderCreate,会员oSUBduKW3_eOdhg0VKCvgDs7-OPw|分销商oSUBduKW3_eOdhg0VKCvgDs7-OPw|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:23:24:{"toUserId":"20881002588583561792469852913093","template":{ "templateId":"5e21cc85436b48c693fd7816345d6a97","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您好，订单【201601156201332】已经提交成功。","color":"#000099"},"keyword1":{"value":"201601156201332","color":"#000099"},"keyword2":{"value":"等待付款","color":"#000099"},"remark":{"value":"订单总金额￥3.21","color":"#000099"}}}}
+---------------
+2016-01-15 16:23:24:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 16:23:35:当前微信模板类型：OrderPay,会员oSUBduKW3_eOdhg0VKCvgDs7-OPw|分销商oSUBduKW3_eOdhg0VKCvgDs7-OPw|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:23:35:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:23:40:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:23:40:当前微信模板类型：OrderDeliver,会员oSUBduKW3_eOdhg0VKCvgDs7-OPw|分销商oSUBduKW3_eOdhg0VKCvgDs7-OPw|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:23:45:当前微信模板类型：OrderGetPoint,会员oSUBduKW3_eOdhg0VKCvgDs7-OPw|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:23:45:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:16:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:16:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:16:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:16:当前模板类型：OrderPay,会员20881002588583561792469852913093|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:16:当前微信模板类型：OrderPay,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:16:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:32:当前微信模板类型：OrderDeliver,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:32:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:32:当前微信模板类型：OrderDeliver,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:32:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:32:当前微信模板类型：OrderDeliver,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:32:当前模板类型：OrderDeliver,会员20881002588583561792469852913093|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:32:{"toUserId":"20881002588583561792469852913093","template":{ "templateId":"5e21cc85436b48c693fd7816345d6a97","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您好，您的订单201601157408682已经发货！","color":"#000099"},"keyword1":{"value":"201601157408682","color":"#000099"},"keyword2":{"value":"已发货","color":"#000099"},"remark":{"value":"订单总金额￥0.01","color":"#000099"}}}}
+---------------
+2016-01-15 16:25:32:当前模板类型：OrderDeliver,会员20881002588583561792469852913093|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:32:{"toUserId":"20881002588583561792469852913093","template":{ "templateId":"5e21cc85436b48c693fd7816345d6a97","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您好，您的订单201601151684713已经发货！","color":"#000099"},"keyword1":{"value":"201601151684713","color":"#000099"},"keyword2":{"value":"已发货","color":"#000099"},"remark":{"value":"订单总金额￥0.01","color":"#000099"}}}}
+---------------
+2016-01-15 16:25:32:当前微信模板类型：OrderDeliver,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:32:当前微信模板类型：OrderDeliver,会员oSUBduOKB9MTC06hJAq6rv8wrBUk|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:32:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:33:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 16:25:33:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 16:25:33:当前微信模板类型：OrderDeliver,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:33:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:41:当前微信模板类型：OrderGetPoint,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:41:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:41:当前微信模板类型：OrderGetPoint,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:41:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:41:AliOpneid:
+---------------
+2016-01-15 16:25:41:当前微信模板类型：OrderGetCommission,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:41:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:41:AliOpneid:
+---------------
+2016-01-15 16:25:41:当前微信模板类型：OrderGetCommission,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:41:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:41:AliOpneid:
+---------------
+2016-01-15 16:25:41:当前微信模板类型：OrderGetCommission,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:41:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:25:41:当前微信模板类型：OrderGetPoint,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 16:25:41:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 16:30:43:当前微信模板类型：DistributorGradeChange,会员|分销商oSUBduOKB9MTC06hJAq6rv8wrBUk|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 16:30:44:当前微信模板类型：DistributorCreate,会员oSUBduOKB9MTC06hJAq6rv8wrBUk|分销商|wxvwP7kfKRwNjAsTQo7epIa-sr06La4ljRmdPrKBCNw
+---------------
+2016-01-15 16:30:44:当前模板类型：DistributorCreate,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 16:30:44:{"toUserId":"20881002588583561792469852913093","template":{ "templateId":"9e741ecf1d6844c886258004b220d950","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您好，有一位新分销商申请了店铺","color":"#000099"},"keyword1":{"value":"2016-01-15 16:30:44","color":"#000099"},"keyword2":{"value":"嘿嘿，18596888588","color":"#000099"},"remark":{"value":"y f g h jyu i","color":"#000099"}}}}
+---------------
+2016-01-15 16:30:44:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 16:43:09:当前微信模板类型：DrawCashRequest,会员|分销商|9iji7xa5_YWgVA_ot-VflkHZ9RG1Qv5HNskDFwHJkKY
+---------------
+2016-01-15 16:43:09:当前模板类型：DrawCashRequest,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 16:43:24:当前微信模板类型：DrawCashRelease,会员oSUBduKW3_eOdhg0VKCvgDs7-OPw|分销商oSUBduKW3_eOdhg0VKCvgDs7-OPw|sn2fpu-l00htrYKwYYb2q2II5hHp1Rt5564-F-uKGZM
+---------------
+2016-01-15 16:43:24:当前模板类型：DrawCashRelease,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 16:46:18:当前微信模板类型：DrawCashRequest,会员|分销商|9iji7xa5_YWgVA_ot-VflkHZ9RG1Qv5HNskDFwHJkKY
+---------------
+2016-01-15 16:46:18:当前模板类型：DrawCashRequest,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 16:46:52:当前微信模板类型：DrawCashReject,会员oSUBduKW3_eOdhg0VKCvgDs7-OPw|分销商oSUBduKW3_eOdhg0VKCvgDs7-OPw|sn2fpu-l00htrYKwYYb2q2II5hHp1Rt5564-F-uKGZM
+---------------
+2016-01-15 16:46:52:当前模板类型：DrawCashReject,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 16:47:12:当前微信模板类型：DrawCashRequest,会员|分销商|9iji7xa5_YWgVA_ot-VflkHZ9RG1Qv5HNskDFwHJkKY
+---------------
+2016-01-15 16:47:12:当前模板类型：DrawCashRequest,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 17:27:38:当前微信模板类型：DistributorGradeChange,会员|分销商oSUBduNrnHpdsrMkEoc-EqkGARf4|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 17:27:38:当前微信模板类型：DistributorCreate,会员oSUBduNrnHpdsrMkEoc-EqkGARf4|分销商|wxvwP7kfKRwNjAsTQo7epIa-sr06La4ljRmdPrKBCNw
+---------------
+2016-01-15 17:27:38:当前模板类型：DistributorCreate,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 17:27:38:{"toUserId":"20881002588583561792469852913093","template":{ "templateId":"9e741ecf1d6844c886258004b220d950","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您好，有一位新分销商申请了店铺","color":"#000099"},"keyword1":{"value":"2016-01-15 17:27:38","color":"#000099"},"keyword2":{"value":"蒯伟，15555555555","color":"#000099"},"remark":{"value":"kuair","color":"#000099"}}}}
+---------------
+2016-01-15 17:27:38:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 17:28:11:当前微信模板类型：OrderCreate,会员oSUBduNrnHpdsrMkEoc-EqkGARf4|分销商oSUBduNrnHpdsrMkEoc-EqkGARf4|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 17:28:11:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 17:28:11:{"toUserId":"20881002588583561792469852913093","template":{ "templateId":"5e21cc85436b48c693fd7816345d6a97","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您好，订单【201601153935579】已经提交成功。","color":"#000099"},"keyword1":{"value":"201601153935579","color":"#000099"},"keyword2":{"value":"等待付款","color":"#000099"},"remark":{"value":"订单总金额￥241.00","color":"#000099"}}}}
+---------------
+2016-01-15 17:28:11:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------
+2016-01-15 17:28:18:当前微信模板类型：OrderPay,会员oSUBduNrnHpdsrMkEoc-EqkGARf4|分销商oSUBduNrnHpdsrMkEoc-EqkGARf4|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 17:28:18:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 17:28:35:当前微信模板类型：OrderDeliver,会员oSUBduNrnHpdsrMkEoc-EqkGARf4|分销商oSUBduNrnHpdsrMkEoc-EqkGARf4|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 17:28:35:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 17:29:35:AliOpneid:
+---------------
+2016-01-15 17:29:35:当前微信模板类型：OrderGetCommission,会员|分销商oSUBduNrnHpdsrMkEoc-EqkGARf4|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 17:29:35:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 17:29:36:当前微信模板类型：DistributorGradeChange,会员|分销商oSUBduNrnHpdsrMkEoc-EqkGARf4|zhWgp9O4JP2VhBfOoIvHazLhxqNah7IeuY1NqpI6nWE
+---------------
+2016-01-15 17:29:36:AliOpneid:
+---------------
+2016-01-15 17:29:36:当前微信模板类型：OrderGetCommission,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 17:29:36:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 17:29:36:AliOpneid:
+---------------
+2016-01-15 17:29:36:当前微信模板类型：OrderGetCommission,会员|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 17:29:36:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 17:29:36:当前微信模板类型：OrderGetPoint,会员oSUBduNrnHpdsrMkEoc-EqkGARf4|分销商|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 17:29:36:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 17:30:17:当前微信模板类型：DrawCashRequest,会员|分销商|9iji7xa5_YWgVA_ot-VflkHZ9RG1Qv5HNskDFwHJkKY
+---------------
+2016-01-15 17:30:17:当前模板类型：DrawCashRequest,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 17:42:05:当前微信模板类型：DrawCashReject,会员oSUBduNrnHpdsrMkEoc-EqkGARf4|分销商oSUBduNrnHpdsrMkEoc-EqkGARf4|sn2fpu-l00htrYKwYYb2q2II5hHp1Rt5564-F-uKGZM
+---------------
+2016-01-15 17:42:05:当前模板类型：DrawCashReject,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 17:43:11:当前微信模板类型：DrawCashRequest,会员|分销商|9iji7xa5_YWgVA_ot-VflkHZ9RG1Qv5HNskDFwHJkKY
+---------------
+2016-01-15 17:43:11:当前模板类型：DrawCashRequest,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 17:44:36:当前微信模板类型：DrawCashReject,会员oSUBduNrnHpdsrMkEoc-EqkGARf4|分销商oSUBduNrnHpdsrMkEoc-EqkGARf4|sn2fpu-l00htrYKwYYb2q2II5hHp1Rt5564-F-uKGZM
+---------------
+2016-01-15 17:44:36:当前模板类型：DrawCashReject,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 17:46:28:当前微信模板类型：DrawCashRequest,会员|分销商|9iji7xa5_YWgVA_ot-VflkHZ9RG1Qv5HNskDFwHJkKY
+---------------
+2016-01-15 17:46:28:当前模板类型：DrawCashRequest,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 17:47:14:当前微信模板类型：DrawCashRelease,会员oSUBduNrnHpdsrMkEoc-EqkGARf4|分销商oSUBduNrnHpdsrMkEoc-EqkGARf4|sn2fpu-l00htrYKwYYb2q2II5hHp1Rt5564-F-uKGZM
+---------------
+2016-01-15 17:47:14:当前模板类型：DrawCashRelease,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 17:47:24:当前微信模板类型：DrawCashRequest,会员|分销商|9iji7xa5_YWgVA_ot-VflkHZ9RG1Qv5HNskDFwHJkKY
+---------------
+2016-01-15 17:47:24:当前模板类型：DrawCashRequest,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 17:47:51:当前微信模板类型：DrawCashRelease,会员oSUBduNrnHpdsrMkEoc-EqkGARf4|分销商oSUBduNrnHpdsrMkEoc-EqkGARf4|sn2fpu-l00htrYKwYYb2q2II5hHp1Rt5564-F-uKGZM
+---------------
+2016-01-15 17:47:51:当前模板类型：DrawCashRelease,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 18:21:43:当前微信模板类型：DrawCashRequest,会员|分销商|9iji7xa5_YWgVA_ot-VflkHZ9RG1Qv5HNskDFwHJkKY
+---------------
+2016-01-15 18:21:43:当前模板类型：DrawCashRequest,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 18:22:02:当前微信模板类型：DrawCashRelease,会员oSUBduNrnHpdsrMkEoc-EqkGARf4|分销商oSUBduNrnHpdsrMkEoc-EqkGARf4|sn2fpu-l00htrYKwYYb2q2II5hHp1Rt5564-F-uKGZM
+---------------
+2016-01-15 18:22:02:当前模板类型：DrawCashRelease,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-01-15 18:50:33:当前微信模板类型：OrderCreate,会员oSUBduNrnHpdsrMkEoc-EqkGARf4|分销商oSUBduNrnHpdsrMkEoc-EqkGARf4|5JSF4yNEi6tuBzJpJz42KejMFrSeUxMFdYG26E15fSU
+---------------
+2016-01-15 18:50:33:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-01-15 18:50:33:{"toUserId":"20881002588583561792469852913093","template":{ "templateId":"5e21cc85436b48c693fd7816345d6a97","context":{ "headColor":"#00FF00","actionName":"查看详情","first":{"value":"您好，订单【201601153818909】已经提交成功。","color":"#000099"},"keyword1":{"value":"201601153818909","color":"#000099"},"keyword2":{"value":"等待付款","color":"#000099"},"remark":{"value":"订单总金额￥3.64","color":"#000099"}}}}
+---------------
+2016-01-15 18:50:33:{"alipay_mobile_public_message_single_send_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+---------------

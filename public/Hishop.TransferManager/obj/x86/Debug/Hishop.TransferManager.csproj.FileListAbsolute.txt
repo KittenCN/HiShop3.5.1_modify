@@ -1,0 +1,8 @@
+D:\g工作\项目源码\xkd3.5\public\Hishop.TransferManager\bin\Debug\Hishop.TransferManager.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.TransferManager\bin\Debug\Hishop.TransferManager.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.TransferManager\obj\x86\Debug\Hishop.TransferManager.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.TransferManager\obj\x86\Debug\Hishop.TransferManager.pdb
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.TransferManager\bin\Debug\Hishop.TransferManager.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.TransferManager\bin\Debug\Hishop.TransferManager.pdb
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.TransferManager\obj\x86\Debug\Hishop.TransferManager.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.TransferManager\obj\x86\Debug\Hishop.TransferManager.pdb

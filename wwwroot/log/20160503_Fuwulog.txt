@@ -1,0 +1,4 @@
+2016-05-03 23:00:07:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-05-03 23:00:07:当前微信模板类型：OrderGetPoint,会员onh8QszmowKbKySQ3LC0kKO1u3jQ|分销商|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------

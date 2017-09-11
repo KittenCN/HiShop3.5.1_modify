@@ -1,0 +1,97 @@
+2016-10-19 00:17:07.190:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-10-19 00:17:07.208:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-10-19 00:17:13.424:到这里了，！Application_Start
+---------------
+2016-10-19 04:25:30.488:订单支付：0-{"ReturnUrl":null}
+---------------
+2016-10-19 04:25:30.489:订单支付：1-{"ReturnUrl":"http://www.178gx.com/pay/PaymentReturn_url.aspx?"}
+---------------
+2016-10-19 07:31:44.616:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1476833504</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>413558525</MenuId>
+</xml>
+---------------
+2016-10-19 09:21:58.821:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-10-19 09:21:58.821:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-10-19 09:24:23.836:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1476840263</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>413558525</MenuId>
+</xml>
+---------------
+2016-10-19 09:24:27.611:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1476840267</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx?categoryId=11]]></EventKey>
+<MenuId>413558525</MenuId>
+</xml>
+---------------
+2016-10-19 11:29:41.617:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1476847781</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>413558525</MenuId>
+</xml>
+---------------
+2016-10-19 12:37:11.006:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1476851830</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[在]]></Content>
+<MsgId>6343030311302196563</MsgId>
+</xml>
+---------------
+2016-10-19 14:34:45.005:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1476858884</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>413558525</MenuId>
+</xml>
+---------------
+2016-10-19 14:34:51.601:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1476858891</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>413558525</MenuId>
+</xml>
+---------------
+2016-10-19 14:35:05.823:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1476858905</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>413558525</MenuId>
+</xml>
+---------------
+2016-10-19 19:25:36.011:订单支付：0-{"ReturnUrl":null}
+---------------
+2016-10-19 19:25:36.011:订单支付：1-{"ReturnUrl":"http://www.178gx.com/pay/PaymentReturn_url.aspx?"}
+---------------

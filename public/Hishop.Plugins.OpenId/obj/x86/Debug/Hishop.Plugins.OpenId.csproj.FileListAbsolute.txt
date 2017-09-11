@@ -1,0 +1,10 @@
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.OpenId\bin\Debug\Hishop.Plugins.OpenId.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.OpenId\bin\Debug\Hishop.Plugins.OpenId.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.OpenId\bin\Debug\Hishop.Plugins.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.OpenId\bin\Debug\LitJSON.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.OpenId\bin\Debug\NetDimension.Weibo.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.OpenId\bin\Debug\Hishop.Plugins.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.OpenId\bin\Debug\NetDimension.Weibo.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.OpenId\bin\Debug\NetDimension.Weibo.xml
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.OpenId\obj\x86\Debug\Hishop.Plugins.OpenId.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.OpenId\obj\x86\Debug\Hishop.Plugins.OpenId.pdb

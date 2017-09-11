@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{694B026E-225A-43D6-9244-88970BDB1668}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Hidistro.ControlPanel</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\..\wwwroot\Bin\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\wwwroot\Bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\..\wwwroot\Bin\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Hidistro\ControlPanel\Bargain\BargainHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\CashBack\CashBackHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Commodities\CatalogHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Commodities\ProductHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Commodities\ProductTypeHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\ExpressDataHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\FengXiao\DistributorGradeCommissionHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Members\IntegralDetailHelp.cs" />
+    <Compile Include="Hidistro\ControlPanel\Members\CustomGroupingHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Members\MemberHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\OutPay\App\Core.cs" />
+    <Compile Include="Hidistro\ControlPanel\OutPay\App\RSAFromPkcs8.cs" />
+    <Compile Include="Hidistro\ControlPanel\OutPay\App\Notify.cs" />
+    <Compile Include="Hidistro\ControlPanel\OutPay\HttpHelp.cs" />
+    <Compile Include="Hidistro\ControlPanel\OutPay\OutPayHelp.cs" />
+    <Compile Include="Hidistro\ControlPanel\OutPay\RefundHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\OutPay\alipayReturnInfo.cs" />
+    <Compile Include="ControlPanel\Promotions\ActivityHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Promotions\CouponHelper.cs" />
+    <Compile Include="ControlPanel\Promotions\GameActHelper.cs" />
+    <Compile Include="ControlPanel\Promotions\GameHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Promotions\LimitedTimeDiscountHelper.cs" />
+    <Compile Include="ControlPanel\Promotions\PointExChangeHelper.cs" />
+    <Compile Include="ControlPanel\Promotions\ShareActHelper.cs" />
+    <Compile Include="ControlPanel\Promotions\VoteHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Sales\OrderSplitHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Sales\OrderHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Sales\ProductCommentHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Sales\RefundHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Sales\SalesHelper.cs" />
+    <Compile Include="ControlPanel\Settings\CustomerServiceHelper.cs" />
+    <Compile Include="ControlPanel\Settings\MenuHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Settings\SettingsHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\AdministerCheckAttribute.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\AliFuwuReplyHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\CustomPageHelp.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\EventLogs.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\GalleryHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\PhotoListOrder.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\HiAffiliation.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\HiUriHelp.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\ManagerHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\PrivilegeCheckAttribute.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\ReplyHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\StoreHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\SystemAuthorizationHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\TempAuthorizationInfo.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\UserSignHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\VShopHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\Store\NoticeHelper.cs" />
+    <Compile Include="Hidistro\ControlPanel\VShop\ScanHelp.cs" />
+    <Compile Include="Hidistro\ControlPanel\VShop\StatisticNotifier.cs" />
+    <Compile Include="Hidistro\ControlPanel\VShop\UpdateStatistics.cs" />
+    <Compile Include="Hidistro\ControlPanel\VShop\ShopStatisticHelper.cs" />
+    <Compile Include="ControlPanel\WeiBo\ArticleHelper.cs" />
+    <Compile Include="ControlPanel\WeiBo\WeiBo.cs" />
+    <Compile Include="ControlPanel\WeiBo\WeiboHelper.cs" />
+    <Compile Include="ControlPanel\WeiXin\WeiXinHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hidistro.Core\Hidistro.Core.csproj">
+      <Project>{cb569a65-e158-4fbd-9479-1428df0d880d}</Project>
+      <Name>Hidistro.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.Entities\Hidistro.Entities.csproj">
+      <Project>{ced2d31c-3769-47ea-81dc-0fb8fc896cb1}</Project>
+      <Name>Hidistro.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.Messages\Hidistro.Messages.csproj">
+      <Project>{6e5ea48e-2a33-4e4a-9d1e-fbed87dce4ea}</Project>
+      <Name>Hidistro.Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.SaleSystem.Vshop\Hidistro.SaleSystem.Vshop.csproj">
+      <Project>{162e044a-af5c-4f26-b950-50c89a56a99c}</Project>
+      <Name>Hidistro.SaleSystem.Vshop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.SqlDal\Hidistro.SqlDal.csproj">
+      <Project>{36fd561c-03f8-4dce-8cbc-e5ff35878766}</Project>
+      <Name>Hidistro.SqlDal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hishop.Open.Api\Hishop.Open.Api.csproj">
+      <Project>{219ed1f2-ee5c-4f7b-a9e1-c4e92449305f}</Project>
+      <Name>Hishop.Open.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hishop.WeiBo.Api\Hishop.WeiBo.Api.csproj">
+      <Project>{1c73b8e8-69e2-41f2-9b98-28217918828a}</Project>
+      <Name>Hishop.WeiBo.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hishop.Weixin.Pay\Hishop.Weixin.Pay.csproj">
+      <Project>{13e62717-4138-4c5c-a986-c07ee816f670}</Project>
+      <Name>Hishop.Weixin.Pay</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

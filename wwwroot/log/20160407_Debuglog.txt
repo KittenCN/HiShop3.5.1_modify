@@ -1,0 +1,45 @@
+2016-04-07 08:36:35.710:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QswgogNYs8z7Vf24wVrwjJlM]]></FromUserName>
+<CreateTime>1459989395</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-04-07 08:37:39.363:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QswgogNYs8z7Vf24wVrwjJlM]]></FromUserName>
+<CreateTime>1459989459</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-04-07 13:01:37.263:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-04-07 13:01:37.581:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-04-07 13:02:59.584:到这里了，！Application_Start
+---------------
+2016-04-07 16:01:50.153:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs6TOS2wJlq7d_WBn4cP_Dfo]]></FromUserName>
+<CreateTime>1460016109</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-04-07 22:14:51.775:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlXdc1jJ98oInzdOOG9wmY]]></FromUserName>
+<CreateTime>1460038491</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------

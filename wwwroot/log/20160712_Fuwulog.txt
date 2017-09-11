@@ -1,0 +1,4 @@
+2016-07-12 17:51:38:当前微信模板类型：OrderCreate,会员onh8Qsyy3XYxo937ROQJ_3dfDQnc|分销商|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-07-12 17:51:38:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------

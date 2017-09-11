@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <SMSLog>
+    <time>2016/11/30 20:52:45</time>
+    <SysSign>18e5af5b4c09a2d837eadc17063d48dd</SysSign>
+    <Sign>13570340122|test|41010000|2016/11/30 20:52:45|0</Sign>
+  </SMSLog>
+</DocumentElement>

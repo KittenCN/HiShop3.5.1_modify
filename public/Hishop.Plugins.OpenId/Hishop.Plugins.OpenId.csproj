@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{324D83F1-9425-4952-A618-79963C19502E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Hishop.Plugins.OpenId</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="Hishop.Plugins">
+      <HintPath>..\Hishop.Plugins\bin\Debug\Hishop.Plugins.dll</HintPath>
+    </Reference>
+    <Reference Include="NetDimension.Weibo">
+      <HintPath>..\..\Release\NET20\NetDimension.Weibo.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web" />
+    <Reference Include="LitJSON">
+      <HintPath>..\..\wwwroot\Bin\LitJSON.dll</HintPath>
+    </Reference>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Hishop\Plugins\OpenId\AliPay\AliPayNotify.cs" />
+    <Compile Include="Hishop\Plugins\OpenId\AliPay\AliPayService.cs" />
+    <Compile Include="Hishop\Plugins\OpenId\AliPay\Globals.cs" />
+    <Compile Include="Hishop\Plugins\OpenId\QQ\QQNotify.cs" />
+    <Compile Include="Hishop\Plugins\OpenId\QQ\QQService.cs" />
+    <Compile Include="Hishop\Plugins\OpenId\QQ\WebUtils.cs" />
+    <Compile Include="Hishop\Plugins\OpenId\Sina\TimeUnit.cs" />
+    <Compile Include="Hishop\Plugins\OpenId\Sina\Cookie.cs" />
+    <Compile Include="Hishop\Plugins\OpenId\Sina\DESC.cs" />
+    <Compile Include="Hishop\Plugins\OpenId\Sina\SinaNotify.cs" />
+    <Compile Include="Hishop\Plugins\OpenId\Sina\SinaService.cs" />
+    <Compile Include="Hishop\Plugins\OpenId\Taobao\TaoBaoNotify.cs" />
+    <Compile Include="Hishop\Plugins\OpenId\Taobao\TaoBaoService.cs" />
+    <Compile Include="Hishop\Plugins\OpenId\Taobao\WebUtils.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetPath)  $(SolutionDir)wwwroot\plugins\openid</PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CB569A65-E158-4FBD-9479-1428DF0D880D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Hidistro.Core</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\wwwroot\Bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\..\wwwroot\Bin\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Drawing" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Hidistro\Core\Configuration\AppLocation.cs" />
+    <Compile Include="Hidistro\Core\Configuration\HiApplication.cs" />
+    <Compile Include="Hidistro\Core\Configuration\HiConfiguration.cs" />
+    <Compile Include="Hidistro\Core\Configuration\Provider.cs" />
+    <Compile Include="Hidistro\Core\Configuration\RolesConfiguration.cs" />
+    <Compile Include="Hidistro\Core\CopyrightLicenser.cs" />
+    <Compile Include="Hidistro\Core\CustomerServiceManager.cs" />
+    <Compile Include="Hidistro\Core\DataHelper.cs" />
+    <Compile Include="Hidistro\Core\DataProviders.cs" />
+    <Compile Include="Hidistro\Core\DesSecurity.cs" />
+    <Compile Include="Hidistro\Core\Encrypt\Des.cs" />
+    <Compile Include="Hidistro\Core\Encrypt\Hash.cs" />
+    <Compile Include="Hidistro\Core\Entities\CustomerServiceSettings.cs" />
+    <Compile Include="Hidistro\Core\Entities\DbQueryResult.cs" />
+    <Compile Include="Hidistro\Core\Entities\Pagination.cs" />
+    <Compile Include="Hidistro\Core\Entities\SiteSettings.cs" />
+    <Compile Include="Hidistro\Core\Enums\DiscountStatus.cs" />
+    <Compile Include="Hidistro\Core\Enums\ApplicationType.cs" />
+    <Compile Include="Hidistro\Core\Enums\DistributorStatus.cs" />
+    <Compile Include="Hidistro\Core\Enums\FreeShippingConditionType.cs" />
+    <Compile Include="Hidistro\Core\Enums\DataProviderAction.cs" />
+    <Compile Include="Hidistro\Core\Enums\DistributorGrade.cs" />
+    <Compile Include="Hidistro\Core\Enums\FileClass.cs" />
+    <Compile Include="Hidistro\Core\Enums\MeasureUnit.cs" />
+    <Compile Include="Hidistro\Core\Enums\MessageAdminUserType.cs" />
+    <Compile Include="Hidistro\Core\Enums\ShippingType.cs" />
+    <Compile Include="Hidistro\Core\Enums\SortAction.cs" />
+    <Compile Include="Hidistro\Core\Enums\SSLSettings.cs" />
+    <Compile Include="Hidistro\Core\Express.cs" />
+    <Compile Include="Hidistro\Core\ExpressTrackingSetService.cs" />
+    <Compile Include="Hidistro\Core\ExtensionMethods\ClassCopyer.cs" />
+    <Compile Include="Hidistro\Core\ExtensionMethods\DataReaderExt.cs" />
+    <Compile Include="Hidistro\Core\ExtensionMethods\DatasetExt.cs" />
+    <Compile Include="Hidistro\Core\ExtensionMethods\DataTableExt.cs" />
+    <Compile Include="Hidistro\Core\ExtensionMethods\DataTableToList.cs" />
+    <Compile Include="Hidistro\Core\ExtensionMethods\ListToDataTable.cs" />
+    <Compile Include="Hidistro\Core\ExtensionMethods\ObjectExt.cs" />
+    <Compile Include="Hidistro\Core\ExtensionMethods\StringExt.cs" />
+    <Compile Include="Hidistro\Core\Globals.cs" />
+    <Compile Include="Hidistro\Core\HiCache.cs" />
+    <Compile Include="Hidistro\Core\HiCryptographer.cs" />
+    <Compile Include="Hidistro\Core\Exceptions\HiException.cs" />
+    <Compile Include="Hidistro\Core\HtmlCodingAttribute.cs" />
+    <Compile Include="Hidistro\Core\Json\DataFormatter.cs" />
+    <Compile Include="Hidistro\Core\Json\DefaultResolver.cs" />
+    <Compile Include="Hidistro\Core\Json\EasyUI.cs" />
+    <Compile Include="Hidistro\Core\Json\EntityConverter.cs" />
+    <Compile Include="Hidistro\Core\Json\ExtJs.cs" />
+    <Compile Include="Hidistro\Core\Json\IgnoreEntityKeyMemberConverter.cs" />
+    <Compile Include="Hidistro\Core\Json\JQGrid.cs" />
+    <Compile Include="Hidistro\Core\Json\JsonAttribute.cs" />
+    <Compile Include="Hidistro\Core\LicenseHelper.cs" />
+    <Compile Include="Hidistro\Core\ProductTempSQLADD.cs" />
+    <Compile Include="Hidistro\Core\ProductShowOrderPriority.cs" />
+    <Compile Include="Hidistro\Core\ResourcesHelper.cs" />
+    <Compile Include="Hidistro\Core\Serializer.cs" />
+    <Compile Include="Hidistro\Core\SettingsManager.cs" />
+    <Compile Include="Hidistro\Core\TemplatePageControl.cs" />
+    <Compile Include="Hidistro\Core\Urls\UrlReWriteProvider.cs" />
+    <Compile Include="Hidistro\Core\Urls\HiUrlReWriter.cs" />
+    <Compile Include="Hidistro\Core\Urls\ApplicationKeyMapping.cs" />
+    <Compile Include="Hidistro\Core\Urls\LocationSet.cs" />
+    <Compile Include="Hidistro\Core\Urls\Location.cs" />
+    <Compile Include="Hidistro\Core\Urls\ReWrittenUrl.cs" />
+    <Compile Include="Hidistro\Core\Urls\SiteUrls.cs" />
+    <Compile Include="Hidistro\Core\Urls\SiteUrlsData.cs" />
+    <Compile Include="Hidistro\Core\LicenseChecker.cs" />
+  </ItemGroup>
+</Project>

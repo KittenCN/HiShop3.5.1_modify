@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <wxlogin>
+    <OperTime>2016/1/15 15:54:12</OperTime>
+    <ErrorMsg>{"Avatar":"https://tfsimg.alipay.com/images/partner/images/partner/T1IVXXXb0bXXXXXXXX","Gender":"m","IsBankAuth":"T","IsCertified":"T","IsIdAuth":"T","IsLicenceAuth":"F","IsMobileAuth":"T","IsStudentCertified":"F","UserId":"20881002588583561792469852913093","UserStatus":"T","UserTypeValue":"2","Body":"{\"alipay_user_userinfo_share_response\":{\"user_type_value\":\"2\",\"is_licence_auth\":\"F\",\"is_certified\":\"T\",\"is_certify_grade_a\":\"T\",\"avatar\":\"https:\\/\\/tfsimg.alipay.com\\/images\\/partner\\/images\\/partner\\/T1IVXXXb0bXXXXXXXX\",\"is_student_certified\":\"F\",\"is_bank_auth\":\"T\",\"is_mobile_auth\":\"T\",\"alipay_user_id\":\"2088002166035933\",\"user_id\":\"20881002588583561792469852913093\",\"user_status\":\"T\",\"gender\":\"m\",\"is_id_auth\":\"T\"},\"sign\":\"LkgYjllSDDWU+Hn1upd6aJhWFu17EPkfZrGtmp3knKitle0mLnoTtI/5uYqYIHCZ5odJ9boOTd05nbeRGbqdF58fdST0B33XRVpSZo74OPkrxD08IaU72HInxZZM5BjKmxyk813faBa2563FMS42qwJ+5TqVZVu2Pg36oKsYUyA=\"}","IsError":false}</ErrorMsg>
+    <AlipayOpenId>获取用户信息</AlipayOpenId>
+    <PageUrl>http://vfxtest.test.xiaokeduo.com/Vshop/SubmmitOrder.aspx?buyAmount=1&amp;productSku=3_0&amp;from=signBuy&amp;ReferralId=29&amp;app_id=2015102300524288&amp;source=alipay_wallet&amp;scope=auth_userinfo&amp;auth_code=6fb4ce7d599f45d598de906d9ad4QX93</PageUrl>
+  </wxlogin>
+</DocumentElement>

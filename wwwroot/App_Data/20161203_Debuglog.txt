@@ -1,0 +1,35 @@
+2016-12-03 08:06:41.719:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-12-03 13:34:26.794:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1480743255</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[数据库密码1qaz2wsx3edc]]></Content>
+<MsgId>6359743854413060684</MsgId>
+</xml>
+---------------
+2016-12-03 15:36:29.030:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1480750588</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/1Iz7fAt6jBKIV8XrShMqYmHS8gBkYGFwSpaHyz85KXfPsiaG8VTKzrRoKNueZxgfiaZRSprnX5CVzMWPZBBU6byg/0]]></PicUrl>
+<MsgId>6359775349408244442</MsgId>
+<MediaId><![CDATA[As5XsOn42khCwmWwZoG7FkuaBLpAwPiXkhT6km_Ba43ZylqHMC3tjudYVxrWcxfQ]]></MediaId>
+</xml>
+---------------
+2016-12-03 15:37:12.672:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1480750631</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/1Iz7fAt6jBKIV8XrShMqYmHS8gBkYGFwVQJwarmOtzicunKRN5GCDzicOEJxDHp1ELNEVfO1tqNlVwoGQJ1ZFq5A/0]]></PicUrl>
+<MsgId>6359775534091838185</MsgId>
+<MediaId><![CDATA[TDnandIb1cWXxPuRlQrvVINNrKAc7Itszl9dK4UxDfhRBiw2QDUWE-s8RFUOqpJY]]></MediaId>
+</xml>
+---------------
+2016-12-03 18:41:20.052:Requested value 'VIEW' was not found.
+---------------
+2016-12-03 18:58:14.010:Requested value 'VIEW' was not found.
+---------------

@@ -1,0 +1,14 @@
+D:\g工作\项目源码\xkd3.5\public\Hishop.WeiBo.Api\bin\Debug\Hishop.WeiBo.Api.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.WeiBo.Api\bin\Debug\Hishop.WeiBo.Api.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.WeiBo.Api\bin\Debug\Newtonsoft.Json.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.WeiBo.Api\bin\Debug\System.Net.Http.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.WeiBo.Api\obj\x86\Debug\Hishop.WeiBo.Api.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.WeiBo.Api\obj\x86\Debug\Hishop.WeiBo.Api.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.WeiBo.Api\obj\x86\Debug\Hishop.WeiBo.Api.csprojResolveAssemblyReference.cache
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.WeiBo.Api\bin\Debug\Hishop.WeiBo.Api.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.WeiBo.Api\bin\Debug\Hishop.WeiBo.Api.pdb
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.WeiBo.Api\bin\Debug\Newtonsoft.Json.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.WeiBo.Api\bin\Debug\System.Net.Http.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.WeiBo.Api\obj\x86\Debug\Hishop.WeiBo.Api.csprojResolveAssemblyReference.cache
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.WeiBo.Api\obj\x86\Debug\Hishop.WeiBo.Api.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.WeiBo.Api\obj\x86\Debug\Hishop.WeiBo.Api.pdb

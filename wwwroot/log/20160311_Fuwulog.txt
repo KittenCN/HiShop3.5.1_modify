@@ -1,0 +1,8 @@
+2016-03-11 16:27:28:当前微信模板类型：DistributorCreate,会员onh8QswgogNYs8z7Vf24wVrwjJlM|分销商|etG1vP0zs28k3MLz9eam4Ko0p9La0oKSB2e6f1Y9xms
+---------------
+2016-03-11 16:27:29:当前模板类型：DistributorCreate,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-03-11 18:52:24:当前微信模板类型：DistributorCreate,会员onh8QsxlXdc1jJ98oInzdOOG9wmY|分销商|etG1vP0zs28k3MLz9eam4Ko0p9La0oKSB2e6f1Y9xms
+---------------
+2016-03-11 18:52:24:当前模板类型：DistributorCreate,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------

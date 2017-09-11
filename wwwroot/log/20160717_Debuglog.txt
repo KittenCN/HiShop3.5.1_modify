@@ -1,0 +1,60 @@
+2016-07-17 07:08:05.052:商品规格：True
+---------------
+2016-07-17 07:09:44.320:商品规格：True
+---------------
+2016-07-17 07:39:51.702:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1468712391</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx?categoryId=10]]></EventKey>
+<MenuId>411818141</MenuId>
+</xml>
+---------------
+2016-07-17 08:28:41.451:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1468715321</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx?categoryId=10]]></EventKey>
+<MenuId>411818141</MenuId>
+</xml>
+---------------
+2016-07-17 08:29:20.512:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1468715360</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx?categoryId=10]]></EventKey>
+<MenuId>411818141</MenuId>
+</xml>
+---------------
+2016-07-17 11:52:17.324:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1468727537</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>411818141</MenuId>
+</xml>
+---------------
+2016-07-17 15:43:48.013:商品规格：False
+---------------
+2016-07-17 15:43:50.640:商品规格：False
+---------------
+2016-07-17 15:45:09.368:商品规格：False
+---------------
+2016-07-17 15:45:11.304:商品规格：False
+---------------
+2016-07-17 15:53:32.150:商品规格：False
+---------------
+2016-07-17 15:53:34.425:商品规格：False
+---------------
+2016-07-17 15:53:58.665:商品规格：False
+---------------
+2016-07-17 15:54:04.121:商品规格：False
+---------------

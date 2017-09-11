@@ -1,0 +1,24 @@
+2016-03-01 01:59:32.826:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-03-01 01:59:33.030:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-03-01 02:00:43.732:到这里了，！Application_Start
+---------------
+2016-03-01 02:49:31.607:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs0_oD2V7Mzo_MpnxFu6Oo2k]]></FromUserName>
+<CreateTime>1456771771</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-03-01 12:48:44.276:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs1X-TX4ebS37Q0OJZPrH8CM]]></FromUserName>
+<CreateTime>1456807723</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------

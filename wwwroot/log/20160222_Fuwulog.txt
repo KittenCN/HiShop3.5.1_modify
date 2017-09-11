@@ -1,0 +1,66 @@
+2016-02-22 00:14:31:当前微信模板类型：OrderCreate,会员onh8Qs_fBhwUjZ56T0syAQBpaljU|分销商onh8Qs_fBhwUjZ56T0syAQBpaljU|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-02-22 00:14:31:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-02-22 00:15:37:当前微信模板类型：OrderPay,会员onh8Qs_fBhwUjZ56T0syAQBpaljU|分销商onh8Qs_fBhwUjZ56T0syAQBpaljU|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-02-22 00:15:37:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-02-22 00:16:11:当前微信模板类型：OrderDeliver,会员onh8Qs_fBhwUjZ56T0syAQBpaljU|分销商onh8Qs_fBhwUjZ56T0syAQBpaljU|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-02-22 00:16:11:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-02-22 00:16:53:AliOpneid:
+---------------
+2016-02-22 00:16:53:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-02-22 00:16:53:当前微信模板类型：OrderGetCommission,会员|分销商onh8Qs_fBhwUjZ56T0syAQBpaljU|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-02-22 00:16:53:当前微信模板类型：OrderGetPoint,会员onh8Qs_fBhwUjZ56T0syAQBpaljU|分销商|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-02-22 00:16:53:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-02-22 00:16:53:当前模板类型：MemberGradeChange,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-02-22 00:16:53:当前微信模板类型：MemberGradeChange,会员onh8Qs_fBhwUjZ56T0syAQBpaljU|分销商onh8Qs_fBhwUjZ56T0syAQBpaljU|kQXpNvnWgN9DWJbe7pCPqdHjnCmTPwWne17JwqX8LYs
+---------------
+2016-02-22 00:18:14:当前微信模板类型：DrawCashRequest,会员|分销商|ncxyy0_PFRgVNBrT6ns-JS7eRCXebo1yJJkU4cU3Fyc
+---------------
+2016-02-22 00:18:14:当前模板类型：DrawCashRequest,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-02-22 08:47:46:当前微信模板类型：DistributorCreate,会员onh8Qs1IyUh5rRIWkHauXKfbtLX8|分销商|etG1vP0zs28k3MLz9eam4Ko0p9La0oKSB2e6f1Y9xms
+---------------
+2016-02-22 08:47:46:当前模板类型：DistributorCreate,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-02-22 09:18:50:当前微信模板类型：DistributorCancel,会员|分销商|kQXpNvnWgN9DWJbe7pCPqdHjnCmTPwWne17JwqX8LYs
+---------------
+2016-02-22 09:18:50:当前模板类型：DistributorCancel,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-02-22 09:18:55:当前微信模板类型：DistributorCancel,会员|分销商|kQXpNvnWgN9DWJbe7pCPqdHjnCmTPwWne17JwqX8LYs
+---------------
+2016-02-22 09:18:55:当前模板类型：DistributorCancel,会员|分销商|9e741ecf1d6844c886258004b220d950
+---------------
+2016-02-22 11:49:11:当前微信模板类型：OrderCreate,会员onh8Qs_fBhwUjZ56T0syAQBpaljU|分销商onh8Qs_fBhwUjZ56T0syAQBpaljU|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-02-22 11:49:11:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-02-22 11:51:48:当前微信模板类型：OrderPay,会员onh8Qs_fBhwUjZ56T0syAQBpaljU|分销商onh8Qs_fBhwUjZ56T0syAQBpaljU|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-02-22 11:51:48:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-02-22 11:52:17:当前微信模板类型：OrderDeliver,会员onh8Qs_fBhwUjZ56T0syAQBpaljU|分销商onh8Qs_fBhwUjZ56T0syAQBpaljU|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-02-22 11:52:17:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-02-22 11:54:22:AliOpneid:
+---------------
+2016-02-22 11:54:22:当前微信模板类型：OrderGetCommission,会员|分销商onh8Qs_fBhwUjZ56T0syAQBpaljU|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-02-22 11:54:22:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-02-22 11:54:22:当前微信模板类型：DistributorGradeChange,会员|分销商onh8Qs_fBhwUjZ56T0syAQBpaljU|kQXpNvnWgN9DWJbe7pCPqdHjnCmTPwWne17JwqX8LYs
+---------------
+2016-02-22 11:54:22:当前微信模板类型：OrderGetPoint,会员onh8Qs_fBhwUjZ56T0syAQBpaljU|分销商|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-02-22 11:54:22:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------

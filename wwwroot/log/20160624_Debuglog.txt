@@ -1,0 +1,21 @@
+2016-06-24 15:38:53.884:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs2vEzsr9KrhYWf2KK5hQMEw]]></FromUserName>
+<CreateTime>1466753933</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-06-24 15:38:59.339:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs2vEzsr9KrhYWf2KK5hQMEw]]></FromUserName>
+<CreateTime>1466753939</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-06-24 15:39:01.072:Object reference not set to an instance of an object.
+---------------

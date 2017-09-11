@@ -1,0 +1,18 @@
+2016-11-22 10:18:37.484:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=10&ReferralId=1
+---------------
+2016-11-22 11:00:08.212:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=3&ReferralId=1
+---------------
+2016-11-22 12:10:05.344:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=3&ReferralId=1
+---------------
+2016-11-22 12:41:35.712:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=3&ReferralId=1
+---------------
+2016-11-22 15:35:31.644:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=8&ReferralId=1
+---------------
+2016-11-22 16:27:05.777:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=8&ReferralId=1
+---------------
+2016-11-22 16:51:53.575:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=8&ReferralId=1
+---------------
+2016-11-22 18:01:14.380:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=11&ReferralId=1
+---------------
+2016-11-22 20:28:54.953:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=14&ReferralId=1
+---------------

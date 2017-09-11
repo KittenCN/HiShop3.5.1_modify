@@ -1,0 +1,2 @@
+2016-11-28 18:57:51.922:进入1，必须登录的页面，并且无code请求http://www.178gx.com/ProductList.aspx?categoryId=1&ReferralId=1
+---------------

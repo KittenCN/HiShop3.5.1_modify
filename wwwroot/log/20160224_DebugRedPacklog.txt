@@ -1,0 +1,20 @@
+2016-02-24 21:47:04.178:<xml>
+<act_name><![CDATA[您的提现申请已成功]]></act_name>
+<client_ip><![CDATA[39.174.79.139]]></client_ip>
+<max_value>1000</max_value>
+<mch_billno>1264263801201647240000000003</mch_billno>
+<mch_id>1264263801</mch_id>
+<min_value>1000</min_value>
+<nick_name><![CDATA[一起吧个性购物]]></nick_name>
+<nonce_str>1155761</nonce_str>
+<re_openid><![CDATA[onh8Qs1IyUh5rRIWkHauXKfbtLX8]]></re_openid>
+<remark><![CDATA[分销商发红包提现]]></remark>
+<send_name><![CDATA[一起吧个性购物]]></send_name>
+<sign><![CDATA[1888A0386EF764F457008D1B2FA621EA]]></sign>
+<total_amount>1000</total_amount>
+<total_num>1</total_num>
+<wishing><![CDATA[恭喜您提现成功!]]></wishing>
+<wxappid><![CDATA[wx2b3a33a0bbfd5d9a]]></wxappid>
+</xml>
+
+---------------

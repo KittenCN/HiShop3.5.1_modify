@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{162E044A-AF5C-4F26-B950-50C89A56A99C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Hidistro.SaleSystem.Vshop</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Core" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\wwwroot\Bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\..\wwwroot\Bin\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\DistributorGradeCommissionBrower.cs" />
+    <Compile Include="Hidistro\Vshop\ExpressHelper.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\MemberAmountProcessor.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\NoticeBrowser.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\CategoryBrowser.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\CouponProcessor.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\DistributorsBrower.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\OrderException.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\MemberProcessor.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\OneTaoState.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\OneTaoPrizeState.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\OneyuanTaoHelp.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\Point.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\ProductBrowser.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\OrderRedPagerBrower.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\RedPackHelp.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\ShareMaterialBrowser.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\ShoppingCartProcessor.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\ShoppingProcessor.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\VshopBrowser.cs" />
+    <Compile Include="Hidistro\SaleSystem\Vshop\DistributorGradeBrower.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hidistro.Core\Hidistro.Core.csproj">
+      <Project>{cb569a65-e158-4fbd-9479-1428df0d880d}</Project>
+      <Name>Hidistro.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.Entities\Hidistro.Entities.csproj">
+      <Project>{ced2d31c-3769-47ea-81dc-0fb8fc896cb1}</Project>
+      <Name>Hidistro.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.Messages\Hidistro.Messages.csproj">
+      <Project>{6e5ea48e-2a33-4e4a-9d1e-fbed87dce4ea}</Project>
+      <Name>Hidistro.Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.SqlDal\Hidistro.SqlDal.csproj">
+      <Project>{36fd561c-03f8-4dce-8cbc-e5ff35878766}</Project>
+      <Name>Hidistro.SqlDal</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

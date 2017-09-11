@@ -1,0 +1,162 @@
+2016-05-16 05:03:55.677:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-05-16 05:03:55.837:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-05-16 05:04:05.427:到这里了，！Application_Start
+---------------
+2016-05-16 08:57:16.070:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs6Kf6DNq8a6F2dpOUnBC5aA]]></FromUserName>
+<CreateTime>1463360235</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-05-16 11:39:18.744:Requested value 'qualification_verify_success' was not found.
+---------------
+2016-05-16 11:39:19.236:Requested value 'naming_verify_success' was not found.
+---------------
+2016-05-16 11:55:58.627:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs49V8oRSRQSiwh4SHgd7rUs]]></FromUserName>
+<CreateTime>1463370958</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-05-16 14:26:49.010:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QswgogNYs8z7Vf24wVrwjJlM]]></FromUserName>
+<CreateTime>1463380008</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-05-16 16:27:24.847:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1463387243</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-05-16 16:30:02.166:Object reference not set to an instance of an object.
+---------------
+2016-05-16 16:30:19.086:Object reference not set to an instance of an object.
+---------------
+2016-05-16 16:34:19.453:Object reference not set to an instance of an object.
+---------------
+2016-05-16 16:34:20.025:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-05-16 16:34:20.026:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-05-16 16:53:18.810:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_A5lQE90mRaFMLw9hheFYc]]></FromUserName>
+<CreateTime>1463388798</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-05-16 16:53:20.109:Object reference not set to an instance of an object.
+---------------
+2016-05-16 16:54:12.693:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1463388852</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-05-16 16:54:21.879:Object reference not set to an instance of an object.
+---------------
+2016-05-16 16:54:22.038:Object reference not set to an instance of an object.
+---------------
+2016-05-16 16:54:22.306:Object reference not set to an instance of an object.
+---------------
+2016-05-16 16:54:44.465:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_A5lQE90mRaFMLw9hheFYc]]></FromUserName>
+<CreateTime>1463388884</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-05-16 17:08:16.575:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1463389696</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-05-16 17:17:33.454:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1463390253</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-05-16 17:18:15.262:Object reference not set to an instance of an object.
+---------------
+2016-05-16 17:18:25.763:Object reference not set to an instance of an object.
+---------------
+2016-05-16 17:19:12.371:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-05-16 17:19:12.371:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-05-16 17:19:12.399:Object reference not set to an instance of an object.
+---------------
+2016-05-16 17:20:17.656:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1463390417</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-05-16 17:20:24.568:Object reference not set to an instance of an object.
+---------------
+2016-05-16 17:20:24.683:Object reference not set to an instance of an object.
+---------------
+2016-05-16 19:10:29.602:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs8S0esn7Mcdh5UqY3T6Z7DU]]></FromUserName>
+<CreateTime>1463397029</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-05-16 19:10:30.945:Object reference not set to an instance of an object.
+---------------
+2016-05-16 19:10:51.569:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs8S0esn7Mcdh5UqY3T6Z7DU]]></FromUserName>
+<CreateTime>1463397051</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------

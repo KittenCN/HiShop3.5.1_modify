@@ -1,0 +1,46 @@
+2016-07-30 03:07:24.737:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-07-30 03:07:24.833:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-07-30 03:07:28.224:到这里了，！Application_Start
+---------------
+2016-07-30 14:28:21.946:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1469860101</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>411818141</MenuId>
+</xml>
+---------------
+2016-07-30 14:29:55.368:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1469860195</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx?categoryId=10]]></EventKey>
+<MenuId>411818141</MenuId>
+</xml>
+---------------
+2016-07-30 14:30:07.496:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1469860207</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx?categoryId=10]]></EventKey>
+<MenuId>411818141</MenuId>
+</xml>
+---------------
+2016-07-30 14:30:11.956:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QsxlrlY1NNCwdPhGB_mWnd_k]]></FromUserName>
+<CreateTime>1469860211</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>411818141</MenuId>
+</xml>
+---------------

@@ -1,0 +1,21 @@
+2016-11-11 12:55:28.399:Requested value 'VIEW' was not found.
+---------------
+2016-11-11 12:56:05.346:ReferralId：28063
+
+---------------
+2016-11-11 14:05:15.797:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-11-11 17:58:39.384:Requested value 'VIEW' was not found.
+---------------
+2016-11-11 17:59:08.844:Requested value 'VIEW' was not found.
+---------------
+2016-11-11 17:59:51.427:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-11-11 17:59:51.427:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-11-11 18:00:06.575:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-11-11 18:00:06.575:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-11-11 18:04:11.428:Requested value 'VIEW' was not found.
+---------------

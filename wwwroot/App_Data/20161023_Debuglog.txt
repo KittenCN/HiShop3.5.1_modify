@@ -1,0 +1,12 @@
+2016-10-23 06:03:55.322:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-10-23 10:42:21.574:returnUrl:http://121.42.136.3/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-10-23 10:42:21.575:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-10-23 10:44:50.721:商品规格：True
+---------------
+2016-10-23 10:44:59.544:商品规格：True
+---------------
+2016-10-23 10:53:52.311:Requested value 'VIEW' was not found.
+---------------

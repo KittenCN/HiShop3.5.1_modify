@@ -1,0 +1,24 @@
+2016-03-22 14:46:44.445:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs71c-lnpbHgqXVaEPkbJCHI]]></FromUserName>
+<CreateTime>1458629203</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-03-22 19:58:46.731:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs3MJ7kPsm7csILxfveqJVag]]></FromUserName>
+<CreateTime>1458647926</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-03-22 20:00:40.952:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-03-22 20:00:41.093:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-03-22 20:00:47.628:到这里了，！Application_Start
+---------------

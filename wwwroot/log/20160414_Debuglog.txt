@@ -1,0 +1,48 @@
+2016-04-14 09:16:54.799:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs9AU37pO7uq5N-3I4ZhjolA]]></FromUserName>
+<CreateTime>1460596612</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-04-14 09:16:57.287:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs9AU37pO7uq5N-3I4ZhjolA]]></FromUserName>
+<CreateTime>1460596617</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/MemberCenter.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-04-14 09:17:09.056:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs9AU37pO7uq5N-3I4ZhjolA]]></FromUserName>
+<CreateTime>1460596628</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>406144923</MenuId>
+</xml>
+---------------
+2016-04-14 09:17:13.411:Object reference not set to an instance of an object.
+---------------
+2016-04-14 09:36:33.205:Object reference not set to an instance of an object.
+---------------
+2016-04-14 09:39:08.721:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs9AU37pO7uq5N-3I4ZhjolA]]></FromUserName>
+<CreateTime>1460597948</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+---------------
+2016-04-14 19:02:00.425:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-04-14 19:02:00.528:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-04-14 19:02:45.826:到这里了，！Application_Start
+---------------

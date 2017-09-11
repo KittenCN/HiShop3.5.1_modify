@@ -1,0 +1,6 @@
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.Email\bin\Debug\Hishop.Plugins.Email.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.Email\bin\Debug\Hishop.Plugins.Email.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.Email\bin\Debug\Hishop.Plugins.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.Email\bin\Debug\Hishop.Plugins.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.Email\obj\x86\Debug\Hishop.Plugins.Email.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins.Email\obj\x86\Debug\Hishop.Plugins.Email.pdb

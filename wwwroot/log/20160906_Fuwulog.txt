@@ -1,0 +1,22 @@
+2016-09-06 13:40:56:当前微信模板类型：OrderCreate,会员onh8Qs5dZdd4cDWq-FEP_f0eOctc|分销商onh8Qs5dZdd4cDWq-FEP_f0eOctc|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-09-06 13:40:56:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-09-06 18:38:13:当前微信模板类型：OrderPay,会员onh8Qs5dZdd4cDWq-FEP_f0eOctc|分销商onh8Qs5dZdd4cDWq-FEP_f0eOctc|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-09-06 18:38:13:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-09-06 18:38:25:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-09-06 18:38:25:当前微信模板类型：OrderDeliver,会员onh8Qs5dZdd4cDWq-FEP_f0eOctc|分销商onh8Qs5dZdd4cDWq-FEP_f0eOctc|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-09-06 18:41:14:AliOpneid:
+---------------
+2016-09-06 18:41:14:当前微信模板类型：OrderGetCommission,会员|分销商onh8Qs5dZdd4cDWq-FEP_f0eOctc|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-09-06 18:41:14:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2016-09-06 18:41:15:当前微信模板类型：OrderGetPoint,会员onh8Qs5dZdd4cDWq-FEP_f0eOctc|分销商|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
+---------------
+2016-09-06 18:41:15:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------

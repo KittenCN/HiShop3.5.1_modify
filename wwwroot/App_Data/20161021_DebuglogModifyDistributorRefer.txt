@@ -1,0 +1,2 @@
+2016-10-21 20:18:21.450:会员（ID=28035）原来的上级ID是：28035;分销商名称是：62993395;update aspnet_Members set ReferralUserId=28063 where userid=28035;update aspnet_Distributors set ReferralPath='28063|28035' where ReferralUserId=28035;update aspnet_Distributors set ReferralPath='28063',ReferralUserId=28063 where UserID=28035;
+---------------

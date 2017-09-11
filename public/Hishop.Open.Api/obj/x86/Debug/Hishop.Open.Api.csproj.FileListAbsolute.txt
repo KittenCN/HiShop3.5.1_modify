@@ -1,0 +1,9 @@
+D:\g工作\项目源码\xkd3.5\public\Hishop.Open.Api\bin\Debug\Hishop.Open.Api.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Open.Api\bin\Debug\Hishop.Open.Api.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Open.Api\obj\x86\Debug\Hishop.Open.Api.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Open.Api\obj\x86\Debug\Hishop.Open.Api.pdb
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Open.Api\bin\Debug\Hishop.Open.Api.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Open.Api\bin\Debug\Hishop.Open.Api.pdb
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Open.Api\obj\x86\Debug\Hishop.Open.Api.csprojResolveAssemblyReference.cache
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Open.Api\obj\x86\Debug\Hishop.Open.Api.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Open.Api\obj\x86\Debug\Hishop.Open.Api.pdb

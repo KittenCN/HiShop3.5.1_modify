@@ -1,0 +1,16 @@
+2016-07-25 07:07:12.707:到这里了，！Application_Start
+---------------
+2016-07-25 07:07:13.514:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-07-25 07:07:13.520:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-07-25 13:02:14.131:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8QszTfol2tm5Wq5PXaordTPkc]]></FromUserName>
+<CreateTime>1469422933</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>411818141</MenuId>
+</xml>
+---------------

@@ -1,0 +1,8 @@
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins\bin\Debug\Hishop.Plugins.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins\bin\Debug\Hishop.Plugins.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins\obj\x86\Debug\Hishop.Plugins.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.Plugins\obj\x86\Debug\Hishop.Plugins.pdb
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Plugins\bin\Debug\Hishop.Plugins.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Plugins\bin\Debug\Hishop.Plugins.pdb
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Plugins\obj\x86\Debug\Hishop.Plugins.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Plugins\obj\x86\Debug\Hishop.Plugins.pdb

@@ -1,0 +1,11 @@
+D:\g工作\项目源码\xkd3.5\public\Hishop.MeiQia.Api\bin\Debug\Hishop.MeiQia.Api.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.MeiQia.Api\bin\Debug\Hishop.MeiQia.Api.pdb
+D:\g工作\项目源码\xkd3.5\public\Hishop.MeiQia.Api\bin\Debug\Newtonsoft.Json.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.MeiQia.Api\obj\x86\Debug\Hishop.MeiQia.Api.dll
+D:\g工作\项目源码\xkd3.5\public\Hishop.MeiQia.Api\obj\x86\Debug\Hishop.MeiQia.Api.pdb
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.MeiQia.Api\bin\Debug\Hishop.MeiQia.Api.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.MeiQia.Api\bin\Debug\Hishop.MeiQia.Api.pdb
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.MeiQia.Api\bin\Debug\Newtonsoft.Json.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.MeiQia.Api\obj\x86\Debug\Hishop.MeiQia.Api.csprojResolveAssemblyReference.cache
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.MeiQia.Api\obj\x86\Debug\Hishop.MeiQia.Api.dll
+F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.MeiQia.Api\obj\x86\Debug\Hishop.MeiQia.Api.pdb

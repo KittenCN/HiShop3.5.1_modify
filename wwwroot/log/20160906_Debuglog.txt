@@ -1,0 +1,136 @@
+2016-09-06 11:26:28.017:商品规格：False
+---------------
+2016-09-06 11:27:08.357:商品规格：False
+---------------
+2016-09-06 11:43:45.704:商品规格：False
+---------------
+2016-09-06 11:44:18.013:商品规格：False
+---------------
+2016-09-06 11:45:37.039:商品规格：False
+---------------
+2016-09-06 11:55:43.879:商品规格：False
+---------------
+2016-09-06 11:56:19.265:商品规格：False
+---------------
+2016-09-06 12:20:31.546:商品规格：False
+---------------
+2016-09-06 12:22:48.498:商品规格：False
+---------------
+2016-09-06 12:30:00.727:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1473136200</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>413111815</MenuId>
+</xml>
+---------------
+2016-09-06 12:52:18.636:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs5dZdd4cDWq-FEP_f0eOctc]]></FromUserName>
+<CreateTime>1473137538</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>413111815</MenuId>
+</xml>
+---------------
+2016-09-06 13:37:29.873:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs5dZdd4cDWq-FEP_f0eOctc]]></FromUserName>
+<CreateTime>1473140249</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>413111815</MenuId>
+</xml>
+---------------
+2016-09-06 13:37:36.017:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs5dZdd4cDWq-FEP_f0eOctc]]></FromUserName>
+<CreateTime>1473140255</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>413111815</MenuId>
+</xml>
+---------------
+2016-09-06 13:37:39.141:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs5dZdd4cDWq-FEP_f0eOctc]]></FromUserName>
+<CreateTime>1473140258</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/ProductList.aspx?categoryId=11]]></EventKey>
+<MenuId>413111815</MenuId>
+</xml>
+---------------
+2016-09-06 13:40:56.481:Object reference not set to an instance of an object.
+---------------
+2016-09-06 13:40:56.646:Object reference not set to an instance of an object.
+---------------
+2016-09-06 13:44:56.575:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs5dZdd4cDWq-FEP_f0eOctc]]></FromUserName>
+<CreateTime>1473140696</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>413111815</MenuId>
+</xml>
+---------------
+2016-09-06 13:47:49.956:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1473140869</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Default.aspx]]></EventKey>
+<MenuId>413111815</MenuId>
+</xml>
+---------------
+2016-09-06 18:30:24.740:商品规格：False
+---------------
+2016-09-06 18:30:31.949:商品规格：False
+---------------
+2016-09-06 18:38:13.476:Object reference not set to an instance of an object.
+---------------
+2016-09-06 18:38:13.626:Object reference not set to an instance of an object.
+---------------
+2016-09-06 18:38:25.346:Object reference not set to an instance of an object.
+---------------
+2016-09-06 18:38:25.408:returnUrl:http://www.178gx.com/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2016-09-06 18:38:25.408:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2016-09-06 18:40:09.397:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1473158409</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>413111815</MenuId>
+</xml>
+---------------
+2016-09-06 18:41:15.180:Object reference not set to an instance of an object.
+---------------
+2016-09-06 18:41:15.475:Object reference not set to an instance of an object.
+---------------
+2016-09-06 18:43:03.196:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs5dZdd4cDWq-FEP_f0eOctc]]></FromUserName>
+<CreateTime>1473158583</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.178gx.com/Vshop/DistributorCenter.aspx]]></EventKey>
+<MenuId>413111815</MenuId>
+</xml>
+---------------
+2016-09-06 19:08:51.043:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-09-06 19:08:51.069:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-09-06 19:08:53.922:到这里了，！Application_Start
+---------------

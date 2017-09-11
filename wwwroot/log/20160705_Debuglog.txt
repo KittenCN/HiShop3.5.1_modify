@@ -1,0 +1,15 @@
+2016-07-05 08:55:53.972:<xml>
+  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
+<FromUserName><![CDATA[onh8Qs_fBhwUjZ56T0syAQBpaljU]]></FromUserName>
+<CreateTime>1467680153</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[hi]]></Content>
+<MsgId>6303638258534891763</MsgId>
+</xml>
+---------------
+2016-07-05 23:06:35.225:Application_End应用池资源被回收，进入重新激活流程！
+---------------
+2016-07-05 23:06:35.271:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2016-07-05 23:06:43.302:到这里了，！Application_Start
+---------------

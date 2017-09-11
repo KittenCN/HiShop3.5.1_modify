@@ -1,0 +1,168 @@
+﻿<hi:common_header runat="server" />
+<style>
+    #mcover { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); display: none; z-index: 20000; }
+        #mcover img { position: fixed; right: 18px; top: 5px; width: 260px !important; height: 180px !important; z-index: 20001; }
+    body { background: #ddd; }
+    #infoid { color: #999; }
+    #shareid { float: right; margin-top: 10px; width: 45%; }
+    #sharetitle { margin-top: 10px; border: 1px solid #ccc; }
+    #shareSina { float: left; margin-top: 10px; width: 49%; }
+    .QrcodeDiv { width: 100%; float: left; }
+	.navtab,.navcon{ width:100%; overflow:hidden;}
+	.navtab .active{ border-bottom:2px solid #3bafda;}
+    .Qrtitle,.dpqr{ width:50%; height:40px; line-height:40px; text-align:center; float:left; font-size: 14px; font-weight: bold; border-bottom:1px solid #e1e1e1;}
+	.navcon > div{ padding:10px 0; text-align:center; line-height:24px; display:none;}
+	.navcon div.disblock{ display:block;}
+    .QrtxInfo { font-size: 12px; color: #888; }
+</style>
+
+<div id="mcover" onclick="document.getElementById('mcover').style.display='';" style="display:none;">
+    <img src="/images/guide.png" />
+</div>
+
+
+
+<div style="background: #fff; margin: 10px; border: 1px solid #bbb; padding: 10px; border-radius: 4px;">
+    <h4 style="line-height: 30px; font-size: 15px;padding-left:7px">店铺信息分享</h4>
+
+
+    <small style="color: #999;line-height:20px;padding-left:5px">
+        点击微信右上角分享按钮，将以下店铺信息分享给好友或者朋友圈！
+    </small>
+
+
+    <div class="clear" style="padding:5px">
+        <asp:image runat="server" width="70" height="70" ImageUrl="/Utility/pics/headLogo.jpg"
+                   id="Logoimage" style="float:left"></asp:image>
+        <div style="float:left;padding-left:20px;" onclick="location.href = '<asp:literal runat="server" id="litStoreurl" />'">
+        <div style="font-size:14px;line-height:40px" id="storeName"><asp:literal runat="server" id="litStroeName" /></div>
+        <div id="storeDesc"><asp:literal runat="server" id="litStroeDesc" /></div>
+
+    </div>
+    <div class="clear"></div>
+
+    <input type="text" id="sharetitle" class="input form-control" placeholder="说点什么吧..." />
+    <button class="btn btn-primary btn-xs" id="shareid" onclick="shareTimeline(0)">分享到微信</button>
+    <button class="btn btn-primary  btn-xs" id="shareSina" onclick="shareToWeibo()">分享到新浪微博</button>
+    <div class="clear"></div>
+</div>
+    </div>
+
+<div style=" background: #fff; background: #fff; margin: 10px; padding: 10px; border-radius: 4px; border: 1px solid #bbb; ">
+    <h4 style="line-height:30px;font-size:15px" id="tttt">复制店铺链接</h4>
+    <small style="color: #999; line-height: 20px; font-size: 12px">长按以下虚线框，复制链接地址发送给好友！</small>
+    <div id="storeurl" style="line-hegiht:40px;margin-bottom:15px;border:1px dashed #ccc;padding:3px">
+        <asp:literal runat="server" id="litLinkurl" />
+
+    </div>
+</div>
+
+
+<div style=" background: #fff; background: #fff; margin: 10px; padding: 10px; border-radius: 4px; border: 1px solid #bbb; ">
+    <div class="QrcodeDiv" id="homediv" style="display:none">
+        <div class="Qrtitle">分享首页二维码</div>
+        <img src="" id="storeCode2" style="width:100%" clientidmode="Static" runat="server" />
+        <div class="QrtxInfo">长按图片收藏，然后发送给好友</div>
+    </div>
+
+    <div class="QrcodeDiv" id="folldiv" style="display:none">
+    	<div class="navtab">
+        	<ul>
+                <li class="dpqr active">店铺二维码</li>
+                <li class="Qrtitle">公众号二维码</li>
+            </ul>
+        </div>
+        <div class="navcon">
+        	<div class="navcontent1 disblock">
+            	<p>分享店铺二维码</p>
+                <img src="" style="width:100%" id="storeCode" clientidmode="Static" runat="server" />
+                <div class="QrtxInfo">
+                    长按图片收藏，然后发送给好友
+                </div>
+            </div>
+        	<div class="navcontent2">
+            	<p>分享公众号二维码</p>
+                <img src="" style="width:100%" id="storeFollowCode" clientidmode="Static" runat="server" />
+                <div class="QrtxInfo">
+                    长按图片收藏，然后发送给好友
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+</div>
+<script>
+    $(function () {
+        resetw();
+        $("#sharetitle").change(function(){
+            wxinshare_desc = $("#sharetitle").val();
+            initWx();
+        });
+        if(!$("#storeFollowCode").attr("src")){
+            $("#homediv").show();
+        }else{        
+            $("#folldiv").show();
+        }
+		
+		//选项卡
+		$('.navtab').find('li').on('click',function(){
+			var oIndex = $(this).index();
+			$(this).addClass('active').siblings().removeClass('active');
+			$('.navcon > div').eq(oIndex).addClass('disblock').siblings().removeClass('disblock');
+		})
+    });
+
+    $(window).resize(function () {
+        resetw()
+    });
+    function resetw() {
+        var btw = $("#shareid").outerWidth();
+        var winw = $(document.body).outerWidth(true);
+        $("#infoid").width(winw - btw - 55);
+    }
+
+    wxinshare_title = $("#storeName").text();//+"\r\n"+$("#storeDesc").text().trim();
+    wxinshare_link =window.location.href;// $("#storeurl").text().trim();
+    wxinshare_imgurl = $("#VDistributorInfo_Logoimage").attr("src");
+    wxinshare_desc =$("#storeDesc").text().trim();// $("#sharetitle").val();
+
+    if(wxinshare_imgurl.indexOf("headLogo")>0)
+        wxinshare_imgurl="http://"+window.location.host+"/Utility/pics/headLogo.jpg";
+
+    function shareTimeline(type) {
+        if (/MicroMessenger/i.test(navigator.userAgent)) {
+            $("#mcover").show();
+            initWx();
+        }
+        else {
+            if(type==0){
+                alert_h("当前客户端不是微信，可以直接复制网址分享到微信！");
+            }
+        }
+    }
+
+    function shareToWeibo() {
+        shareTSina(wxinshare_title, wxinshare_link, wxinshare_desc, wxinshare_imgurl)
+    }
+
+    /*title是标题，rLink链接，summary内容，site分享来源，pic分享图片路径,分享到新浪微博*/
+    function shareTSina(title, rLink, desc, pic) {
+        window.open("http://service.weibo.com/share/share.php?pic=" +encodeURIComponent(pic) + "&title=" +
+        encodeURIComponent(wxinshare_title) + "&url=" + encodeURIComponent(wxinshare_link) + "&summary="+encodeURIComponent(desc),
+        wxinshare_title);
+    }
+
+    function initWx(){
+        WinXinShareMessage(wxinshare_title, wxinshare_desc, wxinshare_link, wxinshare_imgurl);
+    }
+    wx.ready(function () {
+        wx.error(function(res){
+            // config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名。
+            //alert_h("公众号信息验证失败:"+res.errMsg);
+        });
+
+        //initWx();
+    });
+    //wxinshare_link=imgUrl;
+</script>
+<hi:common_footer runat="server" isshownav="1" />
