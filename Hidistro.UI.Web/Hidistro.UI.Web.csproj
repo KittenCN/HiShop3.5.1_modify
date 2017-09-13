@@ -192,6 +192,69 @@
     <Content Include="Admin\Fenxiao\SubStoreCommissions.aspx" />
     <Content Include="Admin\Fenxiao\SuperiorSelect.aspx" />
     <Content Include="Admin\Fonts\wbficon.svg" />
+    <Content Include="Admin\Goods\AddAttribute.aspx" />
+    <Content Include="Admin\Goods\AddBrandCategory.aspx" />
+    <Content Include="Admin\Goods\AddProductType.aspx" />
+    <Content Include="Admin\Goods\AddSpecification.aspx" />
+    <Content Include="Admin\Goods\ascx\AttributeView.ascx" />
+    <Content Include="Admin\Goods\ascx\SpecificationView.ascx" />
+    <Content Include="Admin\Goods\attributes.helper.js" />
+    <Content Include="Admin\Goods\BrandCategories.aspx" />
+    <Content Include="Admin\Goods\CategoryEdit.aspx" />
+    <Content Include="Admin\Goods\DisplaceCategory.aspx" />
+    <Content Include="Admin\Goods\EditAttribute.aspx" />
+    <Content Include="Admin\Goods\EditAttributeValues.aspx" />
+    <Content Include="Admin\Goods\EditBaseInfo.aspx" />
+    <Content Include="Admin\Goods\EditBrandCategory.aspx" />
+    <Content Include="Admin\Goods\EditMemberPrices.aspx" />
+    <Content Include="Admin\Goods\EditProductType.aspx" />
+    <Content Include="Admin\Goods\EditSaleCounts.aspx" />
+    <Content Include="Admin\Goods\EditSpecification.aspx" />
+    <Content Include="Admin\Goods\EditSpecificationValues.aspx" />
+    <Content Include="Admin\Goods\EditStocks.aspx" />
+    <Content Include="Admin\Goods\ExportToPP.aspx" />
+    <Content Include="Admin\Goods\ExportToTB.aspx" />
+    <Content Include="Admin\Goods\grade.price.helper.js" />
+    <Content Include="Admin\Goods\import.yfx.helper.js" />
+    <Content Include="Admin\Goods\ImportFromPP.aspx" />
+    <Content Include="Admin\Goods\ImportFromTB.aspx" />
+    <Content Include="Admin\Goods\ManageCategories.aspx" />
+    <Content Include="Admin\Goods\ProductConsultations.aspx" />
+    <Content Include="Admin\Goods\ProductConsultationsReplyed.aspx" />
+    <Content Include="Admin\Goods\ProductEdit.aspx" />
+    <Content Include="Admin\Goods\ProductOnDeleted.aspx" />
+    <Content Include="Admin\Goods\ProductOnSales.aspx" />
+    <Content Include="Admin\Goods\ProductOnStock.aspx" />
+    <Content Include="Admin\Goods\ProductReviews.aspx" />
+    <Content Include="Admin\Goods\producttag.helper.js" />
+    <Content Include="Admin\Goods\ProductTags.aspx" />
+    <Content Include="Admin\Goods\ProductTypes.aspx" />
+    <Content Include="Admin\Goods\ProductZero.aspx" />
+    <Content Include="Admin\Goods\publish.helper.js" />
+    <Content Include="Admin\Goods\ReplyProductConsultations.aspx" />
+    <Content Include="Admin\Goods\SelectCategory.aspx" />
+    <Content Include="Admin\Goods\SkuValue.aspx" />
+    <Content Include="Admin\Member\AddMemberGrade.aspx" />
+    <Content Include="Admin\Member\CustomDistributorAddMembers.aspx" />
+    <Content Include="Admin\Member\CustomDistributorDetail.aspx" />
+    <Content Include="Admin\Member\CustomDistributorEdit.aspx" />
+    <Content Include="Admin\Member\CustomDistributorList.aspx" />
+    <Content Include="Admin\Member\EditMember.aspx" />
+    <Content Include="Admin\Member\ManageMembers.aspx" />
+    <Content Include="Admin\Member\MemberAmountApply.aspx" />
+    <Content Include="Admin\Member\MemberAmountList.aspx" />
+    <Content Include="Admin\Member\MemberDetails.aspx" />
+    <Content Include="Admin\Member\MemberGaiKuang.aspx" />
+    <Content Include="Admin\Member\MemberGrades.aspx" />
+    <Content Include="Admin\Member\MemberRanking_1.aspx" />
+    <Content Include="Admin\Member\MembershipDetails.aspx" />
+    <Content Include="Admin\Member\MembersIntegralDetail.aspx" />
+    <Content Include="Admin\Member\MembersIntegralQuery.aspx" />
+    <Content Include="Admin\Member\setScore_share.aspx" />
+    <Content Include="Admin\Member\setScore_shopping.aspx" />
+    <Content Include="Admin\Member\setScore_sign.aspx" />
+    <Content Include="Admin\Member\SMSSettings.aspx" />
+    <Content Include="Admin\Member\UserGroupSet.aspx" />
     <Content Include="hieditor\ueditor\controls\ucUeditor.ascx" />
     <Content Include="hieditor\ueditor\dialogs\anchor\anchor.html" />
     <Content Include="hieditor\ueditor\dialogs\attachment\attachment.css" />
@@ -800,6 +863,442 @@
     <Compile Include="Admin\Fenxiao\SuperiorSelect.aspx.designer.cs">
       <DependentUpon>SuperiorSelect.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Goods\AddAttribute.aspx.cs">
+      <DependentUpon>AddAttribute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\AddAttribute.aspx.designer.cs">
+      <DependentUpon>AddAttribute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\AddBrandCategory.aspx.cs">
+      <DependentUpon>AddBrandCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\AddBrandCategory.aspx.designer.cs">
+      <DependentUpon>AddBrandCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\AddProductType.aspx.cs">
+      <DependentUpon>AddProductType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\AddProductType.aspx.designer.cs">
+      <DependentUpon>AddProductType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\AddSpecification.aspx.cs">
+      <DependentUpon>AddSpecification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\AddSpecification.aspx.designer.cs">
+      <DependentUpon>AddSpecification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ascx\AttributeView.ascx.cs">
+      <DependentUpon>AttributeView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ascx\AttributeView.ascx.designer.cs">
+      <DependentUpon>AttributeView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ascx\SpecificationView.ascx.cs">
+      <DependentUpon>SpecificationView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ascx\SpecificationView.ascx.designer.cs">
+      <DependentUpon>SpecificationView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\BrandCategories.aspx.cs">
+      <DependentUpon>BrandCategories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\BrandCategories.aspx.designer.cs">
+      <DependentUpon>BrandCategories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\CategoryEdit.aspx.cs">
+      <DependentUpon>CategoryEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\CategoryEdit.aspx.designer.cs">
+      <DependentUpon>CategoryEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\DisplaceCategory.aspx.cs">
+      <DependentUpon>DisplaceCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\DisplaceCategory.aspx.designer.cs">
+      <DependentUpon>DisplaceCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\EditAttribute.aspx.cs">
+      <DependentUpon>EditAttribute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\EditAttribute.aspx.designer.cs">
+      <DependentUpon>EditAttribute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\EditAttributeValues.aspx.cs">
+      <DependentUpon>EditAttributeValues.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\EditAttributeValues.aspx.designer.cs">
+      <DependentUpon>EditAttributeValues.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\EditBaseInfo.aspx.cs">
+      <DependentUpon>EditBaseInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\EditBaseInfo.aspx.designer.cs">
+      <DependentUpon>EditBaseInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\EditBrandCategory.aspx.cs">
+      <DependentUpon>EditBrandCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\EditBrandCategory.aspx.designer.cs">
+      <DependentUpon>EditBrandCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\EditMemberPrices.aspx.cs">
+      <DependentUpon>EditMemberPrices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\EditMemberPrices.aspx.designer.cs">
+      <DependentUpon>EditMemberPrices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\EditProductType.aspx.cs">
+      <DependentUpon>EditProductType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\EditProductType.aspx.designer.cs">
+      <DependentUpon>EditProductType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\EditSaleCounts.aspx.cs">
+      <DependentUpon>EditSaleCounts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\EditSaleCounts.aspx.designer.cs">
+      <DependentUpon>EditSaleCounts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\EditSpecification.aspx.cs">
+      <DependentUpon>EditSpecification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\EditSpecification.aspx.designer.cs">
+      <DependentUpon>EditSpecification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\EditSpecificationValues.aspx.cs">
+      <DependentUpon>EditSpecificationValues.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\EditSpecificationValues.aspx.designer.cs">
+      <DependentUpon>EditSpecificationValues.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\EditStocks.aspx.cs">
+      <DependentUpon>EditStocks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\EditStocks.aspx.designer.cs">
+      <DependentUpon>EditStocks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ExportToPP.aspx.cs">
+      <DependentUpon>ExportToPP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ExportToPP.aspx.designer.cs">
+      <DependentUpon>ExportToPP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ExportToTB.aspx.cs">
+      <DependentUpon>ExportToTB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ExportToTB.aspx.designer.cs">
+      <DependentUpon>ExportToTB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ImportFromPP.aspx.cs">
+      <DependentUpon>ImportFromPP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ImportFromPP.aspx.designer.cs">
+      <DependentUpon>ImportFromPP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ImportFromTB.aspx.cs">
+      <DependentUpon>ImportFromTB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ImportFromTB.aspx.designer.cs">
+      <DependentUpon>ImportFromTB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ManageCategories.aspx.cs">
+      <DependentUpon>ManageCategories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ManageCategories.aspx.designer.cs">
+      <DependentUpon>ManageCategories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductConsultations.aspx.cs">
+      <DependentUpon>ProductConsultations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductConsultations.aspx.designer.cs">
+      <DependentUpon>ProductConsultations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductConsultationsReplyed.aspx.cs">
+      <DependentUpon>ProductConsultationsReplyed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductConsultationsReplyed.aspx.designer.cs">
+      <DependentUpon>ProductConsultationsReplyed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductEdit.aspx.cs">
+      <DependentUpon>ProductEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductEdit.aspx.designer.cs">
+      <DependentUpon>ProductEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductOnDeleted.aspx.cs">
+      <DependentUpon>ProductOnDeleted.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductOnDeleted.aspx.designer.cs">
+      <DependentUpon>ProductOnDeleted.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductOnSales.aspx.cs">
+      <DependentUpon>ProductOnSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductOnSales.aspx.designer.cs">
+      <DependentUpon>ProductOnSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductOnStock.aspx.cs">
+      <DependentUpon>ProductOnStock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductOnStock.aspx.designer.cs">
+      <DependentUpon>ProductOnStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductReviews.aspx.cs">
+      <DependentUpon>ProductReviews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductReviews.aspx.designer.cs">
+      <DependentUpon>ProductReviews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductTags.aspx.cs">
+      <DependentUpon>ProductTags.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductTags.aspx.designer.cs">
+      <DependentUpon>ProductTags.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductTypes.aspx.cs">
+      <DependentUpon>ProductTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductTypes.aspx.designer.cs">
+      <DependentUpon>ProductTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductZero.aspx.cs">
+      <DependentUpon>ProductZero.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ProductZero.aspx.designer.cs">
+      <DependentUpon>ProductZero.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ReplyProductConsultation.ashx.cs">
+      <DependentUpon>ReplyProductConsultation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\ReplyProductConsultations.aspx.cs">
+      <DependentUpon>ReplyProductConsultations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\ReplyProductConsultations.aspx.designer.cs">
+      <DependentUpon>ReplyProductConsultations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\SelectCategory.aspx.cs">
+      <DependentUpon>SelectCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\SelectCategory.aspx.designer.cs">
+      <DependentUpon>SelectCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Goods\SkuValue.aspx.cs">
+      <DependentUpon>SkuValue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Goods\SkuValue.aspx.designer.cs">
+      <DependentUpon>SkuValue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Insurance\InsuranceCompany.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Insurance\ManageInsuranceArea.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Insurance\ManageInsuranceDetails.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Insurance\ManageInsuranceOrder.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Insurance\ManageInsuranceOrderDetail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Insurance\MemberSelect.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\AddMemberGrade.aspx.cs">
+      <DependentUpon>AddMemberGrade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\AddMemberGrade.aspx.designer.cs">
+      <DependentUpon>AddMemberGrade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\api\Hi_Ajax_GetDistributors.ashx.cs">
+      <DependentUpon>Hi_Ajax_GetDistributors.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\CustomDistributorAddMembers.aspx.cs">
+      <DependentUpon>CustomDistributorAddMembers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\CustomDistributorAddMembers.aspx.designer.cs">
+      <DependentUpon>CustomDistributorAddMembers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\CustomDistributorDetail.aspx.cs">
+      <DependentUpon>CustomDistributorDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\CustomDistributorDetail.aspx.designer.cs">
+      <DependentUpon>CustomDistributorDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\CustomDistributorEdit.aspx.cs">
+      <DependentUpon>CustomDistributorEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\CustomDistributorEdit.aspx.designer.cs">
+      <DependentUpon>CustomDistributorEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\CustomDistributorList.aspx.cs">
+      <DependentUpon>CustomDistributorList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\CustomDistributorList.aspx.designer.cs">
+      <DependentUpon>CustomDistributorList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\EditMember.aspx.cs">
+      <DependentUpon>EditMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\EditMember.aspx.designer.cs">
+      <DependentUpon>EditMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\ManageMembers.aspx.cs">
+      <DependentUpon>ManageMembers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\ManageMembers.aspx.designer.cs">
+      <DependentUpon>ManageMembers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\MemberAmountApply.aspx.cs">
+      <DependentUpon>MemberAmountApply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\MemberAmountApply.aspx.designer.cs">
+      <DependentUpon>MemberAmountApply.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\MemberAmountList.aspx.cs">
+      <DependentUpon>MemberAmountList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\MemberAmountList.aspx.designer.cs">
+      <DependentUpon>MemberAmountList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\MemberDetails.aspx.cs">
+      <DependentUpon>MemberDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\MemberDetails.aspx.designer.cs">
+      <DependentUpon>MemberDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\MemberGaiKuang.aspx.cs">
+      <DependentUpon>MemberGaiKuang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\MemberGaiKuang.aspx.designer.cs">
+      <DependentUpon>MemberGaiKuang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\MemberGrades.aspx.cs">
+      <DependentUpon>MemberGrades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\MemberGrades.aspx.designer.cs">
+      <DependentUpon>MemberGrades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\MemberRanking_1.aspx.cs">
+      <DependentUpon>MemberRanking_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\MemberRanking_1.aspx.designer.cs">
+      <DependentUpon>MemberRanking_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\MembershipDetails.aspx.cs">
+      <DependentUpon>MembershipDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\MembershipDetails.aspx.designer.cs">
+      <DependentUpon>MembershipDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\MembersIntegralDetail.aspx.cs">
+      <DependentUpon>MembersIntegralDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\MembersIntegralDetail.aspx.designer.cs">
+      <DependentUpon>MembersIntegralDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\MembersIntegralQuery.aspx.cs">
+      <DependentUpon>MembersIntegralQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\MembersIntegralQuery.aspx.designer.cs">
+      <DependentUpon>MembersIntegralQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\ScoreConfigHandler.ashx.cs">
+      <DependentUpon>ScoreConfigHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\setScore_share.aspx.cs">
+      <DependentUpon>setScore_share.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\setScore_share.aspx.designer.cs">
+      <DependentUpon>setScore_share.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\setScore_shopping.aspx.cs">
+      <DependentUpon>setScore_shopping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\setScore_shopping.aspx.designer.cs">
+      <DependentUpon>setScore_shopping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\setScore_sign.aspx.cs">
+      <DependentUpon>setScore_sign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\setScore_sign.aspx.designer.cs">
+      <DependentUpon>setScore_sign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\SMSSettings.aspx.cs">
+      <DependentUpon>SMSSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\SMSSettings.aspx.designer.cs">
+      <DependentUpon>SMSSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Member\UserGroupSet.aspx.cs">
+      <DependentUpon>UserGroupSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Member\UserGroupSet.aspx.designer.cs">
+      <DependentUpon>UserGroupSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ProductBasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Admin\SimplePage.Master.cs">
       <DependentUpon>SimplePage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -828,6 +1327,9 @@
     <Content Include="Admin\Fonts\wbficon.eot" />
     <Content Include="Admin\Fonts\wbficon.ttf" />
     <Content Include="Admin\Fonts\wbficon.woff" />
+    <Content Include="Admin\Goods\ReplyProductConsultation.ashx" />
+    <Content Include="Admin\Member\api\Hi_Ajax_GetDistributors.ashx" />
+    <Content Include="Admin\Member\ScoreConfigHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -838,7 +1340,10 @@
   <ItemGroup>
     <Folder Include="2.0\" />
     <Folder Include="Admin\distributor\" />
-    <Folder Include="Admin\Goods\ascx\" />
+    <Folder Include="Admin\help\" />
+    <Folder Include="Admin\images\" />
+    <Folder Include="Admin\js\" />
+    <Folder Include="Admin\Oneyuan\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\public\Hidistro.ControlPanel\Hidistro.ControlPanel.csproj">
