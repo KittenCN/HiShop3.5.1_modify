@@ -255,6 +255,832 @@
     <Content Include="Admin\Member\setScore_sign.aspx" />
     <Content Include="Admin\Member\SMSSettings.aspx" />
     <Content Include="Admin\Member\UserGroupSet.aspx" />
+    <Content Include="Admin\Oneyuan\AddOneyuanInfo.aspx" />
+    <Content Include="Admin\Oneyuan\EditOneyuanInfo.aspx" />
+    <Content Include="Admin\Oneyuan\OneTaoPartInList.aspx" />
+    <Content Include="Admin\Oneyuan\OneTaoResult.aspx" />
+    <Content Include="Admin\Oneyuan\OneTaoViewTab.ascx" />
+    <Content Include="Admin\Oneyuan\OneyuanList.aspx" />
+    <Content Include="Admin\Oneyuan\ProductSelect.aspx" />
+    <Content Include="Admin\Oneyuan\RefoundList.aspx" />
+    <Content Include="Admin\OutPay\AliPaynotifyAmount_url.aspx" />
+    <Content Include="Admin\OutPay\AliPaynotify_url.aspx" />
+    <Content Include="Admin\OutPay\alipayOut.aspx" />
+    <Content Include="Admin\OutPay\alipayOutAmount.aspx" />
+    <Content Include="Admin\OutPay\App\payLog.txt" />
+    <Content Include="Admin\OutPay\OneyuanAlipayRefundNotify.aspx" />
+    <Content Include="Admin\OutPay\OneyungRefund.aspx" />
+    <Content Include="Admin\promotion\ActivityList.aspx" />
+    <Content Include="Admin\promotion\AddActivity.aspx" />
+    <Content Include="Admin\promotion\AddGame.aspx" />
+    <Content Include="Admin\promotion\AddGameAct.aspx" />
+    <Content Include="Admin\promotion\AddGameDaFuWen.aspx" />
+    <Content Include="Admin\promotion\AddGameEgg.aspx" />
+    <Content Include="Admin\promotion\AddGameGuaGuaLe.aspx" />
+    <Content Include="Admin\promotion\AddGameXingYun.aspx" />
+    <Content Include="Admin\promotion\AddProductToActivity.aspx" />
+    <Content Include="Admin\promotion\AddProductToActivity_stock.aspx" />
+    <Content Include="Admin\promotion\AddProductToCoupon.aspx" />
+    <Content Include="Admin\promotion\AddProductToCoupon_stock.aspx" />
+    <Content Include="Admin\promotion\AddProductToPointExchange.aspx" />
+    <Content Include="Admin\promotion\AddProductToPointExchange_stock.aspx" />
+    <Content Include="Admin\promotion\AddShareAct.aspx" />
+    <Content Include="Admin\promotion\AddVote.aspx" />
+    <Content Include="Admin\promotion\BatchPrintData.aspx" />
+    <Content Include="Admin\promotion\BatchPrintSendOrderGoods.aspx" />
+    <Content Include="Admin\promotion\CouponsList.aspx" />
+    <Content Include="Admin\promotion\CouponsPage.aspx" />
+    <Content Include="Admin\promotion\EditGame.aspx" />
+    <Content Include="Admin\promotion\EditGameDaFuWen.aspx" />
+    <Content Include="Admin\promotion\EditGameEgg.aspx" />
+    <Content Include="Admin\promotion\EditGameGuaGuaLe.aspx" />
+    <Content Include="Admin\promotion\EditGameXingYun.aspx" />
+    <Content Include="Admin\promotion\EditLimitedTimeDiscount.aspx" />
+    <Content Include="Admin\promotion\EditProductToActivity.aspx" />
+    <Content Include="Admin\promotion\EditProductToCoupon.aspx" />
+    <Content Include="Admin\promotion\EditProductToExchange.aspx" />
+    <Content Include="Admin\promotion\EmailSettings.aspx" />
+    <Content Include="Admin\promotion\ExChangeList.aspx" />
+    <Content Include="Admin\promotion\Game.js" />
+    <Content Include="Admin\promotion\GameDaFuWenLists.aspx" />
+    <Content Include="Admin\promotion\GameEggLists.aspx" />
+    <Content Include="Admin\promotion\GameGuaGuaLeLists.aspx" />
+    <Content Include="Admin\promotion\GameLists.aspx" />
+    <Content Include="Admin\promotion\GameXingYunLists.aspx" />
+    <Content Include="Admin\promotion\groupbuy.helper.js" />
+    <Content Include="Admin\promotion\hiRegionSelect.aspx" />
+    <Content Include="Admin\promotion\ImgUpload.aspx" />
+    <Content Include="Admin\promotion\LimitedTimeDiscountAddProduct.aspx" />
+    <Content Include="Admin\promotion\LimitedTimeDiscountList.aspx" />
+    <Content Include="Admin\promotion\LimitedTimeDiscountProduct.aspx" />
+    <Content Include="Admin\promotion\MemberCouponList.aspx" />
+    <Content Include="Admin\promotion\NewCoupon.aspx" />
+    <Content Include="Admin\promotion\PointExchange.aspx" />
+    <Content Include="Admin\promotion\PointToCash.aspx" />
+    <Content Include="Admin\promotion\PrizeDeliveryDetail.aspx" />
+    <Content Include="Admin\promotion\PrizeList.aspx" />
+    <Content Include="Admin\promotion\PrizeLists.aspx" />
+    <Content Include="Admin\promotion\PrizeListsDaFuWen.aspx" />
+    <Content Include="Admin\promotion\PrizeListsEgg.aspx" />
+    <Content Include="Admin\promotion\PrizeListsGuaGuaLe.aspx" />
+    <Content Include="Admin\promotion\PrizeListsHaoYun.aspx" />
+    <Content Include="Admin\promotion\SendCouponByManager.aspx" />
+    <Content Include="Admin\promotion\SetRegisterSendCoupon.aspx" />
+    <Content Include="Admin\promotion\ShareActList.aspx" />
+    <Content Include="Admin\promotion\UCGameInfo.ascx" />
+    <Content Include="Admin\promotion\UCGameLists.ascx" />
+    <Content Include="Admin\promotion\UCGamePrizeInfo.ascx" />
+    <Content Include="Admin\promotion\UCPrizeLists.ascx" />
+    <Content Include="Admin\promotion\VoteList.aspx" />
+    <Content Include="Admin\Settings\AddExpressTemplate.aspx" />
+    <Content Include="Admin\Settings\AddManager.aspx" />
+    <Content Include="Admin\Settings\AddShippingTemplate.aspx" />
+    <Content Include="Admin\Settings\Alipay.aspx" />
+    <Content Include="Admin\Settings\BalancePayment.aspx" />
+    <Content Include="Admin\Settings\ChinaBank.aspx" />
+    <Content Include="Admin\Settings\COD.aspx" />
+    <Content Include="Admin\Settings\EditExpressTemplate.aspx" />
+    <Content Include="Admin\Settings\EditManager.aspx" />
+    <Content Include="Admin\Settings\EditManagerPassword.aspx" />
+    <Content Include="Admin\Settings\EditShippingTemplate.aspx" />
+    <Content Include="Admin\Settings\ExpressComputerpes.aspx" />
+    <Content Include="Admin\Settings\ExpressSet.aspx" />
+    <Content Include="Admin\Settings\ExpressTemplates.aspx" />
+    <Content Include="Admin\Settings\managelogs.aspx" />
+    <Content Include="Admin\Settings\Managers.aspx" />
+    <Content Include="Admin\Settings\ManageShippingTemplates.aspx" />
+    <Content Include="Admin\Settings\OfflinePay.aspx" />
+    <Content Include="Admin\Settings\Roles.aspx" />
+    <Content Include="Admin\Settings\SetReset.aspx" />
+    <Content Include="Admin\Settings\SetRolePermissions.aspx" />
+    <Content Include="Admin\Settings\ShengPay.aspx" />
+    <Content Include="Admin\Settings\Shippers.aspx" />
+    <Content Include="Admin\Settings\WeixinPay.aspx" />
+    <Content Include="Admin\Shop\AddNineImages.aspx" />
+    <Content Include="Admin\Shop\Articles.aspx" />
+    <Content Include="Admin\Shop\ArticlesEdit.aspx" />
+    <Content Include="Admin\Shop\Config.aspx" />
+    <Content Include="Admin\Shop\CustomPageEdit.aspx" />
+    <Content Include="Admin\Shop\CustomPageManage.aspx" />
+    <Content Include="Admin\Shop\Default.aspx" />
+    <Content Include="Admin\Shop\DistributorLogoUpload.aspx" />
+    <Content Include="Admin\Shop\fonts\iconfont.svg" />
+    <Content Include="Admin\Shop\GetArticles.aspx" />
+    <Content Include="Admin\Shop\ImageData.aspx" />
+    <Content Include="Admin\Shop\ImageType.aspx" />
+    <Content Include="Admin\Shop\ManageNineImages.aspx" />
+    <Content Include="Admin\Shop\MeiQia.aspx" />
+    <Content Include="Admin\Shop\MultiArticlesEdit.aspx" />
+    <Content Include="Admin\Shop\NoticeEdit.aspx" />
+    <Content Include="Admin\Shop\NoticeList.aspx" />
+    <Content Include="Admin\Shop\PublicMob\css\dist\index\header_style1.css" />
+    <Content Include="Admin\Shop\PublicMob\css\dist\style.css" />
+    <Content Include="Admin\Shop\PublicMob\css\Followtx.css" />
+    <Content Include="Admin\Shop\PublicMob\css\Menu.css" />
+    <Content Include="Admin\Shop\PublicMob\css\SpsBtn.css" />
+    <Content Include="Admin\Shop\PublicMob\css\style.css" />
+    <Content Include="Admin\Shop\PublicMob\images\5%402x.png" />
+    <Content Include="Admin\Shop\PublicMob\images\6%402x.png" />
+    <Content Include="Admin\Shop\PublicMob\images\all%402x.png" />
+    <Content Include="Admin\Shop\PublicMob\images\collectbg.png" />
+    <Content Include="Admin\Shop\PublicMob\images\header2.jpg" />
+    <Content Include="Admin\Shop\PublicMob\images\header3.jpg" />
+    <Content Include="Admin\Shop\PublicMob\images\hui1.png" />
+    <Content Include="Admin\Shop\PublicMob\images\hui2.png" />
+    <Content Include="Admin\Shop\PublicMob\images\hui3.png" />
+    <Content Include="Admin\Shop\PublicMob\images\huoodng%402x.png" />
+    <Content Include="Admin\Shop\PublicMob\images\icon-menu.png" />
+    <Content Include="Admin\Shop\PublicMob\images\icon-menu2.png" />
+    <Content Include="Admin\Shop\PublicMob\images\iconfont-shouhoufuwurexian.png" />
+    <Content Include="Admin\Shop\PublicMob\images\iconfont-taocanguanliqiandai.png" />
+    <Content Include="Admin\Shop\PublicMob\images\iconfont-tuisongjilu.png" />
+    <Content Include="Admin\Shop\PublicMob\images\iconfont-zixunfankui.png" />
+    <Content Include="Admin\Shop\PublicMob\images\icon_addcart.png" />
+    <Content Include="Admin\Shop\PublicMob\images\ind3_1.png" />
+    <Content Include="Admin\Shop\PublicMob\images\ind3_2.png" />
+    <Content Include="Admin\Shop\PublicMob\images\ind3_3.png" />
+    <Content Include="Admin\Shop\PublicMob\images\ind3_4.png" />
+    <Content Include="Admin\Shop\PublicMob\images\indexbg\01.jpg" />
+    <Content Include="Admin\Shop\PublicMob\images\menu-default2.png" />
+    <Content Include="Admin\Shop\PublicMob\images\mmexport.png" />
+    <Content Include="Admin\Shop\PublicMob\js\dist\lib-min.js" />
+    <Content Include="Admin\Shop\PublicMob\js\dist\main.js" />
+    <Content Include="Admin\Shop\PublicMob\plugins\swipe\swipe.js" />
+    <Content Include="Admin\Shop\Public\common.css" />
+    <Content Include="Admin\Shop\Public\css\dist\component-min.css" />
+    <Content Include="Admin\Shop\Public\css\dist\home\shop\edit_homepage.css" />
+    <Content Include="Admin\Shop\Public\css\iconfont.css" />
+    <Content Include="Admin\Shop\Public\images\check.png" />
+    <Content Include="Admin\Shop\Public\images\diy\goodsView1.jpg" />
+    <Content Include="Admin\Shop\Public\images\diy\goodsView2.jpg" />
+    <Content Include="Admin\Shop\Public\images\diy\goodsView3.jpg" />
+    <Content Include="Admin\Shop\Public\images\diy\goodsView4.jpg" />
+    <Content Include="Admin\Shop\Public\images\diy\imgad.jpg" />
+    <Content Include="Admin\Shop\Public\images\diy\modules.png" />
+    <Content Include="Admin\Shop\Public\images\diy\waitupload.png" />
+    <Content Include="Admin\Shop\Public\images\diy\waitupload1.png" />
+    <Content Include="Admin\Shop\Public\images\doubleArrow.png" />
+    <Content Include="Admin\Shop\Public\images\empty.jpg" />
+    <Content Include="Admin\Shop\Public\images\gicon_black.png" />
+    <Content Include="Admin\Shop\Public\images\gicon_white.png" />
+    <Content Include="Admin\Shop\Public\images\gotop.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color0\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color0\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color0\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color0\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color0\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color0\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color0\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color0\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color0\style1_gz0.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color0\style1_shopcar0.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color1\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color1\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color1\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color1\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color1\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color1\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color1\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color1\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color1\style1_gz1.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color1\style1_shopcar1.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color2\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color2\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color2\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color2\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color2\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color2\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color2\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color2\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color2\style1_gz2.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color2\style1_shopcar2.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color3\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color3\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color3\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color3\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color3\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color3\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color3\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color3\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color3\style1_gz3.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color3\style1_shopcar3.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color4\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color4\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color4\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color4\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color4\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color4\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color4\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color4\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color4\style1_gz4.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color4\style1_shopcar4.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color5\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color5\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color5\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color5\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color5\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color5\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color5\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color5\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color5\style1_gz5.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color5\style1_shopcar5.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color6\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color6\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color6\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color6\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color6\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color6\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color6\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color6\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color6\style1_gz6.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color6\style1_shopcar6.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color7\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color7\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color7\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color7\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color7\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color7\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color7\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color7\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color7\style1_gz7.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color7\style1_shopcar7.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color8\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color8\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color8\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color8\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color8\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color8\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color8\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color8\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color8\style1_gz8.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style1\color8\style1_shopcar8.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color0\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color0\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color0\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color0\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color0\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color0\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color0\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color0\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color0\style2_gz0.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color0\style2_shopcar0.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color1\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color1\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color1\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color1\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color1\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color1\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color1\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color1\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color1\style2_gz1.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color1\style2_shopcar1.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color2\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color2\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color2\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color2\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color2\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color2\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color2\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color2\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color2\style2_gz2.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color2\style2_shopcar2.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color3\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color3\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color3\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color3\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color3\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color3\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color3\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color3\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color3\style2_gz3.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color3\style2_shopcar3.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color4\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color4\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color4\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color4\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color4\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color4\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color4\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color4\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color4\style2_gz4.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color4\style2_shopcar4.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color5\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color5\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color5\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color5\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color5\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color5\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color5\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color5\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color5\style2_gz5.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color5\style2_shopcar5.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color6\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color6\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color6\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color6\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color6\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color6\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color6\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color6\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color6\style2_gz6.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color6\style2_shopcar6.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color7\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color7\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color7\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color7\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color7\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color7\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color7\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color7\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color7\style2_gz7.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color7\style2_shopcar7.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color8\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color8\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color8\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color8\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color8\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color8\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color8\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color8\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color8\style2_gz8.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style2\color8\style2_shopcar8.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color0\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color0\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color0\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color0\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color0\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color0\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color0\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color0\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color0\style3_gz0.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color0\style3_shopcar0.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color1\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color1\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color1\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color1\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color1\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color1\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color1\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color1\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color1\style3_gz1.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color1\style3_shopcar1.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color2\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color2\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color2\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color2\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color2\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color2\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color2\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color2\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color2\style3_gz2.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color2\style3_shopcar2.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color3\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color3\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color3\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color3\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color3\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color3\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color3\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color3\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color3\style3_gz3.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color3\style3_shopcar3.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color4\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color4\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color4\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color4\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color4\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color4\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color4\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color4\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color4\style3_gz4.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color4\style3_shopcar4.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color5\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color5\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color5\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color5\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color5\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color5\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color5\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color5\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color5\style3_gz5.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color5\style3_shopcar5.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color6\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color6\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color6\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color6\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color6\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color6\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color6\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color6\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color6\style3_gz6.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color6\style3_shopcar6.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color7\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color7\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color7\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color7\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color7\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color7\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color7\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color7\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color7\style3_gz7.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color7\style3_shopcar7.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color8\icon_active.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color8\icon_allgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color8\icon_fx.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color8\icon_home.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color8\icon_hotsale.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color8\icon_newgoods.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color8\icon_subject.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color8\icon_user.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color8\style3_gz8.png" />
+    <Content Include="Admin\Shop\Public\images\icon\style3\color8\style3_shopcar8.png" />
+    <Content Include="Admin\Shop\Public\images\logo.jpg" />
+    <Content Include="Admin\Shop\Public\images\ooico.png" />
+    <Content Include="Admin\Shop\Public\images\sprite_left_menu.png" />
+    <Content Include="Admin\Shop\Public\images\video.jpg" />
+    <Content Include="Admin\Shop\Public\js\config.js" />
+    <Content Include="Admin\Shop\Public\js\dist\component-min.js" />
+    <Content Include="Admin\Shop\Public\js\dist\componentadmin-min.js" />
+    <Content Include="Admin\Shop\Public\js\dist\home\shop\edit_custompage.js" />
+    <Content Include="Admin\Shop\Public\js\dist\home\shop\edit_homepage.js" />
+    <Content Include="Admin\Shop\Public\js\dist\home\shop\extEvent_header_style1.js" />
+    <Content Include="Admin\Shop\Public\js\dist\lib-min.js" />
+    <Content Include="Admin\Shop\Public\js\dist\underscore-min.js" />
+    <Content Include="Admin\Shop\Public\js\dist\underscore.js" />
+    <Content Include="Admin\Shop\Public\js\jquery-ui\jquery-ui.min.js" />
+    <Content Include="Admin\Shop\Public\modulesJs\scroll.js" />
+    <Content Include="Admin\Shop\Public\plugins\colorpicker\colorpicker.css" />
+    <Content Include="Admin\Shop\Public\plugins\colorpicker\colorpicker.js" />
+    <Content Include="Admin\Shop\Public\plugins\colorpicker\images\colorpicker_background.png" />
+    <Content Include="Admin\Shop\Public\plugins\colorpicker\images\colorpicker_hex.png" />
+    <Content Include="Admin\Shop\Public\plugins\colorpicker\images\colorpicker_hsb_b.png" />
+    <Content Include="Admin\Shop\Public\plugins\colorpicker\images\colorpicker_hsb_h.png" />
+    <Content Include="Admin\Shop\Public\plugins\colorpicker\images\colorpicker_hsb_s.png" />
+    <Content Include="Admin\Shop\Public\plugins\colorpicker\images\colorpicker_indic.gif" />
+    <Content Include="Admin\Shop\Public\plugins\colorpicker\images\colorpicker_overlay.png" />
+    <Content Include="Admin\Shop\Public\plugins\colorpicker\images\colorpicker_rgb_b.png" />
+    <Content Include="Admin\Shop\Public\plugins\colorpicker\images\colorpicker_rgb_g.png" />
+    <Content Include="Admin\Shop\Public\plugins\colorpicker\images\colorpicker_rgb_r.png" />
+    <Content Include="Admin\Shop\Public\plugins\colorpicker\images\colorpicker_select.gif" />
+    <Content Include="Admin\Shop\Public\plugins\colorpicker\images\colorpicker_submit.png" />
+    <Content Include="Admin\Shop\Public\plugins\diy\diy-min.css" />
+    <Content Include="Admin\Shop\Public\plugins\diy\diy.base64code.js" />
+    <Content Include="Admin\Shop\Public\plugins\diy\diy.core.js" />
+    <Content Include="Admin\Shop\Public\plugins\diy\diy.data2html.js" />
+    <Content Include="Admin\Shop\Public\plugins\diy\diy.drawg.js" />
+    <Content Include="Admin\Shop\Public\plugins\diy\diy.events.js" />
+    <Content Include="Admin\Shop\Public\plugins\diy\diy.eventsNew.js" />
+    <Content Include="Admin\Shop\Public\plugins\diy\diy.goods.js" />
+    <Content Include="Admin\Shop\Public\plugins\diy\diy.init.js" />
+    <Content Include="Admin\Shop\Public\plugins\diy\diy.verify.js" />
+    <Content Include="Admin\Shop\Public\plugins\diy\modules.png" />
+    <Content Include="Admin\Shop\Public\plugins\jbox\Images\remove-black.png" />
+    <Content Include="Admin\Shop\Public\plugins\jbox\jbox-min.css" />
+    <Content Include="Admin\Shop\Public\plugins\jbox\jquery.jBox-2.3.min.js" />
+    <Content Include="Admin\Shop\Public\plugins\jbox\jquery.jbox-min.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\anchor\anchor.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\attachment.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\attachment.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\attachment.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\fileTypeImages\icon_chm.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\fileTypeImages\icon_default.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\fileTypeImages\icon_doc.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\fileTypeImages\icon_exe.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\fileTypeImages\icon_jpg.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\fileTypeImages\icon_mp3.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\fileTypeImages\icon_mv.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\fileTypeImages\icon_pdf.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\fileTypeImages\icon_ppt.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\fileTypeImages\icon_psd.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\fileTypeImages\icon_rar.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\fileTypeImages\icon_txt.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\fileTypeImages\icon_xls.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\images\alignicon.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\images\alignicon.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\images\bg.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\images\file-icons.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\images\file-icons.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\images\icons.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\images\icons.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\images\image.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\images\progress.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\images\success.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\attachment\images\success.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\background\background.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\background\background.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\background\background.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\background\images\bg.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\background\images\success.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\charts\chart.config.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\charts\charts.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\charts\charts.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\charts\charts.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\charts\images\charts0.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\charts\images\charts1.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\charts\images\charts2.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\charts\images\charts3.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\charts\images\charts4.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\charts\images\charts5.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\emotion\emotion.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\emotion\emotion.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\emotion\emotion.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\emotion\images\0.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\emotion\images\bface.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\emotion\images\cface.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\emotion\images\fface.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\emotion\images\jxface2.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\emotion\images\neweditor-tab-bg.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\emotion\images\tface.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\emotion\images\wface.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\emotion\images\yface.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\gmap\gmap.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\help\help.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\help\help.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\help\help.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\image\image.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\image\image.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\image\image.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\image\images\alignicon.jpg" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\image\images\bg.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\image\images\icons.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\image\images\icons.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\image\images\image.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\image\images\progress.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\image\images\success.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\image\images\success.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\insertframe\insertframe.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\internal.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\link\link.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\map\map.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\map\show.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\music\music.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\music\music.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\music\music.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\preview\preview.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\images\addimg.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\images\brush.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\images\delimg.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\images\delimgH.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\images\empty.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\images\emptyH.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\images\eraser.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\images\redo.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\images\redoH.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\images\scale.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\images\scaleH.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\images\size.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\images\undo.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\images\undoH.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\scrawl.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\scrawl.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\scrawl\scrawl.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\searchreplace\searchreplace.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\searchreplace\searchreplace.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\snapscreen\snapscreen.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\spechars\spechars.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\spechars\spechars.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\table\dragicon.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\table\edittable.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\table\edittable.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\table\edittable.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\table\edittd.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\table\edittip.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\template\config.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\template\images\bg.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\template\images\pre0.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\template\images\pre1.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\template\images\pre2.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\template\images\pre3.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\template\images\pre4.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\template\template.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\template\template.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\template\template.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\images\bg.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\images\center_focus.jpg" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\images\file-icons.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\images\file-icons.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\images\icons.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\images\icons.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\images\image.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\images\left_focus.jpg" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\images\none_focus.jpg" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\images\progress.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\images\right_focus.jpg" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\images\success.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\images\success.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\video.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\video.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\video\video.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\webapp\webapp.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\wordimage\fClipboard_ueditor.swf" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\wordimage\imageUploader.swf" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\wordimage\tangram.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\wordimage\wordimage.html" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\dialogs\wordimage\wordimage.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\diy_imgpicker.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\en.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\addimage.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\alldeletebtnhoverskin.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\alldeletebtnupskin.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\background.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\button.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\copy.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\deletedisable.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\deleteenable.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\listbackground.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\localimage.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\music.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\rotateleftdisable.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\rotateleftenable.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\rotaterightdisable.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\rotaterightenable.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\en\images\upload.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\zh-cn\images\copy.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\zh-cn\images\localimage.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\zh-cn\images\music.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\zh-cn\images\upload.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\lang\zh-cn\zh-cn.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\css\ueditor.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\css\ueditor.min.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\dialogbase.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\anchor.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\arrow.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\arrow_down.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\arrow_up.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\button-bg.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\cancelbutton.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\charts.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\cursor_h.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\cursor_h.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\cursor_v.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\cursor_v.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\dialog-title-bg.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\filescan.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\highlighted.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\icons-all.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\icons.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\icons.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\loaderror.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\loading.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\lock.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\neweditor-tab-bg.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\pagebreak.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\scale.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\sortable.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\spacer.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\sparator_v.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\table-cell-align.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\tangram-colorpicker.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\toolbar_bg.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\unhighlighted.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\upload.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\videologo.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\word.gif" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\default\images\wordpaste.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\themes\iframe.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\codemirror\codemirror.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\codemirror\codemirror.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\adapters\mootools-adapter.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\adapters\mootools-adapter.src.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\adapters\prototype-adapter.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\adapters\prototype-adapter.src.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\adapters\standalone-framework.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\adapters\standalone-framework.src.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\highcharts-more.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\highcharts-more.src.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\highcharts.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\highcharts.src.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\annotations.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\annotations.src.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\canvas-tools.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\canvas-tools.src.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\data.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\data.src.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\drilldown.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\drilldown.src.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\exporting.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\exporting.src.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\funnel.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\funnel.src.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\heatmap.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\heatmap.src.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\map.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\map.src.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\no-data-to-display.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\modules\no-data-to-display.src.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\themes\dark-blue.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\themes\dark-green.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\themes\gray.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\themes\grid.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\highcharts\themes\skies.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\jquery-1.10.2.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\jquery-1.10.2.min.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\snapscreen\UEditorSnapscreen.exe" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\SyntaxHighlighter\shCore.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\SyntaxHighlighter\shCoreDefault.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\video-js\font\vjs.svg" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\video-js\video-js.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\video-js\video-js.min.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\video-js\video-js.swf" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\video-js\video.dev.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\video-js\video.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\webuploader\Uploader.swf" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\webuploader\webuploader.css" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\webuploader\webuploader.custom.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\webuploader\webuploader.custom.min.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\webuploader\webuploader.flashonly.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\webuploader\webuploader.flashonly.min.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\webuploader\webuploader.html5only.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\webuploader\webuploader.html5only.min.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\webuploader\webuploader.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\webuploader\webuploader.min.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\webuploader\webuploader.withoutimage.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\webuploader\webuploader.withoutimage.min.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\zeroclipboard\ZeroClipboard.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\zeroclipboard\ZeroClipboard.min.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\zeroclipboard\ZeroClipboard.swf" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\ueditor.all.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\ueditor.all.min.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\ueditor.config.js" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\upload\image\20150807\6357455739515829528228271.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\upload\image\20150807\6357455746598834659413413.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\upload\image\20150807\6357455808474273725574492.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\upload\image\20150807\6357456047941870489233279.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\upload\image\20150807\6357456057400711505214706.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\upload\image\20150807\6357456123571696265706575.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\upload\image\20150807\6357456125579911126533117.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\upload\image\20150807\6357456128064453231427218.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\upload\image\20150807\6357456132445103798995211.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\upload\image\20150807\6357456136416630956192871.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\upload\image\20150807\6357456137795609824100443.png" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\upload\image\20150811\6357488736925902376341788.png" />
+    <Content Include="Admin\Shop\Public\plugins\uploadify\jquery.uploadify.min.js" />
+    <Content Include="Admin\Shop\Public\plugins\uploadify\uploadify-min.css" />
+    <Content Include="Admin\Shop\Public\plugins\uploadify\uploadify.swf" />
+    <Content Include="Admin\Shop\Public\plugins\zclip\jquery.cookie.js" />
+    <Content Include="Admin\Shop\Public\plugins\zclip\jquery.zclip-min.js" />
+    <Content Include="Admin\Shop\SaleService.aspx" />
+    <Content Include="Admin\Shop\SelectArtice.aspx" />
+    <Content Include="Admin\Shop\SelectTemplate.aspx" />
+    <Content Include="Admin\Shop\Setting.aspx" />
+    <Content Include="Admin\Shop\ShopEdit.aspx" />
+    <Content Include="Admin\Shop\ShopIndex.aspx" />
+    <Content Include="Admin\Shop\ShopMenu.aspx" />
+    <Content Include="Admin\Shop\ShopTempEdit.aspx" />
+    <Content Include="Admin\Shop\template\Edit\default.html" />
+    <Content Include="Admin\Shop\UsersSelect.aspx" />
+    <Content Include="Admin\TongJi\HuiTou.aspx" />
+    <Content Include="Admin\TongJi\MemberRanking.aspx" />
+    <Content Include="Admin\TongJi\MemberRegion.aspx" />
+    <Content Include="Admin\TongJi\OrderStatistics.aspx" />
+    <Content Include="Admin\TongJi\OrderStatisticsDetail.aspx" />
+    <Content Include="Admin\TongJi\OrderStatisticsDetail_L2.aspx" />
+    <Content Include="Admin\TongJi\ProductSaleRanking.aspx" />
+    <Content Include="Admin\TongJi\SaleReport.aspx" />
+    <Content Include="Admin\TongJi\UserInCreaseStatistics.aspx" />
+    <Content Include="Admin\Trade\AddExpressTemplate.aspx" />
+    <Content Include="Admin\Trade\BatchPrintData.aspx" />
+    <Content Include="Admin\Trade\BatchPrintSendOrderGoods.aspx" />
+    <Content Include="Admin\Trade\BuyerAlreadyPaid.aspx" />
+    <Content Include="Admin\Trade\Closed.aspx" />
+    <Content Include="Admin\Trade\DeliveryOrderPrint.aspx" />
+    <Content Include="Admin\Trade\EditExpressTemplate.aspx" />
+    <Content Include="Admin\Trade\EditOrder.aspx" />
+    <Content Include="Admin\Trade\ExpressOrdersPrint.aspx" />
+    <Content Include="Admin\Trade\ExpressTemplates.aspx" />
+    <Content Include="Admin\Trade\Finished.aspx" />
+    <Content Include="Admin\Trade\flex\EditXmlData.aspx" />
+    <Content Include="Admin\Trade\flex\GetPrintData.aspx" />
+    <Content Include="Admin\Trade\flex\UploadFile.aspx" />
+    <Content Include="Admin\Trade\flex\XmlData.aspx" />
+    <Content Include="Admin\Trade\ManageOrder.aspx" />
+    <Content Include="Admin\Trade\order.helper.js" />
+    <Content Include="Admin\Trade\OrderDetails.aspx" />
+    <Content Include="Admin\Trade\OrderSplit.aspx" />
+    <Content Include="Admin\Trade\ProductReviews.aspx" />
+    <Content Include="Admin\Trade\RecycleStation.aspx" />
+    <Content Include="Admin\Trade\RecycleStationDetail.aspx" />
+    <Content Include="Admin\Trade\ReturnsApply.aspx" />
+    <Content Include="Admin\Trade\SellerAlreadySent.aspx" />
+    <Content Include="Admin\Trade\SendInfo.aspx" />
+    <Content Include="Admin\Trade\SendOrderGoods.aspx" />
+    <Content Include="Admin\Trade\SetLogistics.aspx" />
+    <Content Include="Admin\Trade\SetOrderOption.aspx" />
+    <Content Include="Admin\Trade\ShipAddress.aspx" />
+    <Content Include="Admin\Trade\WaitBuyerPay.aspx" />
+    <Content Include="Admin\Weibo\atmessage.aspx" />
+    <Content Include="Admin\Weibo\autoreply.aspx" />
+    <Content Include="Admin\Weibo\concerned.aspx" />
+    <Content Include="Admin\Weibo\demo.html" />
+    <Content Include="Admin\Weibo\Goods.aspx" />
+    <Content Include="Admin\Weibo\letter.aspx" />
+    <Content Include="Admin\Weibo\menu.aspx" />
+    <Content Include="Admin\Weibo\message.aspx" />
+    <Content Include="Admin\Weibo\Pictures.aspx" />
+    <Content Include="Admin\Weibo\post.aspx" />
+    <Content Include="Admin\Weibo\Setting.aspx" />
+    <Content Include="Admin\Weibo\timeline.aspx" />
+    <Content Include="Admin\Weibo\usertimeline.aspx" />
     <Content Include="hieditor\ueditor\controls\ucUeditor.ascx" />
     <Content Include="hieditor\ueditor\dialogs\anchor\anchor.html" />
     <Content Include="hieditor\ueditor\dialogs\attachment\attachment.css" />
@@ -1296,8 +2122,1009 @@
     <Compile Include="Admin\Member\UserGroupSet.aspx.designer.cs">
       <DependentUpon>UserGroupSet.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Oneyuan\AddOneyuanInfo.aspx.cs">
+      <DependentUpon>AddOneyuanInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\AddOneyuanInfo.aspx.designer.cs">
+      <DependentUpon>AddOneyuanInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\EditOneyuanInfo.aspx.cs">
+      <DependentUpon>EditOneyuanInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\EditOneyuanInfo.aspx.designer.cs">
+      <DependentUpon>EditOneyuanInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\OneTaoPartInList.aspx.cs">
+      <DependentUpon>OneTaoPartInList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\OneTaoPartInList.aspx.designer.cs">
+      <DependentUpon>OneTaoPartInList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\OneTaoResult.aspx.cs">
+      <DependentUpon>OneTaoResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\OneTaoResult.aspx.designer.cs">
+      <DependentUpon>OneTaoResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\OneTaoViewTab.ascx.cs">
+      <DependentUpon>OneTaoViewTab.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\OneTaoViewTab.ascx.designer.cs">
+      <DependentUpon>OneTaoViewTab.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\OneyuanList.aspx.cs">
+      <DependentUpon>OneyuanList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\OneyuanList.aspx.designer.cs">
+      <DependentUpon>OneyuanList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\ProductSelect.aspx.cs">
+      <DependentUpon>ProductSelect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\ProductSelect.aspx.designer.cs">
+      <DependentUpon>ProductSelect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\RefoundList.aspx.cs">
+      <DependentUpon>RefoundList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Oneyuan\RefoundList.aspx.designer.cs">
+      <DependentUpon>RefoundList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\OutPay\AliPaynotifyAmount_url.aspx.cs">
+      <DependentUpon>AliPaynotifyAmount_url.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OutPay\AliPaynotifyAmount_url.aspx.designer.cs">
+      <DependentUpon>AliPaynotifyAmount_url.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\OutPay\AliPaynotify_url.aspx.cs">
+      <DependentUpon>AliPaynotify_url.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OutPay\AliPaynotify_url.aspx.designer.cs">
+      <DependentUpon>AliPaynotify_url.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\OutPay\alipayOut.aspx.cs">
+      <DependentUpon>alipayOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OutPay\alipayOut.aspx.designer.cs">
+      <DependentUpon>alipayOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\OutPay\alipayOutAmount.aspx.cs">
+      <DependentUpon>alipayOutAmount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OutPay\alipayOutAmount.aspx.designer.cs">
+      <DependentUpon>alipayOutAmount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\OutPay\OneyuanAlipayRefundNotify.aspx.cs">
+      <DependentUpon>OneyuanAlipayRefundNotify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OutPay\OneyuanAlipayRefundNotify.aspx.designer.cs">
+      <DependentUpon>OneyuanAlipayRefundNotify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\OutPay\OneyungRefund.aspx.cs">
+      <DependentUpon>OneyungRefund.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OutPay\OneyungRefund.aspx.designer.cs">
+      <DependentUpon>OneyungRefund.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\ProductBasePage.cs">
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\ActivityList.aspx.cs">
+      <DependentUpon>ActivityList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\ActivityList.aspx.designer.cs">
+      <DependentUpon>ActivityList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddActivity.aspx.cs">
+      <DependentUpon>AddActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddActivity.aspx.designer.cs">
+      <DependentUpon>AddActivity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddGame.aspx.cs">
+      <DependentUpon>AddGame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddGame.aspx.designer.cs">
+      <DependentUpon>AddGame.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddGameAct.aspx.cs">
+      <DependentUpon>AddGameAct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddGameAct.aspx.designer.cs">
+      <DependentUpon>AddGameAct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddGameDaFuWen.aspx.cs">
+      <DependentUpon>AddGameDaFuWen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddGameDaFuWen.aspx.designer.cs">
+      <DependentUpon>AddGameDaFuWen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddGameEgg.aspx.cs">
+      <DependentUpon>AddGameEgg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddGameEgg.aspx.designer.cs">
+      <DependentUpon>AddGameEgg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddGameGuaGuaLe.aspx.cs">
+      <DependentUpon>AddGameGuaGuaLe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddGameGuaGuaLe.aspx.designer.cs">
+      <DependentUpon>AddGameGuaGuaLe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddGameXingYun.aspx.cs">
+      <DependentUpon>AddGameXingYun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddGameXingYun.aspx.designer.cs">
+      <DependentUpon>AddGameXingYun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddProductToActivity.aspx.cs">
+      <DependentUpon>AddProductToActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddProductToActivity.aspx.designer.cs">
+      <DependentUpon>AddProductToActivity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddProductToActivity_stock.aspx.cs">
+      <DependentUpon>AddProductToActivity_stock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddProductToActivity_stock.aspx.designer.cs">
+      <DependentUpon>AddProductToActivity_stock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddProductToCoupon.aspx.cs">
+      <DependentUpon>AddProductToCoupon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddProductToCoupon.aspx.designer.cs">
+      <DependentUpon>AddProductToCoupon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddProductToCoupon_stock.aspx.cs">
+      <DependentUpon>AddProductToCoupon_stock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddProductToCoupon_stock.aspx.designer.cs">
+      <DependentUpon>AddProductToCoupon_stock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddProductToPointExchange.aspx.cs">
+      <DependentUpon>AddProductToPointExchange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddProductToPointExchange.aspx.designer.cs">
+      <DependentUpon>AddProductToPointExchange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddProductToPointExchange_stock.aspx.cs">
+      <DependentUpon>AddProductToPointExchange_stock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddProductToPointExchange_stock.aspx.designer.cs">
+      <DependentUpon>AddProductToPointExchange_stock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddShareAct.aspx.cs">
+      <DependentUpon>AddShareAct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddShareAct.aspx.designer.cs">
+      <DependentUpon>AddShareAct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\AddVote.aspx.cs">
+      <DependentUpon>AddVote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\AddVote.aspx.designer.cs">
+      <DependentUpon>AddVote.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\BatchPrintData.aspx.cs">
+      <DependentUpon>BatchPrintData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\BatchPrintData.aspx.designer.cs">
+      <DependentUpon>BatchPrintData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\BatchPrintSendOrderGoods.aspx.cs">
+      <DependentUpon>BatchPrintSendOrderGoods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\BatchPrintSendOrderGoods.aspx.designer.cs">
+      <DependentUpon>BatchPrintSendOrderGoods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\ConfigHandler.ashx.cs">
+      <DependentUpon>ConfigHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\CouponsList.aspx.cs">
+      <DependentUpon>CouponsList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\CouponsList.aspx.designer.cs">
+      <DependentUpon>CouponsList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\CouponsPage.aspx.cs">
+      <DependentUpon>CouponsPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\CouponsPage.aspx.designer.cs">
+      <DependentUpon>CouponsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\CouponTypes.cs" />
+    <Compile Include="Admin\promotion\CustomGroup.cs" />
+    <Compile Include="Admin\promotion\EditExchangeProducts.ashx.cs">
+      <DependentUpon>EditExchangeProducts.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\EditGame.aspx.cs">
+      <DependentUpon>EditGame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\EditGame.aspx.designer.cs">
+      <DependentUpon>EditGame.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\EditGameDaFuWen.aspx.cs">
+      <DependentUpon>EditGameDaFuWen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\EditGameDaFuWen.aspx.designer.cs">
+      <DependentUpon>EditGameDaFuWen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\EditGameEgg.aspx.cs">
+      <DependentUpon>EditGameEgg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\EditGameEgg.aspx.designer.cs">
+      <DependentUpon>EditGameEgg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\EditGameGuaGuaLe.aspx.cs">
+      <DependentUpon>EditGameGuaGuaLe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\EditGameGuaGuaLe.aspx.designer.cs">
+      <DependentUpon>EditGameGuaGuaLe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\EditGameXingYun.aspx.cs">
+      <DependentUpon>EditGameXingYun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\EditGameXingYun.aspx.designer.cs">
+      <DependentUpon>EditGameXingYun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\EditLimitedTimeDiscount.aspx.cs">
+      <DependentUpon>EditLimitedTimeDiscount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\EditLimitedTimeDiscount.aspx.designer.cs">
+      <DependentUpon>EditLimitedTimeDiscount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\EditProductHandler.ashx.cs">
+      <DependentUpon>EditProductHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\EditProductToActivity.aspx.cs">
+      <DependentUpon>EditProductToActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\EditProductToActivity.aspx.designer.cs">
+      <DependentUpon>EditProductToActivity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\EditProductToCoupon.aspx.cs">
+      <DependentUpon>EditProductToCoupon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\EditProductToCoupon.aspx.designer.cs">
+      <DependentUpon>EditProductToCoupon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\EditProductToExchange.aspx.cs">
+      <DependentUpon>EditProductToExchange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\EditProductToExchange.aspx.designer.cs">
+      <DependentUpon>EditProductToExchange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\EmailSettings.aspx.cs">
+      <DependentUpon>EmailSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\EmailSettings.aspx.designer.cs">
+      <DependentUpon>EmailSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\ExChangeList.aspx.cs">
+      <DependentUpon>ExChangeList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\ExChangeList.aspx.designer.cs">
+      <DependentUpon>ExChangeList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\GameDaFuWenLists.aspx.cs">
+      <DependentUpon>GameDaFuWenLists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\GameDaFuWenLists.aspx.designer.cs">
+      <DependentUpon>GameDaFuWenLists.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\GameEggLists.aspx.cs">
+      <DependentUpon>GameEggLists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\GameEggLists.aspx.designer.cs">
+      <DependentUpon>GameEggLists.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\GameGuaGuaLeLists.aspx.cs">
+      <DependentUpon>GameGuaGuaLeLists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\GameGuaGuaLeLists.aspx.designer.cs">
+      <DependentUpon>GameGuaGuaLeLists.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\GameLists.aspx.cs">
+      <DependentUpon>GameLists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\GameLists.aspx.designer.cs">
+      <DependentUpon>GameLists.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\GameXingYunLists.aspx.cs">
+      <DependentUpon>GameXingYunLists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\GameXingYunLists.aspx.designer.cs">
+      <DependentUpon>GameXingYunLists.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\GetCouponDataHandler.ashx.cs">
+      <DependentUpon>GetCouponDataHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\GetCouponListHandler.ashx.cs">
+      <DependentUpon>GetCouponListHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\GetMemberGradesHandler.ashx.cs">
+      <DependentUpon>GetMemberGradesHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\GetVoteItemsHandler.ashx.cs">
+      <DependentUpon>GetVoteItemsHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\hiRegionSelect.aspx.cs">
+      <DependentUpon>hiRegionSelect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\hiRegionSelect.aspx.designer.cs">
+      <DependentUpon>hiRegionSelect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\ImgUpload.aspx.cs">
+      <DependentUpon>ImgUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\ImgUpload.aspx.designer.cs">
+      <DependentUpon>ImgUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\LimitedTimeDiscountAddProduct.aspx.cs">
+      <DependentUpon>LimitedTimeDiscountAddProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\LimitedTimeDiscountAddProduct.aspx.designer.cs">
+      <DependentUpon>LimitedTimeDiscountAddProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\LimitedTimeDiscountHandler.ashx.cs">
+      <DependentUpon>LimitedTimeDiscountHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\LimitedTimeDiscountList.aspx.cs">
+      <DependentUpon>LimitedTimeDiscountList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\LimitedTimeDiscountList.aspx.designer.cs">
+      <DependentUpon>LimitedTimeDiscountList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\LimitedTimeDiscountProduct.aspx.cs">
+      <DependentUpon>LimitedTimeDiscountProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\LimitedTimeDiscountProduct.aspx.designer.cs">
+      <DependentUpon>LimitedTimeDiscountProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\MemberCouponList.aspx.cs">
+      <DependentUpon>MemberCouponList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\MemberCouponList.aspx.designer.cs">
+      <DependentUpon>MemberCouponList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\MemberGradeItem.cs" />
+    <Compile Include="Admin\promotion\NewCoupon.aspx.cs">
+      <DependentUpon>NewCoupon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\NewCoupon.aspx.designer.cs">
+      <DependentUpon>NewCoupon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\PointExchange.aspx.cs">
+      <DependentUpon>PointExchange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\PointExchange.aspx.designer.cs">
+      <DependentUpon>PointExchange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\PointToCash.aspx.cs">
+      <DependentUpon>PointToCash.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\PointToCash.aspx.designer.cs">
+      <DependentUpon>PointToCash.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\PrizeDeliveryDetail.aspx.cs">
+      <DependentUpon>PrizeDeliveryDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\PrizeDeliveryDetail.aspx.designer.cs">
+      <DependentUpon>PrizeDeliveryDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\PrizeList.aspx.cs">
+      <DependentUpon>PrizeList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\PrizeList.aspx.designer.cs">
+      <DependentUpon>PrizeList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\PrizeLists.aspx.cs">
+      <DependentUpon>PrizeLists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\PrizeLists.aspx.designer.cs">
+      <DependentUpon>PrizeLists.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\PrizeListsDaFuWen.aspx.cs">
+      <DependentUpon>PrizeListsDaFuWen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\PrizeListsDaFuWen.aspx.designer.cs">
+      <DependentUpon>PrizeListsDaFuWen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\PrizeListsEgg.aspx.cs">
+      <DependentUpon>PrizeListsEgg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\PrizeListsEgg.aspx.designer.cs">
+      <DependentUpon>PrizeListsEgg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\PrizeListsGuaGuaLe.aspx.cs">
+      <DependentUpon>PrizeListsGuaGuaLe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\PrizeListsGuaGuaLe.aspx.designer.cs">
+      <DependentUpon>PrizeListsGuaGuaLe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\PrizeListsHaoYun.aspx.cs">
+      <DependentUpon>PrizeListsHaoYun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\PrizeListsHaoYun.aspx.designer.cs">
+      <DependentUpon>PrizeListsHaoYun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\PromotionGamePrizesHandler.ashx.cs">
+      <DependentUpon>PromotionGamePrizesHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\SaveActivityHandler.ashx.cs">
+      <DependentUpon>SaveActivityHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\SaveCouponDataHandler.ashx.cs">
+      <DependentUpon>SaveCouponDataHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\SaveVoteHandler.ashx.cs">
+      <DependentUpon>SaveVoteHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\SelectProductToActivityHandler.ashx.cs">
+      <DependentUpon>SelectProductToActivityHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\SelectProductToCouponHandler.ashx.cs">
+      <DependentUpon>SelectProductToCouponHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\SelectProductToExchangeHandler.ashx.cs">
+      <DependentUpon>SelectProductToExchangeHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\SendCouponByManager.aspx.cs">
+      <DependentUpon>SendCouponByManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\SendCouponByManager.aspx.designer.cs">
+      <DependentUpon>SendCouponByManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\SetRegisterSendCoupon.aspx.cs">
+      <DependentUpon>SetRegisterSendCoupon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\SetRegisterSendCoupon.aspx.designer.cs">
+      <DependentUpon>SetRegisterSendCoupon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\ShareActList.aspx.cs">
+      <DependentUpon>ShareActList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\ShareActList.aspx.designer.cs">
+      <DependentUpon>ShareActList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\SimpleGradeClass.cs" />
+    <Compile Include="Admin\promotion\UCGameInfo.ascx.cs">
+      <DependentUpon>UCGameInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\UCGameInfo.ascx.designer.cs">
+      <DependentUpon>UCGameInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\UCGameLists.ascx.cs">
+      <DependentUpon>UCGameLists.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\UCGameLists.ascx.designer.cs">
+      <DependentUpon>UCGameLists.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\UCGamePrizeInfo.ascx.cs">
+      <DependentUpon>UCGamePrizeInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\UCGamePrizeInfo.ascx.designer.cs">
+      <DependentUpon>UCGamePrizeInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\UCPrizeLists.ascx.cs">
+      <DependentUpon>UCPrizeLists.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\UCPrizeLists.ascx.designer.cs">
+      <DependentUpon>UCPrizeLists.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\promotion\VoteList.aspx.cs">
+      <DependentUpon>VoteList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\promotion\VoteList.aspx.designer.cs">
+      <DependentUpon>VoteList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\AddExpressTemplate.aspx.cs">
+      <DependentUpon>AddExpressTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\AddExpressTemplate.aspx.designer.cs">
+      <DependentUpon>AddExpressTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\AddManager.aspx.cs">
+      <DependentUpon>AddManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\AddManager.aspx.designer.cs">
+      <DependentUpon>AddManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\AddShippingTemplate.aspx.cs">
+      <DependentUpon>AddShippingTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\AddShippingTemplate.aspx.designer.cs">
+      <DependentUpon>AddShippingTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\Alipay.aspx.cs">
+      <DependentUpon>Alipay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\Alipay.aspx.designer.cs">
+      <DependentUpon>Alipay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\BalancePayment.aspx.cs">
+      <DependentUpon>BalancePayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\BalancePayment.aspx.designer.cs">
+      <DependentUpon>BalancePayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\ChinaBank.aspx.cs">
+      <DependentUpon>ChinaBank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\ChinaBank.aspx.designer.cs">
+      <DependentUpon>ChinaBank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\COD.aspx.cs">
+      <DependentUpon>COD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\COD.aspx.designer.cs">
+      <DependentUpon>COD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\EditExpressTemplate.aspx.cs">
+      <DependentUpon>EditExpressTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\EditExpressTemplate.aspx.designer.cs">
+      <DependentUpon>EditExpressTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\EditManager.aspx.cs">
+      <DependentUpon>EditManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\EditManager.aspx.designer.cs">
+      <DependentUpon>EditManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\EditManagerPassword.aspx.cs">
+      <DependentUpon>EditManagerPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\EditManagerPassword.aspx.designer.cs">
+      <DependentUpon>EditManagerPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\EditShippingTemplate.aspx.cs">
+      <DependentUpon>EditShippingTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\EditShippingTemplate.aspx.designer.cs">
+      <DependentUpon>EditShippingTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\ExpressComputerpes.aspx.cs">
+      <DependentUpon>ExpressComputerpes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\ExpressComputerpes.aspx.designer.cs">
+      <DependentUpon>ExpressComputerpes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\ExpressSet.aspx.cs">
+      <DependentUpon>ExpressSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\ExpressSet.aspx.designer.cs">
+      <DependentUpon>ExpressSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\ExpressTemplates.aspx.cs">
+      <DependentUpon>ExpressTemplates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\ExpressTemplates.aspx.designer.cs">
+      <DependentUpon>ExpressTemplates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\managelogs.aspx.cs">
+      <DependentUpon>managelogs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\managelogs.aspx.designer.cs">
+      <DependentUpon>managelogs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\Managers.aspx.cs">
+      <DependentUpon>Managers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\Managers.aspx.designer.cs">
+      <DependentUpon>Managers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\ManageShippingTemplates.aspx.cs">
+      <DependentUpon>ManageShippingTemplates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\ManageShippingTemplates.aspx.designer.cs">
+      <DependentUpon>ManageShippingTemplates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\OfflinePay.aspx.cs">
+      <DependentUpon>OfflinePay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\OfflinePay.aspx.designer.cs">
+      <DependentUpon>OfflinePay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\PayConfigHandler.ashx.cs">
+      <DependentUpon>PayConfigHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\Roles.aspx.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\Roles.aspx.designer.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\SaveRolePermissionData.ashx.cs">
+      <DependentUpon>SaveRolePermissionData.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\SetReset.aspx.cs">
+      <DependentUpon>SetReset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\SetReset.aspx.designer.cs">
+      <DependentUpon>SetReset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\SetRolePermissions.aspx.cs">
+      <DependentUpon>SetRolePermissions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\SetRolePermissions.aspx.designer.cs">
+      <DependentUpon>SetRolePermissions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\ShengPay.aspx.cs">
+      <DependentUpon>ShengPay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\ShengPay.aspx.designer.cs">
+      <DependentUpon>ShengPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\Shippers.aspx.cs">
+      <DependentUpon>Shippers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\Shippers.aspx.designer.cs">
+      <DependentUpon>Shippers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings\WeixinPay.aspx.cs">
+      <DependentUpon>WeixinPay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings\WeixinPay.aspx.designer.cs">
+      <DependentUpon>WeixinPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\AddCustomerService.ashx.cs">
+      <DependentUpon>AddCustomerService.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\AddNineImages.aspx.cs">
+      <DependentUpon>AddNineImages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\AddNineImages.aspx.designer.cs">
+      <DependentUpon>AddNineImages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_AddFolder.ashx.cs">
+      <DependentUpon>Hi_Ajax_AddFolder.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_Brands.ashx.cs">
+      <DependentUpon>Hi_Ajax_Brands.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_Categories.ashx.cs">
+      <DependentUpon>Hi_Ajax_Categories.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_Coupons.ashx.cs">
+      <DependentUpon>Hi_Ajax_Coupons.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_DelFolder.ashx.cs">
+      <DependentUpon>Hi_Ajax_DelFolder.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_DelImg.ashx.cs">
+      <DependentUpon>Hi_Ajax_DelImg.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_GetCustomPageByID.ashx.cs">
+      <DependentUpon>Hi_Ajax_GetCustomPageByID.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_GetCustomPages.ashx.cs">
+      <DependentUpon>Hi_Ajax_GetCustomPages.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_GetFolderTree.ashx.cs">
+      <DependentUpon>Hi_Ajax_GetFolderTree.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_GetGames.ashx.cs">
+      <DependentUpon>Hi_Ajax_GetGames.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_GetImgList.ashx.cs">
+      <DependentUpon>Hi_Ajax_GetImgList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_GetItems.ashx.cs">
+      <DependentUpon>Hi_Ajax_GetItems.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_GetTemplateByID.ashx.cs">
+      <DependentUpon>Hi_Ajax_GetTemplateByID.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_GoodsGourp.ashx.cs">
+      <DependentUpon>Hi_Ajax_GoodsGourp.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_GoodsListGroup.ashx.cs">
+      <DependentUpon>Hi_Ajax_GoodsListGroup.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_Graphics.ashx.cs">
+      <DependentUpon>Hi_Ajax_Graphics.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_MoveImg.ashx.cs">
+      <DependentUpon>Hi_Ajax_MoveImg.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_PointExChange.ashx.cs">
+      <DependentUpon>Hi_Ajax_PointExChange.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_RemoveImgByFolder.ashx.cs">
+      <DependentUpon>Hi_Ajax_RemoveImgByFolder.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_RenameFolder.ashx.cs">
+      <DependentUpon>Hi_Ajax_RenameFolder.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_RenameImg.ashx.cs">
+      <DependentUpon>Hi_Ajax_RenameImg.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_SaveCustomTemplate.ashx.cs">
+      <DependentUpon>Hi_Ajax_SaveCustomTemplate.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_SaveTemplate.ashx.cs">
+      <DependentUpon>Hi_Ajax_SaveTemplate.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\api\Hi_Ajax_Votes.ashx.cs">
+      <DependentUpon>Hi_Ajax_Votes.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\ArticleList.cs" />
+    <Compile Include="Admin\Shop\Articles.aspx.cs">
+      <DependentUpon>Articles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\Articles.aspx.designer.cs">
+      <DependentUpon>Articles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\ArticlesEdit.aspx.cs">
+      <DependentUpon>ArticlesEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\ArticlesEdit.aspx.designer.cs">
+      <DependentUpon>ArticlesEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\Config.aspx.cs">
+      <DependentUpon>Config.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\Config.aspx.designer.cs">
+      <DependentUpon>Config.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\CustomPageEdit.aspx.cs">
+      <DependentUpon>CustomPageEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\CustomPageEdit.aspx.designer.cs">
+      <DependentUpon>CustomPageEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\CustomPageManage.aspx.cs">
+      <DependentUpon>CustomPageManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\CustomPageManage.aspx.designer.cs">
+      <DependentUpon>CustomPageManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\DeleteCustomerService.ashx.cs">
+      <DependentUpon>DeleteCustomerService.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\DistributorLogoUpload.aspx.cs">
+      <DependentUpon>DistributorLogoUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\DistributorLogoUpload.aspx.designer.cs">
+      <DependentUpon>DistributorLogoUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\GetArticles.aspx.cs">
+      <DependentUpon>GetArticles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\GetArticles.aspx.designer.cs">
+      <DependentUpon>GetArticles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\GetCustomerService.ashx.cs">
+      <DependentUpon>GetCustomerService.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\ImageData.aspx.cs">
+      <DependentUpon>ImageData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\ImageData.aspx.designer.cs">
+      <DependentUpon>ImageData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\ImageType.aspx.cs">
+      <DependentUpon>ImageType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\ImageType.aspx.designer.cs">
+      <DependentUpon>ImageType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\ManageNineImages.aspx.cs">
+      <DependentUpon>ManageNineImages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\ManageNineImages.aspx.designer.cs">
+      <DependentUpon>ManageNineImages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\MeiQia.aspx.cs">
+      <DependentUpon>MeiQia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\MeiQia.aspx.designer.cs">
+      <DependentUpon>MeiQia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\MultiArticlesEdit.aspx.cs">
+      <DependentUpon>MultiArticlesEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\MultiArticlesEdit.aspx.designer.cs">
+      <DependentUpon>MultiArticlesEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\NoticeEdit.aspx.cs">
+      <DependentUpon>NoticeEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\NoticeEdit.aspx.designer.cs">
+      <DependentUpon>NoticeEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\NoticeList.aspx.cs">
+      <DependentUpon>NoticeList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\NoticeList.aspx.designer.cs">
+      <DependentUpon>NoticeList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\SaleService.aspx.cs">
+      <DependentUpon>SaleService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\SaleService.aspx.designer.cs">
+      <DependentUpon>SaleService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\SelectArtice.aspx.cs">
+      <DependentUpon>SelectArtice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\SelectArtice.aspx.designer.cs">
+      <DependentUpon>SelectArtice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\SelectTemplate.aspx.cs">
+      <DependentUpon>SelectTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\SelectTemplate.aspx.designer.cs">
+      <DependentUpon>SelectTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\Setting.aspx.cs">
+      <DependentUpon>Setting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\Setting.aspx.designer.cs">
+      <DependentUpon>Setting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\ShopConfigHandler.ashx.cs">
+      <DependentUpon>ShopConfigHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\ShopEdit.aspx.cs">
+      <DependentUpon>ShopEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\ShopEdit.aspx.designer.cs">
+      <DependentUpon>ShopEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\ShopIndex.aspx.cs">
+      <DependentUpon>ShopIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\ShopIndex.aspx.designer.cs">
+      <DependentUpon>ShopIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\ShopMenu.aspx.cs">
+      <DependentUpon>ShopMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\ShopMenu.aspx.designer.cs">
+      <DependentUpon>ShopMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\ShopTempEdit.aspx.cs">
+      <DependentUpon>ShopTempEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\ShopTempEdit.aspx.designer.cs">
+      <DependentUpon>ShopTempEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shop\UsersSelect.aspx.cs">
+      <DependentUpon>UsersSelect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shop\UsersSelect.aspx.designer.cs">
+      <DependentUpon>UsersSelect.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\SimplePage.Master.cs">
       <DependentUpon>SimplePage.Master</DependentUpon>
@@ -1305,6 +3132,356 @@
     </Compile>
     <Compile Include="Admin\SimplePage.Master.designer.cs">
       <DependentUpon>SimplePage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TongJi\HuiTou.aspx.cs">
+      <DependentUpon>HuiTou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TongJi\HuiTou.aspx.designer.cs">
+      <DependentUpon>HuiTou.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TongJi\MemberRanking.aspx.cs">
+      <DependentUpon>MemberRanking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TongJi\MemberRanking.aspx.designer.cs">
+      <DependentUpon>MemberRanking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TongJi\MemberRegion.aspx.cs">
+      <DependentUpon>MemberRegion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TongJi\MemberRegion.aspx.designer.cs">
+      <DependentUpon>MemberRegion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TongJi\OrderStatistics.aspx.cs">
+      <DependentUpon>OrderStatistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TongJi\OrderStatistics.aspx.designer.cs">
+      <DependentUpon>OrderStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TongJi\OrderStatisticsDetail.aspx.cs">
+      <DependentUpon>OrderStatisticsDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TongJi\OrderStatisticsDetail.aspx.designer.cs">
+      <DependentUpon>OrderStatisticsDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TongJi\OrderStatisticsDetail_L2.aspx.cs">
+      <DependentUpon>OrderStatisticsDetail_L2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TongJi\OrderStatisticsDetail_L2.aspx.designer.cs">
+      <DependentUpon>OrderStatisticsDetail_L2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TongJi\ProductSaleRanking.aspx.cs">
+      <DependentUpon>ProductSaleRanking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TongJi\ProductSaleRanking.aspx.designer.cs">
+      <DependentUpon>ProductSaleRanking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TongJi\SaleReport.aspx.cs">
+      <DependentUpon>SaleReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TongJi\SaleReport.aspx.designer.cs">
+      <DependentUpon>SaleReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TongJi\UserInCreaseStatistics.aspx.cs">
+      <DependentUpon>UserInCreaseStatistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TongJi\UserInCreaseStatistics.aspx.designer.cs">
+      <DependentUpon>UserInCreaseStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\AddExpressTemplate.aspx.cs">
+      <DependentUpon>AddExpressTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\AddExpressTemplate.aspx.designer.cs">
+      <DependentUpon>AddExpressTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\BatchPrintData.aspx.cs">
+      <DependentUpon>BatchPrintData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\BatchPrintData.aspx.designer.cs">
+      <DependentUpon>BatchPrintData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\BatchPrintSendOrderGoods.aspx.cs">
+      <DependentUpon>BatchPrintSendOrderGoods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\BatchPrintSendOrderGoods.aspx.designer.cs">
+      <DependentUpon>BatchPrintSendOrderGoods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\BuyerAlreadyPaid.aspx.cs">
+      <DependentUpon>BuyerAlreadyPaid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\BuyerAlreadyPaid.aspx.designer.cs">
+      <DependentUpon>BuyerAlreadyPaid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\Closed.aspx.cs">
+      <DependentUpon>Closed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\Closed.aspx.designer.cs">
+      <DependentUpon>Closed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\DeliveryOrderPrint.aspx.cs">
+      <DependentUpon>DeliveryOrderPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\DeliveryOrderPrint.aspx.designer.cs">
+      <DependentUpon>DeliveryOrderPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\EditExpressTemplate.aspx.cs">
+      <DependentUpon>EditExpressTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\EditExpressTemplate.aspx.designer.cs">
+      <DependentUpon>EditExpressTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\EditOrder.aspx.cs">
+      <DependentUpon>EditOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\EditOrder.aspx.designer.cs">
+      <DependentUpon>EditOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\ExpressOrdersPrint.aspx.cs">
+      <DependentUpon>ExpressOrdersPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\ExpressOrdersPrint.aspx.designer.cs">
+      <DependentUpon>ExpressOrdersPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\ExpressTemplates.aspx.cs">
+      <DependentUpon>ExpressTemplates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\ExpressTemplates.aspx.designer.cs">
+      <DependentUpon>ExpressTemplates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\Finished.aspx.cs">
+      <DependentUpon>Finished.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\Finished.aspx.designer.cs">
+      <DependentUpon>Finished.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\flex\EditXmlData.aspx.cs">
+      <DependentUpon>EditXmlData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\flex\EditXmlData.aspx.designer.cs">
+      <DependentUpon>EditXmlData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\flex\GetPrintData.aspx.cs">
+      <DependentUpon>GetPrintData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\flex\GetPrintData.aspx.designer.cs">
+      <DependentUpon>GetPrintData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\flex\UploadFile.aspx.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\flex\UploadFile.aspx.designer.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\flex\XmlData.aspx.cs">
+      <DependentUpon>XmlData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\flex\XmlData.aspx.designer.cs">
+      <DependentUpon>XmlData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\ManageOrder.aspx.cs">
+      <DependentUpon>ManageOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\ManageOrder.aspx.designer.cs">
+      <DependentUpon>ManageOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\OrderDetails.aspx.cs">
+      <DependentUpon>OrderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\OrderDetails.aspx.designer.cs">
+      <DependentUpon>OrderDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\OrderSplit.aspx.cs">
+      <DependentUpon>OrderSplit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\OrderSplit.aspx.designer.cs">
+      <DependentUpon>OrderSplit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\ProductReviews.aspx.cs">
+      <DependentUpon>ProductReviews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\ProductReviews.aspx.designer.cs">
+      <DependentUpon>ProductReviews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\RecycleStation.aspx.cs">
+      <DependentUpon>RecycleStation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\RecycleStation.aspx.designer.cs">
+      <DependentUpon>RecycleStation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\RecycleStationDetail.aspx.cs">
+      <DependentUpon>RecycleStationDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\RecycleStationDetail.aspx.designer.cs">
+      <DependentUpon>RecycleStationDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\ReturnsApply.aspx.cs">
+      <DependentUpon>ReturnsApply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\ReturnsApply.aspx.designer.cs">
+      <DependentUpon>ReturnsApply.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\SellerAlreadySent.aspx.cs">
+      <DependentUpon>SellerAlreadySent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\SellerAlreadySent.aspx.designer.cs">
+      <DependentUpon>SellerAlreadySent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\SendInfo.aspx.cs">
+      <DependentUpon>SendInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\SendInfo.aspx.designer.cs">
+      <DependentUpon>SendInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\SendOrderGoods.aspx.cs">
+      <DependentUpon>SendOrderGoods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\SendOrderGoods.aspx.designer.cs">
+      <DependentUpon>SendOrderGoods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\SetLogistics.aspx.cs">
+      <DependentUpon>SetLogistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\SetLogistics.aspx.designer.cs">
+      <DependentUpon>SetLogistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\SetOrderOption.aspx.cs">
+      <DependentUpon>SetOrderOption.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\SetOrderOption.aspx.designer.cs">
+      <DependentUpon>SetOrderOption.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\ShipAddress.aspx.cs">
+      <DependentUpon>ShipAddress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\ShipAddress.aspx.designer.cs">
+      <DependentUpon>ShipAddress.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trade\WaitBuyerPay.aspx.cs">
+      <DependentUpon>WaitBuyerPay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trade\WaitBuyerPay.aspx.designer.cs">
+      <DependentUpon>WaitBuyerPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Weibo\atmessage.aspx.cs">
+      <DependentUpon>atmessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Weibo\atmessage.aspx.designer.cs">
+      <DependentUpon>atmessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Weibo\autoreply.aspx.cs">
+      <DependentUpon>autoreply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Weibo\autoreply.aspx.designer.cs">
+      <DependentUpon>autoreply.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Weibo\concerned.aspx.cs">
+      <DependentUpon>concerned.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Weibo\concerned.aspx.designer.cs">
+      <DependentUpon>concerned.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Weibo\Goods.aspx.cs">
+      <DependentUpon>Goods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Weibo\Goods.aspx.designer.cs">
+      <DependentUpon>Goods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Weibo\letter.aspx.cs">
+      <DependentUpon>letter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Weibo\letter.aspx.designer.cs">
+      <DependentUpon>letter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Weibo\menu.aspx.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Weibo\menu.aspx.designer.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Weibo\message.aspx.cs">
+      <DependentUpon>message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Weibo\message.aspx.designer.cs">
+      <DependentUpon>message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Weibo\Pictures.aspx.cs">
+      <DependentUpon>Pictures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Weibo\Pictures.aspx.designer.cs">
+      <DependentUpon>Pictures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Weibo\post.aspx.cs">
+      <DependentUpon>post.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Weibo\post.aspx.designer.cs">
+      <DependentUpon>post.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Weibo\Setting.aspx.cs">
+      <DependentUpon>Setting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Weibo\Setting.aspx.designer.cs">
+      <DependentUpon>Setting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Weibo\timeline.aspx.cs">
+      <DependentUpon>timeline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Weibo\timeline.aspx.designer.cs">
+      <DependentUpon>timeline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Weibo\usertimeline.aspx.cs">
+      <DependentUpon>usertimeline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Weibo\usertimeline.aspx.designer.cs">
+      <DependentUpon>usertimeline.aspx</DependentUpon>
     </Compile>
     <Compile Include="hieditor\ueditor\controls\ucUeditor.ascx.cs">
       <DependentUpon>ucUeditor.ascx</DependentUpon>
@@ -1330,6 +3507,71 @@
     <Content Include="Admin\Goods\ReplyProductConsultation.ashx" />
     <Content Include="Admin\Member\api\Hi_Ajax_GetDistributors.ashx" />
     <Content Include="Admin\Member\ScoreConfigHandler.ashx" />
+    <Content Include="Admin\promotion\ConfigHandler.ashx" />
+    <Content Include="Admin\promotion\EditExchangeProducts.ashx" />
+    <Content Include="Admin\promotion\EditProductHandler.ashx" />
+    <Content Include="Admin\promotion\GetCouponDataHandler.ashx" />
+    <Content Include="Admin\promotion\GetCouponListHandler.ashx" />
+    <Content Include="Admin\promotion\GetMemberGradesHandler.ashx" />
+    <Content Include="Admin\promotion\GetVoteItemsHandler.ashx" />
+    <Content Include="Admin\promotion\LimitedTimeDiscountHandler.ashx" />
+    <Content Include="Admin\promotion\PromotionGamePrizesHandler.ashx" />
+    <Content Include="Admin\promotion\SaveActivityHandler.ashx" />
+    <Content Include="Admin\promotion\SaveCouponDataHandler.ashx" />
+    <Content Include="Admin\promotion\SaveVoteHandler.ashx" />
+    <Content Include="Admin\promotion\SelectProductToActivityHandler.ashx" />
+    <Content Include="Admin\promotion\SelectProductToCouponHandler.ashx" />
+    <Content Include="Admin\promotion\SelectProductToExchangeHandler.ashx" />
+    <Content Include="Admin\Settings\PayConfigHandler.ashx" />
+    <Content Include="Admin\Settings\SaveRolePermissionData.ashx" />
+    <Content Include="Admin\Shop\api\config.json" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_AddFolder.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_Brands.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_Categories.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_Coupons.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_DelFolder.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_DelImg.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_GetCustomPageByID.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_GetCustomPages.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_GetFolderTree.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_GetGames.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_GetImgList.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_GetItems.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_GetTemplateByID.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_GoodsGourp.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_Graphics.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_MoveImg.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_PointExChange.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_RemoveImgByFolder.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_RenameFolder.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_RenameImg.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_SaveCustomTemplate.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_SaveTemplate.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_Votes.ashx" />
+    <Content Include="Admin\Shop\api\Hi_Ajax_GoodsListGroup.ashx" />
+    <Content Include="Admin\Shop\Data\games.json" />
+    <Content Include="Admin\Shop\Data\goodListGroupJson.json" />
+    <Content Include="Admin\Shop\Data\GoodsGroupJson.json" />
+    <Content Include="Admin\Shop\Data\ItemsJson.json" />
+    <Content Include="Admin\Shop\Data\tempData\default.json" />
+    <Content Include="Admin\Shop\fonts\iconfont.eot" />
+    <Content Include="Admin\Shop\fonts\iconfont.ttf" />
+    <Content Include="Admin\Shop\fonts\iconfont.woff" />
+    <Content Include="Admin\Shop\Modules\GoodGroup1.cshtml" />
+    <Content Include="Admin\Shop\Modules\GoodGroup2.cshtml" />
+    <Content Include="Admin\Shop\Modules\GoodGroup3.cshtml" />
+    <Content Include="Admin\Shop\Modules\GoodGroup4.cshtml" />
+    <Content Include="Admin\Shop\Modules\GoodGroup5.cshtml" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\controller.ashx" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\jquery-1.10.2.min.map" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\video-js\font\vjs.eot" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\video-js\font\vjs.ttf" />
+    <Content Include="Admin\Shop\Public\plugins\ueditor\third-party\video-js\font\vjs.woff" />
+    <Content Include="Admin\Shop\PublicMob\images\huoodng%402x.zip" />
+    <Content Include="Admin\Shop\AddCustomerService.ashx" />
+    <Content Include="Admin\Shop\DeleteCustomerService.ashx" />
+    <Content Include="Admin\Shop\GetCustomerService.ashx" />
+    <Content Include="Admin\Shop\ShopConfigHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1343,7 +3585,8 @@
     <Folder Include="Admin\help\" />
     <Folder Include="Admin\images\" />
     <Folder Include="Admin\js\" />
-    <Folder Include="Admin\Oneyuan\" />
+    <Folder Include="Admin\Shop\template\Show\" />
+    <Folder Include="Admin\WeiXin\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\public\Hidistro.ControlPanel\Hidistro.ControlPanel.csproj">
