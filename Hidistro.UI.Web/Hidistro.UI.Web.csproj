@@ -115,6 +115,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\AccessDenied.aspx" />
     <Content Include="Admin\AliFuwu\AliFuwuConfig.aspx" />
     <Content Include="Admin\AliFuwu\AliFuWuMessageTemplates.aspx" />
     <Content Include="Admin\AliFuwu\AliFuWuSettings.html" />
@@ -148,6 +149,7 @@
     <Content Include="Admin\css\selectcategory.css" />
     <Content Include="Admin\css\style.css" />
     <Content Include="Admin\css\weibo.css" />
+    <Content Include="Admin\Default.aspx" />
     <Content Include="Admin\demo\game\css\public.css" />
     <Content Include="Admin\demo\game\images\chakan.gif" />
     <Content Include="Admin\demo\game\images\fireworks.gif" />
@@ -158,6 +160,7 @@
     <Content Include="Admin\demo\game\index1.html" />
     <Content Include="Admin\demo\zidingyi.html" />
     <Content Include="Admin\demo\砍价详情\index.html" />
+    <Content Include="Admin\dianpugaikuang.html" />
     <Content Include="Admin\Fenxiao\BalanceDrawApplyErrorList.aspx" />
     <Content Include="Admin\Fenxiao\BalanceDrawApplyList.aspx" />
     <Content Include="Admin\Fenxiao\BalanceDrawRequestList.aspx" />
@@ -234,6 +237,10 @@
     <Content Include="Admin\Goods\ReplyProductConsultations.aspx" />
     <Content Include="Admin\Goods\SelectCategory.aspx" />
     <Content Include="Admin\Goods\SkuValue.aspx" />
+    <Content Include="Admin\install_lodop32.exe" />
+    <Content Include="Admin\install_lodop64.exe" />
+    <Content Include="Admin\Login.aspx" />
+    <Content Include="Admin\LoginExit.aspx" />
     <Content Include="Admin\Member\AddMemberGrade.aspx" />
     <Content Include="Admin\Member\CustomDistributorAddMembers.aspx" />
     <Content Include="Admin\Member\CustomDistributorDetail.aspx" />
@@ -255,6 +262,9 @@
     <Content Include="Admin\Member\setScore_sign.aspx" />
     <Content Include="Admin\Member\SMSSettings.aspx" />
     <Content Include="Admin\Member\UserGroupSet.aspx" />
+    <Content Include="Admin\MenuNew.xml" />
+    <Content Include="Admin\NoPermissionShow.aspx" />
+    <Content Include="Admin\NotPermisson.aspx" />
     <Content Include="Admin\Oneyuan\AddOneyuanInfo.aspx" />
     <Content Include="Admin\Oneyuan\EditOneyuanInfo.aspx" />
     <Content Include="Admin\Oneyuan\OneTaoPartInList.aspx" />
@@ -270,6 +280,7 @@
     <Content Include="Admin\OutPay\App\payLog.txt" />
     <Content Include="Admin\OutPay\OneyuanAlipayRefundNotify.aspx" />
     <Content Include="Admin\OutPay\OneyungRefund.aspx" />
+    <Content Include="Admin\PicRar.aspx" />
     <Content Include="Admin\promotion\ActivityList.aspx" />
     <Content Include="Admin\promotion\AddActivity.aspx" />
     <Content Include="Admin\promotion\AddGame.aspx" />
@@ -332,6 +343,8 @@
     <Content Include="Admin\promotion\UCGamePrizeInfo.ascx" />
     <Content Include="Admin\promotion\UCPrizeLists.ascx" />
     <Content Include="Admin\promotion\VoteList.aspx" />
+    <Content Include="Admin\ResourceNotFound.aspx" />
+    <Content Include="Admin\Service.aspx" />
     <Content Include="Admin\Settings\AddExpressTemplate.aspx" />
     <Content Include="Admin\Settings\AddManager.aspx" />
     <Content Include="Admin\Settings\AddShippingTemplate.aspx" />
@@ -1029,6 +1042,7 @@
     <Content Include="Admin\Shop\ShopTempEdit.aspx" />
     <Content Include="Admin\Shop\template\Edit\default.html" />
     <Content Include="Admin\Shop\UsersSelect.aspx" />
+    <Content Include="Admin\testWX.aspx" />
     <Content Include="Admin\TongJi\HuiTou.aspx" />
     <Content Include="Admin\TongJi\MemberRanking.aspx" />
     <Content Include="Admin\TongJi\MemberRegion.aspx" />
@@ -1081,6 +1095,30 @@
     <Content Include="Admin\Weibo\Setting.aspx" />
     <Content Include="Admin\Weibo\timeline.aspx" />
     <Content Include="Admin\Weibo\usertimeline.aspx" />
+    <Content Include="Admin\WeiXin\ArticeSelect.aspx" />
+    <Content Include="Admin\WeiXin\ConcernUrl.aspx" />
+    <Content Include="Admin\WeiXin\EditMenu.aspx" />
+    <Content Include="Admin\WeiXin\EditTemplateId.aspx" />
+    <Content Include="Admin\WeiXin\GetImagesMsgId.aspx" />
+    <Content Include="Admin\WeiXin\GuideConcern.aspx" />
+    <Content Include="Admin\WeiXin\ManageMenu.aspx" />
+    <Content Include="Admin\WeiXin\ManyService.aspx" />
+    <Content Include="Admin\WeiXin\MessageTemplets.aspx" />
+    <Content Include="Admin\WeiXin\RedpackSetting.aspx" />
+    <Content Include="Admin\WeiXin\ReplyEdit.aspx" />
+    <Content Include="Admin\WeiXin\ReplyOnKey.aspx" />
+    <Content Include="Admin\WeiXin\SendAll.aspx" />
+    <Content Include="Admin\WeiXin\SendAllEdit.aspx" />
+    <Content Include="Admin\WeiXin\SendAllList.aspx" />
+    <Content Include="Admin\WeiXin\ShowQRCode.aspx" />
+    <Content Include="Admin\WeiXin\ValidationService.aspx" />
+    <Content Include="Admin\WeiXin\WeixinSettings.html" />
+    <Content Include="Admin\WeiXin\WifiSet.aspx" />
+    <Content Include="Admin\WeiXin\WifiSetList.aspx" />
+    <Content Include="Admin\WeiXin\WXConfig.aspx" />
+    <Content Include="Admin\WeiXin\WXConfigBindOK.aspx" />
+    <Content Include="Admin\WeiXin\WXConfigChangeBind.aspx" />
+    <Content Include="Admin\WeiXin\WXSendDemo.aspx" />
     <Content Include="hieditor\ueditor\controls\ucUeditor.ascx" />
     <Content Include="hieditor\ueditor\dialogs\anchor\anchor.html" />
     <Content Include="hieditor\ueditor\dialogs\attachment\attachment.css" />
@@ -1353,6 +1391,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\AccessDenied.aspx.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AccessDenied.aspx.designer.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\AdminNew.Master.cs">
       <DependentUpon>AdminNew.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1499,6 +1544,13 @@
     </Compile>
     <Compile Include="Admin\CashBack\MemberSelect.aspx.designer.cs">
       <DependentUpon>MemberSelect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Fenxiao\BalanceDrawApplyErrorList.aspx.cs">
       <DependentUpon>BalanceDrawApplyErrorList.aspx</DependentUpon>
@@ -1969,6 +2021,20 @@
     <Compile Include="Admin\Insurance\MemberSelect.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LoginExit.aspx.cs">
+      <DependentUpon>LoginExit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\LoginExit.aspx.designer.cs">
+      <DependentUpon>LoginExit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Member\AddMemberGrade.aspx.cs">
       <DependentUpon>AddMemberGrade.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2122,6 +2188,20 @@
     <Compile Include="Admin\Member\UserGroupSet.aspx.designer.cs">
       <DependentUpon>UserGroupSet.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\NoPermissionShow.aspx.cs">
+      <DependentUpon>NoPermissionShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\NoPermissionShow.aspx.designer.cs">
+      <DependentUpon>NoPermissionShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\NotPermisson.aspx.cs">
+      <DependentUpon>NotPermisson.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\NotPermisson.aspx.designer.cs">
+      <DependentUpon>NotPermisson.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Oneyuan\AddOneyuanInfo.aspx.cs">
       <DependentUpon>AddOneyuanInfo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2219,6 +2299,14 @@
     </Compile>
     <Compile Include="Admin\OutPay\OneyungRefund.aspx.designer.cs">
       <DependentUpon>OneyungRefund.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PIC.cs" />
+    <Compile Include="Admin\PicRar.aspx.cs">
+      <DependentUpon>PicRar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PicRar.aspx.designer.cs">
+      <DependentUpon>PicRar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\ProductBasePage.cs">
       <SubType>ASPXCodeBehind</SubType>
@@ -2692,6 +2780,20 @@
     <Compile Include="Admin\promotion\VoteList.aspx.designer.cs">
       <DependentUpon>VoteList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\ResourceNotFound.aspx.cs">
+      <DependentUpon>ResourceNotFound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ResourceNotFound.aspx.designer.cs">
+      <DependentUpon>ResourceNotFound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Service.aspx.cs">
+      <DependentUpon>Service.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Service.aspx.designer.cs">
+      <DependentUpon>Service.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Settings\AddExpressTemplate.aspx.cs">
       <DependentUpon>AddExpressTemplate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3133,6 +3235,13 @@
     <Compile Include="Admin\SimplePage.Master.designer.cs">
       <DependentUpon>SimplePage.Master</DependentUpon>
     </Compile>
+    <Compile Include="Admin\testWX.aspx.cs">
+      <DependentUpon>testWX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\testWX.aspx.designer.cs">
+      <DependentUpon>testWX.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\TongJi\HuiTou.aspx.cs">
       <DependentUpon>HuiTou.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3399,6 +3508,9 @@
     <Compile Include="Admin\Trade\WaitBuyerPay.aspx.designer.cs">
       <DependentUpon>WaitBuyerPay.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\VsiteHandler.ashx.cs">
+      <DependentUpon>VsiteHandler.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Weibo\atmessage.aspx.cs">
       <DependentUpon>atmessage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3482,6 +3594,170 @@
     </Compile>
     <Compile Include="Admin\Weibo\usertimeline.aspx.designer.cs">
       <DependentUpon>usertimeline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ArticeSelect.aspx.cs">
+      <DependentUpon>ArticeSelect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ArticeSelect.aspx.designer.cs">
+      <DependentUpon>ArticeSelect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ConcernUrl.aspx.cs">
+      <DependentUpon>ConcernUrl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ConcernUrl.aspx.designer.cs">
+      <DependentUpon>ConcernUrl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\EditMenu.aspx.cs">
+      <DependentUpon>EditMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\EditMenu.aspx.designer.cs">
+      <DependentUpon>EditMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\EditTemplateId.aspx.cs">
+      <DependentUpon>EditTemplateId.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\EditTemplateId.aspx.designer.cs">
+      <DependentUpon>EditTemplateId.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\GetImagesMsgId.aspx.cs">
+      <DependentUpon>GetImagesMsgId.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\GetImagesMsgId.aspx.designer.cs">
+      <DependentUpon>GetImagesMsgId.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\GetWeixinProcessor.ashx.cs">
+      <DependentUpon>GetWeixinProcessor.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\GuideConcern.aspx.cs">
+      <DependentUpon>GuideConcern.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\GuideConcern.aspx.designer.cs">
+      <DependentUpon>GuideConcern.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ManageMenu.aspx.cs">
+      <DependentUpon>ManageMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ManageMenu.aspx.designer.cs">
+      <DependentUpon>ManageMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ManyService.aspx.cs">
+      <DependentUpon>ManyService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ManyService.aspx.designer.cs">
+      <DependentUpon>ManyService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\MessageTemplets.aspx.cs">
+      <DependentUpon>MessageTemplets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\MessageTemplets.aspx.designer.cs">
+      <DependentUpon>MessageTemplets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\RedpackSetting.aspx.cs">
+      <DependentUpon>RedpackSetting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\RedpackSetting.aspx.designer.cs">
+      <DependentUpon>RedpackSetting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ReplyEdit.aspx.cs">
+      <DependentUpon>ReplyEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ReplyEdit.aspx.designer.cs">
+      <DependentUpon>ReplyEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ReplyOnKey.aspx.cs">
+      <DependentUpon>ReplyOnKey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ReplyOnKey.aspx.designer.cs">
+      <DependentUpon>ReplyOnKey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\SendAll.aspx.cs">
+      <DependentUpon>SendAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\SendAll.aspx.designer.cs">
+      <DependentUpon>SendAll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\SendAllEdit.aspx.cs">
+      <DependentUpon>SendAllEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\SendAllEdit.aspx.designer.cs">
+      <DependentUpon>SendAllEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\SendAllList.aspx.cs">
+      <DependentUpon>SendAllList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\SendAllList.aspx.designer.cs">
+      <DependentUpon>SendAllList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ShowQRCode.aspx.cs">
+      <DependentUpon>ShowQRCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ShowQRCode.aspx.designer.cs">
+      <DependentUpon>ShowQRCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ValidationService.aspx.cs">
+      <DependentUpon>ValidationService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\ValidationService.aspx.designer.cs">
+      <DependentUpon>ValidationService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\WifiSet.aspx.cs">
+      <DependentUpon>WifiSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\WifiSet.aspx.designer.cs">
+      <DependentUpon>WifiSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\WifiSetList.aspx.cs">
+      <DependentUpon>WifiSetList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\WifiSetList.aspx.designer.cs">
+      <DependentUpon>WifiSetList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\WXConfig.aspx.cs">
+      <DependentUpon>WXConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\WXConfig.aspx.designer.cs">
+      <DependentUpon>WXConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\WXConfigBindOK.aspx.cs">
+      <DependentUpon>WXConfigBindOK.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\WXConfigBindOK.aspx.designer.cs">
+      <DependentUpon>WXConfigBindOK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\WXConfigChangeBind.aspx.cs">
+      <DependentUpon>WXConfigChangeBind.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\WXConfigChangeBind.aspx.designer.cs">
+      <DependentUpon>WXConfigChangeBind.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiXin\WXSendDemo.aspx.cs">
+      <DependentUpon>WXSendDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiXin\WXSendDemo.aspx.designer.cs">
+      <DependentUpon>WXSendDemo.aspx</DependentUpon>
     </Compile>
     <Compile Include="hieditor\ueditor\controls\ucUeditor.ascx.cs">
       <DependentUpon>ucUeditor.ascx</DependentUpon>
@@ -3572,6 +3848,10 @@
     <Content Include="Admin\Shop\DeleteCustomerService.ashx" />
     <Content Include="Admin\Shop\GetCustomerService.ashx" />
     <Content Include="Admin\Shop\ShopConfigHandler.ashx" />
+    <Content Include="Admin\WeiXin\GetWeixinProcessor.ashx" />
+    <Content Include="Admin\MenuNew.xml.bak" />
+    <Content Include="Admin\VsiteHandler.ashx" />
+    <Content Include="Admin\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3586,7 +3866,6 @@
     <Folder Include="Admin\images\" />
     <Folder Include="Admin\js\" />
     <Folder Include="Admin\Shop\template\Show\" />
-    <Folder Include="Admin\WeiXin\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\public\Hidistro.ControlPanel\Hidistro.ControlPanel.csproj">
