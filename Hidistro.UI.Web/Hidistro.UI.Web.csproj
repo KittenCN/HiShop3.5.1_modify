@@ -1121,6 +1121,9 @@
     <Content Include="Admin\WeiXin\WXSendDemo.aspx" />
     <Content Include="API\FootJs.aspx" />
     <Content Include="API\qrcode\Default.aspx" />
+    <Content Include="App_Data\data\paipai\占位.txt" />
+    <Content Include="App_Data\data\taobao\占位.txt" />
+    <Content Include="App_Data\Pay\Cert\占位.txt" />
     <Content Include="config\Express.xml" />
     <Content Include="config\JobConfig.xml" />
     <Content Include="config\publickey.xml" />
@@ -1129,6 +1132,7 @@
     <Content Include="config\RSAGenerator\ssl\libeay32.dll" />
     <Content Include="config\RSAGenerator\ssl\openssl.exe" />
     <Content Include="config\RSAGenerator\ssl\ssleay32.dll" />
+    <Content Include="GetStoreCard\Default.aspx" />
     <Content Include="hieditor\ueditor\controls\ucUeditor.ascx" />
     <Content Include="hieditor\ueditor\dialogs\anchor\anchor.html" />
     <Content Include="hieditor\ueditor\dialogs\attachment\attachment.css" />
@@ -1398,6 +1402,28 @@
     <Content Include="hieditor\ueditor\ueditor.parse.min.js" />
     <Content Include="hieditor\ueditor\ueditorWX.config.js" />
     <Content Include="images\loading.gif" />
+    <Content Include="Installer\Activation.aspx" />
+    <Content Include="Installer\Default.aspx" />
+    <Content Include="Installer\Images\process\2w.jpg" />
+    <Content Include="Installer\Images\process\ba_l.jpg" />
+    <Content Include="Installer\Images\process\ce_l.jpg" />
+    <Content Include="Installer\Images\process\icon.gif" />
+    <Content Include="Installer\Images\process\logo.png" />
+    <Content Include="Installer\Images\process\quit_btn.jpg" />
+    <Content Include="Installer\Images\process\tit_ba.jpg" />
+    <Content Include="Installer\Images\process\weilog.png" />
+    <Content Include="Installer\Images\process\word.jpg" />
+    <Content Include="Installer\Install.aspx" />
+    <Content Include="Installer\SqlScripts\Schema.sql" />
+    <Content Include="Installer\SqlScripts\SiteInitData.zh-CN.Sql" />
+    <Content Include="Installer\style\install.css" />
+    <Content Include="Installer\Succeed.aspx" />
+    <Content Include="log\hieditor\占位.txt" />
+    <Content Include="OpenAPI\HishopOpenApiIProduct\GetProduct\Default.aspx" />
+    <Content Include="OpenAPI\HishopOpenApiIProduct\GetSoldProducts\Default.aspx" />
+    <Content Include="OpenAPI\HishopOpenApiIProduct\UpdateProductApproveStatus\Default.aspx" />
+    <Content Include="OpenAPI\HishopOpenApiIProduct\UpdateProductQuantity\Default.aspx" />
+    <Content Include="OpenAPI\Update\UpdateAndRegisterERP.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -3863,12 +3889,88 @@
     <Compile Include="API\WXMenuProcess.ashx.cs">
       <DependentUpon>WXMenuProcess.ashx</DependentUpon>
     </Compile>
+    <Compile Include="GetStoreCard\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetStoreCard\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="hieditor\ueditor\controls\ucUeditor.ascx.cs">
       <DependentUpon>ucUeditor.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="hieditor\ueditor\controls\ucUeditor.ascx.designer.cs">
       <DependentUpon>ucUeditor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Installer\Activation.aspx.cs">
+      <DependentUpon>Activation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Installer\Activation.aspx.designer.cs">
+      <DependentUpon>Activation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Installer\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Installer\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Installer\Install.aspx.cs">
+      <DependentUpon>Install.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Installer\Install.aspx.designer.cs">
+      <DependentUpon>Install.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Installer\Succeed.aspx.cs">
+      <DependentUpon>Succeed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Installer\Succeed.aspx.designer.cs">
+      <DependentUpon>Succeed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OpenAPI\HishopOpenApiIProduct\GetProduct\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OpenAPI\HishopOpenApiIProduct\GetProduct\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OpenAPI\HishopOpenApiIProduct\GetSoldProducts\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OpenAPI\HishopOpenApiIProduct\GetSoldProducts\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OpenAPI\HishopOpenApiIProduct\UpdateProductApproveStatus\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OpenAPI\HishopOpenApiIProduct\UpdateProductApproveStatus\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OpenAPI\HishopOpenApiIProduct\UpdateProductQuantity\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OpenAPI\HishopOpenApiIProduct\UpdateProductQuantity\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OpenAPI\Impl\ProductApi.cs" />
+    <Compile Include="OpenAPI\Impl\TradeApi.cs" />
+    <Compile Include="OpenAPI\IProductApi.ashx.cs">
+      <DependentUpon>IProductApi.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="OpenAPI\OpenApiHelper.cs" />
+    <Compile Include="OpenAPI\Update\UpdateAndRegisterERP.aspx.cs">
+      <DependentUpon>UpdateAndRegisterERP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OpenAPI\Update\UpdateAndRegisterERP.aspx.designer.cs">
+      <DependentUpon>UpdateAndRegisterERP.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -3992,6 +4094,7 @@
     <Content Include="config\SiteUrls.config" />
     <Content Include="config\web.config" />
     <Content Include="API\LimitedTimeDiscountHandler.ashx" />
+    <Content Include="OpenAPI\IProductApi.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -4006,6 +4109,15 @@
     <Folder Include="Admin\images\" />
     <Folder Include="Admin\js\" />
     <Folder Include="Admin\Shop\template\Show\" />
+    <Folder Include="OpenAPI\Hishop.Open.Api.IProduct.GetProduct\" />
+    <Folder Include="OpenAPI\Hishop.Open.Api.IProduct.UpdateProductApproveStatus\" />
+    <Folder Include="OpenAPI\Hishop.Open.Api.IProduct.UpdateProductQuantity\" />
+    <Folder Include="OpenAPI\Hishop.Open.Api.ITrade.ChangLogistics\" />
+    <Folder Include="OpenAPI\Hishop.Open.Api.ITrade.GetIncrementSoldTrades\" />
+    <Folder Include="OpenAPI\Hishop.Open.Api.ITrade.GetSoldTrades\" />
+    <Folder Include="OpenAPI\Hishop.Open.Api.ITrade.GetTrade\" />
+    <Folder Include="OpenAPI\Hishop.Open.Api.ITrade.SendLogistic\" />
+    <Folder Include="OpenAPI\Hishop.Open.Api.ITrade.UpdateTradeMemo\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\public\Hidistro.ControlPanel\Hidistro.ControlPanel.csproj">
