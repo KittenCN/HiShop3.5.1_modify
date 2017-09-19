@@ -1119,6 +1119,16 @@
     <Content Include="Admin\WeiXin\WXConfigBindOK.aspx" />
     <Content Include="Admin\WeiXin\WXConfigChangeBind.aspx" />
     <Content Include="Admin\WeiXin\WXSendDemo.aspx" />
+    <Content Include="API\FootJs.aspx" />
+    <Content Include="API\qrcode\Default.aspx" />
+    <Content Include="config\Express.xml" />
+    <Content Include="config\JobConfig.xml" />
+    <Content Include="config\publickey.xml" />
+    <Content Include="config\region.js" />
+    <Content Include="config\RSAGenerator\Rsa.exe" />
+    <Content Include="config\RSAGenerator\ssl\libeay32.dll" />
+    <Content Include="config\RSAGenerator\ssl\openssl.exe" />
+    <Content Include="config\RSAGenerator\ssl\ssleay32.dll" />
     <Content Include="hieditor\ueditor\controls\ucUeditor.ascx" />
     <Content Include="hieditor\ueditor\dialogs\anchor\anchor.html" />
     <Content Include="hieditor\ueditor\dialogs\attachment\attachment.css" />
@@ -3759,6 +3769,100 @@
     <Compile Include="Admin\WeiXin\WXSendDemo.aspx.designer.cs">
       <DependentUpon>WXSendDemo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="API\AliPayFuwuApi.ashx.cs">
+      <DependentUpon>AliPayFuwuApi.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\AlipayFWMenuProcess.ashx.cs">
+      <DependentUpon>AlipayFWMenuProcess.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\CreatQRCode.ashx.cs">
+      <DependentUpon>CreatQRCode.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\CustomMsgHandler.cs" />
+    <Compile Include="API\ExpressReturn.ashx.cs">
+      <DependentUpon>ExpressReturn.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\Files.ashx.cs">
+      <DependentUpon>Files.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\FlashUpload.ashx.cs">
+      <DependentUpon>FlashUpload.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\FootJs.aspx.cs">
+      <DependentUpon>FootJs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="API\FootJs.aspx.designer.cs">
+      <DependentUpon>FootJs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="API\GetQRCode.ashx.cs">
+      <DependentUpon>GetQRCode.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\GzipExtention.cs" />
+    <Compile Include="API\Hi_Ajax_ExchangeProducts.ashx.cs">
+      <DependentUpon>Hi_Ajax_ExchangeProducts.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\Hi_Ajax_Game.ashx.cs">
+      <DependentUpon>Hi_Ajax_Game.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\Hi_Ajax_GetActivityTopics.ashx.cs">
+      <DependentUpon>Hi_Ajax_GetActivityTopics.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\Hi_Ajax_GetProductsCount.ashx.cs">
+      <DependentUpon>Hi_Ajax_GetProductsCount.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\Hi_Ajax_GoodsList.ashx.cs">
+      <DependentUpon>Hi_Ajax_GoodsList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\Hi_Ajax_GoodsListGroup.ashx.cs">
+      <DependentUpon>Hi_Ajax_GoodsListGroup.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\Hi_Ajax_NavMenu.ashx.cs">
+      <DependentUpon>Hi_Ajax_NavMenu.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\Hi_Ajax_OnlineServiceConfig.ashx.cs">
+      <DependentUpon>Hi_Ajax_OnlineServiceConfig.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\LimitedTimeDiscountHandler.ashx.cs">
+      <DependentUpon>LimitedTimeDiscountHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\MenuProcess.ashx.cs">
+      <DependentUpon>MenuProcess.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\qrcode\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="API\qrcode\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="API\TaobaoProductHandler.ashx.cs">
+      <DependentUpon>TaobaoProductHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\UpImg.ashx.cs">
+      <DependentUpon>UpImg.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\VshopProcess.ashx.cs">
+      <DependentUpon>VshopProcess.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\VshopRecharge.ashx.cs">
+      <DependentUpon>VshopRecharge.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\wb.ashx.cs">
+      <DependentUpon>wb.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\WeiBoAPI.ashx.cs">
+      <DependentUpon>WeiBoAPI.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\WeiboProcess.ashx.cs">
+      <DependentUpon>WeiboProcess.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\wx.ashx.cs">
+      <DependentUpon>wx.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="API\WXMenuProcess.ashx.cs">
+      <DependentUpon>WXMenuProcess.ashx</DependentUpon>
+    </Compile>
     <Compile Include="hieditor\ueditor\controls\ucUeditor.ascx.cs">
       <DependentUpon>ucUeditor.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3852,6 +3956,42 @@
     <Content Include="Admin\MenuNew.xml.bak" />
     <Content Include="Admin\VsiteHandler.ashx" />
     <Content Include="Admin\Web.config" />
+    <Content Include="API\AliPayFuwuApi.ashx" />
+    <Content Include="API\AlipayFWMenuProcess.ashx" />
+    <Content Include="API\CreatQRCode.ashx" />
+    <Content Include="API\ExpressReturn.ashx" />
+    <Content Include="API\Files.ashx" />
+    <Content Include="API\FlashUpload.ashx" />
+    <Content Include="API\GetQRCode.ashx" />
+    <Content Include="API\Hi_Ajax_ExchangeProducts.ashx" />
+    <Content Include="API\Hi_Ajax_Game.ashx" />
+    <Content Include="API\Hi_Ajax_GetActivityTopics.ashx" />
+    <Content Include="API\Hi_Ajax_GetProductsCount.ashx" />
+    <Content Include="API\Hi_Ajax_GoodsList.ashx" />
+    <Content Include="API\Hi_Ajax_GoodsListGroup.ashx" />
+    <Content Include="API\Hi_Ajax_NavMenu.ashx" />
+    <Content Include="API\Hi_Ajax_OnlineServiceConfig.ashx" />
+    <Content Include="API\MenuProcess.ashx" />
+    <Content Include="API\TaobaoProductHandler.ashx" />
+    <Content Include="API\UpImg.ashx" />
+    <Content Include="API\VshopProcess.ashx" />
+    <Content Include="API\VshopRecharge.ashx" />
+    <Content Include="API\wb.ashx" />
+    <Content Include="API\WeiBoAPI.ashx" />
+    <Content Include="API\WeiboProcess.ashx" />
+    <Content Include="API\wx.ashx" />
+    <Content Include="API\WXMenuProcess.ashx" />
+    <Content Include="config\alipay_pubKey.pem" />
+    <Content Include="config\BackupFiles.config" />
+    <Content Include="config\CustomerService.config" />
+    <Content Include="config\Hishop.config" />
+    <Content Include="config\region.config" />
+    <Content Include="config\rsa_private_key.pem" />
+    <Content Include="config\rsa_public_key.pem" />
+    <Content Include="config\SiteSettings.config" />
+    <Content Include="config\SiteUrls.config" />
+    <Content Include="config\web.config" />
+    <Content Include="API\LimitedTimeDiscountHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

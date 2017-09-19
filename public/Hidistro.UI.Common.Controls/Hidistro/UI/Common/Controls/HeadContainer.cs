@@ -31,7 +31,7 @@
 
         private void RenderMetaGenerator(HtmlTextWriter writer)
         {
-            writer.WriteLine("<meta name=\"GENERATOR\" content=\"销客多 3.5\" />");
+            writer.WriteLine("<meta name=\"GENERATOR\" content=\"沐雪微分销1.0\" />");
         }
 
         private void RenderMetaLanguage(HtmlTextWriter writer)
