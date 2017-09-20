@@ -36,10 +36,18 @@
             return SiteSettings.FromXml(document);
         }
 
+        /// <summary>
+        /// edit by  lipu  20170920
+        /// case:异常请求在此上下文中不可用
+        /// </summary>
+        /// <returns></returns>
         private static string GetMasterSettingsFilename()
         {
-            HttpContext current = HttpContext.Current;
-            return ((current != null) ? current.Request.MapPath("~/config/SiteSettings.config") : Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"config\SiteSettings.config"));
+            // HttpContext current = HttpContext.Current;
+            //  return ((current != null) ? current.Request.MapPath("~/config/SiteSettings.config") : Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"config\SiteSettings.config"));
+
+            return  Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"config\SiteSettings.config");
+
         }
 
         public static void Save(SiteSettings settings)

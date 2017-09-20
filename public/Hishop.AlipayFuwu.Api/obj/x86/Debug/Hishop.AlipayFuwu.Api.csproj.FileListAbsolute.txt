@@ -11,3 +11,10 @@ F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.AlipayFuwu.Api\bin\Debu
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.AlipayFuwu.Api\obj\x86\Debug\Hishop.AlipayFuwu.Api.csprojResolveAssemblyReference.cache
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.AlipayFuwu.Api\obj\x86\Debug\Hishop.AlipayFuwu.Api.dll
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.AlipayFuwu.Api\obj\x86\Debug\Hishop.AlipayFuwu.Api.pdb
+F:\VSWorks\gitstore\mxxkd\public\Hishop.AlipayFuwu.Api\bin\Debug\Hishop.AlipayFuwu.Api.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.AlipayFuwu.Api\bin\Debug\Hishop.AlipayFuwu.Api.pdb
+F:\VSWorks\gitstore\mxxkd\public\Hishop.AlipayFuwu.Api\bin\Debug\AopSdk.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.AlipayFuwu.Api\bin\Debug\Newtonsoft.Json.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.AlipayFuwu.Api\obj\x86\Debug\Hishop.AlipayFuwu.Api.csprojResolveAssemblyReference.cache
+F:\VSWorks\gitstore\mxxkd\public\Hishop.AlipayFuwu.Api\obj\x86\Debug\Hishop.AlipayFuwu.Api.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.AlipayFuwu.Api\obj\x86\Debug\Hishop.AlipayFuwu.Api.pdb

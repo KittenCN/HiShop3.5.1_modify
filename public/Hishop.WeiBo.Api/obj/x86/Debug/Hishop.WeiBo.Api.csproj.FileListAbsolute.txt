@@ -12,3 +12,10 @@ F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.WeiBo.Api\bin\Debug\Sys
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.WeiBo.Api\obj\x86\Debug\Hishop.WeiBo.Api.csprojResolveAssemblyReference.cache
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.WeiBo.Api\obj\x86\Debug\Hishop.WeiBo.Api.dll
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.WeiBo.Api\obj\x86\Debug\Hishop.WeiBo.Api.pdb
+F:\VSWorks\gitstore\mxxkd\public\Hishop.WeiBo.Api\bin\Debug\Hishop.WeiBo.Api.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.WeiBo.Api\bin\Debug\Hishop.WeiBo.Api.pdb
+F:\VSWorks\gitstore\mxxkd\public\Hishop.WeiBo.Api\bin\Debug\Newtonsoft.Json.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.WeiBo.Api\bin\Debug\System.Net.Http.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.WeiBo.Api\obj\x86\Debug\Hishop.WeiBo.Api.csprojResolveAssemblyReference.cache
+F:\VSWorks\gitstore\mxxkd\public\Hishop.WeiBo.Api\obj\x86\Debug\Hishop.WeiBo.Api.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.WeiBo.Api\obj\x86\Debug\Hishop.WeiBo.Api.pdb

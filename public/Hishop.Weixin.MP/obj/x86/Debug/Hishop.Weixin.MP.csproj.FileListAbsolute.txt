@@ -15,3 +15,9 @@ F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.MP\bin\Debug\New
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.MP\obj\x86\Debug\Hishop.Weixin.MP.csprojResolveAssemblyReference.cache
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.MP\obj\x86\Debug\Hishop.Weixin.MP.dll
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.MP\obj\x86\Debug\Hishop.Weixin.MP.pdb
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Weixin.MP\bin\Debug\Hishop.Weixin.MP.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Weixin.MP\bin\Debug\Hishop.Weixin.MP.pdb
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Weixin.MP\bin\Debug\Newtonsoft.Json.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Weixin.MP\obj\x86\Debug\Hishop.Weixin.MP.csprojResolveAssemblyReference.cache
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Weixin.MP\obj\x86\Debug\Hishop.Weixin.MP.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Weixin.MP\obj\x86\Debug\Hishop.Weixin.MP.pdb

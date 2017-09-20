@@ -14,3 +14,11 @@ F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.Pay\bin\Debug\Hi
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.Pay\obj\x86\Debug\Hishop.Weixin.Pay.csprojResolveAssemblyReference.cache
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.Pay\obj\x86\Debug\Hishop.Weixin.Pay.dll
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Weixin.Pay\obj\x86\Debug\Hishop.Weixin.Pay.pdb
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Weixin.Pay\bin\Debug\Hishop.Weixin.Pay.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Weixin.Pay\bin\Debug\Hishop.Weixin.Pay.pdb
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Weixin.Pay\bin\Debug\Hishop.Weixin.MP.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Weixin.Pay\bin\Debug\Newtonsoft.Json.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Weixin.Pay\bin\Debug\Hishop.Weixin.MP.pdb
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Weixin.Pay\obj\x86\Debug\Hishop.Weixin.Pay.csprojResolveAssemblyReference.cache
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Weixin.Pay\obj\x86\Debug\Hishop.Weixin.Pay.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Weixin.Pay\obj\x86\Debug\Hishop.Weixin.Pay.pdb

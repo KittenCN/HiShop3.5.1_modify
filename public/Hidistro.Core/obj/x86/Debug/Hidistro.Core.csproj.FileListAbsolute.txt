@@ -16,3 +16,12 @@ F:\VSWorks\销客多\沐雪微分销源码\public\Hidistro.Core\bin\Debug\Micros
 F:\VSWorks\销客多\沐雪微分销源码\public\Hidistro.Core\obj\x86\Debug\Hidistro.Core.csprojResolveAssemblyReference.cache
 F:\VSWorks\销客多\沐雪微分销源码\public\Hidistro.Core\obj\x86\Debug\Hidistro.Core.dll
 F:\VSWorks\销客多\沐雪微分销源码\public\Hidistro.Core\obj\x86\Debug\Hidistro.Core.pdb
+F:\VSWorks\gitstore\mxxkd\public\Hidistro.Core\bin\Debug\Hidistro.Core.dll
+F:\VSWorks\gitstore\mxxkd\public\Hidistro.Core\bin\Debug\Hidistro.Core.pdb
+F:\VSWorks\gitstore\mxxkd\public\Hidistro.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\VSWorks\gitstore\mxxkd\public\Hidistro.Core\bin\Debug\Newtonsoft.Json.dll
+F:\VSWorks\gitstore\mxxkd\public\Hidistro.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\VSWorks\gitstore\mxxkd\public\Hidistro.Core\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+F:\VSWorks\gitstore\mxxkd\public\Hidistro.Core\obj\x86\Debug\Hidistro.Core.dll
+F:\VSWorks\gitstore\mxxkd\public\Hidistro.Core\obj\x86\Debug\Hidistro.Core.pdb
+F:\VSWorks\gitstore\mxxkd\public\Hidistro.Core\obj\x86\Debug\Hidistro.Core.csprojResolveAssemblyReference.cache

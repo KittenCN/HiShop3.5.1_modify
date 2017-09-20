@@ -8,3 +8,8 @@ F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Components.Validation\b
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Components.Validation\obj\x86\Debug\Hishop.Components.Validation.csprojResolveAssemblyReference.cache
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Components.Validation\obj\x86\Debug\Hishop.Components.Validation.dll
 F:\VSWorks\销客多\沐雪微分销源码\public\Hishop.Components.Validation\obj\x86\Debug\Hishop.Components.Validation.pdb
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Components.Validation\bin\Debug\Hishop.Components.Validation.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Components.Validation\bin\Debug\Hishop.Components.Validation.pdb
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Components.Validation\obj\x86\Debug\Hishop.Components.Validation.csprojResolveAssemblyReference.cache
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Components.Validation\obj\x86\Debug\Hishop.Components.Validation.dll
+F:\VSWorks\gitstore\mxxkd\public\Hishop.Components.Validation\obj\x86\Debug\Hishop.Components.Validation.pdb

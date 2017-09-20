@@ -14,3 +14,11 @@ F:\VSWorks\销客多\沐雪微分销源码\public\HiTemplate\bin\Debug\System.We
 F:\VSWorks\销客多\沐雪微分销源码\public\HiTemplate\obj\x86\Debug\HiTemplate.csprojResolveAssemblyReference.cache
 F:\VSWorks\销客多\沐雪微分销源码\public\HiTemplate\obj\x86\Debug\HiTemplate.dll
 F:\VSWorks\销客多\沐雪微分销源码\public\HiTemplate\obj\x86\Debug\HiTemplate.pdb
+F:\VSWorks\gitstore\mxxkd\public\HiTemplate\bin\Debug\HiTemplate.dll
+F:\VSWorks\gitstore\mxxkd\public\HiTemplate\bin\Debug\HiTemplate.pdb
+F:\VSWorks\gitstore\mxxkd\public\HiTemplate\bin\Debug\Newtonsoft.Json.dll
+F:\VSWorks\gitstore\mxxkd\public\HiTemplate\bin\Debug\RazorEngine.dll
+F:\VSWorks\gitstore\mxxkd\public\HiTemplate\bin\Debug\System.Web.Razor.dll
+F:\VSWorks\gitstore\mxxkd\public\HiTemplate\obj\x86\Debug\HiTemplate.csprojResolveAssemblyReference.cache
+F:\VSWorks\gitstore\mxxkd\public\HiTemplate\obj\x86\Debug\HiTemplate.dll
+F:\VSWorks\gitstore\mxxkd\public\HiTemplate\obj\x86\Debug\HiTemplate.pdb

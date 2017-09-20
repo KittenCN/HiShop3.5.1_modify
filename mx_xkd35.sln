@@ -58,8 +58,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hidistro.UI.ControlPanel.Ut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hidistro.UI.SaleSystem.CodeBehind", "public\Hidistro.UI.SaleSystem.CodeBehind\Hidistro.UI.SaleSystem.CodeBehind.csproj", "{31D67B11-3320-4FCD-892A-2074560A6292}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hidistro.UI.Web2", "public\Hidistro.UI.Web\Hidistro.UI.Web2.csproj", "{70158655-D6F3-444E-8C38-5CE7B2E44F93}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiTemplate", "public\HiTemplate\HiTemplate.csproj", "{2D8ED7F7-33D1-4D11-B50F-A9F3FFC646D2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "refdll", "refdll", "{C1E123D2-BAA6-4D57-AA09-AFB05E929580}"
@@ -85,26 +83,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "refdll", "refdll", "{C1E123
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hidistro.UI.Web", "Hidistro.UI.Web\Hidistro.UI.Web.csproj", "{61CAC96A-0D3B-4DBA-B2B9-14D0BFA259CC}"
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "wwwroot", "wwwroot\", "{651573BF-80B9-48F2-A3AA-BF3C87589BEB}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_3952"
-		Debug.AspNetCompiler.PhysicalPath = "wwwroot\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3952\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_3952"
-		Release.AspNetCompiler.PhysicalPath = "wwwroot\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3952\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "3952"
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -234,12 +212,6 @@ Global
 		{31D67B11-3320-4FCD-892A-2074560A6292}.Release|Any CPU.ActiveCfg = Release|x86
 		{31D67B11-3320-4FCD-892A-2074560A6292}.Release|x86.ActiveCfg = Release|x86
 		{31D67B11-3320-4FCD-892A-2074560A6292}.Release|x86.Build.0 = Release|x86
-		{70158655-D6F3-444E-8C38-5CE7B2E44F93}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{70158655-D6F3-444E-8C38-5CE7B2E44F93}.Debug|x86.ActiveCfg = Debug|x86
-		{70158655-D6F3-444E-8C38-5CE7B2E44F93}.Debug|x86.Build.0 = Debug|x86
-		{70158655-D6F3-444E-8C38-5CE7B2E44F93}.Release|Any CPU.ActiveCfg = Release|x86
-		{70158655-D6F3-444E-8C38-5CE7B2E44F93}.Release|x86.ActiveCfg = Release|x86
-		{70158655-D6F3-444E-8C38-5CE7B2E44F93}.Release|x86.Build.0 = Release|x86
 		{2D8ED7F7-33D1-4D11-B50F-A9F3FFC646D2}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{2D8ED7F7-33D1-4D11-B50F-A9F3FFC646D2}.Debug|x86.ActiveCfg = Debug|x86
 		{2D8ED7F7-33D1-4D11-B50F-A9F3FFC646D2}.Debug|x86.Build.0 = Debug|x86
@@ -254,14 +226,6 @@ Global
 		{61CAC96A-0D3B-4DBA-B2B9-14D0BFA259CC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{61CAC96A-0D3B-4DBA-B2B9-14D0BFA259CC}.Release|x86.ActiveCfg = Release|Any CPU
 		{61CAC96A-0D3B-4DBA-B2B9-14D0BFA259CC}.Release|x86.Build.0 = Release|Any CPU
-		{651573BF-80B9-48F2-A3AA-BF3C87589BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{651573BF-80B9-48F2-A3AA-BF3C87589BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{651573BF-80B9-48F2-A3AA-BF3C87589BEB}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{651573BF-80B9-48F2-A3AA-BF3C87589BEB}.Debug|x86.Build.0 = Debug|Any CPU
-		{651573BF-80B9-48F2-A3AA-BF3C87589BEB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{651573BF-80B9-48F2-A3AA-BF3C87589BEB}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{651573BF-80B9-48F2-A3AA-BF3C87589BEB}.Release|x86.ActiveCfg = Debug|Any CPU
-		{651573BF-80B9-48F2-A3AA-BF3C87589BEB}.Release|x86.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
