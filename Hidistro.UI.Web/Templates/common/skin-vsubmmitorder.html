@@ -1,0 +1,488 @@
+﻿<div id="BgDiv1"></div>
+<div class="DialogDiv" style="display:none; ">
+    <div class="U-guodu-box">
+        <div>
+            <table style="width:100%;" cellpadding="0" cellspacing="0" border="0">
+                <tr><td align="center" class="bakimage"><span></span></td></tr>
+                <tr><td valign="middle" align="center" style="  color: #fff;">提交中，请稍后！</td></tr>
+            </table>
+        </div>
+    </div>
+</div>
+<hi:common_header runat="server" />
+<script src="/utility/vshoping.helper.js?20160802" type="text/javascript"></script>
+<script src="/Utility/bootstrap-switch.js"></script>
+<link rel="stylesheet" href="../style/bootstrap-switch.css" type="text/css">
+<div class="shoppingStepBar clearfix">
+    <div class="step active text-left"><em style="margin-left: -8px;">购物车</em><div class="glyphicon glyphicon-ok"></div><i style="border-bottom:2px solid #ff6866;"></i></div>
+    <div class="step active text-center"><em>确认订单</em><div class="glyphicon glyphicon-ok"></div></div>
+    <div class="step text-right"><em style="margin-right: -14px;">下单成功</em><div class="glyphicon glyphicon-ok"></div><i></i></div>
+</div>
+<hr />
+<div class="well clearfix">
+    <div class="btn-group rptAddress">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="overflow:hidden">
+            <asp:literal runat="server" id="litShipTo" />
+            <asp:literal runat="server" id="litCellPhone" />
+            <asp:literal runat="server" id="litAddress" />
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu " id="addressageul" role="menu">
+            <hi:vshoptemplatedrepeater id="rptAddress" templatefile="/Tags/skin-Common_Addresses.ascx" runat="server" />
+            <li class="divider"></li>
+            <asp:literal runat="server" id="litAddAddress" />
+        </ul>
+        <input type="hidden" runat="server" clientidmode="Static" id="selectShipTo" />
+        <input type="hidden" runat="server" clientidmode="Static" id="Shippingcity" />
+    </div>
+    <div class="btn-group selectShipToDate">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            时间不限<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="javascript:void(0)" name="时间不限">时间不限</a></li>
+            <li><a href="javascript:void(0)" name="周一至周五">周一至周五</a></li>
+            <li><a href="javascript:void(0)" name="周六、周日及公众假期">周六、周日及公众假期</a></li>
+        </ul>
+        <input type="hidden" id="selectShipToDate" value="时间不限" />
+    </div>
+    <hi:vshoptemplatedrepeater id="rptCartProducts" templatefile="/Tags/skin-Common_SubmmitCartProducts.ascx" runat="server" />
+    <asp:literal runat="server" id="litShowMes" />
+    <input type="hidden" runat="server" clientidmode="Static" id="MembersPointMoney" />
+    <input type="hidden" runat="server" clientidmode="Static" id="BalanceCanPayMoney" />
+    <div class="mb10 clearfix" <asp:literal runat="server" id="litDisplayPoint" />>
+        <asp:literal runat="server" id="litUseMembersPointShow" />
+    </div>
+    <div class="mb10 clearfix">
+            <asp:literal runat="server" id="litIsUseBalance" />
+    
+    <div class="btn-group selectPaymentType">
+        <hi:common_paymenttypeselect runat="server" />
+        <input type="hidden" runat="server" clientidmode="Static" id="selectPaymentType" />
+    </div>
+
+
+
+    <div class="panel panel-default pad10 clearfix">
+        <table class="pull-right">
+            <tr <asp:literal runat="server" id="litDisplayPointNumber" />>
+                <td class="text-right">实付积分：</td>
+                <td class="text-left"><span id="GetPointNumber"><asp:literal runat="server" id="litPointNumber" /></span></td>
+            </tr>
+            <tr>
+                <td class="text-right">积分抵扣：</td>
+                <td class="text-left" id="pointToMoney">¥0.00</td>
+            </tr>
+            <tr>
+                <td class="text-right">商品金额：</td>
+                <td class="text-left" id="ProductExemptionTotal">¥0.00</td>
+            </tr>
+            <tr>
+                <td class="text-right">活动减免：</td>
+                <td class="text-left" id="PreferentialTotal">¥0.00</td>
+            </tr>
+            <tr>
+                <td class="text-right">运费金额：</td>
+                <td class="text-left">¥<span id="shipcosttotal" style="margin-bottom: 0;">0.00</span></td>
+            </tr>
+            <tr>
+                <td class="text-right" style="padding-top:10px;">订单总额：</td>
+                <td class="text-left colorr" style="padding-top:10px;">¥<span id="total" style="margin-bottom: 0;"><asp:literal runat="server" id="litOrderTotal" /></span></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="pbox">
+    <div class="btnlocation">
+    	<div class="payprice">还需支付：<span id="totalfinally">¥0.00</span></div>
+    	<button type="button" class="btn btn-danger btn-block" id="aSubmmitorder">提交订单</button>
+    </div>
+</div>
+<input type="hidden" id="Temlateids" />
+<input type="hidden" id="regionId" runat="server" clientidmode="Static" />
+<input type="hidden" id="groupbuyHiddenBox" runat="server" clientidmode="Static" />
+<input type="hidden" runat="server" clientidmode="Static" id="selectCoupon" />
+<script>
+    $('#mySwitchUseMembersPoint').on('switch-change', function (e, data) {
+        checkPayMoney();
+        $('#mySwitchUseBalance').bootstrapSwitch('toggleState');
+        $('#mySwitchUseBalance').bootstrapSwitch('toggleState');
+    });
+    $('#mySwitchUseBalance').on('switch-change', function (e, data) {
+        checkPayMoney();
+    });
+    //检测是否够支付了
+    function checkPayMoney() {
+        $("#total").html('0.00');
+        var sumtotal = 0;
+        shiptotal = 0;
+        $(".shipclass").each(function () {
+            var totalinfo = parseFloat($(this).html());
+            shiptotal += totalinfo;
+        });
+        $("#shipcosttotal").html(shiptotal.toFixed(2));//运费总额
+
+        $(".sumtotal").each(function () {
+            var totalinfo = parseFloat($(this).html());
+            sumtotal += totalinfo;//商品总额
+        });
+        if (sumtotal < 0) {
+            sumtotal = 0;//控制最终价不小于0
+        }
+
+        var PreferentialTotal = 0;//活动减免优惠总额
+        $(".Preferential").each(function () {
+            PreferentialTotal += parseFloat($(this).html());
+        });
+        var ProductExemptionTotal = parseFloat(0);//商品总额
+        $(".ProductExemption").each(function () {
+            ProductExemptionTotal += parseFloat($(this).html());
+        });
+        $("#ProductExemptionTotal").html("¥" + ProductExemptionTotal.toFixed(2));//商品金额
+
+        $("#PreferentialTotal").html((PreferentialTotal > 0 ? "-¥" : "¥") + PreferentialTotal.toFixed(2));//活动减免
+        var finallyMoney = sumtotal;
+        if ($("#mySwitchUseMembersPoint input[type='checkbox']").is(":checked")) {
+            finallyMoney -= parseFloat($("#usepointmoney").html());
+            $("#pointToMoney").html("¥" + parseFloat($("#usepointmoney").html()).toFixed(2));
+        } else {
+            $("#pointToMoney").html("¥0.00");
+        }
+        if ($("#mySwitchUseBalance input[type='checkbox']").is(":checked")) {
+            finallyMoney -= parseFloat($("#spCanpayMoney").html());
+        }
+        if (finallyMoney < 0) {
+            finallyMoney = 0;
+        }
+        finallyMoney = parseFloat(finallyMoney.toFixed(2));
+
+        if (finallyMoney == 0 && !$("#mySwitchUseMembersPoint input[type='checkbox']").is(":checked")) {
+            $("#usepointnum").html(0);
+            $("#usepointmoney").html("0.00");
+            //$('#mySwitchUseMembersPoint').bootstrapSwitch('setActive', false);
+        } else if (finallyMoney > 0) {
+            var tempPointMoney = finallyMoney;//积分可以抵扣的金额（积分不能抵扣运费）
+            var TotalAmount = sumtotal;
+            var AdjustedFreight = shiptotal;
+            var RedPagerAmount = PreferentialTotal;
+
+            var PointTotal = TotalAmount - AdjustedFreight;//订单使用积分抵现支付的金额
+           
+            var tempPointToCashMoney = PointTotal;
+            if (tempPointToCashMoney < 0)
+            {
+                tempPointToCashMoney = 0;
+            }
+
+
+            var tempMoney = parseFloat($("#hdCanUsePointMoney").val());
+            var tempPoint=parseInt($("#hdCanUsePoint").val());
+            if (tempMoney > tempPointToCashMoney) {
+                tempPoint = parseInt(tempPointToCashMoney * tempPoint / tempMoney);
+                tempMoney = tempPointToCashMoney.toFixed(2);
+            }
+            $("#usepointnum").html(tempPoint);
+            $("#usepointmoney").html(tempMoney);
+        }
+        $("#totalfinally").html("¥" + finallyMoney.toFixed(2));
+        //获取积分抵扣的金额
+        var pointMoney = parseFloat($("#usepointmoney").html()).toFixed(2);
+        if (!$("#mySwitchUseMembersPoint input[type='checkbox']").is(":checked")) {
+            pointMoney = 0;
+        }
+        $("#total").html((sumtotal.toFixed(2) - pointMoney).toFixed(2));
+
+        if (GetEnableSelectPaymentType(pointMoney)) {
+            $(".selectPaymentType").hide();
+        } else {
+            $(".selectPaymentType").show();
+        }
+        if (parseFloat($("#usepointmoney").html()) <= 0) {//如果需要的积分支付为0，则禁用
+            $('#mySwitchUseMembersPoint').bootstrapSwitch('setActive', false);
+        } else if (parseFloat($("#spAvailableAmount").html()) > 0) {
+            $('#mySwitchUseMembersPoint').bootstrapSwitch('setActive', true);
+        }
+        if (parseFloat($("#spCanpayMoney").html()) <= 0) {//如果需要的余额支付为0，则禁用
+            $('#mySwitchUseBalance').bootstrapSwitch('setActive', false);
+        } else if (parseFloat($("#spAvailableAmount").html()) > 0) {
+            $('#mySwitchUseBalance').bootstrapSwitch('setActive', true);
+        }
+    }
+    function GetEnableSelectPaymentType(_pointMoney) {
+        var enable = false;
+        var sumtotal = 0;//应付总额
+        $(".sumtotal").each(function () {
+            sumtotal += parseFloat($(this).html());
+        });
+        //$("#ProductExemptionTotal").html("¥" + sumtotal.toFixed(2));//应付总额
+        var tempMoney = sumtotal - _pointMoney;//还需支付的金额
+        //alert(_pointMoney)
+        var userBalance = parseFloat($("#spAvailableAmount").html()).toFixed(2);
+        if (userBalance >= tempMoney) {
+            if (tempMoney < 0) {
+                tempMoney = 0;
+            }
+            $("#spCanpayMoney").html(tempMoney.toFixed(2));//获取余额还需支付的金额
+            if ($("#mySwitchUseBalance input[type='checkbox']").is(":checked")) {
+                enable = true;
+            }
+        } else {//不够支付
+            //tempMoney = userBalance;
+            //if (tempMoney == 0) {
+
+            //}
+            $("#spCanpayMoney").html(userBalance);
+            enable = false;
+        }
+
+        if (tempMoney <= 0){
+            enable = true;//还需支付的金额为0，也可以关闭支付方式
+        }
+        return enable;
+    }
+    $(function () {
+        GetEnableSelectPaymentType(0);//初始化余额可以支付的金额
+        var bargainDetialId = parseInt(getUrlParam("bargainDetialId"));
+        if (bargainDetialId > 0) {
+            $(".selectBox").addClass("hide");
+        }
+        var skuInputs = $('.specification input');
+        $.each(skuInputs, function (j, input) {
+            var text = '';
+            $.each($(input).val().split(';'), function (i, sku) {
+                if ($.trim(sku))
+                    text += '<span class="badge-h">' + sku.split('：')[1] + '</span>';
+            });
+            $(input).parent().html(text);
+        });
+        var GetPointNumber = parseFloat($("#GetPointNumber").html());
+        $(".MemberPointNumber").each(function () {
+            var MemberPointNumber = parseFloat($(this).html());
+            $(this).html(MemberPointNumber - GetPointNumber);
+            $("#OldMemberPointNumber").html($(this).html())
+        });
+		
+    });
+</script>
+<script>
+    function getUrlParam(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+        var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+        if (r != null) return unescape(r[2]); return null; //返回参数值
+    }
+    //统计运费模板应该金额合计和实付总金额
+    function SumMoney(TemplateId) {
+        var CouponValue = 0;
+        var IntegralOffset = parseFloat($("#IntegralOffset" + TemplateId).html());
+        if (typeof ($('#coupon' + TemplateId).val()) != "undefined")
+            if ($.trim($('#coupon' + TemplateId).val()) != "")
+                CouponValue = parseFloat($('#coupon' + TemplateId).val())
+        var oldtotal = parseFloat($('#oldtotal' + TemplateId).html());
+        var shopcost = parseFloat($('#shipcost' + TemplateId).html());
+        var total = oldtotal - CouponValue + shopcost - IntegralOffset;
+        $('#total' + TemplateId).html(total.toFixed(2));
+
+        checkPayMoney();
+    }
+    function GetSetPointNumber(TemplateId) {
+        var OldMemberPointNumber = parseFloat($("#OldMemberPointNumber").html());
+        $("#IntegralOffset" + TemplateId).html("0.00");
+        $("#txtPointNumber" + TemplateId).val("0");
+        var sumsetobj = 0;
+        $(".txtPointNumber").each(function () {
+            if ($.trim($(this).val()) != "")
+                sumsetobj += parseFloat($(this).val());
+        });
+
+        $(".MemberPointNumber").html(OldMemberPointNumber - sumsetobj);
+    }
+    $('.rptAddress li a').click(function () {
+        $('.rptAddress button').html($(this).attr('briefAddress') + '<span class="caret"></span>');
+        var regionId = $(this).attr('name');
+        var shippingId = $(this).attr('shippingId');
+        $('#selectShipTo').val(shippingId);
+    });
+    //支付
+    $('.selectPaymentType li a').click(function () {
+        $('.selectPaymentType button').html($(this).html() + '<span class="caret"></span>');
+        $('#selectPaymentType').val($(this).attr('name'));
+
+    });
+    function asetselect(Templateid, name, value) {
+        Couponasetselect('1', '不使用', '0', 0, '0');
+        $('#dropdown' + Templateid).html(name + '<span class="caret"></span>');
+        $('#shippingTypeUl' + Templateid).val(value);
+        $("#selectShippingTypeValue" + Templateid).val(value);
+    }
+    function Couponasetselect(TemplateId, name, value, membercouponid, selectCouponValue) {
+        //选择券的时候，把积分抵现和余额抵现去掉选择
+        $('#mySwitchUseMembersPoint,#mySwitchUseBalance').bootstrapSwitch('setState', false);
+
+        if (parseFloat(selectCouponValue) != 0) {
+            var IsRepeat = false;
+            $(".selectCouponValue").each(function () {
+                if ($(this).val() == selectCouponValue) {
+                    IsRepeat = true;
+                }
+            });
+            if (IsRepeat) {
+                //alert_h("其他订单已选择" + name);
+                return;
+            }
+        }
+        GetSetPointNumber(TemplateId);
+        $('#coupondropdown' + TemplateId).html(name + '<span class="caret"></span>');
+        $('#coupon' + TemplateId).val(value);
+        $('#selectCoupon' + TemplateId).val(value);
+        $("#selectCouponValue" + TemplateId).val(selectCouponValue);
+        var ExemptionMoney = parseFloat($('#Exemption' + TemplateId).html());
+        var oldExemptionMoney = parseFloat($('#oldExemption' + TemplateId).html());
+        var sumtotal = 0;
+        var oldtotal = parseFloat($('#oldtotal' + TemplateId).html());
+        var CouponValue = parseFloat(value);
+        var total = parseFloat($('#total' + TemplateId).html());
+        var shopcost = parseFloat($('#shipcost' + TemplateId).html());
+        total = oldtotal - CouponValue + shopcost;
+        if (total < 0) {//优惠金额减免过多
+            CouponValue = CouponValue + total;
+            $('#coupon' + TemplateId).val(CouponValue);
+            $('#selectCoupon' + TemplateId).val(CouponValue);
+            total = 0;
+        }
+
+        $('#total' + TemplateId).html(total.toFixed(2));
+        $('#Exemption' + TemplateId).html(CouponValue + oldExemptionMoney);
+
+        SumMoney(TemplateId);
+    }
+    //送货时间
+    $('.selectShipToDate li a').click(function () {
+        $('.selectShipToDate button').html($(this).html() + '<span class="caret"></span>');
+        $('#selectShipToDate').val($(this).attr('name'));
+    });
+
+
+    //获取会员选择的城市
+    function getFreightTemplate(id) {
+        $("#shipcost").html("0.00");
+        city = id;
+        $("#Shippingcity").val(id);
+        $(".Template").each(function () {
+            refreshShippingTypes($(this).val())
+        });
+    }
+    //计算运费
+    function countfreighttype(TemplateId, ModeId) {
+        //TemplateId=0,表示合并付款
+
+        var sumtotal = 0;
+        $("#total").html('0.00');
+        GetSetPointNumber(TemplateId);
+
+        $.ajax({
+            url: "/API/VshopProcess.ashx",
+            type: 'post', dataType: 'json', timeout: 10000,
+            data: { action: "countfreighttype", TemplateId: TemplateId, productSku: getParam("productSku"), buyAmount: getParam("buyAmount"), from: getParam("from"), RegionId: $("#Shippingcity").val(), ModeId: ModeId },
+            success: function (resultData) {
+                if (resultData.Status == "OK") {
+                    var oldtotal = parseFloat($('#oldtotal' + TemplateId).html());
+                    var ShipCost = parseFloat(resultData.CountFeright);
+                    var total = parseFloat($('#total' + TemplateId).html());
+                    total = total + ShipCost - parseFloat($('#shipcost' + TemplateId).html());
+                    $('#total' + TemplateId).html(total.toFixed(2));
+                    $('#shipcost' + TemplateId).html(resultData.CountFeright);
+                    SumMoney(TemplateId);
+                }
+            }
+        });
+    }
+    var city = 0;
+    function refreshShippingTypes(TemplateId) {
+        if ($("#bFreeShipping" + TemplateId).html() == "True") {
+            $('#shippingTypeUl' + TemplateId).find('li').remove();
+            $('#shippingTypeUl' + TemplateId).html('<li onclick=\"countfreighttype(' + TemplateId + ',0)\"><a id=\"aid' + TemplateId + '0\"  onclick=\"asetselect(' + TemplateId + ',\'包邮\',0)\"  name="0" value="0">包邮</a></li>');
+            countfreighttype(TemplateId, 0);
+            asetselect(TemplateId, '包邮', 0);
+            var goodsmenoy = parseFloat($('#goodsmenoy' + TemplateId).html());
+            var Exemption = parseFloat($('#Exemption' + TemplateId).html());
+            //var bargainId = getUrlParam("bargainDetialId");
+            //if (bargainId == null) {
+            var total = goodsmenoy - Exemption;
+            alltotal = parseFloat(alltotal) + parseFloat(total);
+            $('#total' + TemplateId).html(total.toFixed(2));
+            $('#shipcost' + TemplateId).html('0.00');
+            //$("#total").html(alltotal.toFixed(2));
+            checkPayMoney();
+            //}
+        }
+        else {
+            $.post('/api/vshopprocess.ashx?action=GetShippingTypes',
+             {
+                 buyAmount: getParam('buyAmount'),
+                 productSku: getParam('productSku'),
+                 from: getParam("from"),
+                 city: city,
+                 TemplateId: TemplateId
+             },
+             function (shippingTypes) {
+                 $('#shippingTypeUl' + TemplateId).find('li').remove();
+                 var html = '';
+                 var IsFree = false;
+                 $.each(shippingTypes.data, function (i, shippingType) {
+                     if (shippingType.modelId == 0) {
+                         IsFree = true;
+                     }
+                     html += '<li onclick=\"countfreighttype(' + TemplateId + ',' + shippingType.modelId + ')\"><a id=\"aid' + TemplateId + '' + shippingType.modelId + '\"  onclick=\"asetselect(' + TemplateId + ',\'' + shippingType.text + '\',' + shippingType.modelId + ')\"  name="' + shippingType.modelId + '" value="' + shippingType.modelId + '">' + shippingType.text + '</a></li>';
+                 });
+                 if (IsFree) {
+                     countfreighttype(TemplateId, 0);
+                     asetselect(TemplateId, '包邮', 0);
+                 }
+                 //$('.selectShippingType button').html('请选择配送方式<span class="caret"></span>');
+                 $('#shippingTypeUl' + TemplateId).html(html);
+
+                 var goodsmenoy = parseFloat($('#goodsmenoy' + TemplateId).html());
+                 var Exemption = parseFloat($('#Exemption' + TemplateId).html());
+                 //var bargainId = getUrlParam("bargainDetialId");
+                 //if (bargainId == null) {
+                 var total = goodsmenoy - Exemption;
+                 alltotal = parseFloat(alltotal) + parseFloat(total);
+                 $('#total' + TemplateId).html(total.toFixed(2));
+                 $('#shipcost' + TemplateId).html('0.00');
+                 //$('#total').html(alltotal.toFixed(2));
+                 checkPayMoney();
+                 // }
+             }, "json");
+        }
+    }
+
+    var alltotal = 0;
+    $(function () {
+        if ($("#addressageul li").length > 2) {
+            $("#Shippingcity").val($("#addressageul li:last-child").prev().prev().attr('id'));
+            city = $("#Shippingcity").val();
+            $(".Template").each(function () {
+                refreshShippingTypes($(this).val())
+            });
+        }
+        //团购时，去掉货到付款
+        if (getParam('from') == "groupBuy") {
+            $('#ulselectPaymentType a[name="0"]').parent().remove();
+            $('.coupon').hide();
+            $('.redpager').hide();
+            $('.detailLink').attr('href', '/vshop/GroupBuyProductDetails.aspx?groupBuyId=' + getParam('groupbuyId'));
+            $('#orderProductsChange').hide();
+        }
+
+        if (getParam('from') == 'signBuy')
+            $('#orderProductsChange').hide();
+
+
+        if ($('.coupon li').length == 0)
+            $('.coupon').hide();
+
+        if ($('.redpager li').length == 0)
+            $('.redpager').hide();
+        var regionId = $('#regionId').val();
+    });
+</script>

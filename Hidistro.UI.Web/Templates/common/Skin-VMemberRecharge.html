@@ -1,0 +1,101 @@
+﻿<hi:common_header runat="server"/>
+<div class="nav-box mb10 selectPaymentType">
+    <div class="payway" show="yes">选择支付方式</div>
+    <asp:literal runat="server" id="litPaymentType"/>
+    <input type="hidden" runat="server" clientidmode="Static" id="selectPaymentType"/>
+</div>
+<div class="nav-box radius mb10 mt20 clearfix distable">
+    <label class="form-label">金额</label>
+    <input class="form-input" type="text" placeholder="请输入充值金额" maxlength="8"  onkeyup="this.value = (this.value.match(/\d+(\.\d{0,2})?/) || [''])[0]" />
+</div>
+<div class="pad10 mt100">
+    <input type="button" class="btn btn-danger font16 btn-block" value="下一步" />
+</div>
+<script type="text/javascript">
+    $(function() {
+        if($(".selectPaymentType div.payway[name]").length > 0)
+        {
+            $(".selectPaymentType div.payway[name]").css({ "display": "none", "background-color": "#f5f5f5" });
+            var text = $(".selectPaymentType div.payway[name]:first").html();
+            $(".selectPaymentType div.payway[show='yes']").html(text);
+            $("#selectPaymentType").val($(".selectPaymentType div.payway[name]:first").attr("name"));
+        }
+
+        //选择支付方式
+        $('.selectPaymentType div.payway').click(function () {
+            $('.selectPaymentType div.payway:first-child').toggleClass('active');
+            if ($(this).attr("show") === "yes") {
+                if ($(".selectPaymentType div.payway[name]:hidden").length > 0) {
+                    $(".selectPaymentType div.payway[name]").css("display", "block");
+                } else {
+                    $(".selectPaymentType div.payway[name]").css("display", "none");
+                }
+            } else {
+                $(".selectPaymentType div.payway[show='yes']").html($(this).html());
+                $(".selectPaymentType div.payway[name]").css("display", "none");
+                $('#selectPaymentType').val($(this).attr('name'));
+            }
+
+        });
+
+        $(".form-input").keyup(function () {
+            var temp = "下一步";
+            if ($(this).val() != "") {
+                temp = "支付￥" + parseFloat($(this).val()).toFixed(2);
+            }
+            $(".btn-danger").val(temp);
+        });
+
+        function checkMoney(obj) {
+            if (/^([1-9][\d]{0,7}|0)(\.[\d]{1,2})?$/.test(obj)) {
+                return true;
+            }
+            return false;
+        };
+
+        $(".btn-danger").click(function() {
+            var amount = $(".form-input").val();
+            if (!checkMoney(amount)||amount<=0) {
+                alert_h("请输入正确充值金额！");
+                return;
+            }
+            var obj = this;
+            if (parseFloat(amount) > 1000000) {
+                alert_h("最大充值金额不超过100万！");
+                return;
+            }
+            if ($('#selectPaymentType').val()=="") {
+                alert_h("请先选择支付方式！");
+                return;
+            }
+
+            $(this).attr("disabled", true);
+            $.ajax({
+                url: "/API/VshopRecharge.ashx",
+                type: 'post', dataType: 'json', timeout: 10000,
+                data: {
+                    action: "SubmmitAmount", paymentType: $('#selectPaymentType').val(), Amount: $(".form-input").val()
+                },
+                success: function (resultData) {
+                    //maskayer(1);
+                    if (resultData.Status == "OK") {
+
+                        //if (resultData.OrderMarkingStatus=="0")
+                        location.href = "/Vshop/FinishRecharge.aspx?PayId=" + resultData.PayId;
+                    }
+                    else if (resultData.ErrorMsg) {
+
+                        alert_h(resultData.ErrorMsg);
+                        $(obj).removeAttr("disabled");
+                    }
+                }
+            });
+
+        });
+
+
+    })
+</script>
+
+<hi:common_footer runat="server"/>
+

@@ -1,0 +1,23 @@
+<printer>
+  <size>228:127</size>
+  <pic>2016011567751.jpg</pic>
+  <kind>uyiuy</kind>
+  <item>
+    <name>收货人-手机_0</name>
+    <font>Verdana</font>
+    <fontsize>12</fontsize>
+    <border>0</border>
+    <italic>0</italic>
+    <align>left</align>
+    <position>105:35:255.15:251.4</position>
+  </item>
+  <item>
+    <name>发货人-姓名_1</name>
+    <font>Verdana</font>
+    <fontsize>12</fontsize>
+    <border>0</border>
+    <italic>0</italic>
+    <align>left</align>
+    <position>105:35:124.25:241.1</position>
+  </item>
+</printer>

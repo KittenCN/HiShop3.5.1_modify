@@ -2,7 +2,7 @@
 using Hidistro.Core;
 using Hidistro.Core.Entities;
 using Hishop.Open.Api;
-using Impl;
+using Hidistro.UI.Web.OpenAPI.Impl;
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;

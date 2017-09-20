@@ -1,0 +1,242 @@
+html {
+    height: 100%;
+    font-size: 100px;
+    /*background: rgba(0,0,0,.5);*/
+}
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    margin: 0 auto;
+    color: #333;
+    font: normal 16px/22px Arial,"Microsoft YaHei";
+    background: #eaeaea;
+    max-width: 720px;
+    min-height: 100%;
+}
+section,footer,nav,em,mark,p,span,ul,li,ol,h1,h2,h3,h4,input,textarea {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    list-style: none;
+    font-style: normal;
+}
+input,textarea,select {
+    border: none;
+    outline: none;
+}
+mark {
+    background-color: transparent;
+}
+img {
+    border: none;
+}
+a {
+    outline-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    /*display: block;*/
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.page{
+    min-height: 100%;
+    font: normal 16px/22px Arial,"Microsoft YaHei";
+    background-color:#eaeaea;
+
+}
+.clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.line_height44{
+    line-height: 0.44rem!important;
+    text-align: center;
+}
+.width285{
+    width: 2.85rem!important;
+}
+.paddingtop0{
+    padding-top: 0.24rem!important;
+}
+.recommenddetail_section{
+    padding-bottom: 54px;
+}
+.color{
+    color: #FF4908!important;
+}
+.twitter_num{
+    background-color: #ff4908;
+    padding: 0.24rem 0;
+    text-align: center;
+}
+.twitter_num p {
+    font-size: 0.5rem;
+    color: #fff;
+    margin-top: 0.1rem;
+}
+.twitterdetail_nav{
+    max-width: 720px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.recommenddetail_nav{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    max-width: 720px;
+    margin: 0 auto;
+    background-color: #fff;
+    z-index: 9;
+}
+.recommenddetail_nav ul,.twitterdetail_nav ul{
+    display: table;
+    font-size: 0.28rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+
+}
+.recommenddetail_nav ul li,.twitterdetail_nav ul li{
+    display: table-cell;
+    vertical-align: middle;
+    border-right: 0.03rem solid #d2d2d2;
+    width: 25%;
+    border-bottom: 0.03rem solid #d2d2d2;
+
+}
+.recommenddetail_nav ul li:last-child,.twitterdetail_nav ul li:last-child{
+    border-right: none;
+}
+.recommenddetail_nav ul li.active,.twitterdetail_nav ul li.active{
+    border-bottom: 0.03rem solid #FF4908;
+    color: #FF4908;
+}
+.recommenddetail_wrap{
+    padding: 1.08rem 0.20rem 0.20rem;
+
+}
+.recommenddetail_wrap ul li{
+    /*display: table;*/
+    /*width: 100%;*/
+    /*text-align: center;*/
+    /*background-color: #fff;*/
+    /*padding: 0.22rem 0;*/
+    /*border-bottom: 0.03rem solid #d2d2d2;*/
+    padding: 0.12rem 0.1rem 0.13rem;
+    background: #fff;
+    margin-bottom: 0.10rem;
+}
+.recommenddetail_wrap ul li .recommenddetail_item {
+    display: table-cell;
+    width: 25%;
+    vertical-align: middle;
+    font-size: 0.24rem;
+}
+.recommenddetail_wrap ul li .recommenddetail_top{
+    font-size: 0.28rem;
+    height: 0.40rem;
+    line-height: 0.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.recommenddetail_wrap ul li .recommenddetail_mid{
+    height: 0.4rem;
+    line-height: 0.4rem;
+    position: relative;
+}
+.recommenddetail_wrap ul li .recommenddetail_mid .recommenddetail_mid_time{
+   font-size: 0.24rem;
+    color: #666;
+}
+.recommenddetail_wrap ul li .recommenddetail_mid .recommenddetail_mid_add{
+    float: right;
+    font-size: 0.28rem;
+    color: #FF4908;
+    width: 3rem;
+    position: absolute;
+    right: 0;
+}
+.recommenddetail_wrap ul li .recommenddetail_mid .recommenddetail_mid_add small{
+    font-size: 0.24rem;
+    color: #999;
+    margin-right: 0.10rem;
+}
+.recommenddetail_wrap ul li .recommenddetail_item p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 1.8rem;
+}
+.recommenddetail_wrap ul li .recommenddetail_item .recommenddetail_item_time{
+    font-size: 0.22rem;
+}
+.recommenddetail_wrap ul li .recommenddetail_item.recommenddetail_item_act{
+    color: #FF4908;
+}
+.recommenddetail_wrap ul li .recommenddetail_item_left{
+    float: left;
+    height: 0.88rem;
+     line-height: 0.44rem;
+    width: 4rem;
+}
+.recommenddetail_wrap ul li .recommenddetail_item_right{
+    float: right;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    width: 1.7rem;
+    font-size: 0.28rem;
+    color: #ff4908
+}
+
+.recommenddetail_wrap ul li .recommenddetail_item_left h2 ,.recommenddetail_wrap ul li .recommenddetail_item_right h2,h2{
+    font-size: 0.28rem;
+    color: #333;
+    /*margin-bottom: 0.1rem;*/
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+     height:0.44rem;
+}
+.sale_left{
+    font-size: 0.24rem;
+    color: #666;
+    display: inline-block;
+    width: 4.73rem;
+    text-align: center;
+}
+.sale_right{
+    font-size: 0.24rem;
+    color: #666;
+    display: inline-block;
+    width: 1.75rem;
+}
+.sale_bottom{
+    font-size: 0.24rem;
+    color: #666;
+}
+.recommenddetail_wrap ul li .recommenddetail_item_left p ,.recommenddetail_wrap ul li .recommenddetail_item_right p{
+    font-size: 0.24rem;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.recommenddetail_wrap ul li .recommenddetail_item_left h2 {
+
+}

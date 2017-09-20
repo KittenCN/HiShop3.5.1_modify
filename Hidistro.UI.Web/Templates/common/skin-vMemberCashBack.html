@@ -1,0 +1,83 @@
+﻿<hi:common_header runat="server" />
+<link rel="stylesheet" type="text/css" href="/style/dropload.css" />
+<script type="text/javascript" src="/script/dropload.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var pageIndex = 1;
+        var pageSize = 10;
+        var totalPage = 0;
+        var dropload = $('.balance-list').dropload({
+            scrollArea: window,
+            loadDownFn: function (me) {
+                $.ajax({
+                    type: "get", async: true,
+                    url: '/api/VshopProcess.ashx?action=GetCashBack',
+                    data: {
+                        "pageIndex": pageIndex,
+                        "pageSize": pageSize
+                    },
+                    dataType: "json",
+                    success: function (data) {
+                        totalPage = Math.floor((data.total + pageSize - 1) / pageSize);
+                        $(data.rows).each(function (i, e) {
+                            var tradeName = "";
+                            var contextVal = "";
+
+                            switch (e.CashBackType) {
+                                case 0:
+                                    {
+                                        tradeName = (e.IsValid ? "有效" : "失效") + " - 现金 - " + (e.IsFinished ? "已完成" : "返现中") + "(" + e.Percentage + "%)";
+                                        contextVal = "+" + e.CashBackAmount.toFixed(2);
+                                        break;
+                                    }
+                                case 1:
+                                    {
+                                        tradeName = (e.IsValid ? "有效" : "失效") + " - 积分 - " + (e.IsFinished ? "已完成" : "返现中") + "(" + e.Percentage + "%)";
+                                        contextVal = "+" + e.CashBackAmount.toFixed(2);
+                                        break;
+                                    }
+                            }
+
+                            var html = "<div class=\"nav-box\" onclick=\"location.href='MemberCashBackDetail.aspx?Id=" + e.CashBackId + "'\">";
+                            html += "     <div class=\"clearfix\">";
+                            html += "      <div class=\"pull-left font15\">" + tradeName + "</div>";
+                            html += "        <div class=\"pull-right font12\" > " + e.CreateDate + "</div>";
+                            html += "      </div>"
+                            html += "     <div class=\"clearfix\">";
+                            html += "     <div class=\"pull-left font12\">" + e.RechargeAmount.toFixed(2) + "</div>";
+                            html += "       <div class=\"pull-right font15 colorg\">+ " + e.CashBackAmount.toFixed(2) + "</div>";
+                            html += "      </div>";
+                            html += "   </div>";
+                            $(".balance-list ul").append(html);
+                        });
+
+
+                        if (pageIndex < totalPage) {
+                            pageIndex++;
+                        }
+                        else {
+                            me.lock();
+                            me.noData();
+                        }
+                        me.resetload();
+                    }
+                });
+            }
+        });
+    });
+</script>
+<style>
+    body {
+        max-width: 720px;
+        align-content: center;
+    }
+</style>
+
+
+<div class="balance-list mt20">
+
+    <ul></ul>
+
+</div>
+
+<hi:common_footer runat="server" />

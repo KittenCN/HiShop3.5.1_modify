@@ -1,0 +1,103 @@
+﻿<hi:common_header runat="server" />
+<link rel="stylesheet" type="text/css" href="/style/dropload.css" />
+<script type="text/javascript" src="/script/dropload.min.js"></script>
+<script type="text/javascript">
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+    }
+    $(document).ready(function () {
+        var pageIndex = 1;
+        var pageSize = 10;
+        var totalPage = 0;
+        var dropload = $('.balance-list').dropload({
+            scrollArea: window,
+            loadDownFn: function (me) {
+                $.ajax({
+                    type: "get", async: true,
+                    url: '/api/VshopProcess.ashx?action=GetCashBackDetail',
+                    data: {
+                        "pageIndex": pageIndex,
+                        "pageSize": pageSize,
+                        "id": GetQueryString("Id")
+                    },
+                    dataType: "json",
+                    success: function (data) {
+
+                        totalPage = Math.floor((data.total + pageSize - 1) / pageSize);
+                        $(data.rows).each(function (i, e) {
+                            var tradeName = "";
+                            var contextVal = "";
+
+                            switch (e.CashBackType) {
+                                case 0:
+                                    {
+                                        tradeName = "返现";
+                                        break;
+                                    }
+                                case 1:
+                                    {
+                                        tradeName = "返积分";
+                                        break;
+                                    }
+                            }
+
+                            var html = "<div class=\"nav-box\">";
+                            html += "     <div class=\"clearfix\">";
+                            html += "      <div class=\"pull-left font15\">" + tradeName + "</div>";
+                            html += "        <div class=\"pull-right font12\" >" + e.CashBackDate + "</div>";
+                            html += "      </div>"
+                            html += "     <div class=\"clearfix\">";
+                            html += "     <div class=\"pull-left font12\">流水号 - " + e.CashBackDetailsId + "</div>";
+                            html += "       <div class=\"pull-right font15 colorg\">+ " + e.CashBackAmount.toFixed(2) + "</div>";
+                            html += "      </div>";
+                            html += "   </div>";
+                            $(".balance-list ul").append(html);
+                        });
+
+
+                        if (pageIndex < totalPage) {
+                            pageIndex++;
+                        }
+                        else {
+                            me.lock();
+                            me.noData();
+                        }
+                        me.resetload();
+                    }
+                });
+            }
+        });
+    });
+</script>
+
+<div class="allcommission">
+    <div class="commission-count">
+        <div class="account-balance">
+            <p>
+                用户名：<span><asp:literal runat="server" id="litUserName" /></span>
+                余额：<span><asp:literal runat="server" id="litAmount" /></span>
+            </p>
+            <p>
+                积分：<span><asp:literal runat="server" id="litPoints" /></span>
+                类型：<span><asp:literal runat="server" id="litType" /></span>
+                状态：<span><asp:literal runat="server" id="litIsValid" /></span>
+            </p>
+            <p>
+                充值金额：<span><asp:literal runat="server" id="litRechargeAmount" /></span>
+                已返金额：<span><asp:literal runat="server" id="litCashBackAmount" /></span>
+                </p>
+            <p>
+                返现比例：<span><asp:literal runat="server" id="litPercentage" /></span>
+                是否完成：<span><asp:literal runat="server" id="litFinished" /></span>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="balance-list mt20">
+    <ul></ul>
+</div>
+
+
+<hi:common_footer runat="server" />

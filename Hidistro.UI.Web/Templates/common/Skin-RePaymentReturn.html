@@ -1,0 +1,26 @@
+﻿<hi:common_header runat="server" />
+<script>
+    if (window.top.location != window.location) {
+        window.top.location.href = window.location.href;
+    }
+</script>
+<div class="pbox">
+    <div class="well text-center orderMsg">
+        <div class="font-xl">
+            <span class="glyphicon glyphicon-ok"></span>
+            恭喜，充值成功！
+        </div>
+        <div class=""><%<asp:Literal ID="litMessage" runat="server"></asp:Literal>%></div>
+        <div class="btns">
+            <a href="/Vshop/MemberCenter.aspx" class="btn btn-success" role="button">会员中心</a>
+            <a href="/Default.aspx" class="btn btn-default" role="button">继续逛逛</a>
+        </div>
+    </div>
+</div>
+<script>
+    //禁用右上角菜单
+    //document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+    //    WeixinJSBridge.call('hideOptionMenu');
+    //});
+</script>
+<hi:common_footer runat="server" />

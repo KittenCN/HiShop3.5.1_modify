@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <wxlogin>
+    <OperTime>2016/1/15 20:22:17</OperTime>
+    <ErrorMsg>会员OpenId已绑定过会员帐号已自动登陆！</ErrorMsg>
+    <OpenId>oSUBduDfQy8AU7bP1j367_fUwsYY</OpenId>
+    <PageUrl>http://vfxtest.test.xiaokeduo.com/Game.aspx?gamid=1d4117f73a4945558e0085d2f8ddcb80&amp;type=1&amp;ReferralId=33&amp;code=0115e35adbf6dc75db16247d2c6b469h&amp;state=STATE</PageUrl>
+  </wxlogin>
+</DocumentElement>

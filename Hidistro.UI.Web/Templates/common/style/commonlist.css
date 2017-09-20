@@ -1,0 +1,215 @@
+html {
+    height: 100%;
+    font-size: 100px;
+    /*background: rgba(0,0,0,.5);*/
+}
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    margin: 0 auto;
+    color: #333;
+    font: normal 16px/22px Arial,"Microsoft YaHei";
+    background: #eaeaea;
+    max-width: 720px;
+    min-height: 100%;
+}
+section,footer,nav,em,mark,p,span,ul,li,ol,h1,h2,h3,h4,input,textarea {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    list-style: none;
+    font-style: normal;
+}
+input,textarea,select {
+    border: none;
+    outline: none;
+}
+mark {
+    background-color: transparent;
+}
+img {
+    border: none;
+}
+a {
+    outline-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    /*display: block;*/
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.page{
+    min-height: 100%;
+    font: normal 16px/22px Arial,"Microsoft YaHei";
+    background-color:#eaeaea;
+
+}
+.clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.common_list_top{
+    height: 0.88rem;
+    line-height: 0.88rem;
+    background-color: #FF4908;
+    color: #fff;
+    font-size: 0.30rem;
+    padding: 0 0.30rem;
+    position: relative;
+}
+.common_list_top img{
+    position: absolute;
+    top:25%;
+    right: 0.30rem;
+    width: 0.48rem;
+    height: 0.48rem;
+}
+.common_list_section{
+    padding-bottom: 54px;
+}
+.common_list_nav{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    max-width: 720px;
+    margin: 0 auto;
+    background-color: #fff;
+    z-index: 9;
+}
+.common_list_nav ul{
+    display: table;
+    font-size: 0.28rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+
+}
+.common_list_nav ul li{
+    display: table-cell;
+    vertical-align: middle;
+    border-right: 0.03rem solid #d2d2d2;
+    width: 25%;
+    border-bottom: 0.03rem solid #d2d2d2;
+
+}
+.common_list_nav ul li:last-child{
+    border-right: none;
+}
+.common_list_nav ul li.active{
+    border-bottom: 0.03rem solid #FF4908;
+    color: #FF4908;
+}
+.common_list_wrap{
+    padding: 1.08rem 0.20rem 0.20rem;
+}
+.common_list_wrap ul {
+    /*background: #fff;*/
+}
+.common_list_wrap ul li{
+    background-color: #fff;
+    /*position: relative;*/
+    margin: 0 0 0.20rem 0;
+
+}
+.common_list_wrap ul li a{
+    display: block;
+    padding: 0.1rem;
+    /*border-bottom: 0.03rem solid #d2d2d2;*/
+}
+.common_list_wrap ul li a .list_content{
+    position: relative;
+}
+.common_list_wrap ul li .list_image{
+    /*position: absolute;*/
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.common_list_wrap ul li .list_image img{
+    width: 100%;
+    height: 100%;
+}
+.common_list_wrap ul li .list_description{
+    height: 1.2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 0 0 1.3rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+.common_list_wrap ul li .list_description .list_name{
+    position: relative;
+    margin: 0 0 0.2rem 0;
+    /*padding: 0 1.1rem 0 0;*/
+    height: 0.28rem;
+    line-height: 0.28rem;
+    color: #333;
+    font-size: 0.28rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: auto;
+}
+.common_list_wrap ul li .list_description .list_send{
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    height: 0.24rem;
+    margin-bottom: 0.1rem;
+    overflow:hidden ;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 5rem;
+
+}
+.common_list_wrap ul li .list_description .list_send  span{
+    /*margin-right: 0.1rem;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+}
+.common_list_wrap ul li .list_description .list_send  span img{
+    width: 0.20rem;
+    height: 0.20rem;
+    margin-right: 0.06rem;
+}
+.common_list_wrap ul li .list_description .list_price{
+    font-size: 0.28rem;
+    color: #999;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.common_list_wrap ul li .list_description .list_price span{
+    width: 4.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 0.44rem;
+
+}
+.common_list_wrap ul li .list_description .list_price span.list_close{
+    position: absolute;
+    right: 0;
+    width: 0.44rem;
+    height: 0.44rem;
+}
+.common_list_wrap ul li .list_description .list_price span.list_close img{
+    width: 100%;
+}

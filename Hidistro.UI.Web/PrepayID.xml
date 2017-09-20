@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <log>
+    <OperTime>2016/9/6 13:41:20</OperTime>
+    <Info>wx201609061341208e5275e8b50092272620</Info>
+    <param>&lt;xml&gt;
+&lt;appid&gt;&lt;![CDATA[wx2b3a33a0bbfd5d9a]]&gt;&lt;/appid&gt;
+&lt;body&gt;201609062421557&lt;/body&gt;
+&lt;mch_id&gt;1264263801&lt;/mch_id&gt;
+&lt;nonce_str&gt;7168344&lt;/nonce_str&gt;
+&lt;notify_url&gt;&lt;![CDATA[http://www.178gx.com/pay/wx_Pay.aspx]]&gt;&lt;/notify_url&gt;
+&lt;openid&gt;&lt;![CDATA[onh8Qs5dZdd4cDWq-FEP_f0eOctc]]&gt;&lt;/openid&gt;
+&lt;out_trade_no&gt;201609062421557&lt;/out_trade_no&gt;
+&lt;sign&gt;&lt;![CDATA[F0FC2574D6118891761C51F5E865679D]]&gt;&lt;/sign&gt;
+&lt;spbill_create_ip&gt;&lt;![CDATA[127.0.0.1]]&gt;&lt;/spbill_create_ip&gt;
+&lt;total_fee&gt;5800&lt;/total_fee&gt;
+&lt;trade_type&gt;&lt;![CDATA[JSAPI]]&gt;&lt;/trade_type&gt;
+&lt;/xml&gt;
+</param>
+    <query>appid=wx2b3a33a0bbfd5d9a&amp;body=201609062421557&amp;mch_id=1264263801&amp;nonce_str=7168344&amp;notify_url=http://www.178gx.com/pay/wx_Pay.aspx&amp;openid=onh8Qs5dZdd4cDWq-FEP_f0eOctc&amp;out_trade_no=201609062421557&amp;sign=F0FC2574D6118891761C51F5E865679D&amp;spbill_create_ip=127.0.0.1&amp;total_fee=5800&amp;trade_type=JSAPI</query>
+  </log>
+</DocumentElement>

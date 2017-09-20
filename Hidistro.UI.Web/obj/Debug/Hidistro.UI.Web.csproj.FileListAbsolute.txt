@@ -73,6 +73,7 @@ F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Common.Logging.dll
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.ControlPanel.dll
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.Core.dll
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.Entities.dll
+F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.Jobs.dll
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.Messages.dll
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.SaleSystem.Vshop.dll
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.SqlDal.dll
@@ -107,6 +108,7 @@ F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\System.Web.Razor.dll
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.ControlPanel.pdb
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.Core.pdb
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.Entities.pdb
+F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.Jobs.pdb
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.Messages.pdb
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.SaleSystem.Vshop.pdb
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.SqlDal.pdb
@@ -126,4 +128,3 @@ F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\HiTemplate.pdb
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.UI.SaleSystem.Tags.pdb
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\obj\Debug\Hidistro.UI.Web.dll
 F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\obj\Debug\Hidistro.UI.Web.pdb
-F:\VSWorks\gitstore\mxxkd\Hidistro.UI.Web\obj\Debug\Hidistro.UI.Web.csprojResolveAssemblyReference.cache

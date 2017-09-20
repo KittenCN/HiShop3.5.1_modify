@@ -1,0 +1,145 @@
+﻿.none
+{
+    display:none;
+}
+.mdetail_bottom {
+  max-width: 100%;
+}.mdetail_bottom {
+  background: #fff none repeat scroll 0 0;
+  border-top: 1px solid #e9e9e9;
+  bottom: 0;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  max-width:650px;
+  z-index: 11;
+}.mdetail_bottom .collect {
+  border-right: 1px solid #e9e9e9;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  width: 16%;
+}.mdetail_bottom .cart {
+  float: left;
+  position: relative;
+  text-align: center;
+  width: 16%;
+}.bdbox {
+  box-sizing: border-box;
+}.mdetail_bottom .cart b {
+  background: #fe5000;
+  border-radius: 50%;
+  color: #fff;
+  display: block;
+  font-size: 10px;
+  font-weight: 400;
+  height: 18px;
+  line-height: 18px;
+  position: absolute;
+  right: 6px;
+  text-align: center;
+  top: 2px;
+  width: 18px;
+}#J-addone {
+  color: #e4393c;
+  display: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  position: absolute;
+  right: 5px;
+  top: -25px;
+}.mdetail_bottom .actions {
+  float: right;
+  height: 100%;
+  overflow: hidden;
+  width: 68%;
+}
+.mdetail_bottom .actions a {
+  background: #e4393c;
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 16px;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  width: 50%;
+}.mdetail_bottom .actions a.btn-popupSKU-addcart {
+  background: #fe9303;
+}.mdetail_bottom .actions a.btn-popupSKU-buynow {
+  background: #fe5000;
+}
+.goods-info .name
+{
+    font-size:16px;
+}
+.goods-info .price span.spSalaPrice
+{font-size: 23px;color: #ff5000;
+}.goods-info .intro {
+  font-size: 12px;
+  color:#ff5000;
+}.goods-info .price span.title {
+  color: #999;
+  line-height: 20px;
+  font-size:12px;
+  position:relative;
+  top:6px;
+}.goods-info del {
+  margin-left: 2px;
+  font-size:12px;
+}.font-s {
+  font-size: 12px;
+}
+.goods-info
+{
+    margin-left:0;
+}.goods-info .price span.selled {
+  font-size: 12px;
+}.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  color: #ff5000;
+}
+.product_icons
+{
+    width:100%;
+    display:block;
+    margin:0 auto;
+}
+.product_icons li
+{
+    float:left;
+    width:33.3333%;
+}
+.product_icons li img
+{
+    height:25px;
+    width:auto;
+    margin-left:10%;
+}
+.product_icons li a
+{
+    margin-left:6px;
+    position:relative;
+    top:2px;
+}.collectbg, .sharebg {
+  background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
+}.a-know {
+  border: 1px solid #fff;
+  bottom: 30px;
+  height: 40px;
+  left: 50%;
+  line-height: 40px;
+  margin-left: -55px;
+  padding: 0 30px;
+  position: absolute;
+  z-index: 999999;
+}.a-know, .menu .icon-menu {
+  color: #fff;
+  text-align: center;
+}
