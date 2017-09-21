@@ -1,4 +1,0 @@
-2016-10-24 17:21:43.450:发送出错了：invalid template_id size hint: [OdwV6a0903ge17]
----------------
-2016-10-24 17:21:43.451:当前发送消息：{"touser":"onh8Qsz9wuPg9MRf8cJH-D-Olpjk","template_id":"","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，您的会员帐号注册成功！"},"keyword1":{"color":"#173177","value":"老黄同志"},"keyword2":{"color":"#173177","value":"无"},"keyword3":{"color":"#173177","value":"2016-10-24 17:21:43"},"remark":{"color":"#173177","value":"恭喜您，成为小雨诚品的第28066位会员"}},"url":""}
----------------

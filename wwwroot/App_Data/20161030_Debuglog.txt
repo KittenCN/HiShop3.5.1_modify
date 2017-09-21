@@ -1,9 +1,0 @@
-2016-10-30 10:13:14.366:Requested value 'VIEW' was not found.
----------------
-2016-10-30 10:15:48.162:ReferralId：28063
-
----------------
-2016-10-30 12:04:23.971:关闭计划任务失败：The Scheduler has been Shutdown.
----------------
-2016-10-30 14:33:08.603:Requested value 'VIEW' was not found.
----------------

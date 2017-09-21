@@ -1,4 +1,0 @@
-2016-11-04 08:00:43.741:Requested value 'VIEW' was not found.
----------------
-2016-11-04 08:04:44.389:关闭计划任务失败：The Scheduler has been Shutdown.
----------------

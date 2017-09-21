@@ -1,8 +1,0 @@
-2016-08-06 08:56:16.799:Object reference not set to an instance of an object.
----------------
-2016-08-06 09:07:39.235:Application_End应用池资源被回收，进入重新激活流程！
----------------
-2016-08-06 09:07:39.263:关闭计划任务失败：The Scheduler has been Shutdown.
----------------
-2016-08-06 09:07:43.680:到这里了，！Application_Start
----------------

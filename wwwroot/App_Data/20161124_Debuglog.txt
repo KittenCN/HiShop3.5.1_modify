@@ -1,8 +1,0 @@
-2016-11-24 21:06:06.887:关闭计划任务失败：The Scheduler has been Shutdown.
----------------
-2016-11-24 21:06:18.497:Requested value 'VIEW' was not found.
----------------
-2016-11-24 21:06:18.498:Requested value 'VIEW' was not found.
----------------
-2016-11-24 21:06:18.498:Requested value 'VIEW' was not found.
----------------

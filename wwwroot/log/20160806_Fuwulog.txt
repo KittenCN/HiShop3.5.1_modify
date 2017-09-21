@@ -1,4 +1,0 @@
-2016-08-06 08:56:16:当前模板类型：AccountLock,会员|分销商|9e741ecf1d6844c886258004b220d950
----------------
-2016-08-06 08:56:16:当前微信模板类型：AccountLock,会员onh8QszmowKbKySQ3LC0kKO1u3jQ|分销商onh8QszmowKbKySQ3LC0kKO1u3jQ|kQXpNvnWgN9DWJbe7pCPqdHjnCmTPwWne17JwqX8LYs
----------------

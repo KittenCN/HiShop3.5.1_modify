@@ -1,8 +1,0 @@
-2016-10-21 16:29:40.937:发送出错了：invalid template_id size hint: [6J2Xpa0580ge14]
----------------
-2016-10-21 16:29:40.937:当前发送消息：{"touser":"onh8Qs_LJ4_uojFmryCdqdNzYhe0","template_id":"","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"恭喜您，成为小雨诚品的第28014位分销商"},"keyword1":{"color":"#173177","value":"鸿升"},"keyword2":{"color":"#173177","value":null},"keyword3":{"color":"#173177","value":"2016-10-21 16:29:40"}},"url":""}
----------------
-2016-10-21 16:29:41.066:发送出错了：invalid template_id size hint: [eVH0Ia0580ge14]
----------------
-2016-10-21 16:29:41.066:当前发送消息：{"touser":"onh8Qs_LJ4_uojFmryCdqdNzYhe0","template_id":"","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，您的会员帐号注册成功！"},"keyword1":{"color":"#173177","value":"鸿升"},"keyword2":{"color":"#173177","value":"无"},"keyword3":{"color":"#173177","value":"2016-10-21 16:29:40"},"remark":{"color":"#173177","value":"恭喜您，成为小雨诚品的第28065位会员"}},"url":""}
----------------

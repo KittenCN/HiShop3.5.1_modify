@@ -1,9 +1,0 @@
-2016-08-27 20:36:32.778:<xml>
-  <ToUserName><![CDATA[gh_b4f311312c6c]]></ToUserName>
-<FromUserName><![CDATA[onh8Qs90UaVTad-2AUf5sOK-4G58]]></FromUserName>
-<CreateTime>1472301392</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[unsubscribe]]></Event>
-<EventKey><![CDATA[]]></EventKey>
-</xml>
----------------

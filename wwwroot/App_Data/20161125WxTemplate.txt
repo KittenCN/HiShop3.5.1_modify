@@ -1,8 +1,0 @@
-2016-11-25 18:57:22.336:发送出错了：invalid template_id size hint: [e6phwA0442ge19]
----------------
-2016-11-25 18:57:22.336:当前发送消息：{"touser":"onh8QswAWkjkVRdcl8W-NP_rYG6Y","template_id":"","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"恭喜您，成为零元购商城的第28015位分销商"},"keyword1":{"color":"#173177","value":"阿酷"},"keyword2":{"color":"#173177","value":null},"keyword3":{"color":"#173177","value":"2016-11-25 18:57:22"}},"url":""}
----------------
-2016-11-25 18:57:22.538:发送出错了：invalid template_id size hint: [fQqpba0442zbg9]
----------------
-2016-11-25 18:57:22.538:当前发送消息：{"touser":"onh8QswAWkjkVRdcl8W-NP_rYG6Y","template_id":"","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，您的会员帐号注册成功！"},"keyword1":{"color":"#173177","value":"阿酷"},"keyword2":{"color":"#173177","value":"无"},"keyword3":{"color":"#173177","value":"2016-11-25 18:57:22"},"remark":{"color":"#173177","value":"恭喜您，成为零元购商城的第28068位会员"}},"url":""}
----------------

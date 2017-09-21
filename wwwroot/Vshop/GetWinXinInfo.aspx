@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetWinXinInfo.aspx.cs" Inherits="Hidistro.UI.Web.Vshop.GetWinXinInfo" %>

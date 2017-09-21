@@ -1,6 +1,0 @@
-2016-12-01 12:38:10.107:进入1，必须登录的页面，并且无code请求http://www.178gx.com/vshop/DistributorRegCheck.aspx?ReferralId=1
----------------
-2016-12-01 19:57:05.832:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
----------------
-2016-12-01 20:51:03.900:进入1，必须登录的页面，并且无code请求http://www.178gx.com/Vshop/MemberCenter.aspx?ReferralId=1
----------------

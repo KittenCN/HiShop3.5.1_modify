@@ -1,8 +1,0 @@
-2016-07-06 14:36:35:当前微信模板类型：OrderCreate,会员onh8Qs_fBhwUjZ56T0syAQBpaljU|分销商onh8Qs_fBhwUjZ56T0syAQBpaljU|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
----------------
-2016-07-06 14:36:35:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
----------------
-2016-07-06 19:12:39:当前微信模板类型：OrderCreate,会员onh8Qs_fBhwUjZ56T0syAQBpaljU|分销商onh8Qs_fBhwUjZ56T0syAQBpaljU|hx8HIB70SuYuJre7erHMfZ7JPeuHwSzimKbYmc-6DQM
----------------
-2016-07-06 19:12:39:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
----------------
