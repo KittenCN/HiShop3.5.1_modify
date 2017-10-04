@@ -5031,6 +5031,17 @@
     <Compile Include="API\WXMenuProcess.ashx.cs">
       <DependentUpon>WXMenuProcess.ashx</DependentUpon>
     </Compile>
+    <Compile Include="code\Config.cs" />
+    <Compile Include="code\ConfigHandler.cs" />
+    <Compile Include="code\Crawler.cs" />
+    <Compile Include="code\CrawlerHandler.cs" />
+    <Compile Include="code\ListFileManager.cs" />
+    <Compile Include="code\NotSupportedHandler.cs" />
+    <Compile Include="code\PathFormatter.cs" />
+    <Compile Include="code\UploadConfig.cs" />
+    <Compile Include="code\UploadHandler.cs" />
+    <Compile Include="code\UploadResult.cs" />
+    <Compile Include="code\UploadTemplateImagesHandler.cs" />
     <Compile Include="Custom.aspx.cs">
       <DependentUpon>Custom.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -5062,6 +5073,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="code\Handler.cs" />
     <Compile Include="hieditor\ueditor\controls\ucUeditor.ascx.cs">
       <DependentUpon>ucUeditor.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

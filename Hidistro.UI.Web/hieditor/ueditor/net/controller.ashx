@@ -5,6 +5,8 @@ using System.Web;
 using System.IO;
 using System.Collections;
 using Newtonsoft.Json;
+using Hidistro.UI.Web;
+
 
 public class UEditorHandler : IHttpHandler
 {
