@@ -11,7 +11,7 @@ using System.Web.Routing;
 namespace Hidistro.UI.Web
 {
     /// <summary>
-    /// eidt by lipu  20170920  
+    /// eidt by 沐雪  20170920  
     /// case: global里不可以使用上下文，解决 应用程序池集成模式下不可用情况。web.config里添加一个节点CurDomainUrl
     /// </summary>
     public class Global : System.Web.HttpApplication

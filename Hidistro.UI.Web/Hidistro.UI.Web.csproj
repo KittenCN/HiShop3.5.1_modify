@@ -5579,7 +5579,9 @@
     <Content Include="Vshop\SignUp.aspx.bak" />
     <Content Include="Log4Net.config" />
     <Content Include="vwd.webinfo" />
-    <Content Include="web-start.config" />
+    <Content Include="web-start.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
