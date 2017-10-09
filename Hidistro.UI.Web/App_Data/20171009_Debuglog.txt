@@ -1,0 +1,18 @@
+2017-10-09 15:39:06.067:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2017-10-09 22:00:23.241:商品规格：False
+---------------
+2017-10-09 22:00:25.339:商品规格：False
+---------------
+2017-10-09 22:14:11.358:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2017-10-09 22:14:11.362:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2017-10-09 22:16:02.057:returnUrl:http://localhost/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2017-10-09 22:16:02.057:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
+2017-10-09 22:17:28.103:returnUrl:http://localhost/API/ExpressReturn.ashx?action=SaveExpressData
+---------------
+2017-10-09 22:17:28.104:{"result":false,"returnCode":"600","message":"POLL:您不是合法的订阅者"}
+---------------
