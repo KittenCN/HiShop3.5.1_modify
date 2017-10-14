@@ -1,3 +1,31 @@
+开发环境：vs2015 +sql server 2008
+部署环境：iis7，.netframework 4.0,应用程序池为4.0经典模式。
+
+
+安装步骤：
+
+1、将安装目录：Hidistro.UI.Web拷贝到服务器上，搭建站点(应用程序池为4.0经典模式)；目录设置everyone可读写权限；
+
+2、sql server 2008上创建一个新的库；
+
+3、 打开网站   xxx.com（域名）/Installer/Default.aspx，按照安装提示一步一步走（傻瓜式的安装）；
+
+4、安装完毕后，请打开web.config文件，找到节点：CurDomainUrl，设置vlaue的值为当前站点的域名地址，http打头，比如当前站点为http://demo.xiaokeduo.com, 写法为： <add key="CurDomainUrl" value="http://demo.xiaokeduo.com" />
+
+-------------安装到此就ok了-----------------------
+
+注意：
+1、iis设置禁止目录浏览。iis安全性设置方面，可以百度下。
+2、安装完毕后，请将Installer目录删除，
+3、若发现有图片显示异常，请删除目录Templates下的web.config文件。
+4、我们还准备了一个备用的sql给您（一般人用不到），安装失败的情况，删除库里的所有表，然后执行该sql.
+5、想重新安装，将根目录下的web-start.config内容复制到web.config里，然后按照“安装步骤”从第2部开始。
+
+
+若不会安装，我们将提供人员协助安装，安装费用，每次300元。
+
+
+------------------------------------
 
 专业开发10年精心整理代码，与官方开风格发保持一致。源码方便程序员二次开发。
 本源码与市面上最大的不同在于：
@@ -5,19 +33,6 @@
 2、代码逐一过滤过，没有任何后门，（网上销售的代码，其实很多都是有后门的，可以检查下web站点目录  Storage/data/paipai下是否有a.aspx文件，只要这个目录下有后缀为.aspx的文件，都为后门）。
 3、若有发现bug，可以立即跟我们反馈，我们将立即修复，并且免费提供补丁。
 
-开发环境：vs2015 +sql server 2008
-部署环境：iis7，.netframework 4.0,应用程序池为4.0经典模式。
 
-
-安装请注意：
-1、将安装目录：Hidistro.UI.Web拷贝到服务器上，搭建站点；
-1、 打开网站   xxx.com域名/Installer/Default.aspx，按照安装提示一步一步走（傻瓜式的安装）
-2、安装完毕后，请打开web.config文件，找到节点：CurDomainUrl，设置vlaue的值为当前站点的域名地址，http打头，比如当前站点为http://demo.xiaokeduo.com,
-这这里的写法为： <add key="CurDomainUrl" value="http://demo.xiaokeduo.com" />
-3、iis设置禁止目录浏览。iis安全性设置方面，可以百度下。
-4、安装完毕后，请将Installer目录删除。
-5、我们还准备了一个备用的sql给您（一般人用不到）。
-
-若不会安装，我们将提供人员协助安装，安装费用，每次300元。
 
 
