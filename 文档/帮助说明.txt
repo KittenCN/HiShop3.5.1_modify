@@ -1,17 +1,35 @@
-开发环境：vs2015 +sql server 2008
+开发环境：vs2015 +sql server 2008 r2
 部署环境：iis7，.netframework 4.0,应用程序池为4.0经典模式。
 
+----------------------
 
-安装步骤：
+网站安装方法一：
 
 1、将安装目录：Hidistro.UI.Web拷贝到服务器上，搭建站点(应用程序池为4.0经典模式)；目录设置everyone可读写权限；
 
-2、sql server 2008上创建一个新的库；
+2、sql server 2008 r2上创建一个新的库xkd（名字随意）,将文件夹  “文档/xkd351.bak”这个备份文件还原到创建的库（不会自己百度，https://jingyan.baidu.com/article/8cdccae966ce5f315413cd37.html）；
 
-3、 打开网站   xxx.com（域名）/Installer/Default.aspx，按照安装提示一步一步走（傻瓜式的安装）；
+3、打开站点的web.config文件，找到数据库连接字符串，修改
 
-4、安装完毕后，请打开web.config文件，找到节点：CurDomainUrl，设置vlaue的值为当前站点的域名地址，http打头，比如当前站点为http://demo.xiaokeduo.com, 写法为： <add key="CurDomainUrl" value="http://demo.xiaokeduo.com" />
+<add name="HidistroSqlServer" connectionString="server=数据库地址ip;uid=账号;pwd=密码;Trusted_Connection=no;database=数据库实例名" providerName="System.Data.SqlClient" />
 
+比如我本地的：
+
+<add name="HidistroSqlServer" connectionString="server=.;uid=sa;pwd=123456;Trusted_Connection=no;database=xkd" providerName="System.Data.SqlClient" />
+
+3、已经安装成功了。可以打开后台xxx.com（域名）/admin/login.aspx  去配置相关东西！！！
+账号admin ,密码admin123
+
+--------------------------------------
+
+网站安装方法二(傻瓜式操作，弊端就是数据库连接字符串不好手动修改)：
+
+1、将安装目录：Hidistro.UI.Web拷贝到服务器上，搭建站点(应用程序池为4.0经典模式)；目录设置everyone可读写权限；
+2、sql server 2008 上创建一个新的库xkd（名字随意）。
+3、将web-start.config里的内容，复制到web.config里；或者是删掉web.config，将web-start.config改名为web.config。
+4、 打开网站   xxx.com（域名）/Installer/Default.aspx，按照安装提示一步一步走（傻瓜式的安装）；
+
+ 
 -------------安装到此就ok了-----------------------
 
 注意：
@@ -19,19 +37,41 @@
 2、安装完毕后，请将Installer目录删除，
 3、若发现有图片显示异常，请删除目录Templates下的web.config文件。
 4、我们还准备了一个备用的sql给您（一般人用不到），安装失败的情况，删除库里的所有表，然后执行该sql.
-5、想重新安装，将根目录下的web-start.config内容复制到web.config里，然后按照“安装步骤”从第2部开始。
+5、第2种方式，如果想重新安装，将根目录下的web-start.config内容复制到web.config里，然后按照“安装步骤”从第2部开始。
 
 
-若不会安装，我们将提供人员协助安装，安装费用，每次300元。
+若不会安装，我们将提供人员协助安装，安装费用，每次500元。
 
 
-------------------------------------
+
+
+-------------开发环境源码说明-----------------
+
+很多人使用vs2013或2015打开，直接F5运行，发现有问题，这是因为源码必须在经典模式下才可以运行，而vs2013/2015默认是集成模式（首先确定这不是源码的问题）；
+
+解决方法有2种：
+
+1、把vs2013/2015运行的模式改为经典模式（不会问百度 ！！）；
+
+2、使用IIS7 + Vs2013/2015附加进程调试 （推荐） 
+http://www.cnblogs.com/zfyouxi/p/5058847.html
+
+
+-----------------------------------------------
+--------- 教程已经写的这么清楚了，----------
+---------- 要是到此你还是不会，-----------
+---------- 那我手把手教你把！------------
+---------- 小费500元哦！--------------
+------------ QQ 23002807 --------------------
+
 
 专业开发10年精心整理代码，与官方开风格发保持一致。源码方便程序员二次开发。
 本源码与市面上最大的不同在于：
 1、经过大量梳理，将每个页面aspx页面与后端代码aspx.cs文件完美结合，阅读代码更方便容易。修改解决方案的项目，会立即生效。
 2、代码逐一过滤过，没有任何后门，（网上销售的代码，其实很多都是有后门的，可以检查下web站点目录  Storage/data/paipai下是否有a.aspx文件，只要这个目录下有后缀为.aspx的文件，都为后门）。
 3、若有发现bug，可以立即跟我们反馈，我们将立即修复，并且免费提供补丁。
+
+
 
 
 
