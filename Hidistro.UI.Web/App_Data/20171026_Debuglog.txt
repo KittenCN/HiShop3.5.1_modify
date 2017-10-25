@@ -1,0 +1,8 @@
+2017-10-26 00:00:35.909:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2017-10-26 00:21:53.873:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2017-10-26 00:24:20.904:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2017-10-26 00:27:17.342:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
