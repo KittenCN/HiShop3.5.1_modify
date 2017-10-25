@@ -10,14 +10,10 @@ using System.Web.Routing;
 
 namespace Hidistro.UI.Web
 {
-    /// <summary>
-    /// eidt by 沐雪  20170920  
-    /// case: global里不可以使用上下文，解决 应用程序池集成模式下不可用情况。web.config里添加一个节点CurDomainUrl
-    /// </summary>
+     
     public class Global : System.Web.HttpApplication
     {
-
-     //   private static string strUrl = "";
+        private static string strUrl = "";
 
         protected void Application_AuthenticateRequest(object sender, EventArgs e)
         {
@@ -52,7 +48,6 @@ namespace Hidistro.UI.Web
                 try
                 {
                     JobsHelp.stop();
-                    string strUrl =ConfigurationManager.AppSettings["CurDomainUrl"]==null?"":ConfigurationManager.AppSettings["CurDomainUrl"].ToString()+ "/UserLogin.aspx";
                     if (string.IsNullOrEmpty(strUrl))
                     {
                         Thread.Sleep(0x3e8);
@@ -89,11 +84,11 @@ namespace Hidistro.UI.Web
             {
                 AlipayFuwuConfig.CommSetConfig(SettingsManager.GetMasterSettings(false).AlipayAppid, base.Server.MapPath("~/"), "GBK");
                 AlipayFuwuConfig.SetWriteLog(true);
-                //if (string.IsNullOrEmpty(strUrl))
-                //{
-                //    string str = HttpContext.Current.Request.Url.Port.ToString();
-                //    strUrl = string.Format("http://{0}/UserLogin.aspx", HttpContext.Current.Request.Url.Host + ((str == "80") ? "" : (":" + str)));
-                //}
+                if (string.IsNullOrEmpty(strUrl))
+                {
+                    string str = HttpContext.Current.Request.Url.Port.ToString();
+                    strUrl = string.Format("http://{0}/UserLogin.aspx", HttpContext.Current.Request.Url.Host + ((str == "80") ? "" : (":" + str)));
+                }
                 JobsHelp.start(base.Server.MapPath("/config/JobConfig.xml"));
                 AppPath = base.Server.MapPath("/");
                 new Thread(() => new AsyncWorkDelegate_TongJi().CalData(AppPath, out result)).Start();
