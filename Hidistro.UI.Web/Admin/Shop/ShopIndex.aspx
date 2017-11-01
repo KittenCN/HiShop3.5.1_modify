@@ -53,9 +53,7 @@
                 </form>
     <script type="text/javascript" src="/admin/js/ZeroClipboard.min.js"></script>
      <script type="text/javascript">
-         $(function () {
-             
-             init();
+
         
 
              $(".btn-success").click(function () {          
@@ -75,8 +73,10 @@
                  window.location = $(this).attr("dataID");
              });
 
-             
-         });
+             $(function () {
+
+                 init();
+                 });
 
          var copy;
          function init() {
