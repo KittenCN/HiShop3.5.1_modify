@@ -264,7 +264,6 @@ E:\VSWorks\gitstore\销客多3.51_沐\源码\Hidistro.UI.Web\bin\HiTemplate.pdb
 E:\VSWorks\gitstore\销客多3.51_沐\源码\Hidistro.UI.Web\bin\System.Net.Http.xml
 E:\VSWorks\gitstore\销客多3.51_沐\源码\Hidistro.UI.Web\bin\Hidistro.UI.SaleSystem.Tags.pdb
 E:\VSWorks\gitstore\销客多3.51_沐\源码\Hidistro.UI.Web\bin\zh-Hans\System.Net.Http.resources.dll
-E:\VSWorks\gitstore\销客多3.51_沐\源码\Hidistro.UI.Web\obj\Debug\Hidistro.UI.Web.csprojResolveAssemblyReference.cache
 E:\VSWorks\gitstore\销客多3.51_沐\源码\Hidistro.UI.Web\obj\Debug\Hidistro.UI.Web.dll
 E:\VSWorks\gitstore\销客多3.51_沐\源码\Hidistro.UI.Web\obj\Debug\Hidistro.UI.Web.pdb
 G:\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.UI.Web.dll.config

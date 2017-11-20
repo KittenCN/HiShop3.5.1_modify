@@ -5779,7 +5779,6 @@
     <Content Include="Pay\Cert\20160218061114apiclient_cert.p12" />
     <Content Include="plugins\transfer\Hishop.Transfers.dll.bak" />
     <Content Include="Storage\data\web.config" />
-    <Content Include="Storage\web.config" />
     <Content Include="Templates\common\Data\default.json" />
     <Content Include="Templates\common\fonts\iconfont.eot" />
     <Content Include="Templates\common\fonts\iconfont.ttf" />
@@ -5837,7 +5836,6 @@
     <Content Include="Templates\vshop\t9\Data\default.json" />
     <Content Include="Templates\vshop\t9\Data\defaultbak.zip" />
     <Content Include="Templates\vshop\t9\script\default.json" />
-    <Content Include="Templates\web.config" />
     <Content Include="Utility\bootflat\.travis.yml" />
     <Content Include="Utility\bootflat\angularicons\angularicons.eot" />
     <Content Include="Utility\bootflat\angularicons\angularicons.ttf" />
