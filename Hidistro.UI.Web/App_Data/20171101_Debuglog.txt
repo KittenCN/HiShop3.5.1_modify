@@ -1,0 +1,6 @@
+2017-11-01 10:22:13.758:重启动Application_start失败！
+---------------
+2017-11-01 10:34:55.225:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2017-11-01 10:42:26.649:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
