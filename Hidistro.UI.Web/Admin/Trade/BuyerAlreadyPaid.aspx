@@ -206,6 +206,10 @@
                                                         <p>
                                                             <%#Eval("ShipTo") %><Hi:WangWangConversations runat="server" ID="WangWangConversations" WangWangAccounts='<%#Eval("Wangwang") %>' />
                                                             <br>
+                                                            <%#Eval("ShippingRegion") %>
+                                                            <br>
+                                                            <%#Eval("Address") %>
+                                                            <br>
                                                             <%#Eval("CellPhone") %>
                                                         </p>
                                                         <%-- <span class="setColor glyphicon glyphicon-comment"></span>--%>

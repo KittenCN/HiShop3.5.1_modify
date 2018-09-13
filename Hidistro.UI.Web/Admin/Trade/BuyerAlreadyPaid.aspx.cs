@@ -46,6 +46,7 @@ namespace Hidistro.UI.Web.Admin.Trade
             this.txtUserName.Text = orderQuery.UserName;
             this.txtOrderId.Text = orderQuery.OrderId;
             this.txtProductName.Text = orderQuery.ProductName;
+            //customer's address
             this.txtShopTo.Text = orderQuery.ShipTo;
             this.calendarStartDate.SelectedDate = orderQuery.StartDate;
             this.calendarEndDate.SelectedDate = orderQuery.EndDate;
