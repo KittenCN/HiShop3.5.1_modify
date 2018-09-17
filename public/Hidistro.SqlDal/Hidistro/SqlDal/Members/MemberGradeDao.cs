@@ -20,7 +20,7 @@
             {
                 query = query + "UPDATE aspnet_MemberGrades SET IsDefault = 0";
             }
-            query = query + " INSERT INTO aspnet_MemberGrades ([Name], Description, Points, IsDefault, Discount,TranVol,TranTimes) VALUES (@Name, @Description, @Points, @IsDefault, @Discount,@TranVol,@TranTimes)";
+            query = query + " INSERT INTO aspnet_MemberGrades ([Name], Description, Points, IsDefault, Discount,TranVol,TranTimes, IsDaifa, IsPifa) VALUES (@Name, @Description, @Points, @IsDefault, @Discount,@TranVol,@TranTimes, @IsDaifa, @IsPifa)";
             DbCommand sqlStringCommand = this.database.GetSqlStringCommand(query);
             this.database.AddInParameter(sqlStringCommand, "Name", DbType.String, memberGrade.Name);
             this.database.AddInParameter(sqlStringCommand, "Description", DbType.String, memberGrade.Description);
@@ -29,6 +29,8 @@
             this.database.AddInParameter(sqlStringCommand, "Discount", DbType.Int32, memberGrade.Discount);
             this.database.AddInParameter(sqlStringCommand, "TranVol", DbType.Double, memberGrade.TranVol);
             this.database.AddInParameter(sqlStringCommand, "TranTimes", DbType.Int32, memberGrade.TranTimes);
+            this.database.AddInParameter(sqlStringCommand, "IsDaifa", DbType.Boolean, memberGrade.IsDaifa);
+            this.database.AddInParameter(sqlStringCommand, "IsPifa", DbType.Boolean, memberGrade.IsPifa);
             return (this.database.ExecuteNonQuery(sqlStringCommand) > 0);
         }
 
@@ -133,7 +135,7 @@
             {
                 query = query + "UPDATE aspnet_MemberGrades SET IsDefault = 0;";
             }
-            query = query + "UPDATE aspnet_MemberGrades SET [Name] = @Name,[IsDefault]=@IsDefault, Description = @Description, Points = @Points, Discount = @Discount ,TranVol=@TranVol ,TranTimes=@TranTimes WHERE GradeId = @GradeId;";
+            query = query + "UPDATE aspnet_MemberGrades SET [Name] = @Name,[IsDefault]=@IsDefault, Description = @Description, Points = @Points, Discount = @Discount ,TranVol=@TranVol ,TranTimes=@TranTimes, [IsDaifa] = @IsDaifa, [IsPifa] = @IsPifa WHERE GradeId = @GradeId;";
             DbCommand sqlStringCommand = this.database.GetSqlStringCommand(query);
             this.database.AddInParameter(sqlStringCommand, "Name", DbType.String, memberGrade.Name);
             this.database.AddInParameter(sqlStringCommand, "Description", DbType.String, memberGrade.Description);
@@ -143,6 +145,8 @@
             this.database.AddInParameter(sqlStringCommand, "TranVol", DbType.Double, memberGrade.TranVol);
             this.database.AddInParameter(sqlStringCommand, "TranTimes", DbType.Int32, memberGrade.TranTimes);
             this.database.AddInParameter(sqlStringCommand, "IsDefault", DbType.Boolean, memberGrade.IsDefault);
+            this.database.AddInParameter(sqlStringCommand, "IsDaifa", DbType.Boolean, memberGrade.IsDaifa);
+            this.database.AddInParameter(sqlStringCommand, "IsPifa", DbType.Boolean, memberGrade.IsPifa);
             return (this.database.ExecuteNonQuery(sqlStringCommand) > 0);
         }
     }

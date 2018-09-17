@@ -14,7 +14,7 @@
             this.Theme = "default";
             this.VTheme = "default";
             this.Disabled = false;
-            this.SiteName = "销客多";
+            this.SiteName = "SUSCAR";
             this.LogoUrl = "/utility/pics/logo.jpg";
             this.ShopTel = "";
             this.DefaultProductImage = "/utility/pics/none.gif";

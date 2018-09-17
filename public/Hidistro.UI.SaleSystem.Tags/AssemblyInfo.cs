@@ -9,6 +9,6 @@
 [assembly: System.Runtime.InteropServices.ComVisible(false)]
 [assembly: System.Reflection.AssemblyTitle("Tags")]
 [assembly: System.Runtime.InteropServices.Guid("19265f14-d6cf-4666-aefc-f373722a6114")]
-[assembly: System.Reflection.AssemblyProduct("销客多")]
+[assembly: System.Reflection.AssemblyProduct("SUSCAR")]
 [assembly: System.Reflection.AssemblyInformationalVersion("3.2")]
 

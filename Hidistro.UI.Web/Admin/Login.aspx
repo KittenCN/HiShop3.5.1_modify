@@ -91,7 +91,7 @@
 			<div class="code-img">
 				<a href="/utility/pics/wfxqrcode.jpg" target="_blank"><img src="/utility/pics/wfxqrcode.jpg" style="width:95px;height:95px;"></a>
 			</div>
-			<p>微信扫描左侧二维码，了解销客多产品最新升级动态。</p>
+			<p>微信扫描左侧二维码，了解SUSCAR产品最新升级动态。</p>
 		</div>
 		<div class="wechatimg"></div>
 		<div class="shoppingimg"></div>

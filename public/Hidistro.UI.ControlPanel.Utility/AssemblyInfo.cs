@@ -8,7 +8,7 @@
 [assembly: System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
 [assembly: System.Runtime.InteropServices.ComVisible(false)]
 [assembly: System.Runtime.InteropServices.Guid("11147ba3-cdfd-4329-bf4f-cf83b89559cf")]
-[assembly: System.Reflection.AssemblyProduct("销客多")]
+[assembly: System.Reflection.AssemblyProduct("SUSCAR")]
 [assembly: System.Reflection.AssemblyInformationalVersion("3.2")]
 [assembly: System.Reflection.AssemblyTrademark("")]
 

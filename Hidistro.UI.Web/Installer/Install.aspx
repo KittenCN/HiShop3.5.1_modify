@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>销客多 安装向导</title>
+    <title>SUSCAR 安装向导</title>
     <script type="text/javascript" language="javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <link href="style/install.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" language="javascript">
@@ -142,7 +142,7 @@
                     </div>
                     <div class="c_i_r">
                         <h2>
-                            管理员设置<asp:HiddenField ID="hdfSiteName" runat="server" Value="销客多" /></h2>
+                            管理员设置<asp:HiddenField ID="hdfSiteName" runat="server" Value="SUSCAR" /></h2>
                         <p>
                             <span>用户名：</span><asp:TextBox ID="txtUsername" runat="server" CssClass="txt" /><em>*</em></p>
                         <p>

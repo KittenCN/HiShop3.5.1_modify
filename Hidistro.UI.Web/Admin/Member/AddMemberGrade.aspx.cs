@@ -126,6 +126,8 @@ namespace Hidistro.UI.Web.Admin.Member
                     memberGrade.Name = text;
                     memberGrade.Description = this.txtRankDesc.Text.Trim();
                     memberGrade.IsDefault = this.cbIsDefault.Checked;
+                    memberGrade.IsDaifa = this.cbIsDaifa.Checked;
+                    memberGrade.IsPifa = this.cbIsPifa.Checked;
                     memberGrade.TranVol = new double?(num);
                     memberGrade.TranTimes = new int?(num3);
                     memberGrade.Discount = i;
@@ -212,6 +214,8 @@ namespace Hidistro.UI.Web.Admin.Member
                     this.txtValue.Text = memberGrade.Discount.ToString();
                     this.txt_tradeVol.Text = memberGrade.TranVol.ToString();
                     this.cbIsDefault.Checked = memberGrade.IsDefault;
+                    this.cbIsDaifa.Checked = memberGrade.IsDaifa;
+                    this.cbIsPifa.Checked = memberGrade.IsPifa;
                     this.txt_tradeTimes.Text = memberGrade.TranTimes.ToString();
                     if (memberGrade.IsDefault)
                     {

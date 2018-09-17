@@ -98,6 +98,22 @@
                     </div>
                 </div>
             </div>
+            <div class="form-group">
+                <label for="inputEmail1" class="col-xs-2 control-label"><em>*</em>设为代发：</label>
+                <div id="radioDiv2" class="col-xs-4">
+                    <div class="switch" id="mySwitch2">
+                        <input type="checkbox" id="cbIsDaifa" runat="server" />
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail1" class="col-xs-2 control-label"><em>*</em>设为批发：</label>
+                <div id="radioDiv3" class="col-xs-4">
+                    <div class="switch" id="mySwitch3">
+                        <input type="checkbox" id="cbIsPifa" runat="server" />
+                    </div>
+                </div>
+            </div>
 
             <div class="form-group" style="margin-left: 5px; margin-bottom: 30px;">
                 <div style="font-size: 16px;"><span style="color: red; margin-right: 10px; font-weight: 900;">|</span>自动升级 </div>

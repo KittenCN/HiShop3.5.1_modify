@@ -1,6 +1,6 @@
 ﻿
 
-[assembly: System.Reflection.AssemblyProduct("销客多")]
+[assembly: System.Reflection.AssemblyProduct("SUSCAR")]
 [assembly: System.Reflection.AssemblyInformationalVersion("3.2")]
 [assembly: System.Reflection.AssemblyTrademark("")]
 [assembly: System.Runtime.InteropServices.ComVisible(false)]

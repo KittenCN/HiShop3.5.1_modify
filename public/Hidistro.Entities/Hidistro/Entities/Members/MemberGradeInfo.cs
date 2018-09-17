@@ -17,6 +17,10 @@
 
         public bool IsDefault { get; set; }
 
+        public bool IsDaifa { get; set; }
+
+        public bool IsPifa { get; set; }
+
         [HtmlCoding, StringLengthValidator(1, 60, Ruleset="ValMemberGrade", MessageTemplate="会员等级名称不能为空，长度限制在60个字符以内")]
         public string Name { get; set; }
 
@@ -26,6 +30,7 @@
         public int? TranTimes { get; set; }
 
         public double? TranVol { get; set; }
+
     }
 }
 

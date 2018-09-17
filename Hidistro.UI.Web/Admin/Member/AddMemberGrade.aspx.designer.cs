@@ -58,6 +58,24 @@ namespace Hidistro.UI.Web.Admin.Member {
         protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox cbIsDefault;
         
         /// <summary>
+        /// cbIsDaifa 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox cbIsDaifa;
+        
+        /// <summary>
+        /// cbIsPifa 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox cbIsPifa;
+        
+        /// <summary>
         /// txt_tradeVol 控件。
         /// </summary>
         /// <remarks>

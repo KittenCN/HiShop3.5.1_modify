@@ -15,5 +15,5 @@
 [assembly: System.Web.UI.WebResource("Hidistro.UI.Common.Controls.ImageUploader.script.upimg.js", "text/javascript")]
 [assembly: System.Web.UI.WebResource("Hidistro.UI.Common.Controls.ImageUploader.css.style.css", "text/css")]
 [assembly: System.Web.UI.WebResource("Hidistro.UI.Common.Controls.ImageUploader.images.upload.png", "image/png")]
-[assembly: System.Reflection.AssemblyProduct("销客多")]
+[assembly: System.Reflection.AssemblyProduct("SUSCAR")]
 
