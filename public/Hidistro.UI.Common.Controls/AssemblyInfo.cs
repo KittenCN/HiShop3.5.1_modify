@@ -1,6 +1,6 @@
 ﻿// Assembly Hidistro.UI.Common.Controls, Version 3.2.6164.29539
 
-[assembly: System.Reflection.AssemblyDescription("Release")]
+[assembly: System.Reflection.AssemblyDescription("Debug")]
 [assembly: System.CLSCompliant(true)]
 [assembly: System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
 [assembly: System.Reflection.AssemblyTrademark("")]

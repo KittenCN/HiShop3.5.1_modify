@@ -25,3 +25,13 @@ F:\VSWorks\gitstore\mxxkd\public\Hidistro.Core\bin\Debug\Microsoft.Practices.Obj
 F:\VSWorks\gitstore\mxxkd\public\Hidistro.Core\obj\x86\Debug\Hidistro.Core.dll
 F:\VSWorks\gitstore\mxxkd\public\Hidistro.Core\obj\x86\Debug\Hidistro.Core.pdb
 F:\VSWorks\gitstore\mxxkd\public\Hidistro.Core\obj\x86\Debug\Hidistro.Core.csprojResolveAssemblyReference.cache
+D:\workstation\销客多3.5.1\public\Hidistro.Core\bin\Debug\Hidistro.Core.dll
+D:\workstation\销客多3.5.1\public\Hidistro.Core\bin\Debug\Hidistro.Core.pdb
+D:\workstation\销客多3.5.1\public\Hidistro.Core\bin\Debug\Newtonsoft.Json.dll
+D:\workstation\销客多3.5.1\public\Hidistro.Core\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\workstation\销客多3.5.1\public\Hidistro.Core\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\workstation\销客多3.5.1\public\Hidistro.Core\obj\x86\Debug\Hidistro.Core.csprojAssemblyReference.cache
+D:\workstation\销客多3.5.1\public\Hidistro.Core\obj\x86\Debug\Hidistro.Core.csproj.CoreCompileInputs.cache
+D:\workstation\销客多3.5.1\public\Hidistro.Core\obj\x86\Debug\Hidistro.Core.csproj.CopyComplete
+D:\workstation\销客多3.5.1\public\Hidistro.Core\obj\x86\Debug\Hidistro.Core.dll
+D:\workstation\销客多3.5.1\public\Hidistro.Core\obj\x86\Debug\Hidistro.Core.pdb

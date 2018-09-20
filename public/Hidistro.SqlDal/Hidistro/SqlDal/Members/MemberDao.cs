@@ -1407,17 +1407,12 @@
         }
         public DataTable GetGradeInfofromUserId(int UserId)
         {
-            DataTable dtResult = null;
-            string strSQL = "select * from aspnet_MemberGrades where GradeId = (select GradeId from apsnet_Members where userid = " + UserId + ")";
-            DbCommand command = this.database.GetSqlStringCommand(strSQL);
-            using (IDataReader reader = this.database.ExecuteReader(command))
+            DbCommand sqlStringCommand = this.database.GetSqlStringCommand("select * from aspnet_MemberGrades where GradeId = (select GradeId from aspnet_Members where userid = " + Globals.GetCurrentMemberUserId(false) + ")");
+            using (IDataReader reader = this.database.ExecuteReader(sqlStringCommand))
             {
-                dtResult = DataHelper.ConverDataReaderToDataTable(reader);
-                reader.Close();
+                return DataHelper.ConverDataReaderToDataTable(reader);
             }
-            return dtResult;
         }
 
     }
 }
-

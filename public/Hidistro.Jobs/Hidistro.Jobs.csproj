@@ -31,6 +31,9 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\refdll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Quartz">
       <HintPath>..\..\wwwroot\Bin\Quartz.dll</HintPath>
     </Reference>
@@ -40,9 +43,6 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\wwwroot\Bin\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Global.cs" />
     <Compile Include="Hidistro\Jobs\CartJob.cs" />

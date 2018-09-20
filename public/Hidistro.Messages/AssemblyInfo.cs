@@ -7,7 +7,7 @@
 [assembly: System.Reflection.AssemblyProduct("SUSCAR")]
 [assembly: System.Reflection.AssemblyInformationalVersion("3.2")]
 [assembly: System.Reflection.AssemblyTrademark("")]
-[assembly: System.Reflection.AssemblyDescription("Release")]
+[assembly: System.Reflection.AssemblyDescription("Debug")]
 [assembly: System.CLSCompliant(true)]
 [assembly: System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
 [assembly: System.Runtime.CompilerServices.CompilationRelaxations(8)]

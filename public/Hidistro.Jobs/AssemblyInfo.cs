@@ -9,6 +9,6 @@
 [assembly: System.Runtime.CompilerServices.CompilationRelaxations(8)]
 [assembly: System.Reflection.AssemblyInformationalVersion("3.2")]
 [assembly: System.Reflection.AssemblyTrademark("")]
-[assembly: System.Reflection.AssemblyDescription("Release")]
+[assembly: System.Reflection.AssemblyDescription("Debug")]
 [assembly: System.CLSCompliant(true)]
 

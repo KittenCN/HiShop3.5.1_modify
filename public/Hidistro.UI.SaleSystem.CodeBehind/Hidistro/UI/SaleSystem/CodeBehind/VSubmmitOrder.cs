@@ -45,33 +45,40 @@
         private VshopTemplatedRepeater rptCartProducts;
         private HtmlInputHidden selectShipTo;
         private HtmlInputRadioButton[] objRadio;
+        private DataTable dtGeadeInfo;
 
         protected override void AttachChildControls()
         {
-            objRadio = new HtmlInputRadioButton[3];
-            objRadio[0] = (HtmlInputRadioButton)this.FindControl("OS1");
-            objRadio[1] = (HtmlInputRadioButton)this.FindControl("OS2");
-            objRadio[2] = (HtmlInputRadioButton)this.FindControl("OS3");
-            objRadio[1].Disabled = true;
-            objRadio[2].Disabled = true;
-            DataTable dtGeadeInfo = MemberProcessor.dtGetGradeInfofromUserId();
-            if (dtGeadeInfo.Rows.Count > 0)
+            this.objRadio = new HtmlInputRadioButton[3];
+            this.objRadio[0] = (HtmlInputRadioButton)this.FindControl("OS1");
+            this.objRadio[1] = (HtmlInputRadioButton)this.FindControl("OS2");
+            this.objRadio[2] = (HtmlInputRadioButton)this.FindControl("OS3");
+            this.objRadio[1].Disabled = true;
+            this.objRadio[2].Disabled = true;
+            this.dtGeadeInfo = MemberProcessor.dtGetGradeInfofromUserId();
+            if (this.dtGeadeInfo.Rows.Count > 0)
             {
-                if (dtGeadeInfo.Rows[1]["IsDaifa"].ToString() == "1")
+                if (this.dtGeadeInfo.Rows[0]["IsDaifa"].ToString() == "0" && this.dtGeadeInfo.Rows[0]["IsPifa"].ToString() == "0")
                 {
-                    objRadio[1].Disabled = false;
+                    this.objRadio[0].Disabled = false;
+                }
+                if (this.dtGeadeInfo.Rows[0]["IsDaifa"].ToString() == "1")
+                {
+                    this.objRadio[0].Disabled = true;
+                    this.objRadio[1].Disabled = false;
                 }
                 else
                 {
-                    objRadio[1].Disabled = true;
+                    this.objRadio[1].Disabled = true;
                 }
-                if (dtGeadeInfo.Rows[1]["IsPifa"].ToString() == "1")
+                if (this.dtGeadeInfo.Rows[0]["IsPifa"].ToString() == "1")
                 {
-                    objRadio[2].Disabled = false;
+                    this.objRadio[0].Disabled = true;
+                    this.objRadio[2].Disabled = false;
                 }
                 else
                 {
-                    objRadio[2].Disabled = true;
+                    this.objRadio[2].Disabled = true;
                 }
             }
             this.litShipTo = (Literal) this.FindControl("litShipTo");
@@ -658,4 +665,3 @@
         }
     }
 }
-

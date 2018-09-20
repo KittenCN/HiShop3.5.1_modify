@@ -7,7 +7,7 @@
 [assembly: System.Reflection.AssemblyInformationalVersion("3.2")]
 [assembly: System.Runtime.InteropServices.Guid("75499d16-c6f6-4a4a-a982-97caae3f2d7c")]
 [assembly: System.Reflection.AssemblyProduct("SUSCAR")]
-[assembly: System.Reflection.AssemblyDescription("Release")]
+[assembly: System.Reflection.AssemblyDescription("Debug")]
 [assembly: System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
 [assembly: System.Reflection.AssemblyTrademark("")]
 [assembly: System.CLSCompliant(true)]

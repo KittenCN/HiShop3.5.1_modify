@@ -6,7 +6,7 @@
 [assembly: System.Runtime.InteropServices.ComVisible(false)]
 [assembly: System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
 [assembly: System.Reflection.AssemblyTitle("Core")]
-[assembly: System.Reflection.AssemblyDescription("Release")]
+[assembly: System.Reflection.AssemblyDescription("Debug")]
 [assembly: System.CLSCompliant(true)]
 
 [assembly: System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)]

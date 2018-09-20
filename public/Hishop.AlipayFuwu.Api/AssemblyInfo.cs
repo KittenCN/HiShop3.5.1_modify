@@ -2,7 +2,7 @@
 
 [assembly: System.Reflection.AssemblyInformationalVersion("3.2")]
 [assembly: System.Reflection.AssemblyTrademark("")]
-[assembly: System.Reflection.AssemblyDescription("Release")]
+[assembly: System.Reflection.AssemblyDescription("Debug")]
 [assembly: System.Reflection.AssemblyProduct("SUSCAR")]
 [assembly: System.Runtime.CompilerServices.CompilationRelaxations(8)]
 
