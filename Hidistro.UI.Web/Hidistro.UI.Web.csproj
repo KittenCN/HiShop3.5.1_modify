@@ -2376,7 +2376,6 @@
     <Content Include="Templates\common\tags\skin-Common_MyTeamRanking.ascx" />
     <Content Include="Templates\common\tags\skin-Common_Navigate.ascx" />
     <Content Include="Templates\common\tags\skin-Common_NineImagesItem.ascx" />
-    <Content Include="Templates\common\tags\skin-Common_OrderStatus.ascx" />
     <Content Include="Templates\common\tags\skin-Common_Prodcts.ascx" />
     <Content Include="Templates\common\tags\skin-Common_ProductConsultations.ascx" />
     <Content Include="Templates\common\tags\skin-Common_ProductReview.ascx" />
@@ -5619,13 +5618,6 @@
       <DependentUpon>wx_SubmitCharge.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Templates\common\tags\skin-Common_OrderStatus.ascx.cs">
-      <DependentUpon>skin-Common_OrderStatus.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Templates\common\tags\skin-Common_OrderStatus.ascx.designer.cs">
-      <DependentUpon>skin-Common_OrderStatus.ascx</DependentUpon>
-    </Compile>
     <Compile Include="VerifyCodeImage.aspx.cs">
       <DependentUpon>VerifyCodeImage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

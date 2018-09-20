@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2026
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hidistro.ControlPanel", "public\Hidistro.ControlPanel\Hidistro.ControlPanel.csproj", "{694B026E-225A-43D6-9244-88970BDB1668}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -83,9 +83,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "refdll", "refdll", "{C1E123
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hidistro.UI.Web", "Hidistro.UI.Web\Hidistro.UI.Web.csproj", "{61CAC96A-0D3B-4DBA-B2B9-14D0BFA259CC}"
-	ProjectSection(ProjectDependencies) = postProject
-		{1AA1669D-1590-468B-B825-F5307FE99C2A} = {1AA1669D-1590-468B-B825-F5307FE99C2A}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -232,8 +229,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B9920886-5D40-413E-AD72-B9B866D40C56}
 	EndGlobalSection
 EndGlobal

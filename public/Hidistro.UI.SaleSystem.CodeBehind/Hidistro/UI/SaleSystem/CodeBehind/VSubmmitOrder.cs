@@ -38,7 +38,6 @@
         private Literal litShipTo;
         private Literal litShowMes;
         private Literal litUseMembersPointShow;
-        private Literal litOrderStutas;
         private HtmlInputHidden MembersPointMoney;
         private string productSku;
         private HtmlInputHidden regionId;
@@ -68,8 +67,6 @@
             this.MembersPointMoney = (HtmlInputHidden) this.FindControl("MembersPointMoney");
             this.regionId = (HtmlInputHidden) this.FindControl("regionId");
             this.litAddAddress = (Literal) this.FindControl("litAddAddress");
-            this.litOrderStutas = (Literal)this.FindControl("litOrderStutas");
-
             IList<ShippingAddressInfo> shippingAddresses = MemberProcessor.GetShippingAddresses();
             this.rptAddress.DataSource = from item in shippingAddresses
                 orderby item.IsDefault
