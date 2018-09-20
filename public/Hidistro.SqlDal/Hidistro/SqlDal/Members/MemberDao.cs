@@ -775,6 +775,19 @@
             }
         }
 
+        public DataTable GetGradeInfofromUserId(int UserId)
+        {
+            DataTable dtResult = null;
+            string strSQL = "select * from aspnet_MemberGrades where GradeId = (select GradeId from apsnet_Members where userid = " + UserId + ")";
+            DbCommand command = this.database.GetSqlStringCommand(strSQL);
+            using (IDataReader reader = this.database.ExecuteReader(command))
+            {
+                dtResult = DataHelper.ConverDataReaderToDataTable(reader);
+                reader.Close();
+            }
+            return dtResult;
+        }
+
         public DataTable GetMembersByUserId(int referralUserId, int pageIndex, int pageSize, out int total, string sort, string order)
         {
             DataTable table;
