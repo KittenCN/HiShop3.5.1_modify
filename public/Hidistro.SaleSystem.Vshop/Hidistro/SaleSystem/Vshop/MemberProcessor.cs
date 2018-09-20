@@ -657,15 +657,6 @@
             }
             return flag;
         }
-
-        public static DataTable dtGetGradeInfofromUserId()
-        {
-            return new MemberDao().GetGradeInfofromUserId(Globals.GetCurrentMemberUserId(false));
-        }
-        public static DataTable dtGetGradeInfofromUserId(int UserId)
-        {
-            return new MemberDao().GetGradeInfofromUserId(UserId);
-        }
     }
 }
 

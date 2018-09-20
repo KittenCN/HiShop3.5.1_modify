@@ -20,20 +20,6 @@
 </div>
 <hr />
 <div class="well clearfix">
-    <div class="btn-group selectOrderStutas">
-        <!--<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-            普通订单<span class="caret"></span>
-        </button>
-        <ul id="rolItem" class="dropdown-menu" role="menu">
-            <li><a href="javascript:void(0)" name="普通订单">普通订单</a></li>
-            <li><a href="javascript:void(0)" name="代发订单">代发订单</a></li>
-            <li><a href="javascript:void(0)" name="批发订单">批发订单</a></li>
-        </ul>
-        <input type="hidden" id="selectOrderStutas" value="普通订单" />-->
-        <label><input name="OrderStatus" id="OS1" type="radio" value="普通订单" checked="true" runat="server" clientidmode="Static" />普通订单 </label>
-        <label><input name="OrderStatus" id="OS2" type="radio" value="代发订单" runat="server" clientidmode="Static" />代发订单 </label>
-        <label><input name="OrderStatus" id="OS3" type="radio" value="批发订单" runat="server" clientidmode="Static" />批发订单 </label>
-    </div>
     <div class="btn-group rptAddress">
         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="overflow:hidden">
             <asp:literal runat="server" id="litShipTo" />
@@ -59,6 +45,20 @@
             <li><a href="javascript:void(0)" name="周六、周日及公众假期">周六、周日及公众假期</a></li>
         </ul>
         <input type="hidden" id="selectShipToDate" value="时间不限" />
+    </div>
+    <div class="btn-group selectOrderStutas">
+        <!--<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            普通订单<span class="caret"></span>
+        </button>
+        <ul id="rolItem" class="dropdown-menu" role="menu">
+            <li><a href="javascript:void(0)" name="普通订单">普通订单</a></li>
+            <li><a href="javascript:void(0)" name="代发订单">代发订单</a></li>
+            <li><a href="javascript:void(0)" name="批发订单">批发订单</a></li>
+        </ul>
+        <input type="hidden" id="selectOrderStutas" value="普通订单" />-->
+        <label><input name="OrderStutas" type="radio" value="普通订单" checked="checked" />普通订单 </label> 
+        <label><input name="OrderStutas" type="radio" value="代发订单" disabled="disabled" />代发订单 </label> 
+        <label><input name="OrderStutas" type="radio" value="批发订单" disabled="disabled" />批发订单 </label> 
     </div>
     <hi:vshoptemplatedrepeater id="rptCartProducts" templatefile="/Tags/skin-Common_SubmmitCartProducts.ascx" runat="server" />
     <asp:literal runat="server" id="litShowMes" />
@@ -125,6 +125,12 @@
         $('#mySwitchUseBalance').on('switch-change', function (e, data) {
             checkPayMoney();
         });
+        function showOrderStatus() {
+            var obj = "<li><a href='javascript:void(0)' name='普通订单'>普通订单</a></li>";
+            obj = obj + "<li> <a href='javascript:void(0)' name='代发订单'>代发订单</a></li>";
+            obj = obj + "<li><a href='javascript:void(0)' name='批发订单'>批发订单</a></li>";
+            $.html(obj);
+        }
         //检测是否够支付了
         function checkPayMoney() {
             $("#total").html('0.00');
