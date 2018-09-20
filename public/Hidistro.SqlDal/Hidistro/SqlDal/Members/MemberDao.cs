@@ -1405,6 +1405,19 @@
             DbCommand sqlStringCommand = this.database.GetSqlStringCommand(query);
             return (this.database.ExecuteNonQuery(sqlStringCommand) > 0);
         }
+        public DataTable GetGradeInfofromUserId(int UserId)
+        {
+            DataTable dtResult = null;
+            string strSQL = "select * from aspnet_MemberGrades where GradeId = (select GradeId from apsnet_Members where userid = " + UserId + ")";
+            DbCommand command = this.database.GetSqlStringCommand(strSQL);
+            using (IDataReader reader = this.database.ExecuteReader(command))
+            {
+                dtResult = DataHelper.ConverDataReaderToDataTable(reader);
+                reader.Close();
+            }
+            return dtResult;
+        }
+
     }
 }
 

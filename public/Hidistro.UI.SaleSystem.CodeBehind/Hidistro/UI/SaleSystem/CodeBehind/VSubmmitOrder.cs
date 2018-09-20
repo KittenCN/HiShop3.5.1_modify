@@ -44,9 +44,36 @@
         private VshopTemplatedRepeater rptAddress;
         private VshopTemplatedRepeater rptCartProducts;
         private HtmlInputHidden selectShipTo;
+        private HtmlInputRadioButton[] objRadio;
 
         protected override void AttachChildControls()
         {
+            objRadio = new HtmlInputRadioButton[3];
+            objRadio[0] = (HtmlInputRadioButton)this.FindControl("OS1");
+            objRadio[1] = (HtmlInputRadioButton)this.FindControl("OS2");
+            objRadio[2] = (HtmlInputRadioButton)this.FindControl("OS3");
+            objRadio[1].Disabled = true;
+            objRadio[2].Disabled = true;
+            DataTable dtGeadeInfo = MemberProcessor.dtGetGradeInfofromUserId();
+            if (dtGeadeInfo.Rows.Count > 0)
+            {
+                if (dtGeadeInfo.Rows[1]["IsDaifa"].ToString() == "1")
+                {
+                    objRadio[1].Disabled = false;
+                }
+                else
+                {
+                    objRadio[1].Disabled = true;
+                }
+                if (dtGeadeInfo.Rows[1]["IsPifa"].ToString() == "1")
+                {
+                    objRadio[2].Disabled = false;
+                }
+                else
+                {
+                    objRadio[2].Disabled = true;
+                }
+            }
             this.litShipTo = (Literal) this.FindControl("litShipTo");
             this.litIsUseBalance = (Literal) this.FindControl("litIsUseBalance");
             this.litCellPhone = (Literal) this.FindControl("litCellPhone");

@@ -127,3 +127,4 @@ F:\VSWorks\gitstore\mxxkd\public\Hidistro.UI.SaleSystem.CodeBehind\bin\Debug\His
 F:\VSWorks\gitstore\mxxkd\public\Hidistro.UI.SaleSystem.CodeBehind\obj\x86\Debug\Hidistro.UI.SaleSystem.CodeBehind.csprojResolveAssemblyReference.cache
 F:\VSWorks\gitstore\mxxkd\public\Hidistro.UI.SaleSystem.CodeBehind\obj\x86\Debug\Hidistro.UI.SaleSystem.CodeBehind.dll
 F:\VSWorks\gitstore\mxxkd\public\Hidistro.UI.SaleSystem.CodeBehind\obj\x86\Debug\Hidistro.UI.SaleSystem.CodeBehind.pdb
+D:\workstation\销客多3.5.1\public\Hidistro.UI.SaleSystem.CodeBehind\obj\x86\Debug\Hidistro.UI.SaleSystem.CodeBehind.csproj.CoreCompileInputs.cache

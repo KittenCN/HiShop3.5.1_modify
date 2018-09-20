@@ -82,3 +82,7 @@ F:\VSWorks\gitstore\mxxkd\public\Hidistro.SaleSystem.Vshop\bin\Debug\Hishop.Open
 F:\VSWorks\gitstore\mxxkd\public\Hidistro.SaleSystem.Vshop\obj\x86\Debug\Hidistro.SaleSystem.Vshop.csprojResolveAssemblyReference.cache
 F:\VSWorks\gitstore\mxxkd\public\Hidistro.SaleSystem.Vshop\obj\x86\Debug\Hidistro.SaleSystem.Vshop.dll
 F:\VSWorks\gitstore\mxxkd\public\Hidistro.SaleSystem.Vshop\obj\x86\Debug\Hidistro.SaleSystem.Vshop.pdb
+D:\workstation\销客多3.5.1\public\Hidistro.SaleSystem.Vshop\obj\x86\Debug\Hidistro.SaleSystem.Vshop.csprojAssemblyReference.cache
+D:\workstation\销客多3.5.1\public\Hidistro.SaleSystem.Vshop\obj\x86\Debug\Hidistro.SaleSystem.Vshop.csproj.CoreCompileInputs.cache
+D:\workstation\销客多3.5.1\public\Hidistro.SaleSystem.Vshop\obj\x86\Debug\Hidistro.SaleSystem.Vshop.dll
+D:\workstation\销客多3.5.1\public\Hidistro.SaleSystem.Vshop\obj\x86\Debug\Hidistro.SaleSystem.Vshop.pdb
