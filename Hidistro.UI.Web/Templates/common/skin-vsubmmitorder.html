@@ -21,15 +21,6 @@
 <hr />
 <div class="well clearfix">
     <div class="btn-group selectOrderStutas">
-        <!--<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-            普通订单<span class="caret"></span>
-        </button>
-        <ul id="rolItem" class="dropdown-menu" role="menu">
-            <li><a href="javascript:void(0)" name="普通订单">普通订单</a></li>
-            <li><a href="javascript:void(0)" name="代发订单">代发订单</a></li>
-            <li><a href="javascript:void(0)" name="批发订单">批发订单</a></li>
-        </ul>
-        <input type="hidden" id="selectOrderStutas" value="普通订单" />-->
         <label><input name="OrderStatus" id="OS1" type="radio" value="普通订单" checked="true" runat="server" clientidmode="Static" />普通订单 </label>
         <label><input name="OrderStatus" id="OS2" type="radio" value="代发订单" runat="server" clientidmode="Static" />代发订单 </label>
         <label><input name="OrderStatus" id="OS3" type="radio" value="批发订单" runat="server" clientidmode="Static" />批发订单 </label>
@@ -100,6 +91,10 @@
                     <td class="text-left">¥<span id="shipcosttotal" style="margin-bottom: 0;">0.00</span></td>
                 </tr>
                 <tr>
+                    <td class="text-right">服务费用：</td>
+                    <td class="text-left">¥<span id="ServiceMoney" style="margin-bottom: 0;"><asp:literal runat="server" id="litServiceMoney" /></span></td>
+                </tr>
+                <tr>
                     <td class="text-right" style="padding-top:10px;">订单总额：</td>
                     <td class="text-left colorr" style="padding-top:10px;">¥<span id="total" style="margin-bottom: 0;"><asp:literal runat="server" id="litOrderTotal" /></span></td>
                 </tr>
@@ -135,6 +130,7 @@
                 shiptotal += totalinfo;
             });
             $("#shipcosttotal").html(shiptotal.toFixed(2));//运费总额
+            $("#ServiceMoney").html(ServiceMoney.toFixed(2));
 
             $(".sumtotal").each(function () {
                 var totalinfo = parseFloat($(this).html());

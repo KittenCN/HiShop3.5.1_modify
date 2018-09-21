@@ -38,6 +38,7 @@
         private Literal litShipTo;
         private Literal litShowMes;
         private Literal litUseMembersPointShow;
+        private Literal litServiceMoney;
         private HtmlInputHidden MembersPointMoney;
         private string productSku;
         private HtmlInputHidden regionId;
@@ -46,6 +47,7 @@
         private HtmlInputHidden selectShipTo;
         private HtmlInputRadioButton[] objRadio;
         private DataTable dtGeadeInfo;
+        private int intPerServiceMoney = 5;
 
         protected override void AttachChildControls()
         {
@@ -104,6 +106,8 @@
             this.MembersPointMoney = (HtmlInputHidden) this.FindControl("MembersPointMoney");
             this.regionId = (HtmlInputHidden) this.FindControl("regionId");
             this.litAddAddress = (Literal) this.FindControl("litAddAddress");
+            this.litServiceMoney = (Literal)this.FindControl("litServiceMoney");
+            this.litServiceMoney.Text = "0.00";
             IList<ShippingAddressInfo> shippingAddresses = MemberProcessor.GetShippingAddresses();
             this.rptAddress.DataSource = from item in shippingAddresses
                 orderby item.IsDefault
@@ -205,12 +209,22 @@
                     decimal num6 = 0M;
                     decimal num7 = 0M;
                     int num8 = 0;
+                    int intOrderNum = 0;
                     foreach (ShoppingCartInfo info3 in orderSummitCart)
                     {
                         num8 += info3.GetPointNumber;
                         num5 += info3.Total;
                         num6 += info3.Exemption;
                         num7 += info3.ShipCost;
+                        intOrderNum += info3.GetQuantity();
+                    }
+                    if(this.objRadio[1].Checked == true)
+                    {
+                        this.litServiceMoney.Text = (intOrderNum * intPerServiceMoney).ToString("0.00");
+                    }
+                    else
+                    {
+                        this.litServiceMoney.Text = "0.00";
                     }
                     decimal num9 = num6;
                     decimal d = num5 - num9;
@@ -219,6 +233,7 @@
                         d = 0M;
                     }
                     d = decimal.Round(d, 2);
+                    d += decimal.Round(intOrderNum * intPerServiceMoney, 2);
                     this.litOrderTotal.Text = d.ToString("F2");
                     if (num8 == 0)
                     {
