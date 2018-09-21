@@ -58,23 +58,26 @@
             this.dtGeadeInfo = MemberProcessor.dtGetGradeInfofromUserId();
             if (this.dtGeadeInfo.Rows.Count > 0)
             {
-                if (this.dtGeadeInfo.Rows[0]["IsDaifa"].ToString() == "0" && this.dtGeadeInfo.Rows[0]["IsPifa"].ToString() == "0")
+                if ((bool)this.dtGeadeInfo.Rows[0]["IsDaifa"] == false && (bool)this.dtGeadeInfo.Rows[0]["IsPifa"] == false)
                 {
                     this.objRadio[0].Disabled = false;
+                    this.objRadio[0].Checked = true;
                 }
-                if (this.dtGeadeInfo.Rows[0]["IsDaifa"].ToString() == "1")
+                if ((bool)this.dtGeadeInfo.Rows[0]["IsDaifa"] == true)
                 {
                     this.objRadio[0].Disabled = true;
                     this.objRadio[1].Disabled = false;
+                    this.objRadio[1].Checked = true;
                 }
                 else
                 {
                     this.objRadio[1].Disabled = true;
                 }
-                if (this.dtGeadeInfo.Rows[0]["IsPifa"].ToString() == "1")
+                if ((bool)this.dtGeadeInfo.Rows[0]["IsPifa"] == true)
                 {
                     this.objRadio[0].Disabled = true;
                     this.objRadio[2].Disabled = false;
+                    this.objRadio[2].Checked = true;
                 }
                 else
                 {
