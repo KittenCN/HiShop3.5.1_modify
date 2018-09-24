@@ -34,10 +34,10 @@ namespace Hidistro.UI.Web
                     this.UpdateCookie(str2, HttpContext.Current.Request.QueryString[str]);
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 base.Response.StatusCode = 500;
-                base.Response.Write("Error Initializing Session");
+                base.Response.Write("Error Initializing Session::" + ex.Message.ToString());
             }
         }
 

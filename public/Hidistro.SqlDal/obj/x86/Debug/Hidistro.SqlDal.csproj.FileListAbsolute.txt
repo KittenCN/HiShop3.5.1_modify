@@ -97,6 +97,7 @@ D:\workstation\销客多3.5.1\public\Hidistro.SqlDal\bin\Debug\Hishop.Open.Api.p
 D:\workstation\销客多3.5.1\public\Hidistro.SqlDal\bin\Debug\Hishop.Weixin.Pay.pdb
 D:\workstation\销客多3.5.1\public\Hidistro.SqlDal\bin\Debug\Hishop.Components.Validation.pdb
 D:\workstation\销客多3.5.1\public\Hidistro.SqlDal\bin\Debug\Hishop.Weixin.MP.pdb
+D:\workstation\销客多3.5.1\public\Hidistro.SqlDal\obj\x86\Debug\Hidistro.SqlDal.csprojAssemblyReference.cache
 D:\workstation\销客多3.5.1\public\Hidistro.SqlDal\obj\x86\Debug\Hidistro.SqlDal.csproj.CoreCompileInputs.cache
 D:\workstation\销客多3.5.1\public\Hidistro.SqlDal\obj\x86\Debug\Hidistro.SqlDal.csproj.CopyComplete
 D:\workstation\销客多3.5.1\public\Hidistro.SqlDal\obj\x86\Debug\Hidistro.SqlDal.dll
