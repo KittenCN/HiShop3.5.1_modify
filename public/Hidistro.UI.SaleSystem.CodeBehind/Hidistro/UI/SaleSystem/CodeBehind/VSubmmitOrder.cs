@@ -64,12 +64,16 @@
                 {
                     this.objRadio[0].Disabled = false;
                     this.objRadio[0].Checked = true;
+                    this.objRadio[1].Checked = false;
+                    this.objRadio[2].Checked = false;
                 }
                 if ((bool)this.dtGeadeInfo.Rows[0]["IsDaifa"] == true)
                 {
                     this.objRadio[0].Disabled = true;
                     this.objRadio[1].Disabled = false;
+                    this.objRadio[0].Checked = false;
                     this.objRadio[1].Checked = true;
+                    this.objRadio[2].Checked = false;
                 }
                 else
                 {
@@ -79,12 +83,32 @@
                 {
                     this.objRadio[0].Disabled = true;
                     this.objRadio[2].Disabled = false;
+                    this.objRadio[0].Checked = false;
+                    this.objRadio[1].Checked = false;
                     this.objRadio[2].Checked = true;
                 }
                 else
                 {
                     this.objRadio[2].Disabled = true;
                 }
+            }
+            switch(this.Page.Request.QueryString["GSO"])
+            {
+                case "0":
+                    this.objRadio[0].Checked = true;
+                    this.objRadio[1].Checked = false;
+                    this.objRadio[2].Checked = false;
+                    break;
+                case "1":
+                    this.objRadio[0].Checked = false;
+                    this.objRadio[1].Checked = true;
+                    this.objRadio[2].Checked = false;
+                    break;
+                case "2":
+                    this.objRadio[0].Checked = false;
+                    this.objRadio[1].Checked = false;
+                    this.objRadio[2].Checked = true;
+                    break;
             }
             this.litShipTo = (Literal) this.FindControl("litShipTo");
             this.litIsUseBalance = (Literal) this.FindControl("litIsUseBalance");
@@ -218,14 +242,6 @@
                         num7 += info3.ShipCost;
                         intOrderNum += info3.GetQuantity();
                     }
-                    if(this.objRadio[1].Checked == true)
-                    {
-                        this.litServiceMoney.Text = (intOrderNum * intPerServiceMoney).ToString("0.00");
-                    }
-                    else
-                    {
-                        this.litServiceMoney.Text = "0.00";
-                    }
                     decimal num9 = num6;
                     decimal d = num5 - num9;
                     if (d <= 0M)
@@ -233,7 +249,15 @@
                         d = 0M;
                     }
                     d = decimal.Round(d, 2);
-                    d += decimal.Round(intOrderNum * intPerServiceMoney, 2);
+                    if (this.objRadio[1].Checked == true)
+                    {
+                        this.litServiceMoney.Text = (intOrderNum * intPerServiceMoney).ToString("0.00");
+                        d += decimal.Round(intOrderNum * intPerServiceMoney, 2);
+                    }
+                    else
+                    {
+                        this.litServiceMoney.Text = "0.00";
+                    }
                     this.litOrderTotal.Text = d.ToString("F2");
                     if (num8 == 0)
                     {

@@ -1421,24 +1421,24 @@
     ].join('|') + '|$', 'g');
     // Compile the template source, escaping string literals appropriately.
     var index = 0;
-    var source = "__p+='";
-    text.replace(matcher, function(match, escape, interpolate, evaluate, offset) {
-        source += text.slice(index, offset).replace(escaper, escapeChar);
-        index = offset + match.length;
+      var source = "__p+='";
+      try {
+          text.replace(matcher, function (match, escape, interpolate, evaluate, offset) {
+              source += text.slice(index, offset).replace(escaper, escapeChar);
+              index = offset + match.length;
 
-        if (escape) {
-            source += "'+\n((__t=(" + escape + "))==null?'':_.escape(__t))+\n'";
-        } else if (interpolate) {
-            source += "'+\n((__t=(" + interpolate + "))==null?'':__t)+\n'";
-        } else if (evaluate) {
-            source += "';\n" + evaluate + "\n__p+='";
-        }
-
-        // Adobe VMs need the match returned to produce the correct offest.
-        return match;
-    });
-    source += "';\n";
-
+              if (escape) {
+                  source += "'+\n((__t=(" + escape + "))==null?'':_.escape(__t))+\n'";
+              } else if (interpolate) {
+                  source += "'+\n((__t=(" + interpolate + "))==null?'':__t)+\n'";
+              } else if (evaluate) {
+                  source += "';\n" + evaluate + "\n__p+='";
+              }
+          // Adobe VMs need the match returned to produce the correct offest.
+          return match;
+          });
+          source += "';\n";
+      }
     // If a variable is not specified, place data values in local scope.
     if (!settings.variable) source = 'with(obj||{}){\n' + source + '}\n';
 

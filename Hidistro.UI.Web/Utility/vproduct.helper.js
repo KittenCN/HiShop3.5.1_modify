@@ -122,11 +122,11 @@ function BuyProduct() {
     }
     if (limitNumber > 0 && limitedTimeDiscountId > 0 && quantity > remainlimitedTimeDiscountNum) {
         alert_h("活动商品限购" + limitNumber + "件，是否继续提交？", function () {
-            location.href = "/Vshop/SubmmitOrder.aspx?buyAmount=" + remainlimitedTimeDiscountNum + "&productSku=" + $("#hiddenSkuId").val() + "&limitedTimeDiscountId=" + limitedTimeDiscountId + "&from=signBuy&ReferralId=" + getParam("ReferralId");
+            location.href = "/Vshop/SubmmitOrder.aspx?buyAmount=" + remainlimitedTimeDiscountNum + "&productSku=" + $("#hiddenSkuId").val() + "&limitedTimeDiscountId=" + limitedTimeDiscountId + "&from=signBuy&ReferralId=" + getParam("ReferralId")+"&GSO=99";
         });
     } else {
         //location.href = "/Vshop/UserLogin.aspx?userstatus=1&buyAmount=" + $("#buyNum").val() + "&productSku=" + $("#hiddenSkuId").val() + "&from=signBuy";
-        location.href = "/Vshop/SubmmitOrder.aspx?buyAmount=" + $("#buyNum").val() + "&productSku=" + $("#hiddenSkuId").val() + "&limitedTimeDiscountId=" + limitedTimeDiscountId + "&from=signBuy&ReferralId=" + getParam("ReferralId");
+        location.href = "/Vshop/SubmmitOrder.aspx?buyAmount=" + $("#buyNum").val() + "&productSku=" + $("#hiddenSkuId").val() + "&limitedTimeDiscountId=" + limitedTimeDiscountId + "&from=signBuy&ReferralId=" + getParam("ReferralId") + "&GSO=99";
     }
 }
 

@@ -21,9 +21,13 @@
 <hr />
 <div class="well clearfix">
     <div class="btn-group selectOrderStutas">
-        <label><input name="OrderStatus" id="OS1" type="radio" value="普通订单" checked="true" runat="server" clientidmode="Static" />普通订单 </label>
-        <label><input name="OrderStatus" id="OS2" type="radio" value="代发订单" runat="server" clientidmode="Static" />代发订单 </label>
-        <label><input name="OrderStatus" id="OS3" type="radio" value="批发订单" runat="server" clientidmode="Static" />批发订单 </label>
+        <!--<script language=javascript>
+            var a = "<%=ss()%>";//JavaScript中调用C#后台的函数
+            alert(a);
+        </script>-->
+        <label><input name="OrderStatus" id="OS1" GroupName="GOS" AutoPostBack="true" type="radio" value="普通订单" checked="true" runat="server" onclick="GSO_Jump(0)" />普通订单 </label>
+        <label><input name="OrderStatus" id="OS2" GroupName="GOS" AutoPostBack="true" type="radio" value="代发订单" runat="server" onclick="GSO_Jump(1)" />代发订单 </label>
+        <label><input name="OrderStatus" id="OS3" GroupName="GOS" AutoPostBack="true" type="radio" value="批发订单" runat="server" onclick="GSO_Jump(2)" />批发订单 </label>
     </div>
     <div class="btn-group rptAddress">
         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="overflow:hidden">
@@ -55,12 +59,12 @@
     <asp:literal runat="server" id="litShowMes" />
     <input type="hidden" runat="server" clientidmode="Static" id="MembersPointMoney" />
     <input type="hidden" runat="server" clientidmode="Static" id="BalanceCanPayMoney" />
-    <div class="mb10 clearfix" <asp:literal runat="server" id="litDisplayPoint" />>
+    <div class="mb10 clearfix">
+        <asp:literal runat="server" id="litDisplayPoint" />
         <asp:literal runat="server" id="litUseMembersPointShow" />
     </div>
     <div class="mb10 clearfix">
         <asp:literal runat="server" id="litIsUseBalance" />
-
         <div class="btn-group selectPaymentType">
             <hi:common_paymenttypeselect runat="server" />
             <input type="hidden" runat="server" clientidmode="Static" id="selectPaymentType" />
@@ -120,26 +124,57 @@
         $('#mySwitchUseBalance').on('switch-change', function (e, data) {
             checkPayMoney();
         });
+        function updateURLParameter(url, param, paramVal) {
+            var newAdditionalURL = "";
+            var tempArray = url.split("?");
+            var baseURL = tempArray[0];
+            var additionalURL = tempArray[1];
+            var temp = "";
+            if (additionalURL) {
+                tempArray = additionalURL.split("&");
+                for (i = 0; i < tempArray.length; i++) {
+                    if (tempArray[i].split('=')[0] != param) {
+                        newAdditionalURL += temp + tempArray[i];
+                        temp = "&";
+                    }
+                }
+            }
+
+            var rows_txt = temp + "" + param + "=" + paramVal;
+            return baseURL + "?" + newAdditionalURL + rows_txt;
+        }
+        function GSO_Jump(_GSONum) {
+            var url = self.location.href;
+            url = updateURLParameter(url, "GSO", _GSONum)
+            //url = url + "&GSO=" + _GSONum;
+            location.replace(url);
+        }
         //检测是否够支付了
         function checkPayMoney() {
             $("#total").html('0.00');
+            var sm = parseFloat($(ServiceMoney).html());
             var sumtotal = 0;
             shiptotal = 0;
+            smtotal = 0;
+            //$(".smclass").each(function () {
+            //    var totalinfo = parseFloat($(this).html());
+            //    smtotal += totalinfo;
+            //});
+            //$("#ServiceMoney").html(smtotal.toFixed(2));//
             $(".shipclass").each(function () {
                 var totalinfo = parseFloat($(this).html());
                 shiptotal += totalinfo;
             });
             $("#shipcosttotal").html(shiptotal.toFixed(2));//运费总额
-            $("#ServiceMoney").html(ServiceMoney.toFixed(2));
 
             $(".sumtotal").each(function () {
                 var totalinfo = parseFloat($(this).html());
                 sumtotal += totalinfo;//商品总额
             });
+            sumtotal += sm;
             if (sumtotal < 0) {
                 sumtotal = 0;//控制最终价不小于0
             }
-
             var PreferentialTotal = 0;//活动减免优惠总额
             $(".Preferential").each(function () {
                 PreferentialTotal += parseFloat($(this).html());

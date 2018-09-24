@@ -334,8 +334,6 @@ G:\gitstore\mxxkd\Hidistro.UI.Web\bin\Hidistro.UI.SaleSystem.Tags.pdb
 G:\gitstore\mxxkd\Hidistro.UI.Web\bin\zh-Hans\System.Net.Http.resources.dll
 G:\gitstore\mxxkd\Hidistro.UI.Web\obj\Debug\Hidistro.UI.Web.dll
 G:\gitstore\mxxkd\Hidistro.UI.Web\obj\Debug\Hidistro.UI.Web.pdb
-D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.Entities.dll
-D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.SqlDal.pdb
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.UI.Web.dll.config
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.UI.Web.dll
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.UI.Web.pdb
@@ -346,6 +344,7 @@ D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\C5.dll
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Common.Logging.dll
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.ControlPanel.dll
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.Core.dll
+D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.Entities.dll
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.Jobs.dll
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.Messages.dll
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.SaleSystem.Vshop.dll
@@ -384,6 +383,7 @@ D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.Entities.pdb
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.Jobs.pdb
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.Messages.pdb
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.SaleSystem.Vshop.pdb
+D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.SqlDal.pdb
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.UI.Common.Controls.pdb
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.UI.ControlPanel.Utility.pdb
 D:\workstation\销客多3.5.1\Hidistro.UI.Web\bin\Hidistro.UI.SaleSystem.CodeBehind.pdb

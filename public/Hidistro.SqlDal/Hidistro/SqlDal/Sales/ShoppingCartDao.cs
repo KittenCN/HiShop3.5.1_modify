@@ -281,6 +281,7 @@
                         item.LineItems.Add(info2);
                     }
                 }
+                item.ServiceMoney += 5;
                 item.Total = num2;
                 item.GetPointNumber = num3;
                 item.MemberPointNumber = member.Points;

@@ -82,7 +82,7 @@
                     PaymentModeInfo paymentMode = ShoppingProcessor.GetPaymentMode(PaymentTypeId);
                     string attach = "";
                     string showUrl = string.Format("http://{0}/vshop/", HttpContext.Current.Request.Url.Host);
-                    PaymentRequest.CreateInstance(paymentMode.Gateway, HiCryptographer.Decrypt(paymentMode.Settings), this.orderId, num - num2, "订单支付", "订单号-" + this.orderId, "3318681914@qq.com", info.InsuranceOrderCreatDate.Value, showUrl, Globals.FullPath("/pay/PaymentReturn_url.aspx"), Globals.FullPath("/pay/PaymentNotify_url.aspx"), attach).SendRequest();
+                    PaymentRequest.CreateInstance(paymentMode.Gateway, HiCryptographer.Decrypt(paymentMode.Settings), this.orderId, num - num2, "订单支付", "订单号-" + this.orderId, "170167816@qq.com", info.InsuranceOrderCreatDate.Value, showUrl, Globals.FullPath("/pay/PaymentReturn_url.aspx"), Globals.FullPath("/pay/PaymentNotify_url.aspx"), attach).SendRequest();
                 }
                 else
                 {

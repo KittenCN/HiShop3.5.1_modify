@@ -56,6 +56,7 @@
         public int CategoryId { get; set; }
 
         public decimal Exemption { get; set; }
+        public decimal ServiceMoney { get; set; }
 
         public int FreightFreePromotionId { get; set; }
 

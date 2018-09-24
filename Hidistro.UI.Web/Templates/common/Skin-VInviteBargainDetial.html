@@ -286,7 +286,7 @@
             }
             var price = $("#vInviteBargainDetial_lbPrice").html();
             var bargainDetialId = getUrlParam("bargainDetialId");
-            location.href = "/Vshop/SubmmitOrder.aspx?buyAmount=" + $("#buyNum").val() + "&productSku=" + $("#hiddenSkuId").val() + "&from=signBuy&ReferralId=" + getParam("ReferralId") + "&price=" + price + "&bargainDetialId=" + bargainDetialId;
+            location.href = "/Vshop/SubmmitOrder.aspx?buyAmount=" + $("#buyNum").val() + "&productSku=" + $("#hiddenSkuId").val() + "&from=signBuy&ReferralId=" + getParam("ReferralId") + "&price=" + price + "&bargainDetialId=" + bargainDetialId + "&GSO=99";
         });
 
         $("#buyNum").blur(function () {

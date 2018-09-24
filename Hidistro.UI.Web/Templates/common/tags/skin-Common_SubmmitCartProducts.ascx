@@ -83,6 +83,8 @@
             <tr style="display:none">
                 <td class="text-right">运费金额：</td>
                 <td class="text-left"><span>¥<label style="font-weight: normal; margin-bottom: 0;" id='shipcost<%# Eval("TemplateId") %>' class="shipclass"><%#Eval("ShipCost", "{0:F2}") %></label></span></td>
+                <td class="text-right">服务费用：</td>
+                <td class="text-left"><span>¥<label style="font-weight: normal; margin-bottom: 0;" id='smcost<%# Eval("TemplateId") %>' class="smclass"><%#Eval("ServiceMoney", "{0:F2}") %></label></span></td>
             </tr>
             <tr>
                 <td class="text-right">兑换商品扣除积分：</td>
