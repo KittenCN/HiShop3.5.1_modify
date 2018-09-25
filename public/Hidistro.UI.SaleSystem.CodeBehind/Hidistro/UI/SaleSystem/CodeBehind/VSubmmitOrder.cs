@@ -17,6 +17,7 @@
     using System.Web.UI;
     using System.Web.UI.HtmlControls;
     using System.Web.UI.WebControls;
+    using Hidistro.Entities.Members;
 
     [ParseChildren(true)]
     public class VSubmmitOrder : VMemberTemplatedWebControl
@@ -133,25 +134,62 @@
             this.litServiceMoney = (Literal)this.FindControl("litServiceMoney");
             this.litServiceMoney.Text = "0.00";
             IList<ShippingAddressInfo> shippingAddresses = MemberProcessor.GetShippingAddresses();
-            this.rptAddress.DataSource = from item in shippingAddresses
-                orderby item.IsDefault
-                select item;
-            this.rptAddress.DataBind();
-            ShippingAddressInfo info = shippingAddresses.FirstOrDefault<ShippingAddressInfo>(item => item.IsDefault);
-            if (info == null)
+            if (!this.objRadio[2].Checked == true)
             {
-                info = (shippingAddresses.Count > 0) ? shippingAddresses[0] : null;
+                this.rptAddress.DataSource = from item in shippingAddresses
+                                             orderby item.IsDefault
+                                             select item;
+                this.rptAddress.DataBind();
+                ShippingAddressInfo info = shippingAddresses.FirstOrDefault<ShippingAddressInfo>(item => item.IsDefault);
+                if (info == null)
+                {
+                    info = (shippingAddresses.Count > 0) ? shippingAddresses[0] : null;
+                }
+                if (info != null)
+                {
+                    this.litShipTo.Text = info.ShipTo;
+                    this.litCellPhone.Text = info.CellPhone;
+                    this.litAddress.Text = info.Address;
+                    this.selectShipTo.SetWhenIsNotNull(info.ShippingId.ToString());
+                    this.regionId.SetWhenIsNotNull(info.RegionId.ToString());
+                }
+                this.litAddAddress.Text = "<li><a href='/Vshop/AddShippingAddress.aspx?returnUrl=" + Globals.UrlEncode(HttpContext.Current.Request.Url.ToString()) + "'>新增收货地址</a></li>";
             }
-            if (info != null)
+            else
             {
-                this.litShipTo.Text = info.ShipTo;
-                this.litCellPhone.Text = info.CellPhone;
-                this.litAddress.Text = info.Address;
-                this.selectShipTo.SetWhenIsNotNull(info.ShippingId.ToString());
-                this.regionId.SetWhenIsNotNull(info.RegionId.ToString());
+                MemberInfo member = MemberHelper.GetMember(Globals.GetCurrentMemberUserId(false));
+                ShippingAddressInfo sai = new ShippingAddressInfo();
+                sai.Address = member.Address;
+                sai.CellPhone = member.CellPhone;
+                sai.IsDefault = true;
+                sai.RegionId = member.RegionId;
+                sai.ShippingId = 999;
+                sai.ShipTo = member.RealName;
+                sai.TelPhone = member.CellPhone;
+                sai.UserId = Globals.GetCurrentMemberUserId(false);
+                sai.Zipcode = "";
+                shippingAddresses = new List<ShippingAddressInfo>();
+                shippingAddresses.Add(sai);
+                this.rptAddress.DataSource = from item in shippingAddresses
+                                             orderby item.IsDefault
+                                             select item;
+                this.rptAddress.DataBind();
+                ShippingAddressInfo info = shippingAddresses.FirstOrDefault<ShippingAddressInfo>(item => item.IsDefault);
+                if (info == null)
+                {
+                    info = (shippingAddresses.Count > 0) ? shippingAddresses[0] : null;
+                }
+                if (info != null)
+                {
+                    this.litShipTo.Text = info.ShipTo;
+                    this.litCellPhone.Text = info.CellPhone;
+                    this.litAddress.Text = info.Address;
+                    this.selectShipTo.SetWhenIsNotNull(info.ShippingId.ToString());
+                    this.regionId.SetWhenIsNotNull(info.RegionId.ToString());
+                }
+                this.litAddAddress.Text = "<li><a href='" + this.Page.Request.Url.ToString() + "'>批发订单不能指定收货地址，如需修改批发订单收货地址，请与管理员联系</a></li>";
             }
-            this.litAddAddress.Text = "<li><a href='/Vshop/AddShippingAddress.aspx?returnUrl=" + Globals.UrlEncode(HttpContext.Current.Request.Url.ToString()) + "'>新增收货地址</a></li>";
-            if ((shippingAddresses == null) || (shippingAddresses.Count == 0))
+            if (((shippingAddresses == null) || (shippingAddresses.Count == 0)) && !this.objRadio[2].Checked == true)
             {
                 this.Page.Response.Redirect(Globals.ApplicationPath + "/Vshop/AddShippingAddress.aspx?returnUrl=" + Globals.UrlEncode(HttpContext.Current.Request.Url.ToString()));
             }

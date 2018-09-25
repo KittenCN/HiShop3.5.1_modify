@@ -145,9 +145,10 @@
         }
         function GSO_Jump(_GSONum) {
             var url = self.location.href;
-            url = updateURLParameter(url, "GSO", _GSONum)
+            url = updateURLParameter(url, "GSO", _GSONum);
             //url = url + "&GSO=" + _GSONum;
-            location.replace(url);
+            //location.replace(url);
+            self.location = url;
         }
         //检测是否够支付了
         function checkPayMoney() {
