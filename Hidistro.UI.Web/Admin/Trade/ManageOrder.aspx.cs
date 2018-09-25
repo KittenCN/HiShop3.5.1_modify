@@ -5,6 +5,7 @@ using Hidistro.ControlPanel.VShop;
 using Hidistro.Core;
 using Hidistro.Core.Entities;
 using Hidistro.Core.Enums;
+using Hidistro.Entities;
 using Hidistro.Entities.Members;
 using Hidistro.Entities.Orders;
 using Hidistro.Entities.Promotions;
@@ -23,6 +24,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
+using Hidistro.ControlPanel.Members;
 
 namespace Hidistro.UI.Web.Admin.Trade
 {
@@ -44,7 +46,28 @@ namespace Hidistro.UI.Web.Admin.Trade
         {
             OrderQuery orderQuery = this.GetOrderQuery();
             DbQueryResult orders = OrderHelper.GetOrders(orderQuery);
-            this.rptList.DataSource = orders.Data;
+            DataTable dt = ((System.Data.DataTable)orders.Data).Clone();
+            foreach (DataRow dr in ((System.Data.DataTable)orders.Data).Rows)
+            {
+                DataRow dr_new = dr;
+                if (dr["RegionId"] != null && int.Parse(dr["RegionId"].ToString()) > 0)
+                {
+
+                }
+                else
+                {
+                    MemberInfo member = MemberHelper.GetMember(Globals.GetCurrentMemberUserId(false));
+                    dr_new["RegionId"] = member.RegionId;
+                    dr_new["ShipTo"] = member.RealName;
+                    dr_new["ShippingRegion"] = RegionHelper.GetCity(member.RegionId);
+                    dr_new["Address"] = member.Address;
+                    dr_new["Telphone"] = member.CellPhone;
+                    dr_new["Cellphone"] = member.CellPhone;
+                }
+                dt.Rows.Add(dr_new.ItemArray);
+            }
+            //this.rptList.DataSource = orders.Data;
+            this.rptList.DataSource = dt;
             this.rptList.DataBind();
             this.pager.TotalRecords = orders.TotalRecords;
             this.txtUserName.Text = orderQuery.UserName;
