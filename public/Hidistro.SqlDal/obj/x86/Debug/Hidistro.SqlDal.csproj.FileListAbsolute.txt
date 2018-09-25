@@ -101,3 +101,4 @@ D:\workstation\销客多3.5.1\public\Hidistro.SqlDal\obj\x86\Debug\Hidistro.SqlD
 D:\workstation\销客多3.5.1\public\Hidistro.SqlDal\obj\x86\Debug\Hidistro.SqlDal.csproj.CopyComplete
 D:\workstation\销客多3.5.1\public\Hidistro.SqlDal\obj\x86\Debug\Hidistro.SqlDal.dll
 D:\workstation\销客多3.5.1\public\Hidistro.SqlDal\obj\x86\Debug\Hidistro.SqlDal.pdb
+D:\workstation\销客多3.5.1\public\Hidistro.SqlDal\obj\x86\Debug\Hidistro.SqlDal.csprojAssemblyReference.cache

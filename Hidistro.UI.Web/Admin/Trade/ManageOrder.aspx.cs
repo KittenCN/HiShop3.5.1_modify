@@ -59,7 +59,7 @@ namespace Hidistro.UI.Web.Admin.Trade
                     MemberInfo member = MemberHelper.GetMember(Globals.GetCurrentMemberUserId(false));
                     dr_new["RegionId"] = member.RegionId;
                     dr_new["ShipTo"] = member.RealName;
-                    dr_new["ShippingRegion"] = RegionHelper.GetCity(member.RegionId);
+                    dr_new["ShippingRegion"] = RegionHelper.GetFullRegion(member.RegionId, ",");
                     dr_new["Address"] = member.Address;
                     dr_new["Telphone"] = member.CellPhone;
                     dr_new["Cellphone"] = member.CellPhone;
