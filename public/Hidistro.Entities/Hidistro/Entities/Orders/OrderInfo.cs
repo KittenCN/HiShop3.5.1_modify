@@ -609,6 +609,7 @@
         }
 
         public string ZipCode { get; set; }
+        public decimal ServiceMoney { get; set; }
     }
 }
 

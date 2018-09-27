@@ -138,7 +138,8 @@
                 TimesPoint = shoppingCart.TimesPoint,
                 FreightFreePromotionId = shoppingCart.FreightFreePromotionId,
                 FreightFreePromotionName = shoppingCart.FreightFreePromotionName,
-                IsFreightFree = shoppingCart.IsFreightFree
+                IsFreightFree = shoppingCart.IsFreightFree,
+                ServiceMoney = shoppingCart.ServiceMoney
             };
             string str = string.Empty;
             if (shoppingCart.LineItems.Count > 0)

@@ -4221,6 +4221,7 @@ namespace Hidistro.UI.Web.API
             }
             else
             {
+                int intServiceMoney = Globals.RequestFormNum("totalServiceMoney");
                 int num4;
                 int num5;
                 int shippingId = 0;
@@ -4300,7 +4301,7 @@ namespace Hidistro.UI.Web.API
                                     buyAmount = num5;
                                 }
                             }
-                            list = ShoppingCartProcessor.GetListShoppingCart(productSkuId, buyAmount, 0, id);
+                            list = ShoppingCartProcessor.GetListShoppingCart(productSkuId, buyAmount, 0, id);                            
                         }
                         if (list == null)
                         {

@@ -89,6 +89,7 @@ function chageCoupon() {
 
 function submmitorder() {
     var ispass = true;
+    var sm = parseFloat($("#ServiceMoney").html());
     $(".MemberPointNumber").each(function () {
         if ($(this).html() < 0) {
             ispass = false;
@@ -159,7 +160,7 @@ function submmitorder() {
         type: 'post', dataType: 'json', timeout: 10000,
         data: {
             action: "Submmitorder", useMembersPoint: useMembersPoint, useBalance: useBalance, PointNumber: PointNumber, selectCouponValue: selectCouponValue, Shippingcity: $("#Shippingcity").val(), shippingType: shippingType, paymentType: paymentTypeSel, couponCode: $("#selectCoupon").val(), redpagerid: $("#selectRedPager").val(), shippingId: $('#selectShipTo').val(),
-            productSku: getParam("productSku"), buyAmount: getParam("buyAmount"), from: getParam("from"), shiptoDate: $("#selectShipToDate").val(), groupbuyId: $('#groupbuyHiddenBox').val(), remark: remark, bargainDetialId: bargainDetialID, limitedTimeDiscountId: limitedTimeDiscountId
+            productSku: getParam("productSku"), buyAmount: getParam("buyAmount"), from: getParam("from"), shiptoDate: $("#selectShipToDate").val(), groupbuyId: $('#groupbuyHiddenBox').val(), remark: remark, bargainDetialId: bargainDetialID, limitedTimeDiscountId: limitedTimeDiscountId, totalServiceMoney: sm
         },
         success: function (resultData) {
             maskayer(1);
