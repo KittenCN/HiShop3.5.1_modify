@@ -115,6 +115,7 @@
         private decimal _couponfreightmoneytotal = 0M;
         private DateTime _updatedate = DateTime.Now;
         private int _logisticstools = 0;
+        private decimal _servicemoney = 0M;
         /// <summary>
         /// 订单编号
         /// </summary>
@@ -938,6 +939,12 @@
         {
             set { _logisticstools = value; }
             get { return _logisticstools; }
+        }
+
+        public decimal ServiceMoney
+        {
+            set { _servicemoney = value; }
+            get { return _servicemoney; }
         }
         #endregion Model
     }

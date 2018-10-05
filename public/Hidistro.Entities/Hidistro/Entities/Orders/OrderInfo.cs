@@ -251,6 +251,7 @@
             d -= this.GetReturnAmount();
             d -= this.GetAdjustCommssion();
             d += this.AdjustedFreight;
+            d += this.ServiceMoney;
             d = decimal.Round(d, 2);
             if (isPositive && (d < 0M))
             {

@@ -3270,7 +3270,7 @@ namespace Hidistro.UI.Web.API
             context.Response.End();
         }
 
-        public string ordersummit(ShoppingCartInfo cart, HttpContext context, string remark, int shippingId, string couponCode, string selectCouponValue, string shippingTypeinfo, bool summittype, string OrderMarking, IList<ShoppingCartItemInfo> ItemInfo, int PointExchange, int bargainDetialId, out string ActivitiesIds)
+        public string ordersummit(int intServiceMoney, ShoppingCartInfo cart, HttpContext context, string remark, int shippingId, string couponCode, string selectCouponValue, string shippingTypeinfo, bool summittype, string OrderMarking, IList<ShoppingCartItemInfo> ItemInfo, int PointExchange, int bargainDetialId, out string ActivitiesIds)
         {
             ActivitiesIds = "";
             int couponId = 0;
@@ -3291,6 +3291,7 @@ namespace Hidistro.UI.Web.API
             order.RealName = currentMember.RealName;
             order.QQ = currentMember.QQ;
             order.Remark = remark;
+            order.ServiceMoney = decimal.Parse(intServiceMoney.ToString());
             string activitiesId = "";
             string activitiesName = "";
             string vItemList = string.Empty;
@@ -3571,6 +3572,7 @@ namespace Hidistro.UI.Web.API
             order.PointToCash = 0M;
             order.PointExchange = 0;
             decimal amount = order.GetAmount();
+            amount += intServiceMoney;
             decimal num8 = 0M;
             if (order.RedPagerAmount < 0M)
             {
@@ -3655,6 +3657,7 @@ namespace Hidistro.UI.Web.API
                     order.logisticsTools = LogisticsTools.Kuaidiniao;
                 }
                 int num17 = ShoppingProcessor.CreatOrder(order, isUseBalance, remainingMondy);
+                
                 if (num17 > 0)
                 {
                     MemberHelper.SetOrderDate(order.UserId, 0);
@@ -4311,7 +4314,7 @@ namespace Hidistro.UI.Web.API
                         {
                             foreach (ShoppingCartInfo info3 in list)
                             {
-                                string str8 = this.ordersummit(info3, context, remark, shippingId, couponCode, strArray[0], context.Request["shippingType"], false, orderMarking, info3.LineItems, 0, bargainDetialId, out activitiesIds);
+                                string str8 = this.ordersummit(intServiceMoney, info3, context, remark, shippingId, couponCode, strArray[0], context.Request["shippingType"], false, orderMarking, info3.LineItems, 0, bargainDetialId, out activitiesIds);
                                 builder.Append(str8);
                                 str3 = activitiesIds + ",";
                             }
@@ -4344,7 +4347,7 @@ namespace Hidistro.UI.Web.API
                     {
                         foreach (ShoppingCartInfo info6 in orderSummitCart)
                         {
-                            this.ordersummit(info6, context, strArray3[index], shippingId, couponCode, strArray[index], strArray2[index], true, orderMarking, info6.LineItems, 0, 0, out activitiesIds);
+                            this.ordersummit(intServiceMoney, info6, context, strArray3[index], shippingId, couponCode, strArray[index], strArray2[index], true, orderMarking, info6.LineItems, 0, 0, out activitiesIds);
                             str3 = str3 + activitiesIds + ",";
                             index++;
                         }
